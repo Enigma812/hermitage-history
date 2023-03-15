@@ -75,10 +75,19 @@
     display:none;
 }
 
+.field {
+    display: none;
+}
+
+.field--mobile {
+    width: 428px;
+}
+
 
 
 @media (min-width: 429px) {
     .head {
+        width: 1920px;
         &__logo {
             width: 128px;
         }
@@ -102,5 +111,14 @@
 
     .menu {
         width: 128px;
+    }
+
+    .field {
+        display: block;
+        width: 1920px;
+    }
+
+    .field--mobile {
+        display: none;
     }
 }

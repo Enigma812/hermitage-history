@@ -1,27 +1,28 @@
 <section>
-    <head class="head">
-        <div class="head__logo">
-          <div ngbDropdown class="d-inline-block">
-            <button type="button" class="menu btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>
-              <img src="../assets/pic/logo.svg" alt="logo"/>
-            </button>
-            <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="menu-buttons">
-              <button ngbDropdownItem class="menu-buttons__button">на главную</button>
-              <button ngbDropdownItem class="menu-buttons__button">вступление</button>
-              <button ngbDropdownItem class="menu-buttons__button">интерьеры</button>
-              <button ngbDropdownItem class="menu-buttons__button--last">экстрерьеры</button>
-            </div>
-          </div> 
-             
+  <head class="head">
+    <div class="head__logo">
+      <div ngbDropdown class="d-inline-block">
+        <button type="button" class="menu btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>
+          <img src="../assets/pic/logo.svg" alt="logo" />
+        </button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="menu-buttons">
+          <button ngbDropdownItem class="menu-buttons__button" [routerLink]="'/'">на главную</button>
+          <button ngbDropdownItem class="menu-buttons__button" [routerLink]="'intro'">вступление</button>
+          <button ngbDropdownItem class="menu-buttons__button">интерьеры</button>
+          <button ngbDropdownItem class="menu-buttons__button--last">экстрерьеры</button>
         </div>
-        <div class="head__toolbar">
-            <img class="head__toolbar__name" src="../assets/pic/hermitage.svg">
-            <div class="head__toolbar__discription"></div>
-        </div>
-    </head>
-    <div class="line"></div>
-    <router-outlet></router-outlet>
+      </div>
+
+    </div>
+    <div class="head__toolbar">
+      <img class="head__toolbar__name" src="../assets/pic/hermitage.svg">
+      <div class="head__toolbar__discription"></div>
+    </div>
+  </head>
+  <div class="line"></div>
+  <router-outlet></router-outlet>
+  <div *ngIf="show()">
+    <img class="field" src="../assets/pic/base-field.png" />
+    <img class="field--mobile" src="../assets/pic/base-field-mobile.png" />
+  </div>
 </section>
-
-
-
