@@ -8,8 +8,8 @@
         <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="menu-buttons">
           <button ngbDropdownItem class="menu-buttons__button" [routerLink]="'/'">на главную</button>
           <button ngbDropdownItem class="menu-buttons__button" [routerLink]="'intro'">вступление</button>
-          <button ngbDropdownItem class="menu-buttons__button">интерьеры</button>
-          <button ngbDropdownItem class="menu-buttons__button--last">экстрерьеры</button>
+          <button ngbDropdownItem class="menu-buttons__button" [routerLink]="'interiors'" >интерьеры</button>
+          <button ngbDropdownItem class="menu-buttons__button--last" [routerLink]="'exteriors'" >экстрерьеры</button>
         </div>
       </div>
 
