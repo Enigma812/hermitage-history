@@ -4,13 +4,23 @@
 
     &__logo {
         width: 92px;
+        display: flex;
+        justify-content: center;
         background-color: #3D3D3D;
         margin-right: 2px;
     }
 
     &__toolbar {
         width: 334px;
+        display: flex;
+        justify-content: center;
         background-color: #3D3D3D;
+
+        &__name {
+            height: 65px;
+            width: 266px;
+            margin-top: 14px;
+        }
     }
 }
 
@@ -23,9 +33,14 @@
 
 .menu {
     height: 128px;
+    width: 92px;
     border: 0;
     border-radius: 0;
     padding: 0;
+}
+
+.menu:hover {
+    background-color: #878787;
 }
 
 .menu-buttons { 
@@ -50,7 +65,17 @@
     &__button--last {
         border-radius: 0 0 22px 0;
     }
+
+    &__button:hover, &__button--last:hover {
+        background-color: #3C837A;
+    }
 }
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+
 
 @media (min-width: 429px) {
     .head {
@@ -60,6 +85,22 @@
 
         &__toolbar {
             width: 1790px;
+            justify-content: flex-start;
+
+            &__name {
+                height: 90px;
+                width: 368px;
+                margin-top: 19px;
+                margin-left: 20px;
+            }
         }
+    }
+
+    .line {
+        width: 1920px;
+    }
+
+    .menu {
+        width: 128px;
     }
 }
