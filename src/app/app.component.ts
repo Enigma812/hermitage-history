@@ -10,11 +10,4 @@ export class AppComponent {
   title = 'hermitage-history';
 
   constructor() {}
-
-
-public show(): boolean {
-  let url = window.location.href;
-  return url.indexOf('intro') === -1;
-}
-
 }

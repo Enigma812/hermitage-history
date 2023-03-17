@@ -3,6 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
+    path: '',
+    pathMatch: 'full', // если совпадает полностью с path и только с ней
+    loadChildren: () => import('../modules/welcome/welcome.module').then(m => m.WelcomeModule)
+  },
+  {
     path: 'intro',
     loadChildren: () => import('../modules/intro/intro.module').then(m => m.IntroModule)
   },
