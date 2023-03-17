@@ -3,13 +3,17 @@
 }
 
 .field--mobile {
-    width: 428px;
+    width: 100%;
+    height: auto;
+  
 }
 
 @media (min-width: 429px) {
     .field {
         display: block;
-        width: 1920px;
+        width: 100%;
+        height: auto;
+      
     }
 
     .field--mobile {

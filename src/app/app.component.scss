@@ -11,7 +11,7 @@
     }
 
     &__toolbar {
-        width: 334px;
+        flex-grow: 1;
         display: flex;
         justify-content: center;
         background-color: #3D3D3D;
@@ -26,7 +26,6 @@
 
 .line {
     height: 8px;
-    width: 428px;
     margin-top: 2px;
     background-color: #3D3D3D
 }
@@ -79,13 +78,11 @@
 
 @media (min-width: 429px) {
     .head {
-        width: 1920px;
         &__logo {
             width: 128px;
         }
 
         &__toolbar {
-            width: 1790px;
             justify-content: flex-start;
 
             &__name {
@@ -95,10 +92,6 @@
                 margin-left: 20px;
             }
         }
-    }
-
-    .line {
-        width: 1920px;
     }
 
     .menu {
