@@ -9,5 +9,16 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'hermitage-history';
 
+  public logoPath: string = "../assets/pic/logo.svg";
+
   constructor() {}
+
+  public logoOver(isOver: boolean): void {
+    if (isOver) {
+      this.logoPath = "../assets/pic/logo-green.svg";
+    } else {
+      this.logoPath = "../assets/pic/logo.svg";
+    }
+  }
+
 }

@@ -2,8 +2,8 @@
   <head class="head">
     <div class="head__logo">
       <div ngbDropdown class="d-inline-block">
-        <button type="button" class="menu btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>
-          <img src="../assets/pic/logo.svg" alt="logo" />
+        <button type="button" class="menu btn btn-outline-primary" (mouseenter)="logoOver(true)" (mouseleave)="logoOver(false)" ngbDropdownToggle>
+          <img [src]="logoPath" alt="logo" />
         </button>
         <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="menu-buttons">
           <button ngbDropdownItem class="menu-buttons__button" [routerLink]="'/'">на главную</button>
