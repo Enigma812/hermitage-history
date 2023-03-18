@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "lint": "ng lint",
     "test": "ng test",
+    "coverage": "http-server -c-1 -o -p 9875 ./coverage",
     "update:angular": "ng update @angular/core @angular/cli --force",
     "update:cdk": "ng update @angular/cdk @angular/material"
   },
@@ -50,12 +51,15 @@
     "eslint-plugin-no-null": "1.0.2",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "eslint-plugin-prettier": "4.2.1",
+    "http-server": "14.1.1",
     "jasmine-core": "4.6.0",
     "karma": "6.4.1",
     "karma-chrome-launcher": "3.1.1",
     "karma-coverage": "2.2.0",
     "karma-jasmine": "5.1.0",
     "karma-jasmine-html-reporter": "2.0.0",
+    "karma-junit-reporter": "2.0.1",
+    "karma-spec-reporter": "0.0.36",
     "prettier": "2.8.4",
     "prettier-plugin-organize-attributes": "0.0.5",
     "typescript": "4.9.4"
