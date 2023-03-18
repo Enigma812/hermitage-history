@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ExteriorsComponent } from './exteriors.component';
+import { ExteriorsPageComponent } from './exteriors.component';
 
-describe('ExteriorsComponent', () => {
-  let component: ExteriorsComponent;
-  let fixture: ComponentFixture<ExteriorsComponent>;
+describe('ExteriorsPageComponent', () => {
+  let component: ExteriorsPageComponent;
+  let fixture: ComponentFixture<ExteriorsPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ExteriorsComponent ]
+      declarations: [ ExteriorsPageComponent ]
     })
-    .compileComponents();
+      .compileComponents();
 
-    fixture = TestBed.createComponent(ExteriorsComponent);
+    fixture = TestBed.createComponent(ExteriorsPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

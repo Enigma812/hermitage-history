@@ -1,24 +1,21 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: [ './app.component.scss' ],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent {
-  title = 'hermitage-history';
+  public title = 'hermitage-history';
 
-  public logoPath: string = "../assets/pic/logo.svg";
-
-  constructor() {}
+  public logoPath = '../assets/pic/logo.svg';
 
   public logoOver(isOver: boolean): void {
     if (isOver) {
-      this.logoPath = "../assets/pic/logo-green.svg";
+      this.logoPath = '../assets/pic/logo-green.svg';
     } else {
-      this.logoPath = "../assets/pic/logo.svg";
+      this.logoPath = '../assets/pic/logo.svg';
     }
   }
-
 }

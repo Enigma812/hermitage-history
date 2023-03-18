@@ -1,3 +1,7 @@
+:host {
+    display: block;
+}
+
 .field {
     display: none;
 }
@@ -5,7 +9,7 @@
 .field--mobile {
     width: 100%;
     height: auto;
-  
+
 }
 
 @media (min-width: 429px) {
@@ -13,11 +17,10 @@
         display: block;
         width: 100%;
         height: auto;
-      
+
     }
 
     .field--mobile {
         display: none;
     }
 }
-

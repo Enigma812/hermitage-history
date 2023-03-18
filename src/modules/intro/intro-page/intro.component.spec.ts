@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { IntroPageComponent } from './intro.component';
 
-describe('IntroComponent', () => {
+describe('IntroPageComponent', () => {
   let component: IntroPageComponent;
   let fixture: ComponentFixture<IntroPageComponent>;
 
@@ -10,7 +10,7 @@ describe('IntroComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ IntroPageComponent ]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(IntroPageComponent);
     component = fixture.componentInstance;
