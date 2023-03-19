@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "lint": "ng lint",
+    "stylelint": "stylelint --fix",
     "test": "ng test",
     "coverage": "http-server -c-1 -o -p 9875 ./coverage",
     "update:angular": "ng update @angular/core @angular/cli --force",
@@ -66,7 +67,16 @@
     "lint-staged": "13.2.0",
     "prettier": "2.8.4",
     "prettier-plugin-organize-attributes": "0.0.5",
+    "stylelint": "15.3.0",
+    "stylelint-config-rational-order": "0.1.2",
+    "stylelint-config-standard-scss": "7.0.1",
+    "stylelint-order": "6.0.3",
     "typescript": "4.9.4"
+  },
+  "stylelint": {
+    "extends": [
+      "./stylelint.config.js"
+    ]
   },
   "commitlint": {
     "extends": [
@@ -79,6 +89,9 @@
     ],
     "*.html": [
       "eslint --fix"
+    ],
+    "*.scss": [
+      "stylelint --fix"
     ]
   },
   "husky": {
