@@ -49,7 +49,11 @@
       <img
         class="head__toolbar__name"
         src="../assets/pic/hermitage.svg" />
-      <div class="head__toolbar__discription"></div>
+      <div
+        *ngIf="title$ | async as title"
+        class="head__toolbar__discription">
+        {{ title | translate }}
+      </div>
     </div>
   </head>
   <div class="line"></div>

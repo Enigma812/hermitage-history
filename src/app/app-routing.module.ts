@@ -10,7 +10,10 @@ const routes: Routes = [
   },
   {
     path: 'intro',
-    loadChildren: () => import('../modules/intro/intro.module').then((m) => m.IntroModule)
+    loadChildren: () => import('../modules/intro/intro.module').then((m) => m.IntroModule),
+    data: {
+      title: 'Intro.Title'
+    }
   },
   {
     path: 'interiors',
