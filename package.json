@@ -6,37 +6,98 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "lint": "ng lint",
+    "stylelint": "stylelint --fix",
+    "test": "ng test",
+    "coverage": "http-server -c-1 -o -p 9875 ./coverage",
+    "update:angular": "ng update @angular/core @angular/cli --force",
+    "update:cdk": "ng update @angular/cdk @angular/material"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^15.2.0",
-    "@angular/common": "^15.2.0",
-    "@angular/compiler": "^15.2.0",
-    "@angular/core": "^15.2.0",
-    "@angular/forms": "^15.2.0",
-    "@angular/platform-browser": "^15.2.0",
-    "@angular/platform-browser-dynamic": "^15.2.0",
-    "@angular/router": "^15.2.0",
-    "@ng-bootstrap/ng-bootstrap": "^14.0.1",
-    "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.3",
-    "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.12.0"
+    "@angular/animations": "15.2.3",
+    "@angular/common": "15.2.3",
+    "@angular/compiler": "15.2.3",
+    "@angular/core": "15.2.3",
+    "@angular/forms": "15.2.3",
+    "@angular/platform-browser": "15.2.3",
+    "@angular/platform-browser-dynamic": "15.2.3",
+    "@angular/router": "15.2.3",
+    "@ng-bootstrap/ng-bootstrap": "14.0.1",
+    "@popperjs/core": "2.11.6",
+    "bootstrap": "5.2.3",
+    "rxjs": "7.8.0",
+    "tslib": "2.5.0",
+    "zone.js": "0.13.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^15.2.2",
-    "@angular/cli": "~15.2.2",
-    "@angular/compiler-cli": "^15.2.0",
-    "@angular/localize": "^15.2.0",
-    "@types/jasmine": "~4.3.0",
-    "jasmine-core": "~4.5.0",
-    "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.2.0",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.0.0",
-    "typescript": "~4.9.4"
+    "@angular-devkit/build-angular": "15.2.4",
+    "@angular-eslint/builder": "15.2.1",
+    "@angular-eslint/eslint-plugin": "15.2.1",
+    "@angular-eslint/eslint-plugin-template": "15.2.1",
+    "@angular-eslint/schematics": "15.2.1",
+    "@angular-eslint/template-parser": "15.2.1",
+    "@angular/cli": "15.2.4",
+    "@angular/compiler-cli": "15.2.3",
+    "@angular/localize": "15.2.3",
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-conventional": "17.4.4",
+    "@types/jasmine": "4.3.1",
+    "@typescript-eslint/eslint-plugin": "5.55.0",
+    "@typescript-eslint/parser": "5.55.0",
+    "eslint": "8.36.0",
+    "eslint-config-prettier": "8.7.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-import-newlines": "1.3.1",
+    "eslint-plugin-jasmine": "4.1.3",
+    "eslint-plugin-jsdoc": "40.0.3",
+    "eslint-plugin-no-null": "1.0.2",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "eslint-plugin-prettier": "4.2.1",
+    "http-server": "14.1.1",
+    "husky": "4.3.8",
+    "jasmine-core": "4.6.0",
+    "karma": "6.4.1",
+    "karma-chrome-launcher": "3.1.1",
+    "karma-coverage": "2.2.0",
+    "karma-jasmine": "5.1.0",
+    "karma-jasmine-html-reporter": "2.0.0",
+    "karma-junit-reporter": "2.0.1",
+    "karma-spec-reporter": "0.0.36",
+    "lint-staged": "13.2.0",
+    "prettier": "2.8.4",
+    "prettier-plugin-organize-attributes": "0.0.5",
+    "stylelint": "15.3.0",
+    "stylelint-config-rational-order": "0.1.2",
+    "stylelint-config-standard-scss": "7.0.1",
+    "stylelint-order": "6.0.3",
+    "typescript": "4.9.4"
+  },
+  "stylelint": {
+    "extends": [
+      "./stylelint.config.js"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix"
+    ],
+    "*.html": [
+      "eslint --fix"
+    ],
+    "*.scss": [
+      "stylelint --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }

@@ -1,23 +1,24 @@
+:host {
+  display: block;
+}
+
 .field {
-    display: none;
+  display: none;
 }
 
 .field--mobile {
-    width: 100%;
-    height: auto;
-  
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 429px) {
-    .field {
-        display: block;
-        width: 100%;
-        height: auto;
-      
-    }
+  .field {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
-    .field--mobile {
-        display: none;
-    }
+  .field--mobile {
+    display: none;
+  }
 }
-

@@ -1,9 +1,8 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 
-import { InteriorsRoutingModule } from './interiors-routing.module';
 import { InteriorsPageComponent } from './interiors-page/interiors.component';
-
+import { InteriorsRoutingModule } from './interiors-routing.module';
 
 @NgModule({
   declarations: [
