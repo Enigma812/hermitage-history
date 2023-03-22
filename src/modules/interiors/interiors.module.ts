@@ -1,45 +1,24 @@
-import { CommonModule, registerLocaleData } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
-import localeRuExtra from '@angular/common/locales/extra/ru';
-import localeRu from '@angular/common/locales/ru';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { TranslateCompiler, TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
-import { translateCompilerFactory } from 'src/app/translate-compiler-factory';
-import { TranslateLoaderFactory } from 'src/app/translate-loader-factory';
+import { TranslateModule } from '@ngx-translate/core';
 
+import { BuildingPageComponent } from './building-page/building-page.component';
+import { InteriorPageComponent } from './choice-interior-page/interior-page.component';
 import { InteriorsPageComponent } from './interiors-page/interiors.component';
 import { InteriorsRoutingModule } from './interiors-routing.module';
 
 @NgModule({
   declarations: [
-    InteriorsPageComponent
+    InteriorsPageComponent,
+    InteriorPageComponent,
+    BuildingPageComponent
   ],
   imports: [
     CommonModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: TranslateLoaderFactory,
-        deps: [
-          HttpClient
-        ]
-      },
-      compiler: {
-        provide: TranslateCompiler,
-        useFactory: translateCompilerFactory
-      }
-    }),
+    TranslateModule,
 
     InteriorsRoutingModule
   ]
 })
 export class InteriorsModule {
-  constructor(
-    private readonly _translate: TranslateService
-  ) {
-    registerLocaleData(localeRu, 'ru-RU', localeRuExtra);
-    this._translate.addLangs([ 'ru' ]);
-    this._translate.setDefaultLang('ru');
-    this._translate.use('ru');
-  }
 }
