@@ -1,3 +1,109 @@
 :host {
   display: block;
 }
+
+.field {
+  position: relative;
+
+  width: 100%;
+  height: 796;
+  border: 10px solid #EEEEEE;
+
+  &__frame {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    width: 100%;
+    height: 768px;
+    padding: 6px;
+
+    &__buttons {
+      position: relative;
+
+      display: inline-block;
+
+      width: 396px;
+      height: 248px;
+      padding: 0;
+      border: 0;
+      overflow: hidden;
+
+      &__image--mobile {
+        display: block;
+
+        transition: 1s;
+      }
+
+      &__image--mobile:hover {
+        transform: scale(1.2);
+      }
+
+      &__image {
+        display: none;
+      }
+
+      &__name {
+        position: absolute;
+        top: 87px;
+        right: 0;
+        left: 0;
+
+        margin: 0 auto;
+
+
+        color: white;
+        font-weight: 800;
+        font-size: 40px;
+        font-style: italic;
+        text-shadow: 2px 0 10px black;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black
+        
+      }
+      
+    }
+  }
+}
+
+@media (min-width: 429px) {
+  .field {
+      height: 940px;
+      border: 50px solid #EEEEEE;
+
+      &__frame {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    
+        width: 100%;
+        height: 838px;
+        padding: 5px;
+
+        &__buttons {
+          width: 603px;
+          height: 828px;
+
+          &__image {
+            display: block;
+    
+            transition: 1s;
+          }
+    
+          &__image:hover {
+            transform: scale(1.2);
+          }
+
+          &__image--mobile {
+            display: none;
+          }
+
+          &__name {
+            top: 55px;
+
+            font-size: 55px;
+          }
+        }
+      }
+  }
+}

@@ -54,6 +54,7 @@
   margin-top: 8px !important;
   padding: 0;
   border: 0;
+  border-radius: 0 0 22px;
 
   &__button,
   &__button--last {
@@ -73,6 +74,7 @@
   }
 
   &__button--last {
+    margin-bottom: 0;
     border-radius: 0 0 22px;
   }
 

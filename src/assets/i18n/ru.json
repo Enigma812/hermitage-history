@@ -5,5 +5,12 @@
   
   "Intro": {
     "Title": "Вступление"
+  },
+
+  "Interior": {
+    "WinterPalace": "Зимний Дворец",
+    "SmallHermitage": "Малый Эрмитаж",
+    "Hermitage": "Эрмитаж"
+
   }
 }
