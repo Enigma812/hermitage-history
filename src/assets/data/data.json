@@ -1,0 +1,25 @@
+{
+  "buildings": [
+    {
+      "id": "winter-palace",
+      "title": "Зимний Дворец",
+      "path": "winter-palace",
+      "img": "/assets/pic/winter-palace.png",
+      "imgMobile": "/assets/pic/winter-palace-mobile.png"
+    },
+    {
+      "id": "small-hermitage",
+      "title": "Малый Эрмитаж",
+      "path": "small-hermitage",
+      "img": "/assets/pic/small-hermitage.png",
+      "imgMobile": "/assets/pic/small-hermitage-mobile.png"
+    },
+    {
+      "id": "hermitage",
+      "title": "Эрмитаж",
+      "path": "hermitage",
+      "img": "/assets/pic/hermitage.png",
+      "imgMobile": "/assets/pic/hermitage-mobile.png"
+    }
+  ]
+}

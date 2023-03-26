@@ -1,37 +1,18 @@
 <div class="field">
-  <div class="field__frame">
+  <div
+    *ngIf="buildings$ | async as buildings"
+    class="field__frame">
     <button
+      *ngFor="let building of buildings; trackBy: buildingTrackBy"
       class="field__frame__buttons"
-      [routerLink]="['winter-palace']">
+      [routerLink]="[building.path]">
       <img
         class="field__frame__buttons__image"
-        src="../../../assets/pic/winter-palace.png" />
+        [src]="building.img" />
       <img
         class="field__frame__buttons__image--mobile"
-        src="../../../assets/pic/winter-palace-mobile.png" />
-      <div class="field__frame__buttons__name">{{ 'Interior.WinterPalace' | translate }}</div>
-    </button>
-    <button
-      class="field__frame__buttons"
-      [routerLink]="['small-hermitage']">
-      <img
-        class="field__frame__buttons__image"
-        src="../../../assets/pic/small-hermitage.png" />
-      <img
-        class="field__frame__buttons__image--mobile"
-        src="../../../assets/pic/small-hermitage-mobile.png" />
-      <div class="field__frame__buttons__name">{{ 'Interior.SmallHermitage' | translate }}</div>
-    </button>
-    <button
-      class="field__frame__buttons"
-      [routerLink]="['hermitage']">
-      <img
-        class="field__frame__buttons__image"
-        src="../../../assets/pic/hermitage.png" />
-      <img
-        class="field__frame__buttons__image--mobile"
-        src="../../../assets/pic/hermitage-mobile.png" />
-      <div class="field__frame__buttons__name">{{ 'Interior.Hermitage' | translate }}</div>
+        [src]="building.imgMobile" />
+      <div class="field__frame__buttons__name">{{ building.title }}</div>
     </button>
   </div>
 </div>
