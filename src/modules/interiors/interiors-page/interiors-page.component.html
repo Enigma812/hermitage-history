@@ -1,0 +1,4 @@
+<p>{{ buildingName$ | async }}</p>
+<div *ngIf="interiors$ | async as interiors">
+  <p *ngFor="let interior of interiors; trackBy: trackById">{{ interior.name }}</p>
+</div>

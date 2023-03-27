@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InteriorPageComponent } from './interior-page.component';
+import { InteriorsPageComponent } from './interiors-page.component';
 
 describe('ChoiceInteriorComponent', () => {
-  let component: InteriorPageComponent;
-  let fixture: ComponentFixture<InteriorPageComponent>;
+  let component: InteriorsPageComponent;
+  let fixture: ComponentFixture<InteriorsPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InteriorPageComponent ]
+      declarations: [ InteriorsPageComponent ]
     })
       .compileComponents();
 
-    fixture = TestBed.createComponent(InteriorPageComponent);
+    fixture = TestBed.createComponent(InteriorsPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

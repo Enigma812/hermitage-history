@@ -5,7 +5,17 @@
       "title": "Зимний Дворец",
       "path": "winter-palace",
       "img": "/assets/pic/winter-palace.png",
-      "imgMobile": "/assets/pic/winter-palace-mobile.png"
+      "imgMobile": "/assets/pic/winter-palace-mobile.png",
+      "interiors": [
+        {
+          "id": "ceremonial-halls",
+          "name": "Парадные залы"
+        },
+        {
+          "id": "main-stairs",
+          "name": "Парадная Лестница"
+        }
+      ]
     },
     {
       "id": "small-hermitage",
