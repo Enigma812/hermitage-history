@@ -1,4 +1,32 @@
-<p>{{ buildingName$ | async }}</p>
-<div *ngIf="interiors$ | async as interiors">
-  <p *ngFor="let interior of interiors; trackBy: trackById">{{ interior.name }}</p>
+<div class="navigate">
+  <button
+    class="navigate__back-button"
+    [routerLink]="'/interiors'">
+    <img
+      class="navigate__back-button__arrow"
+      [src]="(navigates$ | async)!.iconBack" />
+    <img
+      class="navigate__back-button__arrow--mobile"
+      [src]="(navigates$ | async)!.iconBackMobile" />
+    <div class="navigate__back-button__text">{{ (navigates$ | async)!.back }}</div>
+  </button>
+</div>
+<div class="field">
+  <div
+    *ngIf="interiors$ | async as interiors"
+    class="field__frame">
+    <button
+      *ngFor="let interior of interiors; trackBy: trackById"
+      class="field__frame__button">
+      <div class="field__frame__button__frame-img">
+        <img
+          class="field__frame__button__frame-img__image"
+          [src]="interior.img" />
+        <img
+          class="field__frame__button__frame-img__image--mobile"
+          [src]="interior.imgMobile" />
+      </div>
+      <div class="field__frame__button__name">{{ interior.name }}</div>
+    </button>
+  </div>
 </div>

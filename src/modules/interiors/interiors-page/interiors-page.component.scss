@@ -1,3 +1,166 @@
 :host {
   display: block;
 }
+
+.navigate {
+  width: 100%;
+  height: 32px;
+
+  background-color: #EEEEEE;
+
+  &__back-button {
+    display: flex;
+    align-items: center;
+    width: 135px;
+    height: 32px;
+    padding: 0;
+    border: 0;
+    border-radius: 0 0 34px;
+
+    background-color: #03463E;
+
+    &__arrow {
+      display: none;
+    }
+
+    &__arrow--mobile{
+      display: block;
+      padding: 0 9px 0 12px;
+    }
+
+    &__text {
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__back-button:hover {
+    background-color: #3C837A;
+  }
+}
+
+.field {
+  width: 100%;
+  min-height: 788px;
+  border-color: #EEEEEE;
+  border-style: solid;
+  border-width: 0 10px 10px;
+
+  &__frame {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 6px;
+
+
+    &__button {
+      display: flex;
+      flex-direction: column;
+      width: 396px;
+      height: 248px;
+      padding: 0;
+      border: 0;
+
+      &__frame-img {
+        overflow: hidden;
+        
+        &__image {
+          display: none;
+        }
+
+        &__image--mobile {
+          display: block;
+
+          transition: 1s;
+        }
+
+        &__image--mobile:hover {
+          transform: scale(1.2);
+        }
+      }
+  
+      &__name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 396px;
+        height: 50px;
+
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 22px;
+        text-transform: uppercase;
+
+        background-color: #333333;
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 429px) {
+  .navigate {
+    height: 60px;
+
+    &__back-button {
+      width: 205px;
+      height: 60px;
+
+      &__arrow {
+        display: block;
+        padding: 0 14px 0 20px;
+      }
+  
+      &__arrow--mobile{
+        display: none;
+      }
+
+      &__text {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .field{
+    height: 940px;
+    border-width: 0 45px 45px;
+
+    &__frame {
+      flex-direction: row;
+      gap: 25px;
+      padding: 25px;
+
+      &__button {
+        width: 426px;
+        height: 390px;
+  
+        &__frame-img {
+          overflow: hidden;
+          
+          &__image {
+            display: block;
+  
+            transition: 1s;
+          }
+  
+          &__image:hover {
+            transform: scale(1.2);
+          }
+
+          &__image--mobile {
+            display: none;
+          }
+        }
+  
+        &__name {
+          width: 426px;  
+        }
+      }
+    }
+  }
+}
+
+

@@ -8,12 +8,26 @@
       "imgMobile": "/assets/pic/winter-palace-mobile.png",
       "interiors": [
         {
-          "id": "ceremonial-halls",
-          "name": "Парадные залы"
+          "id": "main-stairs",
+          "name": "Иорданская Лестница",
+          "path": "main-stairs",
+          "img": "/assets/pic/main-stairs.png",
+          "imgMobile": "/assets/pic/main-stairs-mobile.png"
+
         },
         {
-          "id": "main-stairs",
-          "name": "Парадная Лестница"
+          "id": "living-nicolas",
+          "name": "Жилая половина Николая I",
+          "path": "nicolas",
+          "img": "/assets/pic/living-nicolas.png",
+          "imgMobile": "/assets/pic/living-nicolas-mobile.png"
+        },
+        {
+          "id": "state-halls",
+          "name": "Парадные Залы",
+          "path": "state-halls",
+          "img": "/assets/pic/state-halls.png",
+          "imgMobile": "/assets/pic/state-halls-mobile.png"
         }
       ]
     },
@@ -31,5 +45,17 @@
       "img": "/assets/pic/hermitage.png",
       "imgMobile": "/assets/pic/hermitage-mobile.png"
     }
-  ]
+  ],
+
+  "navigates":
+    {
+      "back": "Назад",
+      "iconBackMobile": "/assets/icon/arrow-back-mobile.svg",
+      "iconForwardMobile": "assets/icon/arrow-forward-mobile.svg",
+      "iconBack": "/assets/icon/arrow-back.svg",
+      "iconForward": "assets/icon/arrow-forward.svg",
+      "next": "Следующий зал",
+      "previous": "Предыдущий зал",
+      "toMain": "Вернуться к выбору"
+    }
 }
