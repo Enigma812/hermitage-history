@@ -56,6 +56,14 @@
       "iconForward": "assets/icon/arrow-forward.svg",
       "next": "Следующий зал",
       "previous": "Предыдущий зал",
-      "toMain": "Вернуться к выбору"
+      "toMain": "Вернуться к выбору",
+      "close": "assets/icon/close-cross.svg",
+      "floor": "Выбрать этаж",
+      "fFloor": "/assets/pic/first-floor.png",
+      "fFloorHover": "/assets/pic/first-floor-hover.png",
+      "sFloor": "/assets/pic/second-floor.png",
+      "sFloorHover": "/assets/pic/second-floor-hover.png",
+      "tFloor": "/assets/pic/third-floor.png",
+      "tFloorHover": "/assets/pic/third-floor-hover.png"
     }
 }

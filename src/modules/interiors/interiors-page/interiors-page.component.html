@@ -17,7 +17,8 @@
     class="field__frame">
     <button
       *ngFor="let interior of interiors; trackBy: trackById"
-      class="field__frame__button">
+      class="field__frame__button btn btn-lg btn-outline-primary"
+      (click)="open(content)">
       <div class="field__frame__button__frame-img">
         <img
           class="field__frame__button__frame-img__image"
@@ -30,3 +31,43 @@
     </button>
   </div>
 </div>
+
+<ng-template
+  #content
+  let-d="dismiss">
+  <div class="dialog">
+    <div class="dialog__header">
+      <p class="dialog__header__name">{{ (navigates$ | async)!.floor }}</p>
+      <button
+        class="dialog__header__cross"
+        (click)="d('Cross click')">
+        <img
+          class="dialog__header__cross__image"
+          [src]="(navigates$ | async)!.close" />
+      </button>
+    </div>
+    <div class="dialog__body">
+      <button class="dialog__body__floor">
+        <img
+          class="dialog__body__floor__image"
+          [src]="thirdFloorPath"
+          (mouseenter)="thirdFloorOver(true)"
+          (mouseleave)="thirdFloorOver(false)" />
+      </button>
+      <button class="dialog__body__floor">
+        <img
+          class="dialog__body__floor__image"
+          [src]="secondFloorPath"
+          (mouseenter)="secondFloorOver(true)"
+          (mouseleave)="secondFloorOver(false)" />
+      </button>
+      <button class="dialog__body__floor">
+        <img
+          class="dialog__body__floor__image"
+          [src]="firstFloorPath"
+          (mouseenter)="firstFloorOver(true)"
+          (mouseleave)="firstFloorOver(false)" />
+      </button>
+    </div>
+  </div>
+</ng-template>

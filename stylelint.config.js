@@ -8,6 +8,7 @@ module.exports = {
     "stylelint-config-rational-order/plugin"
   ],
   rules: {
+    "selector-pseudo-element-no-unknown": [true, { "ignorePseudoElements": ["ng-deep"] }],
     "order/properties-order": [],
     "plugin/rational-order": [
       true,

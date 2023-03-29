@@ -7,4 +7,12 @@ export interface Navigate {
   next: string;
   previous: string;
   toMain: string;
+  close: string;
+  floor: string;
+  fFloor: string;
+  fFloorHover: string;
+  sFloor: string;
+  sFloorHover: string;
+  tFloor: string;
+  tFloorHover: string;
 }
