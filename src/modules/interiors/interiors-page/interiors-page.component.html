@@ -4,11 +4,11 @@
     [routerLink]="'/interiors'">
     <img
       class="navigate__back-button__arrow"
-      [src]="(navigates$ | async)!.iconBack" />
+      src="../../../assets/icon/arrow-back.svg" />
     <img
       class="navigate__back-button__arrow--mobile"
-      [src]="(navigates$ | async)!.iconBackMobile" />
-    <div class="navigate__back-button__text">{{ (navigates$ | async)!.back }}</div>
+      src="../../../assets/icon/arrow-back-mobile.svg" />
+    <div class="navigate__back-button__text">{{ 'Common.back' | translate }}</div>
   </button>
 </div>
 <div class="field">
@@ -43,7 +43,7 @@
         (click)="d('Cross click')">
         <img
           class="dialog__header__cross__image"
-          [src]="(navigates$ | async)!.close" />
+          src="../../../assets/icon/close-cross.svg" />
       </button>
     </div>
     <div class="dialog__body">
