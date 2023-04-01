@@ -17,6 +17,7 @@
     "back": "Назад",
     "nextRoom": "Следующий зал",
     "previousRoom": "Предыдущий зал",
-    "backToChoice": "Вернуться к выбору"
+    "backToChoice": "Вернуться к выбору",
+    "chooseFloor": "Выбрать этаж"
   }
 }

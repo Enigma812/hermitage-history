@@ -2,7 +2,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { map, Observable, switchMap } from 'rxjs';
-import { Navigate } from 'src/app/models/navigate';
 
 import { DataService } from '../../../app/data.service';
 import { Interior } from '../../../app/models/interior';
@@ -16,7 +15,6 @@ import { trackBy } from '../../utils/track-by';
 export class InteriorsPageComponent {
   public buildingName$: Observable<string>;
   public interiors$: Observable<Interior[]>;
-  public navigates$: Observable<Navigate>;
   public firstFloorPath = '../assets/pic/first-floor.png';
   public secondFloorPath = '../assets/pic/second-floor.png';
   public thirdFloorPath = '../assets/pic/third-floor.png';
@@ -28,8 +26,6 @@ export class InteriorsPageComponent {
     private readonly _dataService: DataService,
     private readonly modalService: NgbModal
   ) {
-    this.navigates$ = this._dataService.data$.pipe(map((data) => data.navigates));
-    // this.firstFloorPath = this.navigates$.pipe(map((img) => img.fFloor));
     this.buildingName$ = this._route.params.pipe(map((params) => params['buildingPath']));
 
     this.interiors$ = this._route.params.pipe(
