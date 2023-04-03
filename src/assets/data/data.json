@@ -12,7 +12,19 @@
           "name": "Иорданская Лестница",
           "path": "main-stairs",
           "img": "/assets/pic/main-stairs.png",
-          "imgMobile": "/assets/pic/main-stairs-mobile.png"
+          "imgMobile": "/assets/pic/main-stairs-mobile.png",
+          "floors": [
+            {
+              "id": "second-floor",
+              "img": "../assets/pic/second-floor.png",
+              "imgHover": "../assets/pic/second-floor-hover.png"
+            },
+            {
+              "id": "first-floor",
+              "img": "../assets/pic/first-floor.png",
+              "imgHover": "../assets/pic/first-floor-hover.png"
+            }
+          ]
 
         },
         {
@@ -20,14 +32,38 @@
           "name": "Жилая половина Николая I",
           "path": "nicolas",
           "img": "/assets/pic/living-nicolas.png",
-          "imgMobile": "/assets/pic/living-nicolas-mobile.png"
+          "imgMobile": "/assets/pic/living-nicolas-mobile.png",
+          "floors": [
+            {
+              "id": "third-floor",
+              "img": "../assets/pic/third-floor.png",
+              "imgHover": "../assets/pic/third-floor-hover.png"
+            },
+            {
+              "id": "second-floor",
+              "img": "../assets/pic/second-floor.png",
+              "imgHover": "../assets/pic/second-floor-hover.png"
+            },
+            {
+              "id": "first-floor",
+              "img": "../assets/pic/first-floor.png",
+              "imgHover": "../assets/pic/first-floor-hover.png"
+            }
+          ]
         },
         {
           "id": "state-halls",
           "name": "Парадные Залы",
           "path": "state-halls",
           "img": "/assets/pic/state-halls.png",
-          "imgMobile": "/assets/pic/state-halls-mobile.png"
+          "imgMobile": "/assets/pic/state-halls-mobile.png",
+          "floors": [
+            {
+              "id": "second-floor",
+              "img": "../assets/pic/second-floor.png",
+              "imgHover": "../assets/pic/second-floor-hover.png"
+            }
+          ]
         }
       ]
     },

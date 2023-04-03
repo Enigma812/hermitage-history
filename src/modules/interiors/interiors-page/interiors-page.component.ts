@@ -1,9 +1,16 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, TemplateRef } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { map, Observable, switchMap } from 'rxjs';
+import {
+  map,
+  Observable,
+  ReplaySubject,
+  Subject,
+  switchMap
+} from 'rxjs';
 
 import { DataService } from '../../../app/data.service';
+import { Floor } from '../../../app/models/floor';
 import { Interior } from '../../../app/models/interior';
 import { trackBy } from '../../utils/track-by';
 
@@ -15,9 +22,7 @@ import { trackBy } from '../../utils/track-by';
 export class InteriorsPageComponent {
   public buildingName$: Observable<string>;
   public interiors$: Observable<Interior[]>;
-  public firstFloorPath = '../assets/pic/first-floor.png';
-  public secondFloorPath = '../assets/pic/second-floor.png';
-  public thirdFloorPath = '../assets/pic/third-floor.png';
+  public floors$: Subject<Floor[]>;
 
   public trackById = trackBy('id');
 
@@ -27,6 +32,7 @@ export class InteriorsPageComponent {
     private readonly modalService: NgbModal
   ) {
     this.buildingName$ = this._route.params.pipe(map((params) => params['buildingPath']));
+    this.floors$ = new ReplaySubject();
 
     this.interiors$ = this._route.params.pipe(
       map((params) => params['buildingPath']),
@@ -37,31 +43,12 @@ export class InteriorsPageComponent {
     );
   }
 
-  public open(content: any) {
+  public open(interior: Interior, content: TemplateRef<any>) {
+    this.floors$.next(interior.floors);
     this.modalService.open(content);
   }
 
-  public firstFloorOver(isOver: boolean): void {
-    if (isOver) {
-      this.firstFloorPath = '../assets/pic/first-floor-hover.png';
-    } else {
-      this.firstFloorPath = '../assets/pic/first-floor.png';
-    }
-  }
-
-  public secondFloorOver(isOver: boolean): void {
-    if (isOver) {
-      this.secondFloorPath = '../assets/pic/second-floor-hover.png';
-    } else {
-      this.secondFloorPath = '../assets/pic/second-floor.png';
-    }
-  }
-
-  public thirdFloorOver(isOver: boolean): void {
-    if (isOver) {
-      this.thirdFloorPath = '../assets/pic/third-floor-hover.png';
-    } else {
-      this.thirdFloorPath = '../assets/pic/third-floor.png';
-    }
+  public floorOver(imgButton: HTMLImageElement, imgHover: string): void {
+    imgButton.src = imgHover;
   }
 }

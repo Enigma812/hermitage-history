@@ -18,7 +18,7 @@
     <button
       *ngFor="let interior of interiors; trackBy: trackById"
       class="field__frame__button btn btn-lg btn-outline-primary"
-      (click)="open(content)">
+      (click)="open(interior, content)">
       <div class="field__frame__button__frame-img">
         <img
           class="field__frame__button__frame-img__image"
@@ -46,27 +46,18 @@
           src="../../../assets/icon/close-cross.svg" />
       </button>
     </div>
-    <div class="dialog__body">
-      <button class="dialog__body__floor">
+    <div
+      *ngIf="floors$ | async as floors"
+      class="dialog__body">
+      <button
+        *ngFor="let floor of floors; trackBy: trackById"
+        class="dialog__body__floor">
         <img
+          #floorImage
           class="dialog__body__floor__image"
-          [src]="thirdFloorPath"
-          (mouseenter)="thirdFloorOver(true)"
-          (mouseleave)="thirdFloorOver(false)" />
-      </button>
-      <button class="dialog__body__floor">
-        <img
-          class="dialog__body__floor__image"
-          [src]="secondFloorPath"
-          (mouseenter)="secondFloorOver(true)"
-          (mouseleave)="secondFloorOver(false)" />
-      </button>
-      <button class="dialog__body__floor">
-        <img
-          class="dialog__body__floor__image"
-          [src]="firstFloorPath"
-          (mouseenter)="firstFloorOver(true)"
-          (mouseleave)="firstFloorOver(false)" />
+          [src]="floor.img"
+          (mouseenter)="floorOver(floorImage, floor.imgHover)"
+          (mouseleave)="floorOver(floorImage, floor.img)" />
       </button>
     </div>
   </div>
