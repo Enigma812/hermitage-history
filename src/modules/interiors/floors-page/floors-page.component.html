@@ -1,0 +1,21 @@
+<div>
+  <div class="dialog">
+    <div class="dialog__header">
+      <p class="dialog__header__name">{{ 'Common.chooseFloor' | translate }}</p>
+    </div>
+    <div
+      *ngIf="floors$ | async as floors"
+      class="dialog__body">
+      <button
+        *ngFor="let floor of floors; trackBy: trackById"
+        class="dialog__body__floor">
+        <img
+          #floorImage
+          class="dialog__body__floor__image"
+          [src]="floor.img"
+          (mouseenter)="floorOver(floorImage, floor.imgHover)"
+          (mouseleave)="floorOver(floorImage, floor.img)" />
+      </button>
+    </div>
+  </div>
+</div>
