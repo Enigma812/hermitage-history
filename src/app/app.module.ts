@@ -4,7 +4,7 @@ import localeRuExtra from '@angular/common/locales/extra/ru';
 import localeRu from '@angular/common/locales/ru';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { TranslateCompiler, TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,7 +20,7 @@ import { TranslateLoaderFactory } from './translate-loader-factory';
     BrowserModule,
     HttpClientModule,
 
-    NgbModule,
+    NgbDropdownModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
