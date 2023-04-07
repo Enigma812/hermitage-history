@@ -28,12 +28,20 @@ export class FloorsPageComponent {
         map((data) => data.buildings.find((building) => building.path === buildingPath)),
         map((building) => building?.interiors.find((interior) => interior.path === interiorPath)),
         map((interior) => interior?.floors ?? [])
-
       ))
     );
   }
 
-  public floorOver(imgButton: HTMLImageElement, imgHover: string): void {
-    imgButton.src = imgHover;
+  public floorOverEnter(imgButton: HTMLImageElement, floor: Floor): void {
+    if (floor.isActive) {
+      imgButton.src = floor.imgHover;
+    }
   }
+
+  public floorOverLeave(imgButton: HTMLImageElement, floor: Floor): void {
+    if (floor.isActive) {
+      imgButton.src = floor.img;
+    }
+  }
+
 }

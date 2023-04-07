@@ -15,12 +15,23 @@
           "imgMobile": "/assets/pic/main-stairs-mobile.png",
           "floors": [
             {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "../assets/pic/third-floor.png",
+              "imgHover": "../assets/pic/third-floor-hover.png"
+            },
+            {
               "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
               "img": "../assets/pic/second-floor.png",
               "imgHover": "../assets/pic/second-floor-hover.png"
             },
             {
               "id": "first-floor",
+              "path": "first-floor",
+              "isActive": true,
               "img": "../assets/pic/first-floor.png",
               "imgHover": "../assets/pic/first-floor-hover.png"
             }
@@ -36,16 +47,22 @@
           "floors": [
             {
               "id": "third-floor",
+              "path": "third-floor",
+              "isActive": true,
               "img": "../assets/pic/third-floor.png",
               "imgHover": "../assets/pic/third-floor-hover.png"
             },
             {
               "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
               "img": "../assets/pic/second-floor.png",
               "imgHover": "../assets/pic/second-floor-hover.png"
             },
             {
               "id": "first-floor",
+              "path": "first-floor",
+              "isActive": true,
               "img": "../assets/pic/first-floor.png",
               "imgHover": "../assets/pic/first-floor-hover.png"
             }
@@ -59,9 +76,25 @@
           "imgMobile": "/assets/pic/state-halls-mobile.png",
           "floors": [
             {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "../assets/pic/third-floor.png",
+              "imgHover": "../assets/pic/third-floor-hover.png"
+            },
+            {
               "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
               "img": "../assets/pic/second-floor.png",
               "imgHover": "../assets/pic/second-floor-hover.png"
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "../assets/pic/first-floor.png",
+              "imgHover": "../assets/pic/first-floor-hover.png"
             }
           ]
         }
