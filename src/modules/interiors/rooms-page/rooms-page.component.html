@@ -10,6 +10,24 @@
       src="../../../assets/icon/arrow-back-mobile.svg" />
     <div class="navigate__back-button__text">{{ 'Common.previousRoom' | translate }}</div>
   </button>
+  <div class="col">
+    <div
+      class="d-inline-block"
+      ngbDropdown>
+      <button
+        id="dropdownBasic1"
+        type="button"
+        class="btn btn-outline-primary"
+        ngbDropdownToggle>
+        Toggle dropdown
+      </button>
+      <div
+        ngbDropdownMenu
+        aria-labelledby="dropdownBasic1">
+        <button ngbDropdownItem>Action - 1</button>
+      </div>
+    </div>
+  </div>
   <button
     class="navigate__forward-button"
     [routerLink]="'/interiors'">
