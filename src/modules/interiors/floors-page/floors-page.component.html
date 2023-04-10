@@ -21,6 +21,7 @@
     <button
       *ngFor="let floor of floors; trackBy: trackById"
       class="field__body__floor"
+      [routerLink]="floor.path"
       [disabled]="!floor.isActive">
       <img
         #floorImage

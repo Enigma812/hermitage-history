@@ -19,21 +19,34 @@
               "path": "third-floor",
               "isActive": false,
               "img": "../assets/pic/third-floor.png",
-              "imgHover": "../assets/pic/third-floor-hover.png"
+              "imgHover": "../assets/pic/third-floor-hover.png",
+              "rooms": []
             },
             {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
               "img": "../assets/pic/second-floor.png",
-              "imgHover": "../assets/pic/second-floor-hover.png"
+              "imgHover": "../assets/pic/second-floor-hover.png",
+              "rooms": [
+                {
+                  "id": "jordan-staircase",
+                  "path": "jordan-staircase"
+                }
+              ]
             },
             {
               "id": "first-floor",
               "path": "first-floor",
               "isActive": true,
               "img": "../assets/pic/first-floor.png",
-              "imgHover": "../assets/pic/first-floor-hover.png"
+              "imgHover": "../assets/pic/first-floor-hover.png",
+              "rooms": [
+                {
+                  "id": "jordan-gallery",
+                  "path": "jordan-gallery"
+                }
+              ]
             }
           ]
 

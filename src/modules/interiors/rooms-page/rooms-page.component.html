@@ -1,0 +1,24 @@
+<div class="navigate">
+  <button
+    class="navigate__back-button"
+    [routerLink]="'/interiors'">
+    <img
+      class="navigate__back-button__arrow"
+      src="../../../assets/icon/arrow-back.svg" />
+    <img
+      class="navigate__back-button__arrow--mobile"
+      src="../../../assets/icon/arrow-back-mobile.svg" />
+    <div class="navigate__back-button__text">{{ 'Common.previousRoom' | translate }}</div>
+  </button>
+  <button
+    class="navigate__forward-button"
+    [routerLink]="'/interiors'">
+    <div class="navigate__back-button__text">{{ 'Common.nextRoom' | translate }}</div>
+    <img
+      class="navigate__forward-button__arrow"
+      src="../../../assets/icon/arrow-forward.svg" />
+    <img
+      class="navigate__forward-button__arrow--mobile"
+      src="../../../assets/icon/arrow-forward-mobile.svg" />
+  </button>
+</div>
