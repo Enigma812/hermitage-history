@@ -3,6 +3,11 @@
 }
 
 .navigate {
+  
+  position: relative;
+  top: 0;
+  left: 0;
+
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -11,6 +16,8 @@
   background-color: #EEEEEE;
 
   &__back-button, &__forward-button {
+    position: absolute;
+
     display: flex;
     align-items: center;
     width: 200px;
@@ -38,10 +45,15 @@
   }
 
   &__back-button {
+    left: 0;
+
     border-radius: 0 0 34px;
   }
 
   &__forward-button {
+    
+    left: 228px;
+
     display: flex;
     justify-content: flex-end;
     border-radius: 0 0 0 34px;
@@ -52,13 +64,43 @@
   }
 }
 
+.map {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 154px;
+
+  &__button {
+    position: relative;
+    left: 0;
+
+   width: 100%;
+    height: 60px;
+    padding: 0;
+    border: 0;
+    border-radius: 0 0 40px 40px;
+  
+
+  background-color: #6F9792;
+
+  &__text {
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  }
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
 @media (min-width: 429px) {
   .navigate {
     height: 60px;
 
     &__back-button, &__forward-button {
       width: 360px;
-      height: 68px;
+      height: 60px;
 
       &__arrow {
         display: block;
@@ -75,9 +117,24 @@
     }
 
     &__forward-button {
+      right: 0;
+      left: auto;
+
       &__arrow {
         display: block;
         padding: 0 20px 0 14px;
+      }
+    }
+  }
+
+  .map {
+    margin: 0 326px;
+
+    &__button {
+      height: 80px;
+  
+      &__text {
+        font-size: 20px;
       }
     }
   }

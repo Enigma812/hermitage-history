@@ -21,7 +21,11 @@ const routes: Routes = [
     component: FloorsPageComponent
   },
   {
-    path: ':buildingPath/:interiorPath/:roomPath',
+    path: ':buildingPath/:interiorPath/:floorPath',
+    component: RoomsPageComponent
+  },
+  {
+    path: ':buildingPath/:interiorPath/:floorPath/:roomPath',
     component: RoomsPageComponent
   }
 ];

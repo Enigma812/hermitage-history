@@ -1,4 +1,21 @@
 <div class="navigate">
+  <div
+    class="map"
+    ngbDropdown>
+    <button
+      class="map__button"
+      ngbDropdownToggle>
+      <img
+        class="map__button__icon"
+        src="../../../assets/icon/map.svg" />
+      <div class="map__button__text">{{ 'Common.map' | translate }}</div>
+    </button>
+    <div
+      class="map__img"
+      ngbDropdownMenu>
+      ddd
+    </div>
+  </div>
   <button
     class="navigate__back-button"
     [routerLink]="'/interiors'">
@@ -10,24 +27,6 @@
       src="../../../assets/icon/arrow-back-mobile.svg" />
     <div class="navigate__back-button__text">{{ 'Common.previousRoom' | translate }}</div>
   </button>
-  <div class="col">
-    <div
-      class="d-inline-block"
-      ngbDropdown>
-      <button
-        id="dropdownBasic1"
-        type="button"
-        class="btn btn-outline-primary"
-        ngbDropdownToggle>
-        Toggle dropdown
-      </button>
-      <div
-        ngbDropdownMenu
-        aria-labelledby="dropdownBasic1">
-        <button ngbDropdownItem>Action - 1</button>
-      </div>
-    </div>
-  </div>
   <button
     class="navigate__forward-button"
     [routerLink]="'/interiors'">
