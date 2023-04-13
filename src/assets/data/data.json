@@ -31,7 +31,8 @@
               "rooms": [
                 {
                   "id": "jordan-staircase",
-                  "path": "jordan-staircase"
+                  "path": "jordan-staircase",
+                  "next": "jordan"
                 }
               ]
             },
