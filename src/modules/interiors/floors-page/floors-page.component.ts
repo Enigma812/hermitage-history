@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { map, Observable, switchMap } from 'rxjs';
 
 import { DataService } from '../../../app/data.service';
@@ -20,6 +20,7 @@ export class FloorsPageComponent {
 
   constructor(
     private readonly _route: ActivatedRoute,
+    private readonly _router: Router,
     private readonly _dataService: DataService
   ) {
     this.floors$ = this._route.params.pipe(
@@ -44,4 +45,9 @@ export class FloorsPageComponent {
     }
   }
 
+  public redirectToRoom(floor: Floor): void {
+    if (floor.rooms.length > 0) {
+      this._router.navigate([ floor.path, floor.rooms[0].path ], { relativeTo: this._route });
+    }
+  }
 }

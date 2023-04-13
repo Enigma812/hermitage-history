@@ -21,8 +21,8 @@
     <button
       *ngFor="let floor of floors; trackBy: trackById"
       class="field__body__floor"
-      [routerLink]="floor.path"
-      [disabled]="!floor.isActive">
+      [disabled]="!floor.isActive"
+      (click)="redirectToRoom(floor)">
       <img
         #floorImage
         class="field__body__floor__image"
