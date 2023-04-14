@@ -13,9 +13,11 @@
       <div class="map__button__text">{{ 'Common.map' | translate }}</div>
     </button>
     <div
-      class="map__img"
+      class="map__frame"
       ngbDropdownMenu>
-      ddd
+      <img
+        class="map__frame__img"
+        [src]="room.map" />
     </div>
   </div>
   <button

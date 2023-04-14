@@ -32,7 +32,7 @@
                 {
                   "id": "jordan-staircase",
                   "path": "jordan-staircase",
-                  "next": "jordan"
+                  "map": "../assets/pic/maps/malachite.png"
                 }
               ]
             },
@@ -45,7 +45,8 @@
               "rooms": [
                 {
                   "id": "jordan-gallery",
-                  "path": "jordan-gallery"
+                  "path": "jordan-gallery",
+                  "map": "../assets/pic/maps/malachite.png"
                 }
               ]
             }
@@ -71,7 +72,14 @@
               "path": "second-floor",
               "isActive": true,
               "img": "../assets/pic/second-floor.png",
-              "imgHover": "../assets/pic/second-floor-hover.png"
+              "imgHover": "../assets/pic/second-floor-hover.png",
+              "rooms": [
+                {
+                  "id": "malachite",
+                  "path": "malachite-living",
+                  "map": "../assets/maps/malachite.png"
+                }
+              ]
             },
             {
               "id": "first-floor",

@@ -3,4 +3,5 @@ export interface Room {
   path: string;
   prev?: string;
   next?: string;
+  map: string;
 }

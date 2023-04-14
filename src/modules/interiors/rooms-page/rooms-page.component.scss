@@ -77,20 +77,37 @@
     position: relative;
     left: 0;
 
-   width: 100%;
+    width: 100%;
     height: 60px;
     padding: 0;
     border: 0;
     border-radius: 0 0 40px 40px;
   
 
-  background-color: #6F9792;
+    background-color: #6F9792;
 
-  &__text {
-    font-weight: 600;
-    font-size: 15px;
-    text-transform: uppercase;
+    &__text {
+      font-weight: 600;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
   }
+
+  &__button:hover {
+    background-color: #D9D9D9;
+  }
+
+  &__frame {
+    width: 380px;
+    height: 380px;
+    padding: 0;
+    border: 10px solid #D9D9D9;
+    border-radius: 0;
+
+    &__img {
+      width: 370px;
+      height: 370px;
+    }
   }
 }
 
@@ -133,12 +150,23 @@
 
   .map {
     margin: 0 326px;
-
+    
     &__button {
+      min-width: 120px;
       height: 80px;
   
       &__text {
         font-size: 20px;
+      }
+    }
+
+    &__frame {
+      width: 500px;
+      height: 500px;
+
+      &__img {
+        width: 470px;
+        height: 470px;
       }
     }
   }
