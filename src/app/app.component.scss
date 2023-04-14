@@ -31,11 +31,14 @@
 }
 
 .line {
+  position: relative;
+  z-index: 2;
+
   height: 8px;
   margin-top: 2px;
 
   background-color: #3D3D3D;
-  box-shadow: 0 3px 5px black
+  box-shadow: 0 1px 3px black
 }
 
 .menu {
@@ -51,10 +54,15 @@
 }
 
 .menu-buttons {
+  position: relative;
+  z-index: 2;
+
   margin-top: 8px !important;
   padding: 0;
   border: 0;
   border-radius: 0 0 22px;
+
+  box-shadow: 5px 5px 15px black;
 
   &__button,
   &__button--last {

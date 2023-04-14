@@ -5,7 +5,6 @@
         class="d-inline-block"
         ngbDropdown>
         <button
-          type="button"
           class="menu btn btn-outline-primary"
           (mouseenter)="logoOver(true)"
           (mouseleave)="logoOver(false)"
@@ -16,8 +15,7 @@
         </button>
         <div
           class="menu-buttons"
-          ngbDropdownMenu
-          aria-labelledby="dropdownBasic1">
+          ngbDropdownMenu>
           <button
             class="menu-buttons__button"
             [routerLink]="'/'"
@@ -28,19 +26,19 @@
             class="menu-buttons__button"
             [routerLink]="'intro'"
             ngbDropdownItem>
-            вступление
+            {{ 'Menu.Welcome' | translate }}
           </button>
           <button
             class="menu-buttons__button"
             [routerLink]="'interiors'"
             ngbDropdownItem>
-            интерьеры
+            {{ 'Menu.Interiors' | translate }}
           </button>
           <button
             class="menu-buttons__button--last"
             [routerLink]="'exteriors'"
             ngbDropdownItem>
-            экстрерьеры
+            {{ 'Menu.Exteriors' | translate }}
           </button>
         </div>
       </div>
