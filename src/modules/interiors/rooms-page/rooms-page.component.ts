@@ -13,6 +13,7 @@ import { Room } from '../../../app/models/room';
 })
 export class RoomsPageComponent {
   public room$: Observable<Room | undefined>;
+  public buildingPath$: Observable<string>;
 
   constructor(
     private readonly _route: ActivatedRoute,
@@ -27,5 +28,6 @@ export class RoomsPageComponent {
         map((floor) => floor?.rooms.find((room) => room.path === roomPath))
       ))
     );
+    this.buildingPath$ = this._route.params.pipe(map((params) => params['buildingPath']));
   }
 }

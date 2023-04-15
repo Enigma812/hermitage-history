@@ -23,7 +23,7 @@
   <button
     *ngIf="room.prev === undefined"
     class="navigate__back-button backToChoise"
-    [routerLink]="'/interiors'">
+    [routerLink]="['/', 'interiors', buildingPath$ | async]">
     <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
   </button>
   <button
@@ -41,7 +41,7 @@
   <button
     *ngIf="room.next === undefined"
     class="navigate__forward-button backToChoise"
-    [routerLink]="'/interiors'">
+    [routerLink]="'../../../'">
     <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
   </button>
   <button
