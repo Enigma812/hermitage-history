@@ -76,6 +76,7 @@
                 {
                   "id": "anteroom",
                   "path": "anteroom",
+                  "next": "nicholas-hall",
                   "map":"../assets/pic/rooms/state-halls/map-anteroom.png",
                   "name": "Аванзал Зимнего Дворца",
                   "description": "Аванзал являлся комнатой ожидания для гостей, приглашенных на балы и маскарады",
@@ -102,13 +103,66 @@
                       "description": "Современный вид Аванзала Зимнего Дворца"
                     }
                   ]
+                },
+                {
+                  "id": "nicholas",
+                  "path": "nicholas-hall",
+                  "prev": "anteroom",
+                  "next": "concert",
+                  "map":"../assets/pic/rooms/state-halls/map-nicholas.png",
+                  "name": "Николаевский Зал",
+                  "description": "Главный и самый большой зал Невской парадной анфилады, площадью около тысячи квадратных метров. Предназначался для официальных церемоний и придворных балов.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "nicholas-painting",
+                      "img": "../assets/pic/rooms/state-halls/nicholas-paint.jpg",
+                      "vertical": false,
+                      "description": "Николаевский Зал. Ухтомский Константин Андреевич, 1866г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "nicholas-oldPhoto",
+                      "img": "../assets/pic/rooms/state-halls/nicholas-photo.jpg",
+                      "vertical": false,
+                      "description": "Дореволюционный вид Николаевского зала"
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "nicholas-oldPhoto2",
+                      "img": "../assets/pic/rooms/state-halls/nicholas-photo2.jpg",
+                      "vertical": false,
+                      "description": "Деталь Николаевского зала. Ателье Карла Буллы"
+                    },
+                    {
+                      "id": "oldPhoto-wwi",
+                      "path": "nicholas-oldPhoto-wwi",
+                      "img": "../assets/pic/rooms/state-halls/nicholas-photo-wwi.jpg",
+                      "vertical": false,
+                      "description": "Госпитальная палата времен Первой Мировой Войны в Николаевском зале"
+                    },
+                    {
+                      "id": "oldPhoto-wwi2",
+                      "path": "nicholas-oldPhoto-wwi2",
+                      "img": "../assets/pic/rooms/state-halls/nicholas-photo-wwi2.jpg",
+                      "vertical": false,
+                      "description": "Лазарет в Николаевском зале. Проработал два года, после революции был расформирован"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nicholas-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/nicholas-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Николаевского Зала"
+                    }
+                  ]
                 }
               ]
             },
             {
               "id": "first-floor",
               "path": "first-floor",
-              "isActive": true,
+              "isActive": false,
               "img": "../assets/pic/first-floor.png",
               "imgHover": "../assets/pic/first-floor-hover.png"
             }
