@@ -93,7 +93,7 @@
                       "path": "anteroom-oldPhoto",
                       "img": "../assets/pic/rooms/state-halls/anteroom-photo.jpg",
                       "vertical": true,
-                      "description": "Дореволюционный вид Аванзала Зимнего Дворца. Ателье Карла Буллы"
+                      "description": "Дореволюционный вид Аванзала Зимнего Дворца. Ателье Карла Буллы 1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -110,7 +110,7 @@
                   "prev": "anteroom",
                   "next": "concert-hall",
                   "map":"../assets/pic/rooms/state-halls/map-nicholas.png",
-                  "name": "Николаевский Зал",
+                  "name": "Николаевский зал",
                   "description": "Главный и самый большой зал Невской парадной анфилады, площадью около тысячи квадратных метров. Предназначался для официальных церемоний и придворных балов.",
                   "collections": [
                     {
@@ -118,21 +118,21 @@
                       "path": "nicholas-painting",
                       "img": "../assets/pic/rooms/state-halls/nicholas-paint.jpg",
                       "vertical": false,
-                      "description": "Николаевский Зал. Ухтомский Константин Андреевич, 1866г. акварель"
+                      "description": "Николаевский зал. Ухтомский Константин Андреевич, 1866г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "nicholas-oldPhoto",
                       "img": "../assets/pic/rooms/state-halls/nicholas-photo.jpg",
                       "vertical": false,
-                      "description": "Дореволюционный вид Николаевского зала"
+                      "description": "Дореволюционный вид Николаевского зала 1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "nicholas-oldPhoto2",
                       "img": "../assets/pic/rooms/state-halls/nicholas-photo2.jpg",
                       "vertical": false,
-                      "description": "Деталь Николаевского зала. Ателье Карла Буллы"
+                      "description": "Деталь Николаевского зала. Ателье Карла Буллы 1914г."
                     },
                     {
                       "id": "oldPhoto-wwi",
@@ -153,7 +153,7 @@
                       "path": "nicholas-modernPhoto",
                       "img": "../assets/pic/rooms/state-halls/nicholas-now.jpg",
                       "vertical": false,
-                      "description": "Современный вид Николаевского Зала"
+                      "description": "Современный вид Николаевского зала"
                     }
                   ]
                 },
@@ -163,7 +163,7 @@
                   "prev": "nicholas-hall",
                   "next": "pompeiian-gallery",
                   "map":"../assets/pic/rooms/state-halls/map-concert.png",
-                  "name": "Концертный Зал",
+                  "name": "Концертный зал",
                   "description": "Концертный зал, замыкает Невскую парадную анфиладу Зимнего дворца. Служил для не столь пышных торжественных приёмов и придворных балов с музыкой и танцами",
                   "collections": [
                     {
@@ -171,21 +171,21 @@
                       "path": "concert-painting",
                       "img": "../assets/pic/rooms/state-halls/concert-paint.jpg",
                       "vertical": false,
-                      "description": "Концертный Зал. Ухтомский Константин Андреевич, 1865г. акварель"
+                      "description": "Концертный зал. Ухтомский Константин Андреевич, 1865г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "concert-oldPhoto",
                       "img": "../assets/pic/rooms/state-halls/concert-photo.jpg",
                       "vertical": false,
-                      "description": "Дореволюционный Концертный Зал. Ателье Карла Буллы"
+                      "description": "Дореволюционный Концертный зал. Ателье Карла Буллы 1914г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "concert-modernPhoto",
                       "img": "../assets/pic/rooms/state-halls/concert-now.jpg",
                       "vertical": false,
-                      "description": "Современный вид Концертного Зала. Серебряная гробница князя Александра Невского, ныне находящаяся в зале, была передана в Эрмитаж из Троицкого собора Александро-Невской Лавры."
+                      "description": "Современный вид Концертного зала. Серебряная гробница князя Александра Невского, ныне находящаяся в зале, была передана в Эрмитаж из Троицкого собора Александро-Невской Лавры."
                     }
                   ]
                 },
@@ -203,35 +203,35 @@
                       "path": "pompeiian-painting",
                       "img": "../assets/pic/rooms/state-halls/pompeiian-paint.jpg",
                       "vertical": true,
-                      "description": "Помпейская Галерея. Ухтомский Константин Андреевич, 1862г. акварель"
+                      "description": "Помпейская галерея. Ухтомский Константин Андреевич, 1862г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "pompeiian-painting2",
                       "img": "../assets/pic/rooms/state-halls/pompeiian-paint2.jpg",
                       "vertical": false,
-                      "description": "Выход в Зимний Сад из Помпейской Галереи"
+                      "description": "Выход в Зимний сад из Помпейской галереи"
                     },
                     {
                       "id": "painting3",
                       "path": "pompeiian-painting3",
                       "img": "../assets/pic/rooms/state-halls/pompeiian-paint3.jpg",
                       "vertical": true,
-                      "description": "Зимний Сад в Помпейской Галереи"
+                      "description": "Зимний сад в Помпейской галереи"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "pompeiian-oldPhoto",
                       "img": "../assets/pic/rooms/state-halls/pompeiian-photo.jpg",
                       "vertical": true,
-                      "description": "Обновленная отделка Новой Галереи"
+                      "description": "Обновленная отделка Новой галереи 1914г."
                     },
                     {
                       "id": "oldPhoto-wwi",
                       "path": "pompeiian-oldPhoto-wwi",
                       "img": "../assets/pic/rooms/state-halls/pompeiian-photo-wwi.jpg",
                       "vertical": true,
-                      "description": "Койки для раненых в Новой Галереи"
+                      "description": "Койки для раненых в Новой галереи"
                     },
                     {
                       "id": "modernPhoto",
@@ -285,7 +285,7 @@
                   "id": "peter",
                   "path": "peter-hall",
                   "prev": "large-fieldmarshals-hall",
-                  "next": "pompeiian-gallery",
+                  "next": "armorial-hall",
                   "map":"../assets/pic/rooms/state-halls/map-peter.png",
                   "name": "Петровский (Малый тронный) зал",
                   "description": "Зал увековечивает память об основателе Российской империи - Петре I и был предназначен для малых приемов. Здесь находится трон императрицы Анны Иоанновны",
@@ -316,7 +316,74 @@
                       "path": "peter-modernPhoto",
                       "img": "../assets/pic/rooms/state-halls/peter-now.jpg",
                       "vertical": false,
-                      "description": "Современный вид Петровского залаг"
+                      "description": "Современный вид Петровского зала"
+                    }
+                  ]
+                },
+                {
+                  "id": "armorial",
+                  "path": "armorial-hall",
+                  "prev": "peter-hall",
+                  "next": "pompeiian-gallery",
+                  "map":"../assets/pic/rooms/state-halls/map-armorial.png",
+                  "name": "Гербовый зал (ранее Белый зал)",
+                  "description": "Гербовый зал Зимнего дворца предназначался для торжественных церемоний. Входы в зал фланкируют скульптурные группы древнерусских воинов. Изображения гербов российских губерний помещены на люстрах золоченой бронзы",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "armorial-painting",
+                      "img": "../assets/pic/rooms/state-halls/armorial-paint.jpg",
+                      "vertical": false,
+                      "description": "Часть Белого (Гербового) зала. Ладюрнер Адольф Игнатьевич 1838г. масло"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "armorial-painting2",
+                      "img": "../assets/pic/rooms/state-halls/armorial-paint2.jpg",
+                      "vertical": false,
+                      "description": "Гербовый зал. Гау Эдуард Петрович 1863г. акварель"
+                    },                 
+                    {
+                    "id": "oldPhoto",
+                    "path": "armorial-oldPhoto",
+                    "img": "../assets/pic/rooms/state-halls/armorial-photo.jpg",
+                    "vertical": false,
+                    "description": "Дореволюционный вид Гербового зала 1914г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "armorial-oldPhoto2",
+                      "img": "../assets/pic/rooms/state-halls/armorial-photo2.jpg",
+                      "vertical": true,
+                      "description": "Гербы в Гербовом зале 1914г."
+                    },
+                    {
+                      "id": "oldPhoto3",
+                      "path": "armorial-oldPhoto3",
+                      "img": "../assets/pic/rooms/state-halls/armorial-photo3.jpg",
+                      "vertical": false,
+                      "description": "Переход из Гербового зала в Военную галерею 1812 года"
+                    },
+                    {
+                      "id": "oldPhoto4",
+                      "path": "armorial-oldPhoto4",
+                      "img": "../assets/pic/rooms/state-halls/armorial-photo4.jpg",
+                      "vertical": true,
+                      "description": "Гербовый зал с закрытыми люстрами и мебелью. 1900-е"
+                    },
+                    {
+                      "id": "oldPhoto-wwi",
+                      "path": "armorial-oldPhoto-wwi",
+                      "img": "../assets/pic/rooms/state-halls/armorial-photo-wwi.jpg",
+                      "vertical": false,
+                      "description": "Госпитальная палата в Гербовом зале. 1915г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "armorial-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/armorial-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Гербового зала"
                     }
                   ]
                 }
