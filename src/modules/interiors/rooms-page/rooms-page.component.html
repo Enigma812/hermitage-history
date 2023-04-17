@@ -1,59 +1,78 @@
-<div
-  *ngIf="room$ | async as room"
-  class="navigate">
-  <div
-    class="map"
-    ngbDropdown>
-    <button
-      class="map__button"
-      ngbDropdownToggle>
-      <img
-        class="map__button__icon"
-        src="../../../assets/icon/map.svg" />
-      <div class="map__button__text">{{ 'Common.map' | translate }}</div>
-    </button>
+<div *ngIf="room$ | async as room">
+  <div class="navigate">
     <div
-      class="map__frame"
-      ngbDropdownMenu>
+      class="map"
+      ngbDropdown>
+      <button
+        class="map__button"
+        ngbDropdownToggle>
+        <img
+          class="map__button__icon"
+          src="../../../assets/icon/map.svg" />
+        <div class="map__button__text">{{ 'Common.map' | translate }}</div>
+      </button>
+      <div
+        class="map__frame"
+        ngbDropdownMenu>
+        <img
+          class="map__frame__img"
+          [src]="room.map" />
+      </div>
+    </div>
+    <button
+      *ngIf="room.prev === undefined"
+      class="navigate__back-button backToChoise"
+      [routerLink]="['/', 'interiors', buildingPath$ | async]">
+      <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
+    </button>
+    <button
+      *ngIf="room.prev !== undefined"
+      class="navigate__back-button"
+      [routerLink]="['../', room.prev]">
       <img
-        class="map__frame__img"
-        [src]="room.map" />
+        class="navigate__back-button__arrow"
+        src="../../../assets/icon/arrow-back.svg" />
+      <img
+        class="navigate__back-button__arrow--mobile"
+        src="../../../assets/icon/arrow-back-mobile.svg" />
+      <div class="navigate__back-button__text">{{ 'Common.previousRoom' | translate }}</div>
+    </button>
+    <button
+      *ngIf="room.next === undefined"
+      class="navigate__forward-button backToChoise"
+      [routerLink]="'../../../'">
+      <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
+    </button>
+    <button
+      *ngIf="room.next !== undefined"
+      class="navigate__forward-button"
+      [routerLink]="['../', room.next]">
+      <div class="navigate__back-button__text">{{ 'Common.nextRoom' | translate }}</div>
+      <img
+        class="navigate__forward-button__arrow"
+        src="../../../assets/icon/arrow-forward.svg" />
+      <img
+        class="navigate__forward-button__arrow--mobile"
+        src="../../../assets/icon/arrow-forward-mobile.svg" />
+    </button>
+  </div>
+  <div class="field">
+    <div class="field__frame">
+      <div class="field__frame__header">{{ room.name }}</div>
+      <div class="field__frame__description">{{ room.description }}</div>
+      <div
+        *ngIf="collection$ | async as collections"
+        class="field__frame__block">
+        <div
+          *ngFor="let collection of collections; trackBy: trackById"
+          class="field__frame__block__img-frame">
+          <img
+            class="field__frame__block__img-frame__image"
+            [ngClass]="{ 'image-vertical': collection.vertical }"
+            [src]="collection.img" />
+          <div class="field__frame__block__img-frame__description">{{ collection.description }}</div>
+        </div>
+      </div>
     </div>
   </div>
-  <button
-    *ngIf="room.prev === undefined"
-    class="navigate__back-button backToChoise"
-    [routerLink]="['/', 'interiors', buildingPath$ | async]">
-    <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
-  </button>
-  <button
-    *ngIf="room.prev !== undefined"
-    class="navigate__back-button"
-    [routerLink]="['../', room.prev]">
-    <img
-      class="navigate__back-button__arrow"
-      src="../../../assets/icon/arrow-back.svg" />
-    <img
-      class="navigate__back-button__arrow--mobile"
-      src="../../../assets/icon/arrow-back-mobile.svg" />
-    <div class="navigate__back-button__text">{{ 'Common.previousRoom' | translate }}</div>
-  </button>
-  <button
-    *ngIf="room.next === undefined"
-    class="navigate__forward-button backToChoise"
-    [routerLink]="'../../../'">
-    <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
-  </button>
-  <button
-    *ngIf="room.next !== undefined"
-    class="navigate__forward-button"
-    [routerLink]="['../', room.next]">
-    <div class="navigate__back-button__text">{{ 'Common.nextRoom' | translate }}</div>
-    <img
-      class="navigate__forward-button__arrow"
-      src="../../../assets/icon/arrow-forward.svg" />
-    <img
-      class="navigate__forward-button__arrow--mobile"
-      src="../../../assets/icon/arrow-forward-mobile.svg" />
-  </button>
 </div>

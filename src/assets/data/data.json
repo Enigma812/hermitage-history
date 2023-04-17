@@ -51,10 +51,71 @@
               ]
             }
           ]
-
         },
         {
-          "id": "living-nicolas",
+          "id": "state-halls",
+          "name": "Парадные Залы",
+          "path": "state-halls",
+          "img": "/assets/pic/state-halls.png",
+          "imgMobile": "/assets/pic/state-halls-mobile.png",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "../assets/pic/third-floor.png",
+              "imgHover": "../assets/pic/third-floor-hover.png"
+            },
+            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "../assets/pic/second-floor.png",
+              "imgHover": "../assets/pic/second-floor-hover.png",
+              "rooms": [
+                {
+                  "id": "anteroom",
+                  "path": "anteroom",
+                  "map":"../assets/pic/rooms/state-halls/map-anteroom.png",
+                  "name": "Аванзал Зимнего Дворца",
+                  "description": "Аванзал являлся комнатой ожидания для гостей, приглашенных на балы и маскарады",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "anteroom-painting",
+                      "img": "../assets/pic/rooms/state-halls/anteroom-paint.jpg",
+                      "vertical": false,
+                      "description": "Вид Аванзала Зимнего Дворца. Ухтомский Константин Андреевич, 1861г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "anteroom-oldPhoto",
+                      "img": "../assets/pic/rooms/state-halls/anteroom-photo.jpg",
+                      "vertical": true,
+                      "description": "Дореволюционный вид Аванзала Зимнего Дворца. Ателье Карла Буллы"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "anteroom-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/anteroom-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Аванзала Зимнего Дворца"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": true,
+              "img": "../assets/pic/first-floor.png",
+              "imgHover": "../assets/pic/first-floor-hover.png"
+            }
+          ]
+        },
+        {
+          "id": "residential-half-nicolas",
           "name": "Жилая половина Николая I",
           "path": "nicolas",
           "img": "/assets/pic/living-nicolas.png",
@@ -85,36 +146,6 @@
               "id": "first-floor",
               "path": "first-floor",
               "isActive": true,
-              "img": "../assets/pic/first-floor.png",
-              "imgHover": "../assets/pic/first-floor-hover.png"
-            }
-          ]
-        },
-        {
-          "id": "state-halls",
-          "name": "Парадные Залы",
-          "path": "state-halls",
-          "img": "/assets/pic/state-halls.png",
-          "imgMobile": "/assets/pic/state-halls-mobile.png",
-          "floors": [
-            {
-              "id": "third-floor",
-              "path": "third-floor",
-              "isActive": false,
-              "img": "../assets/pic/third-floor.png",
-              "imgHover": "../assets/pic/third-floor-hover.png"
-            },
-            {
-              "id": "second-floor",
-              "path": "second-floor",
-              "isActive": true,
-              "img": "../assets/pic/second-floor.png",
-              "imgHover": "../assets/pic/second-floor-hover.png"
-            },
-            {
-              "id": "first-floor",
-              "path": "first-floor",
-              "isActive": false,
               "img": "../assets/pic/first-floor.png",
               "imgHover": "../assets/pic/first-floor-hover.png"
             }
