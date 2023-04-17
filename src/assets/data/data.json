@@ -246,24 +246,24 @@
                   "id": "Fieldmarshals",
                   "path": "large-fieldmarshals-hall",
                   "prev": "pompeiian-gallery",
-                  "next": "pompeiian-gallery",
+                  "next": "peter-hall",
                   "map":"../assets/pic/rooms/state-halls/map-fieldmarshal.png",
                   "name": "Большой Фельдмаршальский зал",
                   "description": "Зал открывает Большую парадную анфиладу Зимнего дворца. До революции в нишах зала были помещены парадные портреты русских фельдмаршалов, чем объясняется его название",
                   "collections": [
                     {
                       "id": "painting",
-                      "path": "fieldmarshals-painting",
-                      "img": "../assets/pic/rooms/state-halls/fieldmarshal-paint.jpg",
-                      "vertical": false,
-                      "description": "Большой Фельдмаршальский зал. Гау Эдуард Петрович 1866г. акварель"
-                    },
-                    {
-                      "id": "painting2",
-                      "path": "fieldmarshal-painting2",
+                      "path": "fieldmarshal-painting",
                       "img": "../assets/pic/rooms/state-halls/fieldmarshal-paint2.jpg",
                       "vertical": false,
                       "description": "Большой Фельдмаршальский зал. Зарянко Сергей Константинович 1836г. масло"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "fieldmarshals-painting2",
+                      "img": "../assets/pic/rooms/state-halls/fieldmarshal-paint.jpg",
+                      "vertical": false,
+                      "description": "Большой Фельдмаршальский зал. Гау Эдуард Петрович 1866г. акварель"
                     },
                     {
                       "id": "oldPhoto",
@@ -278,6 +278,45 @@
                       "img": "../assets/pic/rooms/state-halls/fieldmarshal-now.jpg",
                       "vertical": false,
                       "description": "Современый вид Большого Фельдмаршальского зала"
+                    }
+                  ]
+                },
+                {
+                  "id": "peter",
+                  "path": "peter-hall",
+                  "prev": "large-fieldmarshals-hall",
+                  "next": "pompeiian-gallery",
+                  "map":"../assets/pic/rooms/state-halls/map-peter.png",
+                  "name": "Петровский (Малый тронный) зал",
+                  "description": "Зал увековечивает память об основателе Российской империи - Петре I и был предназначен для малых приемов. Здесь находится трон императрицы Анны Иоанновны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "peter-painting",
+                      "img": "../assets/pic/rooms/state-halls/peter-paint.jpg",
+                      "vertical": false,
+                      "description": "Петровский зал до пожара 1837г. Зарянко Сергей Константинович 1837г. масло"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "peter-painting2",
+                      "img": "../assets/pic/rooms/state-halls/peter-paint2.png",
+                      "vertical": false,
+                      "description": "Петровский зал после пожара. Гау Эдуард Петрович 1863г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "peter-oldPhoto",
+                      "img": "../assets/pic/rooms/state-halls/peter-photo.jpg",
+                      "vertical": false,
+                      "description": "Дореволюционный вид Петровского зала 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "peter-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/peter-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Петровского залаг"
                     }
                   ]
                 }
