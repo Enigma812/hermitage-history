@@ -193,7 +193,7 @@
                   "id": "pompeiian",
                   "path": "pompeiian-gallery",
                   "prev": "concert-hall",
-                  "next": "pompeiian-gallery",
+                  "next": "large-fieldmarshals-hall",
                   "map":"../assets/pic/rooms/state-halls/map-pompeiian.png",
                   "name": "Помпейская галерея (ныне Портретная галерея дома Романовых)",
                   "description": "С 1837г. галерея носила название Помпейская. Рядом с ней, над Посольским подъездом, был создан Зимний сад в два этажа с застекленным потолком. В 1886г. галерею было решено сделать картинной, в связи с чем изменили ее отделку и название на Новою галерею, а позже она получила имя Петра I.",
@@ -239,6 +239,45 @@
                       "img": "../assets/pic/rooms/state-halls/pompeiian-now.jpg",
                       "vertical": false,
                       "description": "Современный вид на Портретную галерею дома Романовых"
+                    }
+                  ]
+                },
+                {
+                  "id": "Fieldmarshals",
+                  "path": "large-fieldmarshals-hall",
+                  "prev": "pompeiian-gallery",
+                  "next": "pompeiian-gallery",
+                  "map":"../assets/pic/rooms/state-halls/map-fieldmarshal.png",
+                  "name": "Большой Фельдмаршальский зал",
+                  "description": "Зал открывает Большую парадную анфиладу Зимнего дворца. До революции в нишах зала были помещены парадные портреты русских фельдмаршалов, чем объясняется его название",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "fieldmarshals-painting",
+                      "img": "../assets/pic/rooms/state-halls/fieldmarshal-paint.jpg",
+                      "vertical": false,
+                      "description": "Большой Фельдмаршальский зал. Гау Эдуард Петрович 1866г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "fieldmarshal-painting2",
+                      "img": "../assets/pic/rooms/state-halls/fieldmarshal-paint2.jpg",
+                      "vertical": false,
+                      "description": "Большой Фельдмаршальский зал. Зарянко Сергей Константинович 1836г. масло"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "fieldmarshal-oldPhoto",
+                      "img": "../assets/pic/rooms/state-halls/fieldmarshal-photo.jpg",
+                      "vertical": false,
+                      "description": "Дореволюционный вид Большого Фельдмаршальского зала 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "fieldmarshals-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/fieldmarshal-now.jpg",
+                      "vertical": false,
+                      "description": "Современый вид Большого Фельдмаршальского зала"
                     }
                   ]
                 }
