@@ -108,7 +108,7 @@
                   "id": "nicholas",
                   "path": "nicholas-hall",
                   "prev": "anteroom",
-                  "next": "concert",
+                  "next": "concert-hall",
                   "map":"../assets/pic/rooms/state-halls/map-nicholas.png",
                   "name": "Николаевский Зал",
                   "description": "Главный и самый большой зал Невской парадной анфилады, площадью около тысячи квадратных метров. Предназначался для официальных церемоний и придворных балов.",
@@ -154,6 +154,38 @@
                       "img": "../assets/pic/rooms/state-halls/nicholas-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Николаевского Зала"
+                    }
+                  ]
+                },
+                {
+                  "id": "concert",
+                  "path": "concert-hall",
+                  "prev": "nicholas-hall",
+                  "next": "pompeiian-gallery",
+                  "map":"../assets/pic/rooms/state-halls/map-concert.png",
+                  "name": "Концертный Зал",
+                  "description": "Концертный зал, замыкает Невскую парадную анфиладу Зимнего дворца. Служил для не столь пышных торжественных приёмов и придворных балов с музыкой и танцами",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "concert-painting",
+                      "img": "../assets/pic/rooms/state-halls/concert-paint.jpg",
+                      "vertical": false,
+                      "description": "Концертный Зал. Ухтомский Константин Андреевич, 1865г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "concert-oldPhoto",
+                      "img": "../assets/pic/rooms/state-halls/concert-photo.jpg",
+                      "vertical": false,
+                      "description": "Дореволюционный Концертный Зал. Ателье Карла Буллы"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "concert-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/concert-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Концертного Зала. Серебряная гробница князя Александра Невского, ныне находящаяся в зале, была передана в Эрмитаж из Троицкого собора Александро-Невской Лавры."
                     }
                   ]
                 }
