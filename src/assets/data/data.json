@@ -324,7 +324,7 @@
                   "id": "armorial",
                   "path": "armorial-hall",
                   "prev": "peter-hall",
-                  "next": "pompeiian-gallery",
+                  "next": "setry-hall",
                   "map":"../assets/pic/rooms/state-halls/map-armorial.png",
                   "name": "Гербовый зал (ранее Белый зал)",
                   "description": "Гербовый зал Зимнего дворца предназначался для торжественных церемоний. Входы в зал фланкируют скульптурные группы древнерусских воинов. Изображения гербов российских губерний помещены на люстрах золоченой бронзы",
@@ -384,6 +384,31 @@
                       "img": "../assets/pic/rooms/state-halls/armorial-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Гербового зала"
+                    }
+                  ]
+                },
+                {
+                  "id": "setry",
+                  "path": "setry-hall",
+                  "prev": "armorial-hall",
+                  "next": "pompeiian-gallery",
+                  "map":"../assets/pic/rooms/state-halls/map-sentry.png",
+                  "name": "Пикетный зал",
+                  "description": "Зал предназначался для разводов дворцового караула — пикета",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "sntry-painting",
+                      "img": "../assets/pic/rooms/state-halls/sentry-paint.jpg",
+                      "vertical": false,
+                      "description": "Пикетный зал. Гау Эдуард Петрович 1865г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "sntry-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/sentry-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Пикетный зал"
                     }
                   ]
                 }
