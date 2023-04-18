@@ -391,7 +391,7 @@
                   "id": "setry",
                   "path": "setry-hall",
                   "prev": "armorial-hall",
-                  "next": "pompeiian-gallery",
+                  "next": "alexander-hall",
                   "map":"../assets/pic/rooms/state-halls/map-sentry.png",
                   "name": "Пикетный зал",
                   "description": "Зал предназначался для разводов дворцового караула — пикета",
@@ -409,6 +409,52 @@
                       "img": "../assets/pic/rooms/state-halls/sentry-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Пикетный зал"
+                    }
+                  ]
+                },
+                {
+                  "id": "alexander",
+                  "path": "alexander-hall",
+                  "prev": "setry-hall",
+                  "next": "pompeiian-gallery",
+                  "map":"../assets/pic/rooms/state-halls/map-alexander.png",
+                  "name": "Александровский зал",
+                  "description": "Зал увековечивал память об Александре I. На торцовой стене был помещен портрет императора работы Дж. Доу",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "alexander-painting",
+                      "img": "../assets/pic/rooms/state-halls/alexander-paint.png",
+                      "vertical": false,
+                      "description": "Пикетный зал. Гау Эдуард Петрович 1865г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "alexander-oldPhoto",
+                      "img": "../assets/pic/rooms/state-halls/alexander-photo.jpg",
+                      "vertical": false,
+                      "description": "Дореволюционный вид Александровского зала. Ателье Карла Буллы 1914г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "alexander-oldPhoto2",
+                      "img": "../assets/pic/rooms/state-halls/alexander-photo2.jpg",
+                      "vertical": true,
+                      "description": "Портрет Александра I в Александровском зале. Ателье Карла Буллы 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "alexander-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/alexander-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Александровского зала"
+                    },
+                    {
+                      "id": "modernPhoto2",
+                      "path": "alexander-modernPhoto2",
+                      "img": "../assets/pic/rooms/state-halls/alexander-now2.jpg",
+                      "vertical": false,
+                      "description": "Александровский зал, вид с балкона"
                     }
                   ]
                 }
