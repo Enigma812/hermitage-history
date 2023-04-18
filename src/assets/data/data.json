@@ -174,6 +174,20 @@
                       "description": "Концертный зал. Ухтомский Константин Андреевич, 1865г. акварель"
                     },
                     {
+                      "id": "painting2",
+                      "path": "concert-painting2",
+                      "img": "../assets/pic/rooms/state-halls/concert-paint2.jpg",
+                      "vertical": false,
+                      "description": "Бал в Концертном зале"
+                    },
+                    {
+                      "id": "painting3",
+                      "path": "concert-painting3",
+                      "img": "../assets/pic/rooms/state-halls/concert-paint3.jpg",
+                      "vertical": false,
+                      "description": "Званый ужин в Концертном зале"
+                    },
+                    {
                       "id": "oldPhoto",
                       "path": "concert-oldPhoto",
                       "img": "../assets/pic/rooms/state-halls/concert-photo.jpg",
@@ -462,7 +476,7 @@
                   "id": "antechurch",
                   "path": "antechurch-hall",
                   "prev": "alexander-hall",
-                  "next": "pompeiian-gallery",
+                  "next": "great-church",
                   "map": "../assets/pic/rooms/state-halls/map-antechurch.png",
                   "name": "Предцерковный зал",
                   "description": "Зал служил своеобразным притвором Дворцовой церкви",
@@ -480,6 +494,52 @@
                       "img": "../assets/pic/rooms/state-halls/antechurch-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Предцерковного зала"
+                    }
+                  ]
+                },
+                {
+                  "id": "great-church",
+                  "path": "great-church",
+                  "prev": "antechurch-hall",
+                  "next": "pompeiian-gallery",
+                  "map": "../assets/pic/rooms/state-halls/map-gChurch.png",
+                  "name": "Большая церковь Зимнего дворца",
+                  "description": "Интерьер Большой церкви один из самых пышных в Зимнем дворце, а так же один из немногих, востановленных почти в первоначальном виде после пожара 1837 года.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "gChurch-painting",
+                      "img": "../assets/pic/rooms/state-halls/gChurch-paint.jpg",
+                      "vertical": true,
+                      "description": "Большая церковь Зимнего дворца до пожара 1837г. Тыранов Алексей Васильевич 1829г. масло"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "gChurch-painting2",
+                      "img": "../assets/pic/rooms/state-halls/gChurch-paint2.jpg",
+                      "vertical": false,
+                      "description": "Свадьба наследника Александра Николаевича и Марии Александровны в Большой церкви. Садовников В. С. 1855г."
+                    },
+                    {
+                      "id": "painting3",
+                      "path": "gChurch-painting3",
+                      "img": "../assets/pic/rooms/state-halls/gChurch-paint3.jpg",
+                      "vertical": true,
+                      "description": "Большая церковь Зимнего дворца. Гау Эдуард Петрович 1858г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "gChurch-oldPhoto",
+                      "img": "../assets/pic/rooms/state-halls/gChurch-photo.jpg",
+                      "vertical": true,
+                      "description": "Алтарная чаасть Большой церкови Зимнего дворца 1913г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "gChurch-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/gChurch-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Большой церкви с восстановленным алтарем"
                     }
                   ]
                 }
