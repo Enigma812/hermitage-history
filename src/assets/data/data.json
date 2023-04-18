@@ -77,7 +77,7 @@
                   "id": "anteroom",
                   "path": "anteroom",
                   "next": "nicholas-hall",
-                  "map":"../assets/pic/rooms/state-halls/map-anteroom.png",
+                  "map": "../assets/pic/rooms/state-halls/map-anteroom.png",
                   "name": "Аванзал Зимнего Дворца",
                   "description": "Аванзал являлся комнатой ожидания для гостей, приглашенных на балы и маскарады",
                   "collections": [
@@ -109,7 +109,7 @@
                   "path": "nicholas-hall",
                   "prev": "anteroom",
                   "next": "concert-hall",
-                  "map":"../assets/pic/rooms/state-halls/map-nicholas.png",
+                  "map": "../assets/pic/rooms/state-halls/map-nicholas.png",
                   "name": "Николаевский зал",
                   "description": "Главный и самый большой зал Невской парадной анфилады, площадью около тысячи квадратных метров. Предназначался для официальных церемоний и придворных балов.",
                   "collections": [
@@ -162,7 +162,7 @@
                   "path": "concert-hall",
                   "prev": "nicholas-hall",
                   "next": "pompeiian-gallery",
-                  "map":"../assets/pic/rooms/state-halls/map-concert.png",
+                  "map": "../assets/pic/rooms/state-halls/map-concert.png",
                   "name": "Концертный зал",
                   "description": "Концертный зал, замыкает Невскую парадную анфиладу Зимнего дворца. Служил для не столь пышных торжественных приёмов и придворных балов с музыкой и танцами",
                   "collections": [
@@ -194,7 +194,7 @@
                   "path": "pompeiian-gallery",
                   "prev": "concert-hall",
                   "next": "large-fieldmarshals-hall",
-                  "map":"../assets/pic/rooms/state-halls/map-pompeiian.png",
+                  "map": "../assets/pic/rooms/state-halls/map-pompeiian.png",
                   "name": "Помпейская галерея (ныне Портретная галерея дома Романовых)",
                   "description": "С 1837г. галерея носила название Помпейская. Рядом с ней, над Посольским подъездом, был создан Зимний сад в два этажа с застекленным потолком. В 1886г. галерею было решено сделать картинной, в связи с чем изменили ее отделку и название на Новою галерею, а позже она получила имя Петра I.",
                   "collections": [
@@ -247,7 +247,7 @@
                   "path": "large-fieldmarshals-hall",
                   "prev": "pompeiian-gallery",
                   "next": "peter-hall",
-                  "map":"../assets/pic/rooms/state-halls/map-fieldmarshal.png",
+                  "map": "../assets/pic/rooms/state-halls/map-fieldmarshal.png",
                   "name": "Большой Фельдмаршальский зал",
                   "description": "Зал открывает Большую парадную анфиладу Зимнего дворца. До революции в нишах зала были помещены парадные портреты русских фельдмаршалов, чем объясняется его название",
                   "collections": [
@@ -286,7 +286,7 @@
                   "path": "peter-hall",
                   "prev": "large-fieldmarshals-hall",
                   "next": "armorial-hall",
-                  "map":"../assets/pic/rooms/state-halls/map-peter.png",
+                  "map": "../assets/pic/rooms/state-halls/map-peter.png",
                   "name": "Петровский (Малый тронный) зал",
                   "description": "Зал увековечивает память об основателе Российской империи - Петре I и был предназначен для малых приемов. Здесь находится трон императрицы Анны Иоанновны",
                   "collections": [
@@ -325,7 +325,7 @@
                   "path": "armorial-hall",
                   "prev": "peter-hall",
                   "next": "setry-hall",
-                  "map":"../assets/pic/rooms/state-halls/map-armorial.png",
+                  "map": "../assets/pic/rooms/state-halls/map-armorial.png",
                   "name": "Гербовый зал (ранее Белый зал)",
                   "description": "Гербовый зал Зимнего дворца предназначался для торжественных церемоний. Входы в зал фланкируют скульптурные группы древнерусских воинов. Изображения гербов российских губерний помещены на люстрах золоченой бронзы",
                   "collections": [
@@ -392,7 +392,7 @@
                   "path": "setry-hall",
                   "prev": "armorial-hall",
                   "next": "alexander-hall",
-                  "map":"../assets/pic/rooms/state-halls/map-sentry.png",
+                  "map": "../assets/pic/rooms/state-halls/map-sentry.png",
                   "name": "Пикетный зал",
                   "description": "Зал предназначался для разводов дворцового караула — пикета",
                   "collections": [
@@ -416,8 +416,8 @@
                   "id": "alexander",
                   "path": "alexander-hall",
                   "prev": "setry-hall",
-                  "next": "pompeiian-gallery",
-                  "map":"../assets/pic/rooms/state-halls/map-alexander.png",
+                  "next": "antechurch-hall",
+                  "map": "../assets/pic/rooms/state-halls/map-alexander.png",
                   "name": "Александровский зал",
                   "description": "Зал увековечивал память об Александре I. На торцовой стене был помещен портрет императора работы Дж. Доу",
                   "collections": [
@@ -455,6 +455,31 @@
                       "img": "../assets/pic/rooms/state-halls/alexander-now2.jpg",
                       "vertical": false,
                       "description": "Александровский зал, вид с балкона"
+                    }
+                  ]
+                },
+                {
+                  "id": "antechurch",
+                  "path": "antechurch-hall",
+                  "prev": "alexander-hall",
+                  "next": "pompeiian-gallery",
+                  "map": "../assets/pic/rooms/state-halls/map-antechurch.png",
+                  "name": "Предцерковный зал",
+                  "description": "Зал служил своеобразным притвором Дворцовой церкви",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "antechurch-painting",
+                      "img": "../assets/pic/rooms/state-halls/antechurch-paint.jpg",
+                      "vertical": true,
+                      "description": "Предцерковный зал. Ухтомский Константин Андреевич 1863г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "antechurch-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/antechurch-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Предцерковного зала"
                     }
                   ]
                 }
