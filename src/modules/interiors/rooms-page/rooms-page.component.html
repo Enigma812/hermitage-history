@@ -59,6 +59,11 @@
   <div class="field">
     <div class="field__frame">
       <div class="field__frame__header">{{ room.name }}</div>
+      <div
+        *ngIf="room.status !== undefined"
+        class="field__frame__status">
+        {{ room.status }}
+      </div>
       <div class="field__frame__description">{{ room.description }}</div>
       <div
         *ngIf="collection$ | async as collections"

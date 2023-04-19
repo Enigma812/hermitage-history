@@ -7,6 +7,7 @@ export interface Room {
   next?: string;
   map: string;
   name: string;
+  status: string;
   description: string;
   collections: Collection[];
 }

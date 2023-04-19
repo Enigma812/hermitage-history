@@ -586,7 +586,7 @@
                   "id": "throne",
                   "path": "st-georges-hall",
                   "prev": "war-gallery",
-                  "next": "pompeiian-gallery",
+                  "next": "apollo",
                   "map": "../assets/pic/rooms/state-halls/map-throne.png",
                   "name": "Георгиевский (Большой тронный или Мраморный) зал",
                   "description": "Созданный при Екатерине II зал погиб в пожаре 1837г. Был отстроен заного к 1841г. и полностью облицован каррарским мрамором. С этим залом связана вся официальная история Российского царствующего дома",
@@ -646,6 +646,37 @@
                       "img": "../assets/pic/rooms/state-halls/throne-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Георгиевского зала"
+                    }
+                  ]
+                },
+                {
+                  "id": "apollo",
+                  "path": "apollo",
+                  "prev": "st-georges-hall",
+                  "map": "../assets/pic/rooms/state-halls/map-apollo.png",
+                  "name": "Аполлонов зал",
+                  "description": "В 1793г. по приказу Екатерины II, чтобы двор мог переходить из Зимнего дворца в Эрмитаж минуя её покои, был сооружен зал, получивший название Аполлонов, из-за располагавшейся в нише статуи Аполлона. После пожара 1837 года восстановлен со значительной переделкой интерьера",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "apollo-painting",
+                      "img": "../assets/pic/rooms/state-halls/apollo-paint.jpg",
+                      "vertical": false,
+                      "description": "Аполлонов зал до пожара 1837г. Беллер Александр Иванович 1832г. масло"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "apollo-painting2",
+                      "img": "../assets/pic/rooms/state-halls/apollo-paint2.jpg",
+                      "vertical": false,
+                      "description": "Аполлонов зал. Гау Эдуард Петрович 1832г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "apollo-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/apollo-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Аполлоового зала"
                     }
                   ]
                 }
