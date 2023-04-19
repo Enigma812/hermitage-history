@@ -501,7 +501,7 @@
                   "id": "great-church",
                   "path": "great-church",
                   "prev": "antechurch-hall",
-                  "next": "pompeiian-gallery",
+                  "next": "war-gallery",
                   "map": "../assets/pic/rooms/state-halls/map-gChurch.png",
                   "name": "Большая церковь Зимнего дворца",
                   "description": "Интерьер Большой церкви один из самых пышных в Зимнем дворце, а так же один из немногих, востановленных почти в первоначальном виде после пожара 1837 года.",
@@ -540,6 +540,70 @@
                       "img": "../assets/pic/rooms/state-halls/gChurch-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Большой церкви с восстановленным алтарем"
+                    }
+                  ]
+                },
+                {
+                  "id": "war-gallery",
+                  "path": "war-gallery",
+                  "prev": "great-church",
+                  "next": "st-georges-hall",
+                  "map": "../assets/pic/rooms/state-halls/map-war.png",
+                  "name": "Военная галерея 1812 года",
+                  "description": "Данная галерея самое мемориальное помещение дворца. Здесь поместили 332 портрета генералов русской армии, участников войны 1812 года и заграничного похода 1813 - 1814 гг. Во время пожара 1837 года все портреты были спасены и возвращены на свои места в восстановленный В.П.Стасовым зал",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war-painting",
+                      "img": "../assets/pic/rooms/state-halls/war-paint.jpg",
+                      "vertical": true,
+                      "description": "Военная галерея 1812 года до пожара 1837г. Чернецов Григорий Григорьевич 1829г."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "war-painting2",
+                      "img": "../assets/pic/rooms/state-halls/war-paint2.jpg",
+                      "vertical": true,
+                      "description": "Военная галерея 1812 года. Гау Эдуард Петрович 1862г. акварель"
+                    },
+                    {
+                      "id": "painting3",
+                      "path": "war-painting3",
+                      "img": "../assets/pic/rooms/state-halls/war-paint3.jpg",
+                      "vertical": true,
+                      "description": "Рота дворцовых гренадер в Военной галереи 1812 года. Пиратский Карл Карлович 1862г. масло"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/war-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Военной галереи 1812 года"
+                    }
+                  ]
+                },
+                {
+                  "id": "throne",
+                  "path": "st-georges-hall",
+                  "prev": "war-gallery",
+                  "next": "pompeiian-gallery",
+                  "map": "../assets/pic/rooms/state-halls/map-throne.png",
+                  "name": "Георгиевский (Большой тронный или Мраморный) зал",
+                  "description": "Созданный при Екатерине II зал погиб в пожаре 1837г. Был отстроен заного к 1841г. и полностью облицован каррарским мрамором. С этим залом связана вся официальная история Российского царствующего дома",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "throne-painting",
+                      "img": "../assets/pic/rooms/state-halls/throne-paint.jpg",
+                      "vertical": true,
+                      "description": "Вид Большого тронного зала до пожара 1837г. Катафалк над гробами Петра III и Екатерины II 1796г. гравюра"
+                    },
+                    {
+                      "id": "painting",
+                      "path": "throne-painting",
+                      "img": "../assets/pic/rooms/state-halls/throne-paint.jpg",
+                      "vertical": true,
+                      "description": "Вид Большого тронного зала до пожара 1837г. Катафалк над гробами Петра III и Екатерины II 1796г. гравюра"
                     }
                   ]
                 }
