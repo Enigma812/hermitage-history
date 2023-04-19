@@ -599,11 +599,53 @@
                       "description": "Вид Большого тронного зала до пожара 1837г. Катафалк над гробами Петра III и Екатерины II 1796г. гравюра"
                     },
                     {
-                      "id": "painting",
-                      "path": "throne-painting",
-                      "img": "../assets/pic/rooms/state-halls/throne-paint.jpg",
+                      "id": "painting2",
+                      "path": "throne-painting2",
+                      "img": "../assets/pic/rooms/state-halls/throne-paint2.jpg",
+                      "vertical": false,
+                      "description": "Георгиевский зал. Садовников В.С 1858г."
+                    },
+                    {
+                      "id": "painting3",
+                      "path": "throne-painting3",
+                      "img": "../assets/pic/rooms/state-halls/throne-paint3.jpg",
+                      "vertical": false,
+                      "description": "Георгиевский зал. Садовников В.С Ухтомский Константин Андреевич 1858г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "throne-oldPhoto",
+                      "img": "../assets/pic/rooms/state-halls/throne-photo.jpg",
+                      "vertical": false,
+                      "description": "Император Николай II в Тронном зале Зимнего дворца 1906г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "throne-oldPhoto2",
+                      "img": "../assets/pic/rooms/state-halls/throne-photo2.jpg",
                       "vertical": true,
-                      "description": "Вид Большого тронного зала до пожара 1837г. Катафалк над гробами Петра III и Екатерины II 1796г. гравюра"
+                      "description": "Трон в Георгиевском зале 1914г."
+                    },
+                    {
+                      "id": "oldPhoto3",
+                      "path": "throne-oldPhoto3",
+                      "img": "../assets/pic/rooms/state-halls/throne-photo3.jpg",
+                      "vertical": false,
+                      "description": "Дореволюционный Георгиевский зал 1914г."
+                    },
+                    {
+                      "id": "ussrPhoto",
+                      "path": "throne-ussrPhoto",
+                      "img": "../assets/pic/rooms/state-halls/throne-photo-ussr.jpg",
+                      "vertical": false,
+                      "description": "Драгоценная карта СССР на месте императорского трона 1963г. (сейчас находится в Центральном научно-исследовательском геологоразведочном музее)."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "throne-modernPhoto",
+                      "img": "../assets/pic/rooms/state-halls/throne-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Георгиевского зала"
                     }
                   ]
                 }
