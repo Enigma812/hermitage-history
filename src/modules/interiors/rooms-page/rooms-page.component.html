@@ -1,5 +1,23 @@
 <div *ngIf="room$ | async as room">
   <div class="navigate">
+    <button
+      *ngIf="room.prev === undefined"
+      class="navigate__back-button backToChoise"
+      [routerLink]="['/', 'interiors', buildingPath$ | async]">
+      <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
+    </button>
+    <button
+      *ngIf="room.prev !== undefined"
+      class="navigate__back-button"
+      [routerLink]="['../', room.prev]">
+      <img
+        class="navigate__back-button__arrow"
+        src="../../../assets/icon/arrow-back.svg" />
+      <img
+        class="navigate__back-button__arrow--mobile"
+        src="../../../assets/icon/arrow-back-mobile.svg" />
+      <div class="navigate__back-button__text">{{ 'Common.previousRoom' | translate }}</div>
+    </button>
     <div
       class="map"
       ngbDropdown>
@@ -19,24 +37,6 @@
           [src]="room.map" />
       </div>
     </div>
-    <button
-      *ngIf="room.prev === undefined"
-      class="navigate__back-button backToChoise"
-      [routerLink]="['/', 'interiors', buildingPath$ | async]">
-      <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
-    </button>
-    <button
-      *ngIf="room.prev !== undefined"
-      class="navigate__back-button"
-      [routerLink]="['../', room.prev]">
-      <img
-        class="navigate__back-button__arrow"
-        src="../../../assets/icon/arrow-back.svg" />
-      <img
-        class="navigate__back-button__arrow--mobile"
-        src="../../../assets/icon/arrow-back-mobile.svg" />
-      <div class="navigate__back-button__text">{{ 'Common.previousRoom' | translate }}</div>
-    </button>
     <button
       *ngIf="room.next === undefined"
       class="navigate__forward-button backToChoise"

@@ -3,10 +3,6 @@
 }
 
 .navigate {
-  
-  position: relative;
-  top: 0;
-  left: 0;
 
   display: flex;
   justify-content: space-between;
@@ -16,7 +12,7 @@
   background-color: #EEEEEE;
 
   &__back-button, &__forward-button {
-    position: absolute;
+    z-index: 1;
 
     display: flex;
     align-items: center;
@@ -45,17 +41,14 @@
   }
 
   &__back-button {
-    left: 0;
-
+    padding: 0 5px 0 0;
     border-radius: 0 0 34px;
   }
 
   &__forward-button {
-    
-    left: 228px;
-
     display: flex;
     justify-content: flex-end;
+    padding: 0 0 0 5px;
     border-radius: 0 0 0 34px;
   }
 
@@ -71,7 +64,7 @@
 .map {
   display: flex;
   flex-grow: 1;
-  margin: 0 154px;
+  margin: 0 -34px;
 
   &__button {
     position: relative;
@@ -207,8 +200,6 @@
   }
 
   .map {
-    margin: 0 326px;
-    
     &__button {
       min-width: 120px;
       height: 80px;
