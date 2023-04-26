@@ -32,7 +32,7 @@
                 {
                   "id": "jordan-staircase",
                   "path": "jordan-staircase",
-                  "map": "../assets/pic/rooms/state-halls/map-anteroom.png",
+                  "map": "../assets/pic/rooms/main-stairs/map-jordan.png",
                   "name": "Иорданская (Посольская) лестница",
                   "description": "Парадная лестница, один из немногих интерьеров, востановленный после пожара 1837г. Позже лестницу стали именовать Иорданской - по ней во время Крещения из Большого собора Зимнего дворца спускался крестный ход к Неве",
                   "collections": [
@@ -85,7 +85,7 @@
                 {
                   "id": "vestibule",
                   "path": "vestibule",
-                  "map": "../assets/pic/rooms/state-halls/map-anteroom.png",
+                  "map": "../assets/pic/rooms/main-stairs/map-gallery.png",
                   "next": "jordan-gallery",
                   "name": "Парадный вестибюль",
                   "description": "Вестибюль имеет главный вход со стороны Дворцовой набережной и ведет к пардной Иорданской лестнице",
@@ -109,7 +109,7 @@
                 {
                   "id": "jordan-gallery",
                   "path": "jordan-gallery",
-                  "map": "../assets/pic/rooms/state-halls/map-anteroom.png",
+                  "map": "../assets/pic/rooms/main-stairs/map-jGallery.png",
                   "prev": "vestibule",
                   "name": "Иорданская галерея",
                   "description": "Галерея идет от Главного вестибюля к Иорданской лестнице",
