@@ -32,7 +32,46 @@
                 {
                   "id": "jordan-staircase",
                   "path": "jordan-staircase",
-                  "map": "../assets/pic/maps/malachite.png"
+                  "map": "../assets/pic/rooms/state-halls/map-anteroom.png",
+                  "name": "Иорданская (Посольская) лестница",
+                  "description": "Парадная лестница, один из немногих интерьеров, востановленный после пожара 1837г. Позже лестницу стали именовать Иорданской - по ней во время Крещения из Большого собора Зимнего дворца спускался крестный ход к Неве",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "jordan-painting",
+                      "img": "../assets/pic/rooms/main-stairs/jordan-paint.jpg",
+                      "vertical": true,
+                      "description": "Парадная лестница. Ухтомский Константин Андреевич, 1860-е. акварель"
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "jordan-oldPhoto2",
+                      "img": "../assets/pic/rooms/main-stairs/jordan-photo2.jpg",
+                      "vertical": false,
+                      "description": "Дореволюционное фото Иорданской лестницы 1911г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "jordan-oldPhoto",
+                      "img": "../assets/pic/rooms/main-stairs/jordan-photo.jpg",
+                      "vertical": true,
+                      "description": "Дореволюционное фото Иорданской лестницы 1914г."
+                    },
+                    {
+                      "id": "oldPhoto3",
+                      "path": "jordan-oldPhoto3",
+                      "img": "../assets/pic/rooms/main-stairs/jordan-photo3.jpg",
+                      "vertical": false,
+                      "description": "Сестры милосердия на Иорданской лстнице 1915г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "jordan-modernPhoto",
+                      "img": "../assets/pic/rooms/main-stairs/jordan-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Иорданской лестницы"
+                    }
+                  ]
                 }
               ]
             },
@@ -44,9 +83,52 @@
               "imgHover": "../assets/pic/first-floor-hover.png",
               "rooms": [
                 {
+                  "id": "vestibule",
+                  "path": "vestibule",
+                  "map": "../assets/pic/rooms/state-halls/map-anteroom.png",
+                  "next": "jordan-gallery",
+                  "name": "Парадный вестибюль",
+                  "description": "Вестибюль имеет главный вход со стороны Дворцовой набережной и ведет к пардной Иорданской лестнице",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "vestibule-painting",
+                      "img": "../assets/pic/rooms/main-stairs/gallery-paint.jpg",
+                      "vertical": false,
+                      "description": "Парадный вестибюль. Ухтомский Константин Андреевич, 1850-е. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "vestibule-modernPhoto",
+                      "img": "../assets/pic/rooms/main-stairs/gallery-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Парадного вестибюля"
+                    }
+                  ]
+                },
+                {
                   "id": "jordan-gallery",
                   "path": "jordan-gallery",
-                  "map": "../assets/pic/maps/malachite.png"
+                  "map": "../assets/pic/rooms/state-halls/map-anteroom.png",
+                  "prev": "vestibule",
+                  "name": "Иорданская галерея",
+                  "description": "Галерея идет от Главного вестибюля к Иорданской лестнице",
+                  "collections": [
+                    {
+                      "id": "oldPhoto",
+                      "path": "jGallery-oldPhoto",
+                      "img": "../assets/pic/rooms/main-stairs/jGallery-photo.jpg",
+                      "vertical": true,
+                      "description": "Дореволюционный вид Иорданской галереи"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "jGallery-modernPhoto",
+                      "img": "../assets/pic/rooms/main-stairs/jGallery-now.jpg",
+                      "vertical": false,
+                      "description": "Современный вид Иорданской галереи"
+                    }
+                  ]
                 }
               ]
             }
