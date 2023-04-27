@@ -5,6 +5,8 @@ export interface Room {
   path: string;
   prev?: string;
   next?: string;
+  upToFloor?: boolean;
+  downToFloor?: boolean;
   map: string;
   name: string;
   status: string;
