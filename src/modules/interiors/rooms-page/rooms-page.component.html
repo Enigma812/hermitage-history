@@ -9,8 +9,7 @@
     <button
       *ngIf="room.prev !== undefined"
       class="navigate__back-button"
-      [routerLink]="['../', room.prev]"
-      (click)="downToFloor(room)">
+      [routerLink]="room.downToFloor ? room.downToFloor : ['../', room.prev]">
       <img
         class="navigate__back-button__arrow"
         src="../../../assets/icon/arrow-back.svg" />
@@ -47,8 +46,7 @@
     <button
       *ngIf="room.next !== undefined"
       class="navigate__forward-button"
-      [routerLink]="['../', room.next]"
-      (click)="upToFloor(room)">
+      [routerLink]="room.upToFloor ? room.upToFloor : ['../', room.next]">
       <div class="navigate__back-button__text">{{ 'Common.nextRoom' | translate }}</div>
       <img
         class="navigate__forward-button__arrow"

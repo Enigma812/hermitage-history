@@ -17,7 +17,6 @@ export class RoomsPageComponent {
   public room$: Observable<Room | undefined>;
   public collection$: Observable<Collection[]>;
   public buildingPath$: Observable<string>;
-  // public upToFloor$: Observable<string>;
 
   public trackById = trackBy('id');
 
@@ -48,18 +47,5 @@ export class RoomsPageComponent {
     );
 
     this.buildingPath$ = this._route.params.pipe(map((params) => params['buildingPath']));
-    // this.upToFloor$ = this._route.params.pipe(map((params) => params['jordan-staircase']));
   }
-
-  public upToFloor(value: Room): void {
-    if(value.upToFloor !== undefined) {
-      this._router.navigate([ '/interiors/winter-palace/main-stairs/second-floor/jordan-staircase' ]);
-    }
-  };
-
-  public downToFloor(value: Room): void {
-    if(value.downToFloor !== undefined) {
-      this._router.navigate([ '/interiors/winter-palace/main-stairs/first-floor/jordan-gallery' ]);
-    }
-  };
 }
