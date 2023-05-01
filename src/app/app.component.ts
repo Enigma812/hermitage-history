@@ -10,7 +10,7 @@ import { map, Observable, of } from 'rxjs';
 })
 export class AppComponent implements OnInit {
   public title$: Observable<string>;
-  public logoPath = '../assets/pic/logo.svg';
+  public logoPath = 'assets/pic/logo.svg';
 
   constructor(
     private readonly _route: ActivatedRoute
@@ -24,9 +24,9 @@ export class AppComponent implements OnInit {
 
   public logoOver(isOver: boolean): void {
     if (isOver) {
-      this.logoPath = '../assets/pic/logo-green.svg';
+      this.logoPath = 'assets/pic/logo-green.svg';
     } else {
-      this.logoPath = '../assets/pic/logo.svg';
+      this.logoPath = 'assets/pic/logo.svg';
     }
   }
 }

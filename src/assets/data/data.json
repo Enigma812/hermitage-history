@@ -4,35 +4,35 @@
       "id": "winter-palace",
       "title": "Зимний Дворец",
       "path": "winter-palace",
-      "img": "/assets/pic/winter-palace.png",
-      "imgMobile": "/assets/pic/winter-palace-mobile.png",
+      "img": "assets/pic/winter-palace.png",
+      "imgMobile": "assets/pic/winter-palace-mobile.png",
       "interiors": [
         {
           "id": "main-stairs",
           "name": "Иорданская Лестница",
           "path": "main-stairs",
-          "img": "/assets/pic/main-stairs.png",
-          "imgMobile": "/assets/pic/main-stairs-mobile.png",
+          "img": "assets/pic/main-stairs.png",
+          "imgMobile": "assets/pic/main-stairs-mobile.png",
           "floors": [
             {
               "id": "third-floor",
               "path": "third-floor",
               "isActive": false,
-              "img": "../assets/pic/third-floor.png",
-              "imgHover": "../assets/pic/third-floor-hover.png",
+              "img": "assets/pic/third-floor.png",
+              "imgHover": "assets/pic/third-floor-hover.png",
               "rooms": []
             },
             {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
-              "img": "../assets/pic/second-floor.png",
-              "imgHover": "../assets/pic/second-floor-hover.png",
+              "img": "assets/pic/second-floor.png",
+              "imgHover": "assets/pic/second-floor-hover.png",
               "rooms": [
                 {
                   "id": "jordan-staircase",
                   "path": "jordan-staircase",
-                  "map": "../assets/pic/rooms/main-stairs/map-jordan.png",
+                  "map": "assets/pic/rooms/main-stairs/map-jordan.png",
                   "prev": "",
                   "downToFloor": "/interiors/winter-palace/main-stairs/first-floor/jordan-gallery",
                   "name": "Иорданская (Посольская) лестница",
@@ -41,35 +41,35 @@
                     {
                       "id": "painting",
                       "path": "jordan-painting",
-                      "img": "../assets/pic/rooms/main-stairs/jordan-paint.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jordan-paint.jpg",
                       "vertical": true,
                       "description": "Парадная лестница. Ухтомский Константин Андреевич, 1860-е. акварель"
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "jordan-oldPhoto2",
-                      "img": "../assets/pic/rooms/main-stairs/jordan-photo2.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jordan-photo2.jpg",
                       "vertical": false,
                       "description": "Дореволюционное фото Иорданской лестницы 1911г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "jordan-oldPhoto",
-                      "img": "../assets/pic/rooms/main-stairs/jordan-photo.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jordan-photo.jpg",
                       "vertical": true,
                       "description": "Дореволюционное фото Иорданской лестницы 1914г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "jordan-oldPhoto3",
-                      "img": "../assets/pic/rooms/main-stairs/jordan-photo3.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jordan-photo3.jpg",
                       "vertical": false,
                       "description": "Сестры милосердия на Иорданской лстнице 1915г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "jordan-modernPhoto",
-                      "img": "../assets/pic/rooms/main-stairs/jordan-now.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jordan-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Иорданской лестницы"
                     }
@@ -81,13 +81,13 @@
               "id": "first-floor",
               "path": "first-floor",
               "isActive": true,
-              "img": "../assets/pic/first-floor.png",
-              "imgHover": "../assets/pic/first-floor-hover.png",
+              "img": "assets/pic/first-floor.png",
+              "imgHover": "assets/pic/first-floor-hover.png",
               "rooms": [
                 {
                   "id": "vestibule",
                   "path": "vestibule",
-                  "map": "../assets/pic/rooms/main-stairs/map-gallery.png",
+                  "map": "assets/pic/rooms/main-stairs/map-gallery.png",
                   "next": "jordan-gallery",
                   "name": "Парадный вестибюль",
                   "description": "Вестибюль имеет главный вход со стороны Дворцовой набережной и ведет к пардной Иорданской лестнице",
@@ -95,14 +95,14 @@
                     {
                       "id": "painting",
                       "path": "vestibule-painting",
-                      "img": "../assets/pic/rooms/main-stairs/gallery-paint.jpg",
+                      "img": "assets/pic/rooms/main-stairs/gallery-paint.jpg",
                       "vertical": false,
                       "description": "Парадный вестибюль. Ухтомский Константин Андреевич, 1850-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "vestibule-modernPhoto",
-                      "img": "../assets/pic/rooms/main-stairs/gallery-now.jpg",
+                      "img": "assets/pic/rooms/main-stairs/gallery-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Парадного вестибюля"
                     }
@@ -111,7 +111,7 @@
                 {
                   "id": "jordan-gallery",
                   "path": "jordan-gallery",
-                  "map": "../assets/pic/rooms/main-stairs/map-jGallery.png",
+                  "map": "assets/pic/rooms/main-stairs/map-jGallery.png",
                   "next": "",
                   "prev": "vestibule",
                   "upToFloor": "/interiors/winter-palace/main-stairs/second-floor/jordan-staircase",
@@ -121,14 +121,14 @@
                     {
                       "id": "oldPhoto",
                       "path": "jGallery-oldPhoto",
-                      "img": "../assets/pic/rooms/main-stairs/jGallery-photo.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jGallery-photo.jpg",
                       "vertical": true,
                       "description": "Дореволюционный вид Иорданской галереи"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "jGallery-modernPhoto",
-                      "img": "../assets/pic/rooms/main-stairs/jGallery-now.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jGallery-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Иорданской галереи"
                     }
@@ -142,49 +142,49 @@
           "id": "state-halls",
           "name": "Парадные Залы",
           "path": "state-halls",
-          "img": "/assets/pic/state-halls.png",
-          "imgMobile": "/assets/pic/state-halls-mobile.png",
+          "img": "assets/pic/state-halls.png",
+          "imgMobile": "assets/pic/state-halls-mobile.png",
           "floors": [
             {
               "id": "third-floor",
               "path": "third-floor",
               "isActive": false,
-              "img": "../assets/pic/third-floor.png",
-              "imgHover": "../assets/pic/third-floor-hover.png"
+              "img": "assets/pic/third-floor.png",
+              "imgHover": "assets/pic/third-floor-hover.png"
             },
             {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
-              "img": "../assets/pic/second-floor.png",
-              "imgHover": "../assets/pic/second-floor-hover.png",
+              "img": "assets/pic/second-floor.png",
+              "imgHover": "assets/pic/second-floor-hover.png",
               "rooms": [
                 {
                   "id": "anteroom",
                   "path": "anteroom",
                   "next": "nicholas-hall",
-                  "map": "../assets/pic/rooms/state-halls/map-anteroom.png",
+                  "map": "assets/pic/rooms/state-halls/map-anteroom.png",
                   "name": "Аванзал Зимнего Дворца",
                   "description": "Аванзал являлся комнатой ожидания для гостей, приглашенных на балы и маскарады",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "anteroom-painting",
-                      "img": "../assets/pic/rooms/state-halls/anteroom-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/anteroom-paint.jpg",
                       "vertical": false,
                       "description": "Вид Аванзала Зимнего Дворца. Ухтомский Константин Андреевич, 1861г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "anteroom-oldPhoto",
-                      "img": "../assets/pic/rooms/state-halls/anteroom-photo.jpg",
+                      "img": "assets/pic/rooms/state-halls/anteroom-photo.jpg",
                       "vertical": true,
                       "description": "Дореволюционный вид Аванзала Зимнего Дворца. Ателье Карла Буллы 1914г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "anteroom-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/anteroom-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/anteroom-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Аванзала Зимнего Дворца"
                     }
@@ -195,49 +195,49 @@
                   "path": "nicholas-hall",
                   "prev": "anteroom",
                   "next": "concert-hall",
-                  "map": "../assets/pic/rooms/state-halls/map-nicholas.png",
+                  "map": "assets/pic/rooms/state-halls/map-nicholas.png",
                   "name": "Николаевский зал",
                   "description": "Главный и самый большой зал Невской парадной анфилады, площадью около тысячи квадратных метров. Предназначался для официальных церемоний и придворных балов.",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "nicholas-painting",
-                      "img": "../assets/pic/rooms/state-halls/nicholas-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/nicholas-paint.jpg",
                       "vertical": false,
                       "description": "Николаевский зал. Ухтомский Константин Андреевич, 1866г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "nicholas-oldPhoto",
-                      "img": "../assets/pic/rooms/state-halls/nicholas-photo.jpg",
+                      "img": "assets/pic/rooms/state-halls/nicholas-photo.jpg",
                       "vertical": false,
                       "description": "Дореволюционный вид Николаевского зала 1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "nicholas-oldPhoto2",
-                      "img": "../assets/pic/rooms/state-halls/nicholas-photo2.jpg",
+                      "img": "assets/pic/rooms/state-halls/nicholas-photo2.jpg",
                       "vertical": false,
                       "description": "Деталь Николаевского зала. Ателье Карла Буллы 1914г."
                     },
                     {
                       "id": "oldPhoto-wwi",
                       "path": "nicholas-oldPhoto-wwi",
-                      "img": "../assets/pic/rooms/state-halls/nicholas-photo-wwi.jpg",
+                      "img": "assets/pic/rooms/state-halls/nicholas-photo-wwi.jpg",
                       "vertical": false,
                       "description": "Госпитальная палата времен Первой Мировой Войны в Николаевском зале"
                     },
                     {
                       "id": "oldPhoto-wwi2",
                       "path": "nicholas-oldPhoto-wwi2",
-                      "img": "../assets/pic/rooms/state-halls/nicholas-photo-wwi2.jpg",
+                      "img": "assets/pic/rooms/state-halls/nicholas-photo-wwi2.jpg",
                       "vertical": false,
                       "description": "Лазарет в Николаевском зале. Проработал два года, после революции был расформирован"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "nicholas-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/nicholas-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/nicholas-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Николаевского зала"
                     }
@@ -248,42 +248,42 @@
                   "path": "concert-hall",
                   "prev": "nicholas-hall",
                   "next": "pompeiian-gallery",
-                  "map": "../assets/pic/rooms/state-halls/map-concert.png",
+                  "map": "assets/pic/rooms/state-halls/map-concert.png",
                   "name": "Концертный зал",
                   "description": "Концертный зал, замыкает Невскую парадную анфиладу Зимнего дворца. Служил для не столь пышных торжественных приёмов и придворных балов с музыкой и танцами",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "concert-painting",
-                      "img": "../assets/pic/rooms/state-halls/concert-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/concert-paint.jpg",
                       "vertical": false,
                       "description": "Концертный зал. Ухтомский Константин Андреевич, 1865г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "concert-painting2",
-                      "img": "../assets/pic/rooms/state-halls/concert-paint2.jpg",
+                      "img": "assets/pic/rooms/state-halls/concert-paint2.jpg",
                       "vertical": false,
                       "description": "Бал в Концертном зале"
                     },
                     {
                       "id": "painting3",
                       "path": "concert-painting3",
-                      "img": "../assets/pic/rooms/state-halls/concert-paint3.jpg",
+                      "img": "assets/pic/rooms/state-halls/concert-paint3.jpg",
                       "vertical": false,
                       "description": "Званый ужин в Концертном зале"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "concert-oldPhoto",
-                      "img": "../assets/pic/rooms/state-halls/concert-photo.jpg",
+                      "img": "assets/pic/rooms/state-halls/concert-photo.jpg",
                       "vertical": false,
                       "description": "Дореволюционный Концертный зал. Ателье Карла Буллы 1914г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "concert-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/concert-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/concert-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Концертного зала. Серебряная гробница князя Александра Невского, ныне находящаяся в зале, была передана в Эрмитаж из Троицкого собора Александро-Невской Лавры."
                     }
@@ -294,49 +294,49 @@
                   "path": "pompeiian-gallery",
                   "prev": "concert-hall",
                   "next": "large-fieldmarshals-hall",
-                  "map": "../assets/pic/rooms/state-halls/map-pompeiian.png",
+                  "map": "assets/pic/rooms/state-halls/map-pompeiian.png",
                   "name": "Помпейская галерея (ныне Портретная галерея дома Романовых)",
                   "description": "С 1837г. галерея носила название Помпейская. Рядом с ней, над Посольским подъездом, был создан Зимний сад в два этажа с застекленным потолком. В 1886г. галерею было решено сделать картинной, в связи с чем изменили ее отделку и название на Новою галерею, а позже она получила имя Петра I.",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "pompeiian-painting",
-                      "img": "../assets/pic/rooms/state-halls/pompeiian-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/pompeiian-paint.jpg",
                       "vertical": true,
                       "description": "Помпейская галерея. Ухтомский Константин Андреевич, 1862г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "pompeiian-painting2",
-                      "img": "../assets/pic/rooms/state-halls/pompeiian-paint2.jpg",
+                      "img": "assets/pic/rooms/state-halls/pompeiian-paint2.jpg",
                       "vertical": false,
                       "description": "Выход в Зимний сад из Помпейской галереи"
                     },
                     {
                       "id": "painting3",
                       "path": "pompeiian-painting3",
-                      "img": "../assets/pic/rooms/state-halls/pompeiian-paint3.jpg",
+                      "img": "assets/pic/rooms/state-halls/pompeiian-paint3.jpg",
                       "vertical": true,
                       "description": "Зимний сад в Помпейской галереи"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "pompeiian-oldPhoto",
-                      "img": "../assets/pic/rooms/state-halls/pompeiian-photo.jpg",
+                      "img": "assets/pic/rooms/state-halls/pompeiian-photo.jpg",
                       "vertical": true,
                       "description": "Обновленная отделка Новой галереи 1914г."
                     },
                     {
                       "id": "oldPhoto-wwi",
                       "path": "pompeiian-oldPhoto-wwi",
-                      "img": "../assets/pic/rooms/state-halls/pompeiian-photo-wwi.jpg",
+                      "img": "assets/pic/rooms/state-halls/pompeiian-photo-wwi.jpg",
                       "vertical": true,
                       "description": "Койки для раненых в Новой галереи"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "pompeiian-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/pompeiian-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/pompeiian-now.jpg",
                       "vertical": false,
                       "description": "Современный вид на Портретную галерею дома Романовых"
                     }
@@ -347,35 +347,35 @@
                   "path": "large-fieldmarshals-hall",
                   "prev": "pompeiian-gallery",
                   "next": "peter-hall",
-                  "map": "../assets/pic/rooms/state-halls/map-fieldmarshal.png",
+                  "map": "assets/pic/rooms/state-halls/map-fieldmarshal.png",
                   "name": "Большой Фельдмаршальский зал",
                   "description": "Зал открывает Большую парадную анфиладу Зимнего дворца. До революции в нишах зала были помещены парадные портреты русских фельдмаршалов, чем объясняется его название",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "fieldmarshal-painting",
-                      "img": "../assets/pic/rooms/state-halls/fieldmarshal-paint2.jpg",
+                      "img": "assets/pic/rooms/state-halls/fieldmarshal-paint2.jpg",
                       "vertical": false,
                       "description": "Большой Фельдмаршальский зал. Зарянко Сергей Константинович 1836г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "fieldmarshals-painting2",
-                      "img": "../assets/pic/rooms/state-halls/fieldmarshal-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/fieldmarshal-paint.jpg",
                       "vertical": false,
                       "description": "Большой Фельдмаршальский зал. Гау Эдуард Петрович 1866г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "fieldmarshal-oldPhoto",
-                      "img": "../assets/pic/rooms/state-halls/fieldmarshal-photo.jpg",
+                      "img": "assets/pic/rooms/state-halls/fieldmarshal-photo.jpg",
                       "vertical": false,
                       "description": "Дореволюционный вид Большого Фельдмаршальского зала 1914г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "fieldmarshals-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/fieldmarshal-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/fieldmarshal-now.jpg",
                       "vertical": false,
                       "description": "Современый вид Большого Фельдмаршальского зала"
                     }
@@ -386,35 +386,35 @@
                   "path": "peter-hall",
                   "prev": "large-fieldmarshals-hall",
                   "next": "armorial-hall",
-                  "map": "../assets/pic/rooms/state-halls/map-peter.png",
+                  "map": "assets/pic/rooms/state-halls/map-peter.png",
                   "name": "Петровский (Малый тронный) зал",
                   "description": "Зал увековечивает память об основателе Российской империи - Петре I и был предназначен для малых приемов. Здесь находится трон императрицы Анны Иоанновны",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "peter-painting",
-                      "img": "../assets/pic/rooms/state-halls/peter-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/peter-paint.jpg",
                       "vertical": false,
                       "description": "Петровский зал до пожара 1837г. Зарянко Сергей Константинович 1837г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "peter-painting2",
-                      "img": "../assets/pic/rooms/state-halls/peter-paint2.png",
+                      "img": "assets/pic/rooms/state-halls/peter-paint2.png",
                       "vertical": false,
                       "description": "Петровский зал после пожара. Гау Эдуард Петрович 1863г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "peter-oldPhoto",
-                      "img": "../assets/pic/rooms/state-halls/peter-photo.jpg",
+                      "img": "assets/pic/rooms/state-halls/peter-photo.jpg",
                       "vertical": false,
                       "description": "Дореволюционный вид Петровского зала 1914г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "peter-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/peter-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/peter-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Петровского зала"
                     }
@@ -425,63 +425,63 @@
                   "path": "armorial-hall",
                   "prev": "peter-hall",
                   "next": "setry-hall",
-                  "map": "../assets/pic/rooms/state-halls/map-armorial.png",
+                  "map": "assets/pic/rooms/state-halls/map-armorial.png",
                   "name": "Гербовый зал (ранее Белый зал)",
                   "description": "Гербовый зал Зимнего дворца предназначался для торжественных церемоний. Входы в зал фланкируют скульптурные группы древнерусских воинов. Изображения гербов российских губерний помещены на люстрах золоченой бронзы",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "armorial-painting",
-                      "img": "../assets/pic/rooms/state-halls/armorial-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/armorial-paint.jpg",
                       "vertical": false,
                       "description": "Часть Белого (Гербового) зала. Ладюрнер Адольф Игнатьевич 1838г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "armorial-painting2",
-                      "img": "../assets/pic/rooms/state-halls/armorial-paint2.jpg",
+                      "img": "assets/pic/rooms/state-halls/armorial-paint2.jpg",
                       "vertical": false,
                       "description": "Гербовый зал. Гау Эдуард Петрович 1863г. акварель"
                     },                 
                     {
                     "id": "oldPhoto",
                     "path": "armorial-oldPhoto",
-                    "img": "../assets/pic/rooms/state-halls/armorial-photo.jpg",
+                    "img": "assets/pic/rooms/state-halls/armorial-photo.jpg",
                     "vertical": false,
                     "description": "Дореволюционный вид Гербового зала 1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "armorial-oldPhoto2",
-                      "img": "../assets/pic/rooms/state-halls/armorial-photo2.jpg",
+                      "img": "assets/pic/rooms/state-halls/armorial-photo2.jpg",
                       "vertical": true,
                       "description": "Гербы в Гербовом зале 1914г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "armorial-oldPhoto3",
-                      "img": "../assets/pic/rooms/state-halls/armorial-photo3.jpg",
+                      "img": "assets/pic/rooms/state-halls/armorial-photo3.jpg",
                       "vertical": false,
                       "description": "Переход из Гербового зала в Военную галерею 1812 года"
                     },
                     {
                       "id": "oldPhoto4",
                       "path": "armorial-oldPhoto4",
-                      "img": "../assets/pic/rooms/state-halls/armorial-photo4.jpg",
+                      "img": "assets/pic/rooms/state-halls/armorial-photo4.jpg",
                       "vertical": true,
                       "description": "Гербовый зал с закрытыми люстрами и мебелью. 1900-е"
                     },
                     {
                       "id": "oldPhoto-wwi",
                       "path": "armorial-oldPhoto-wwi",
-                      "img": "../assets/pic/rooms/state-halls/armorial-photo-wwi.jpg",
+                      "img": "assets/pic/rooms/state-halls/armorial-photo-wwi.jpg",
                       "vertical": false,
                       "description": "Госпитальная палата в Гербовом зале. 1915г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "armorial-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/armorial-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/armorial-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Гербового зала"
                     }
@@ -492,21 +492,21 @@
                   "path": "setry-hall",
                   "prev": "armorial-hall",
                   "next": "alexander-hall",
-                  "map": "../assets/pic/rooms/state-halls/map-sentry.png",
+                  "map": "assets/pic/rooms/state-halls/map-sentry.png",
                   "name": "Пикетный зал",
                   "description": "Зал предназначался для разводов дворцового караула — пикета",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "sntry-painting",
-                      "img": "../assets/pic/rooms/state-halls/sentry-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/sentry-paint.jpg",
                       "vertical": false,
                       "description": "Пикетный зал. Гау Эдуард Петрович 1865г. акварель"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "sntry-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/sentry-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/sentry-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Пикетный зал"
                     }
@@ -517,42 +517,42 @@
                   "path": "alexander-hall",
                   "prev": "setry-hall",
                   "next": "antechurch-hall",
-                  "map": "../assets/pic/rooms/state-halls/map-alexander.png",
+                  "map": "assets/pic/rooms/state-halls/map-alexander.png",
                   "name": "Александровский зал",
                   "description": "Зал увековечивал память об Александре I. На торцовой стене был помещен портрет императора работы Дж. Доу",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "alexander-painting",
-                      "img": "../assets/pic/rooms/state-halls/alexander-paint.png",
+                      "img": "assets/pic/rooms/state-halls/alexander-paint.png",
                       "vertical": false,
                       "description": "Пикетный зал. Гау Эдуард Петрович 1865г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "alexander-oldPhoto",
-                      "img": "../assets/pic/rooms/state-halls/alexander-photo.jpg",
+                      "img": "assets/pic/rooms/state-halls/alexander-photo.jpg",
                       "vertical": false,
                       "description": "Дореволюционный вид Александровского зала. Ателье Карла Буллы 1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "alexander-oldPhoto2",
-                      "img": "../assets/pic/rooms/state-halls/alexander-photo2.jpg",
+                      "img": "assets/pic/rooms/state-halls/alexander-photo2.jpg",
                       "vertical": true,
                       "description": "Портрет Александра I в Александровском зале. Ателье Карла Буллы 1914г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "alexander-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/alexander-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/alexander-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Александровского зала"
                     },
                     {
                       "id": "modernPhoto2",
                       "path": "alexander-modernPhoto2",
-                      "img": "../assets/pic/rooms/state-halls/alexander-now2.jpg",
+                      "img": "assets/pic/rooms/state-halls/alexander-now2.jpg",
                       "vertical": false,
                       "description": "Александровский зал, вид с балкона"
                     }
@@ -563,21 +563,21 @@
                   "path": "antechurch-hall",
                   "prev": "alexander-hall",
                   "next": "great-church",
-                  "map": "../assets/pic/rooms/state-halls/map-antechurch.png",
+                  "map": "assets/pic/rooms/state-halls/map-antechurch.png",
                   "name": "Предцерковный зал",
                   "description": "Зал служил своеобразным притвором Дворцовой церкви",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "antechurch-painting",
-                      "img": "../assets/pic/rooms/state-halls/antechurch-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/antechurch-paint.jpg",
                       "vertical": true,
                       "description": "Предцерковный зал. Ухтомский Константин Андреевич 1863г. акварель"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "antechurch-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/antechurch-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/antechurch-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Предцерковного зала"
                     }
@@ -588,42 +588,42 @@
                   "path": "great-church",
                   "prev": "antechurch-hall",
                   "next": "war-gallery",
-                  "map": "../assets/pic/rooms/state-halls/map-gChurch.png",
+                  "map": "assets/pic/rooms/state-halls/map-gChurch.png",
                   "name": "Большая церковь Зимнего дворца",
                   "description": "Интерьер Большой церкви один из самых пышных в Зимнем дворце, а так же один из немногих, востановленных почти в первоначальном виде после пожара 1837 года.",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "gChurch-painting",
-                      "img": "../assets/pic/rooms/state-halls/gChurch-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/gChurch-paint.jpg",
                       "vertical": true,
                       "description": "Большая церковь Зимнего дворца до пожара 1837г. Тыранов Алексей Васильевич 1829г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "gChurch-painting2",
-                      "img": "../assets/pic/rooms/state-halls/gChurch-paint2.jpg",
+                      "img": "assets/pic/rooms/state-halls/gChurch-paint2.jpg",
                       "vertical": false,
                       "description": "Свадьба наследника Александра Николаевича и Марии Александровны в Большой церкви. Садовников В. С. 1855г."
                     },
                     {
                       "id": "painting3",
                       "path": "gChurch-painting3",
-                      "img": "../assets/pic/rooms/state-halls/gChurch-paint3.jpg",
+                      "img": "assets/pic/rooms/state-halls/gChurch-paint3.jpg",
                       "vertical": true,
                       "description": "Большая церковь Зимнего дворца. Гау Эдуард Петрович 1858г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "gChurch-oldPhoto",
-                      "img": "../assets/pic/rooms/state-halls/gChurch-photo.jpg",
+                      "img": "assets/pic/rooms/state-halls/gChurch-photo.jpg",
                       "vertical": true,
                       "description": "Алтарная чаасть Большой церкови Зимнего дворца 1913г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "gChurch-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/gChurch-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/gChurch-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Большой церкви с восстановленным алтарем"
                     }
@@ -634,35 +634,35 @@
                   "path": "war-gallery",
                   "prev": "great-church",
                   "next": "st-georges-hall",
-                  "map": "../assets/pic/rooms/state-halls/map-war.png",
+                  "map": "assets/pic/rooms/state-halls/map-war.png",
                   "name": "Военная галерея 1812 года",
                   "description": "Данная галерея самое мемориальное помещение дворца. Здесь поместили 332 портрета генералов русской армии, участников войны 1812 года и заграничного похода 1813 - 1814 гг. Во время пожара 1837 года все портреты были спасены и возвращены на свои места в восстановленный В.П.Стасовым зал",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "war-painting",
-                      "img": "../assets/pic/rooms/state-halls/war-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/war-paint.jpg",
                       "vertical": true,
                       "description": "Военная галерея 1812 года до пожара 1837г. Чернецов Григорий Григорьевич 1829г."
                     },
                     {
                       "id": "painting2",
                       "path": "war-painting2",
-                      "img": "../assets/pic/rooms/state-halls/war-paint2.jpg",
+                      "img": "assets/pic/rooms/state-halls/war-paint2.jpg",
                       "vertical": true,
                       "description": "Военная галерея 1812 года. Гау Эдуард Петрович 1862г. акварель"
                     },
                     {
                       "id": "painting3",
                       "path": "war-painting3",
-                      "img": "../assets/pic/rooms/state-halls/war-paint3.jpg",
+                      "img": "assets/pic/rooms/state-halls/war-paint3.jpg",
                       "vertical": true,
                       "description": "Рота дворцовых гренадер в Военной галереи 1812 года. Пиратский Карл Карлович 1862г. масло"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "war-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/war-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/war-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Военной галереи 1812 года"
                     }
@@ -673,63 +673,63 @@
                   "path": "st-georges-hall",
                   "prev": "war-gallery",
                   "next": "apollo",
-                  "map": "../assets/pic/rooms/state-halls/map-throne.png",
+                  "map": "assets/pic/rooms/state-halls/map-throne.png",
                   "name": "Георгиевский (Большой тронный или Мраморный) зал",
                   "description": "Созданный при Екатерине II зал погиб в пожаре 1837г. Был отстроен заного к 1841г. и полностью облицован каррарским мрамором. С этим залом связана вся официальная история Российского царствующего дома",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "throne-painting",
-                      "img": "../assets/pic/rooms/state-halls/throne-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/throne-paint.jpg",
                       "vertical": true,
                       "description": "Вид Большого тронного зала до пожара 1837г. Катафалк над гробами Петра III и Екатерины II 1796г. гравюра"
                     },
                     {
                       "id": "painting2",
                       "path": "throne-painting2",
-                      "img": "../assets/pic/rooms/state-halls/throne-paint2.jpg",
+                      "img": "assets/pic/rooms/state-halls/throne-paint2.jpg",
                       "vertical": false,
                       "description": "Георгиевский зал. Садовников В.С 1858г."
                     },
                     {
                       "id": "painting3",
                       "path": "throne-painting3",
-                      "img": "../assets/pic/rooms/state-halls/throne-paint3.jpg",
+                      "img": "assets/pic/rooms/state-halls/throne-paint3.jpg",
                       "vertical": false,
                       "description": "Георгиевский зал. Садовников В.С Ухтомский Константин Андреевич 1858г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "throne-oldPhoto",
-                      "img": "../assets/pic/rooms/state-halls/throne-photo.jpg",
+                      "img": "assets/pic/rooms/state-halls/throne-photo.jpg",
                       "vertical": false,
                       "description": "Император Николай II в Тронном зале Зимнего дворца 1906г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "throne-oldPhoto2",
-                      "img": "../assets/pic/rooms/state-halls/throne-photo2.jpg",
+                      "img": "assets/pic/rooms/state-halls/throne-photo2.jpg",
                       "vertical": true,
                       "description": "Трон в Георгиевском зале 1914г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "throne-oldPhoto3",
-                      "img": "../assets/pic/rooms/state-halls/throne-photo3.jpg",
+                      "img": "assets/pic/rooms/state-halls/throne-photo3.jpg",
                       "vertical": false,
                       "description": "Дореволюционный Георгиевский зал 1914г."
                     },
                     {
                       "id": "ussrPhoto",
                       "path": "throne-ussrPhoto",
-                      "img": "../assets/pic/rooms/state-halls/throne-photo-ussr.jpg",
+                      "img": "assets/pic/rooms/state-halls/throne-photo-ussr.jpg",
                       "vertical": false,
                       "description": "Драгоценная карта СССР на месте императорского трона 1963г. (сейчас находится в Центральном научно-исследовательском геологоразведочном музее)."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "throne-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/throne-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/throne-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Георгиевского зала"
                     }
@@ -739,28 +739,28 @@
                   "id": "apollo",
                   "path": "apollo",
                   "prev": "st-georges-hall",
-                  "map": "../assets/pic/rooms/state-halls/map-apollo.png",
+                  "map": "assets/pic/rooms/state-halls/map-apollo.png",
                   "name": "Аполлонов зал",
                   "description": "В 1793г. по приказу Екатерины II, чтобы двор мог переходить из Зимнего дворца в Эрмитаж минуя её покои, был сооружен зал, получивший название Аполлонов, из-за располагавшейся в нише статуи Аполлона. После пожара 1837 года восстановлен со значительной переделкой интерьера",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "apollo-painting",
-                      "img": "../assets/pic/rooms/state-halls/apollo-paint.jpg",
+                      "img": "assets/pic/rooms/state-halls/apollo-paint.jpg",
                       "vertical": false,
                       "description": "Аполлонов зал до пожара 1837г. Беллер Александр Иванович 1832г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "apollo-painting2",
-                      "img": "../assets/pic/rooms/state-halls/apollo-paint2.jpg",
+                      "img": "assets/pic/rooms/state-halls/apollo-paint2.jpg",
                       "vertical": false,
                       "description": "Аполлонов зал. Гау Эдуард Петрович 1832г. акварель"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "apollo-modernPhoto",
-                      "img": "../assets/pic/rooms/state-halls/apollo-now.jpg",
+                      "img": "assets/pic/rooms/state-halls/apollo-now.jpg",
                       "vertical": false,
                       "description": "Современный вид Аполлоового зала"
                     }
@@ -772,8 +772,8 @@
               "id": "first-floor",
               "path": "first-floor",
               "isActive": false,
-              "img": "../assets/pic/first-floor.png",
-              "imgHover": "../assets/pic/first-floor-hover.png"
+              "img": "assets/pic/first-floor.png",
+              "imgHover": "assets/pic/first-floor-hover.png"
             }
           ]
         },
@@ -781,27 +781,27 @@
           "id": "residential-half-nicolas",
           "name": "Жилая половина Николая I",
           "path": "nicolas",
-          "img": "/assets/pic/living-nicolas.png",
-          "imgMobile": "/assets/pic/living-nicolas-mobile.png",
+          "img": "assets/pic/living-nicolas.png",
+          "imgMobile": "assets/pic/living-nicolas-mobile.png",
           "floors": [
             {
               "id": "third-floor",
               "path": "third-floor",
               "isActive": true,
-              "img": "../assets/pic/third-floor.png",
-              "imgHover": "../assets/pic/third-floor-hover.png"
+              "img": "assets/pic/third-floor.png",
+              "imgHover": "assets/pic/third-floor-hover.png"
             },
             {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
-              "img": "../assets/pic/second-floor.png",
-              "imgHover": "../assets/pic/second-floor-hover.png",
+              "img": "assets/pic/second-floor.png",
+              "imgHover": "assets/pic/second-floor-hover.png",
               "rooms": [
                 {
                   "id": "malachite",
                   "path": "malachite-living",
-                  "map": "../assets/maps/malachite.png"
+                  "map": "assets/maps/malachite.png"
                 }
               ]
             },
@@ -809,8 +809,8 @@
               "id": "first-floor",
               "path": "first-floor",
               "isActive": true,
-              "img": "../assets/pic/first-floor.png",
-              "imgHover": "../assets/pic/first-floor-hover.png"
+              "img": "assets/pic/first-floor.png",
+              "imgHover": "assets/pic/first-floor-hover.png"
             }
           ]
         }
@@ -820,15 +820,15 @@
       "id": "small-hermitage",
       "title": "Малый Эрмитаж",
       "path": "small-hermitage",
-      "img": "/assets/pic/small-hermitage.png",
-      "imgMobile": "/assets/pic/small-hermitage-mobile.png"
+      "img": "assets/pic/small-hermitage.png",
+      "imgMobile": "assets/pic/small-hermitage-mobile.png"
     },
     {
       "id": "hermitage",
       "title": "Эрмитаж",
       "path": "hermitage",
-      "img": "/assets/pic/hermitage.png",
-      "imgMobile": "/assets/pic/hermitage-mobile.png"
+      "img": "assets/pic/hermitage.png",
+      "imgMobile": "assets/pic/hermitage-mobile.png"
     }
   ]
 }

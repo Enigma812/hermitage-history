@@ -21,7 +21,7 @@ export class DataService {
   }
 
   private fetchData(): void {
-    this._http.get<Data>('/assets/data/data.json')
+    this._http.get<Data>('assets/data/data.json')
       .subscribe((data) => {
         this._dataSubject.next(data);
       });
