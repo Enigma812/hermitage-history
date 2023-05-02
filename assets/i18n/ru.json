@@ -1,0 +1,27 @@
+{
+  "Menu": {
+    "Home": "на главную",
+    "Welcome": "вступление",
+    "Interiors": "интерьеры",
+    "Exteriors": "экстерьеры"
+  },
+
+  "Intro": {
+    "Title": "Вступление"
+  },
+
+  "Interior": {
+    "WinterPalace": "Зимний Дворец",
+    "SmallHermitage": "Малый Эрмитаж",
+    "Hermitage": "Эрмитаж"
+  },
+
+  "Common": {
+    "back": "Назад",
+    "nextRoom": "Следующий зал",
+    "previousRoom": "Предыдущий зал",
+    "backToChoice": "Вернуться к выбору",
+    "chooseFloor": "Выбрать этаж",
+    "map": "Схема"
+  }
+}
