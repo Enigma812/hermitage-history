@@ -32,7 +32,7 @@
                 {
                   "id": "jordan-staircase",
                   "path": "jordan-staircase",
-                  "map": "assets/pic/rooms/main-stairs/map-jordan.png",
+                  "map": "assets/pic/rooms/main-stairs/map-jordan.webp",
                   "prev": "",
                   "downToFloor": "/interiors/winter-palace/main-stairs/first-floor/jordan-gallery",
                   "name": "Иорданская (Посольская) лестница",
@@ -41,35 +41,35 @@
                     {
                       "id": "painting",
                       "path": "jordan-painting",
-                      "img": "assets/pic/rooms/main-stairs/jordan-paint.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jordan-paint.webp",
                       "vertical": true,
                       "description": "Парадная лестница. Ухтомский Константин Андреевич, 1860-е. акварель"
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "jordan-oldPhoto2",
-                      "img": "assets/pic/rooms/main-stairs/jordan-photo2.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jordan-photo2.webp",
                       "vertical": false,
                       "description": "Дореволюционное фото Иорданской лестницы 1911г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "jordan-oldPhoto",
-                      "img": "assets/pic/rooms/main-stairs/jordan-photo.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jordan-photo.webp",
                       "vertical": true,
                       "description": "Дореволюционное фото Иорданской лестницы 1914г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "jordan-oldPhoto3",
-                      "img": "assets/pic/rooms/main-stairs/jordan-photo3.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jordan-photo3.webp",
                       "vertical": false,
                       "description": "Сестры милосердия на Иорданской лстнице 1915г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "jordan-modernPhoto",
-                      "img": "assets/pic/rooms/main-stairs/jordan-now.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jordan-now.webp",
                       "vertical": false,
                       "description": "Современный вид Иорданской лестницы"
                     }
@@ -87,7 +87,7 @@
                 {
                   "id": "vestibule",
                   "path": "vestibule",
-                  "map": "assets/pic/rooms/main-stairs/map-gallery.png",
+                  "map": "assets/pic/rooms/main-stairs/map-gallery.webp",
                   "next": "jordan-gallery",
                   "name": "Парадный вестибюль",
                   "description": "Вестибюль имеет главный вход со стороны Дворцовой набережной и ведет к пардной Иорданской лестнице",
@@ -95,14 +95,14 @@
                     {
                       "id": "painting",
                       "path": "vestibule-painting",
-                      "img": "assets/pic/rooms/main-stairs/gallery-paint.jpg",
+                      "img": "assets/pic/rooms/main-stairs/gallery-paint.webp",
                       "vertical": false,
                       "description": "Парадный вестибюль. Ухтомский Константин Андреевич, 1850-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "vestibule-modernPhoto",
-                      "img": "assets/pic/rooms/main-stairs/gallery-now.jpg",
+                      "img": "assets/pic/rooms/main-stairs/gallery-now.webp",
                       "vertical": false,
                       "description": "Современный вид Парадного вестибюля"
                     }
@@ -111,7 +111,7 @@
                 {
                   "id": "jordan-gallery",
                   "path": "jordan-gallery",
-                  "map": "assets/pic/rooms/main-stairs/map-jGallery.png",
+                  "map": "assets/pic/rooms/main-stairs/map-jGallery.webp",
                   "next": "",
                   "prev": "vestibule",
                   "upToFloor": "/interiors/winter-palace/main-stairs/second-floor/jordan-staircase",
@@ -121,14 +121,14 @@
                     {
                       "id": "oldPhoto",
                       "path": "jGallery-oldPhoto",
-                      "img": "assets/pic/rooms/main-stairs/jGallery-photo.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jGallery-photo.webp",
                       "vertical": true,
                       "description": "Дореволюционный вид Иорданской галереи"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "jGallery-modernPhoto",
-                      "img": "assets/pic/rooms/main-stairs/jGallery-now.jpg",
+                      "img": "assets/pic/rooms/main-stairs/jGallery-now.webp",
                       "vertical": false,
                       "description": "Современный вид Иорданской галереи"
                     }
