@@ -4,30 +4,29 @@
       "id": "winter-palace",
       "title": "Зимний Дворец",
       "path": "winter-palace",
-      "img": "assets/pic/winter-palace.png",
-      "imgMobile": "assets/pic/winter-palace-mobile.png",
+      "img": "assets/pic/winter-palace.webp",
+      "imgMobile": "assets/pic/winter-palace-mobile.webp",
       "interiors": [
         {
           "id": "main-stairs",
           "name": "Иорданская Лестница",
           "path": "main-stairs",
-          "img": "assets/pic/main-stairs.png",
-          "imgMobile": "assets/pic/main-stairs-mobile.png",
+          "img": "assets/pic/main-stairs.webp",
+          "imgMobile": "assets/pic/main-stairs-mobile.webp",
           "floors": [
             {
               "id": "third-floor",
               "path": "third-floor",
               "isActive": false,
-              "img": "assets/pic/third-floor.png",
-              "imgHover": "assets/pic/third-floor-hover.png",
+              "img": "assets/pic/third-floor-disable.webp",
               "rooms": []
             },
             {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
-              "img": "assets/pic/second-floor.png",
-              "imgHover": "assets/pic/second-floor-hover.png",
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
               "rooms": [
                 {
                   "id": "jordan-staircase",
@@ -81,8 +80,8 @@
               "id": "first-floor",
               "path": "first-floor",
               "isActive": true,
-              "img": "assets/pic/first-floor.png",
-              "imgHover": "assets/pic/first-floor-hover.png",
+              "img": "assets/pic/first-floor.webp",
+              "imgHover": "assets/pic/first-floor-hover.webp",
               "rooms": [
                 {
                   "id": "vestibule",
@@ -142,22 +141,21 @@
           "id": "state-halls",
           "name": "Парадные Залы",
           "path": "state-halls",
-          "img": "assets/pic/state-halls.png",
-          "imgMobile": "assets/pic/state-halls-mobile.png",
+          "img": "assets/pic/state-halls.webp",
+          "imgMobile": "assets/pic/state-halls-mobile.webp",
           "floors": [
             {
               "id": "third-floor",
               "path": "third-floor",
               "isActive": false,
-              "img": "assets/pic/third-floor.png",
-              "imgHover": "assets/pic/third-floor-hover.png"
+              "img": "assets/pic/third-floor-disable.webp"
             },
             {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
-              "img": "assets/pic/second-floor.png",
-              "imgHover": "assets/pic/second-floor-hover.png",
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
               "rooms": [
                 {
                   "id": "anteroom",
@@ -779,8 +777,7 @@
               "id": "first-floor",
               "path": "first-floor",
               "isActive": false,
-              "img": "assets/pic/first-floor.png",
-              "imgHover": "assets/pic/first-floor-hover.png"
+              "img": "assets/pic/first-floor-disable.webp"
             }
           ]
         },
@@ -788,27 +785,27 @@
           "id": "residential-half-nicolas",
           "name": "Жилая половина Николая I",
           "path": "nicolas",
-          "img": "assets/pic/living-nicolas.png",
-          "imgMobile": "assets/pic/living-nicolas-mobile.png",
+          "img": "assets/pic/living-nicolas.webp",
+          "imgMobile": "assets/pic/living-nicolas-mobile.webp",
           "floors": [
             {
               "id": "third-floor",
               "path": "third-floor",
               "isActive": true,
-              "img": "assets/pic/third-floor.png",
-              "imgHover": "assets/pic/third-floor-hover.png"
+              "img": "assets/pic/third-floor.webp",
+              "imgHover": "assets/pic/third-floor-hover.webp"
             },
             {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
-              "img": "assets/pic/second-floor.png",
-              "imgHover": "assets/pic/second-floor-hover.png",
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
               "rooms": [
                 {
                   "id": "malachite",
                   "path": "malachite-living",
-                  "map": "assets/maps/malachite.png"
+                  "map": "assets/maps/malachite.webp"
                 }
               ]
             },
@@ -816,8 +813,8 @@
               "id": "first-floor",
               "path": "first-floor",
               "isActive": true,
-              "img": "assets/pic/first-floor.png",
-              "imgHover": "assets/pic/first-floor-hover.png"
+              "img": "assets/pic/first-floor.webp",
+              "imgHover": "assets/pic/first-floor-hover.webp"
             }
           ]
         }
@@ -827,15 +824,15 @@
       "id": "small-hermitage",
       "title": "Малый Эрмитаж",
       "path": "small-hermitage",
-      "img": "assets/pic/small-hermitage.png",
-      "imgMobile": "assets/pic/small-hermitage-mobile.png"
+      "img": "assets/pic/small-hermitage.webp",
+      "imgMobile": "assets/pic/small-hermitage-mobile.webp"
     },
     {
       "id": "hermitage",
       "title": "Эрмитаж",
       "path": "hermitage",
-      "img": "assets/pic/hermitage.png",
-      "imgMobile": "assets/pic/hermitage-mobile.png"
+      "img": "assets/pic/hermitage.webp",
+      "imgMobile": "assets/pic/hermitage-mobile.webp"
     }
   ]
 }
