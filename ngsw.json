@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1683046553461,
+  "timestamp": 1683048394428,
   "index": "/hermitage-history/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/hermitage-history/998.166b2ca859951c38.js",
         "/hermitage-history/favicon.ico",
         "/hermitage-history/index.html",
-        "/hermitage-history/main.2745ec27fd27820c.js",
+        "/hermitage-history/main.e1e4bf43c066d6e6.js",
         "/hermitage-history/manifest.webmanifest",
         "/hermitage-history/polyfills.5da990a8e0a3caab.js",
         "/hermitage-history/runtime.27727cb49c1f3bde.js",
@@ -310,9 +310,9 @@
     "/hermitage-history/assets/pic/winter-palace-mobile.webp": "970f922fdd9b0a55c76833cce43413886c23b7ac",
     "/hermitage-history/assets/pic/winter-palace.webp": "d2f982efb1bc093cad7295b8f6d435d8da41ef33",
     "/hermitage-history/favicon.ico": "ed479b23fa8811836f6869e9ee32c619d360bebd",
-    "/hermitage-history/index.html": "2edba2aa2d7f94cb135d740e6205c76916bb18c8",
-    "/hermitage-history/main.2745ec27fd27820c.js": "9bada30342735198ab7630f8c5570c235a18bbcd",
-    "/hermitage-history/manifest.webmanifest": "9e09f6e7ef1532a1a30a9aeef02d131e886f4056",
+    "/hermitage-history/index.html": "aef9d7b810c5d31e93081e86ee9e3ec97596cf6d",
+    "/hermitage-history/main.e1e4bf43c066d6e6.js": "52f460aa35e9b996d1c1a6060a5957f1f9000197",
+    "/hermitage-history/manifest.webmanifest": "ea58c67f7c7e1d22f864e7451c95891733199ab2",
     "/hermitage-history/polyfills.5da990a8e0a3caab.js": "c09673627d28557aee5c43d6b2acf9fb503e091d",
     "/hermitage-history/runtime.27727cb49c1f3bde.js": "856a318da53232ee75e2bc72e2a9745b41ccdb36",
     "/hermitage-history/styles.efb060b91c819d6c.css": "985bfdb2e9f2900c9b27abfbd73cb4b73046fe31"
