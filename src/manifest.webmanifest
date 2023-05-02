@@ -1,7 +1,7 @@
 {
   "name": "Эрмитаж. Утраченные интерьеры",
   "short_name": "Hermitage History",
-  "theme_color": "#03463E",
+  "theme_color": "#000000",
   "background_color": "#03463E",
   "display": "standalone",
   "scope": "./",

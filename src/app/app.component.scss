@@ -2,12 +2,6 @@
   display: block;
 }
 
-.line-up {
-  height: 2px;
-
-  background-color: white;
-}
-
 .head {
   display: flex;
   height: 128px;
@@ -103,10 +97,6 @@
 }
 
 @media (min-width: 429px) {
-  .line-up {
-    display: none;
-  }
-
   .head {
     &__logo {
       width: 128px;
