@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, TrackByFunction } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { map, Observable } from 'rxjs';
 
 import { DataService } from '../../../app/data.service';
@@ -17,9 +18,19 @@ export class BuildingPageComponent {
   public buildingTrackBy = trackBy('id');
 
   constructor(
-    private readonly _dataService: DataService
+    private readonly _dataService: DataService,
+    private readonly _router: Router,
+    private readonly _route: ActivatedRoute
   ) {
     this.buildings$ = this._dataService.data$.pipe(map((data) => data.buildings));
+  }
+
+  public topFunctionTimeout(building: Building) {
+    setTimeout(() => {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      this._router.navigate([ building.path ], { relativeTo: this._route });
+    }, 500);
   }
 
   public topFunction() {

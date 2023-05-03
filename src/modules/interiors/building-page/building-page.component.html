@@ -10,10 +10,16 @@
       <img
         class="field__frame__buttons__image"
         [src]="building.img" />
-      <img
-        class="field__frame__buttons__image--mobile"
-        [src]="building.imgMobile" />
       <div class="field__frame__buttons__name">{{ building.title }}</div>
+    </a>
+    <a
+      *ngFor="let building of buildings; trackBy: buildingTrackBy"
+      class="field__frame__buttonsMobile"
+      (click)="topFunctionTimeout(building)">
+      <img
+        class="field__frame__buttonsMobile__image--mobile"
+        [src]="building.imgMobile" />
+      <div class="field__frame__buttonsMobile__name">{{ building.title }}</div>
     </a>
   </div>
 </div>
