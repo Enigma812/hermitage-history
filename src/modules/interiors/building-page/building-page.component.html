@@ -2,10 +2,11 @@
   <div
     *ngIf="buildings$ | async as buildings"
     class="field__frame">
-    <button
+    <a
       *ngFor="let building of buildings; trackBy: buildingTrackBy"
       class="field__frame__buttons"
-      [routerLink]="[building.path]">
+      [routerLink]="[building.path]"
+      (click)="topFunction()">
       <img
         class="field__frame__buttons__image"
         [src]="building.img" />
@@ -13,6 +14,6 @@
         class="field__frame__buttons__image--mobile"
         [src]="building.imgMobile" />
       <div class="field__frame__buttons__name">{{ building.title }}</div>
-    </button>
+    </a>
   </div>
 </div>

@@ -46,12 +46,14 @@
         right: 0;
         left: 0;
 
+        display: flex;
+        justify-content: center;
         margin: 0 auto;
 
 
         color: white;
         font-weight: 800;
-        font-size: 40px;
+        font-size: 35px;
         font-style: italic;
         text-shadow: 2px 0 10px black;
         -webkit-text-stroke-width: 1px;
@@ -96,7 +98,10 @@
           }
 
           &__name {
-            top: 55px;
+            top: 50%;
+
+            display: flex;
+            justify-content: center;
 
             font-size: 55px;
           }

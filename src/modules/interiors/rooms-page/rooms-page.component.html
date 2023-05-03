@@ -1,15 +1,17 @@
 <div *ngIf="room$ | async as room">
   <div class="navigate">
-    <button
+    <a
       *ngIf="room.prev === undefined"
       class="navigate__back-button backToChoise"
-      [routerLink]="['/', 'interiors', buildingPath$ | async]">
+      [routerLink]="['/', 'interiors', buildingPath$ | async]"
+      (click)="topFunction()">
       <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
-    </button>
-    <button
+    </a>
+    <a
       *ngIf="room.prev !== undefined"
       class="navigate__back-button"
-      [routerLink]="room.downToFloor ? room.downToFloor : ['../', room.prev]">
+      [routerLink]="room.downToFloor ? room.downToFloor : ['../', room.prev]"
+      (click)="topFunction()">
       <img
         class="navigate__back-button__arrow"
         src="assets/icon/arrow-back.svg" />
@@ -17,7 +19,7 @@
         class="navigate__back-button__arrow--mobile"
         src="assets/icon/arrow-back-mobile.svg" />
       <div class="navigate__back-button__text">{{ 'Common.previousRoom' | translate }}</div>
-    </button>
+    </a>
     <div
       class="map"
       ngbDropdown>
@@ -37,16 +39,18 @@
           [src]="room.map" />
       </div>
     </div>
-    <button
+    <a
       *ngIf="room.next === undefined"
       class="navigate__forward-button backToChoise"
-      [routerLink]="'../../../'">
+      [routerLink]="'../../../'"
+      (click)="topFunction()">
       <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
-    </button>
-    <button
+    </a>
+    <a
       *ngIf="room.next !== undefined"
       class="navigate__forward-button"
-      [routerLink]="room.upToFloor ? room.upToFloor : ['../', room.next]">
+      [routerLink]="room.upToFloor ? room.upToFloor : ['../', room.next]"
+      (click)="topFunction()">
       <div class="navigate__back-button__text">{{ 'Common.nextRoom' | translate }}</div>
       <img
         class="navigate__forward-button__arrow"
@@ -54,7 +58,7 @@
       <img
         class="navigate__forward-button__arrow--mobile"
         src="assets/icon/arrow-forward-mobile.svg" />
-    </button>
+    </a>
   </div>
   <div class="field">
     <div class="field__frame">

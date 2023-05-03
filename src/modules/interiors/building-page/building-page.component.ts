@@ -21,4 +21,9 @@ export class BuildingPageComponent {
   ) {
     this.buildings$ = this._dataService.data$.pipe(map((data) => data.buildings));
   }
+
+  public topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 }

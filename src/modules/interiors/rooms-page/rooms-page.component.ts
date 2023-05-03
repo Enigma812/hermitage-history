@@ -48,4 +48,9 @@ export class RoomsPageComponent {
 
     this.buildingPath$ = this._route.params.pipe(map((params) => params['buildingPath']));
   }
+
+  public topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 }

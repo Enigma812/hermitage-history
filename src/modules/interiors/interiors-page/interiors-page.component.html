@@ -1,7 +1,8 @@
 <div class="navigate">
-  <button
+  <a
     class="navigate__back-button"
-    [routerLink]="'/interiors'">
+    [routerLink]="'/interiors'"
+    (click)="topFunction()">
     <img
       class="navigate__back-button__arrow"
       src="assets/icon/arrow-back.svg" />
@@ -9,7 +10,7 @@
       class="navigate__back-button__arrow--mobile"
       src="assets/icon/arrow-back-mobile.svg" />
     <div class="navigate__back-button__text">{{ 'Common.back' | translate }}</div>
-  </button>
+  </a>
 </div>
 <div class="field">
   <div
@@ -18,16 +19,17 @@
     <div
       *ngFor="let interior of interiors; trackBy: trackById"
       class="field__base__frame">
-      <button
+      <a
         class="field__base__frame__button"
-        [routerLink]="interior.path">
+        [routerLink]="interior.path"
+        (click)="topFunction()">
         <img
           class="field__base__frame__button__image"
           [src]="interior.img" />
         <img
           class="field__base__frame__button__image--mobile"
           [src]="interior.imgMobile" />
-      </button>
+      </a>
       <div class="field__base__frame__name">{{ interior.name }}</div>
     </div>
   </div>

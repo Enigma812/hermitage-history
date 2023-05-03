@@ -50,4 +50,9 @@ export class FloorsPageComponent {
       this._router.navigate([ floor.path, floor.rooms[0].path ], { relativeTo: this._route });
     }
   }
+
+  public topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 }

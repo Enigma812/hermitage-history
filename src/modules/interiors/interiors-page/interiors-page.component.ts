@@ -31,4 +31,9 @@ export class InteriorsPageComponent {
       ))
     );
   }
+
+  public topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 }
