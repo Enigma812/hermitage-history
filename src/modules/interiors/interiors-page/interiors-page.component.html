@@ -26,11 +26,20 @@
         <img
           class="field__base__frame__button__image"
           [src]="interior.img" />
-        <img
-          class="field__base__frame__button__image--mobile"
-          [src]="interior.imgMobile" />
       </a>
       <div class="field__base__frame__name">{{ interior.name }}</div>
+    </div>
+    <div
+      *ngFor="let interior of interiors; trackBy: trackById"
+      class="field__base__frameMobile">
+      <a
+        class="field__base__frameMobile__button"
+        (click)="topFunctionTimeout(interior)">
+        <img
+          class="field__base__frameMobile__button__image--mobile"
+          [src]="interior.imgMobile" />
+      </a>
+      <div class="field__base__frameMobile__name">{{ interior.name }}</div>
     </div>
   </div>
 </div>

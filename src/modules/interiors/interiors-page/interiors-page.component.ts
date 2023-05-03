@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { map, Observable, switchMap } from 'rxjs';
 
 import { DataService } from '../../../app/data.service';
@@ -19,7 +19,8 @@ export class InteriorsPageComponent {
 
   constructor(
     private readonly _route: ActivatedRoute,
-    private readonly _dataService: DataService
+    private readonly _dataService: DataService,
+    private readonly _router: Router
   ) {
     this.buildingName$ = this._route.params.pipe(map((params) => params['buildingPath']));
 
@@ -30,6 +31,14 @@ export class InteriorsPageComponent {
         map((building) => building?.interiors ?? [])
       ))
     );
+  }
+
+  public topFunctionTimeout(interior: Interior) {
+    setTimeout(() => {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      this._router.navigate([ interior.path ], { relativeTo: this._route });
+    }, 500);
   }
 
   public topFunction() {

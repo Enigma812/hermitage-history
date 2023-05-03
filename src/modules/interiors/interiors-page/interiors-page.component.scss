@@ -37,10 +37,6 @@
       text-transform: uppercase;
     }
   }
-
-  &__back-button:hover {
-    background-color: #3C837A;
-  }
 }
 
 .field {
@@ -52,6 +48,10 @@
 
   &__base {
     &__frame {
+      display: none;
+    }
+
+    &__frameMobile {
       display: flex;
       flex-direction: column;
       padding: 6px;
@@ -63,10 +63,6 @@
         padding: 0;
         border: 0;
         overflow: hidden;
-          
-        &__image {
-          display: none;
-        }
   
         &__image--mobile {
           display: block;
@@ -88,7 +84,7 @@
   
         color: #FFFFFF;
         font-weight: 600;
-        font-size: 22px;
+        font-size: 18px;
         text-transform: uppercase;
   
         background-color: #333333;
@@ -120,6 +116,10 @@
         font-size: 25px;
       }
     }
+
+    &__back-button:hover {
+      background-color: #3C837A;
+    }
   }
 
   .field{
@@ -130,13 +130,27 @@
     &__base {
       display: flex;
       gap: 25px;
+      
+      &__frameMobile {
+        display: none;
+      }
 
       &__frame {
+
+        display: flex;
         flex-direction: column;
         padding: 0;
   
         &__button {
+
+          display: flex;
+          flex-direction: column;
           width: 426px;
+          padding: 0;
+          border: 0;
+          overflow: hidden;
+
+          cursor: pointer;
   
           &__image {
             display: block;
@@ -147,14 +161,23 @@
           &__image:hover {
             transform: scale(1.2);
           }
-  
-          &__image--mobile {
-            display: none;
-          }
         }
   
-        &__name {
-          width: 426px;  
+        &__name {  
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 426px;
+
+          height: 50px;
+    
+          color: #FFFFFF;
+          font-weight: 600;
+          font-size: 22px;
+          text-transform: uppercase;
+    
+          background-color: #333333;
         }
       }
     }
