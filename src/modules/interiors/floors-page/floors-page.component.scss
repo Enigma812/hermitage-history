@@ -41,7 +41,6 @@
 
 .field {
   width: 100%;
-  min-height: 788px;
   border-color: #EEEEEE;
   border-style: solid;
   border-width: 0 10px 10px;
@@ -67,12 +66,11 @@
     align-items: center;
 
     &__floor {
-      width: 408px;
       padding: 0;
       border: 0;
 
       &__image {
-        width: 408px;
+        width: 100%;
       }
     }
   }
