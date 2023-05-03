@@ -47,7 +47,11 @@ export class FloorsPageComponent {
 
   public redirectToRoom(floor: Floor): void {
     if (floor.rooms.length > 0) {
-      this._router.navigate([ floor.path, floor.rooms[0].path ], { relativeTo: this._route });
+      setTimeout(() => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        this._router.navigate([ floor.path, floor.rooms[0].path ], { relativeTo: this._route });
+      }, 100);
     }
   }
 

@@ -23,7 +23,6 @@
       *ngFor="let floor of floors; trackBy: trackById"
       class="field__body__floor"
       [disabled]="!floor.isActive"
-      (click)="topFunction()"
       (click)="redirectToRoom(floor)">
       <img
         #floorImage

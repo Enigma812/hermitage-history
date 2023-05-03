@@ -37,10 +37,6 @@
       text-transform: uppercase;
     }
   }
-
-  &__back-button:hover {
-    background-color: #3C837A;
-  }
 }
 
 .field {
@@ -102,6 +98,10 @@
       &__text {
         font-size: 25px;
       }
+    }
+
+    &__back-button:hover {
+      background-color: #3C837A;
     }
   }
 
