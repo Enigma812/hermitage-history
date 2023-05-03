@@ -57,10 +57,6 @@
 
     text-decoration: none;
   }
-
-  &__back-button:hover, &__forward-button:hover {
-    background-color: #3C837A;
-  }
 }
 
 .backToChoise {
@@ -201,6 +197,10 @@
         display: block;
         padding: 0 20px 0 14px;
       }
+    }
+
+    &__back-button:hover, &__forward-button:hover {
+      background-color: #3C837A;
     }
   }
 
