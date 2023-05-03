@@ -31,13 +31,14 @@
 
     &__arrow--mobile{
       display: block;
-      padding: 0 9px 0 12px;
+      height: 13px;
+      padding: 0 9px;
     }
 
     &__text {
       color: #FFFFFF;
       font-weight: 600;
-      font-size: 15px;
+      font-size: 13px;
       text-transform: uppercase;
     }
   }
@@ -66,6 +67,7 @@
 .map {
   display: flex;
   flex-grow: 1;
+  min-width: 96px;
   margin: 0 -34px;
 
   &__button {
@@ -83,7 +85,7 @@
 
     &__text {
       font-weight: 600;
-      font-size: 15px;
+      font-size: 14px;
       text-transform: uppercase;
     }
   }
@@ -173,6 +175,7 @@
 
     &__back-button, &__forward-button {
       width: 360px;
+      min-width: 350px;
       height: 60px;
 
       &__arrow {
@@ -190,9 +193,6 @@
     }
 
     &__forward-button {
-      right: 0;
-      left: auto;
-
       &__arrow {
         display: block;
         padding: 0 20px 0 14px;
