@@ -14,20 +14,21 @@
 <div class="field">
   <div
     *ngIf="interiors$ | async as interiors"
-    class="field__frame">
-    <button
+    class="field__base">
+    <div
       *ngFor="let interior of interiors; trackBy: trackById"
-      class="field__frame__button btn btn-lg btn-outline-primary"
-      [routerLink]="interior.path">
-      <div class="field__frame__button__frame-img">
+      class="field__base__frame">
+      <button
+        class="field__base__frame__button"
+        [routerLink]="interior.path">
         <img
-          class="field__frame__button__frame-img__image"
+          class="field__base__frame__button__image"
           [src]="interior.img" />
         <img
-          class="field__frame__button__frame-img__image--mobile"
+          class="field__base__frame__button__image--mobile"
           [src]="interior.imgMobile" />
-      </div>
-      <div class="field__frame__button__name">{{ interior.name }}</div>
-    </button>
+      </button>
+      <div class="field__base__frame__name">{{ interior.name }}</div>
+    </div>
   </div>
 </div>

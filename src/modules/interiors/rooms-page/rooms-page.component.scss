@@ -148,8 +148,7 @@
         background-color: #D9D9D9;
 
         &__image {
-          min-width: 386px;
-          max-width: 386px;
+          width: 100%;
           margin-bottom: 5px;
         }
 
@@ -163,7 +162,7 @@
 }
 
 .image-vertical {
-  min-width: 386px;
+  width: 100%;
 }
 
 @media (min-width: 429px) {
@@ -237,22 +236,19 @@
       &__block {
         &__img-frame {
           display: flex;
-          gap: 30px;
 
           margin-bottom: 10px;
           padding: 20px;
 
           &__image {
             flex-grow: 1;
-            max-width: 100%;
-            height: auto;
-            max-height: 100%;
-
-            margin-bottom: 10px;
+            max-width: 1450px;
+            margin-bottom: 0;
           }
 
           &__description {
-            max-width: 200px;
+            width: 200px;
+            padding-left: 20px;
 
             font-size: 21px;
           }
@@ -262,9 +258,8 @@
   }
 
   .image-vertical {
-    width: auto;
+    flex-grow: 1;
     max-width: 800px;
-    max-height: 100%;
   }
 }
 
