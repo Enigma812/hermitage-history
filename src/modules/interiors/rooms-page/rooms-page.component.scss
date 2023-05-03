@@ -37,8 +37,9 @@
 
     &__text {
       color: #FFFFFF;
-      font-weight: 600;
+      font-weight: 550;
       font-size: 13px;
+      font-family: "InterTight base", sans-serif;
       text-transform: uppercase;
     }
   }
@@ -84,9 +85,11 @@
     background-color: #6F9792;
 
     &__text {
-      font-weight: 600;
+      color: black;
+      font-weight: 500;
       font-size: 14px;
-      text-transform: uppercase;
+      font-family: "InterTight base", sans-serif;
+      text-transform: uppercase
     }
   }
 
@@ -134,6 +137,7 @@
 
       font-weight: 600;
       font-size: 22px;
+      font-family: "InterTight base", sans-serif;
       text-transform: uppercase;
     }
 
@@ -142,6 +146,7 @@
 
       font-weight: 400;
       font-size: 18px;
+      font-family: "InterTight base", sans-serif;
     }
 
     &__block {
@@ -159,6 +164,7 @@
         &__description {
           font-weight: 400;
           font-size: 15px;
+          font-family: "InterTight base", sans-serif;
         }
       }
     }
@@ -253,7 +259,8 @@
           }
 
           &__description {
-            width: 200px;
+            min-width: 200px;
+            max-width: 300px;
             padding-left: 20px;
 
             font-size: 21px;

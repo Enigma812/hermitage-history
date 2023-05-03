@@ -1,4 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
-
-/* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+@font-face {
+    font-family: "Lobster Regular";
+    src: url("assets/fonts/Lobster-Regular.ttf");
+}
+
+@font-face {
+    font-family: "InterTight base";
+    src: url("assets/fonts/InterTight-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Pacifico Regular";
+    src: url("assets/fonts/Pacifico-Regular.ttf");
+}
+
+

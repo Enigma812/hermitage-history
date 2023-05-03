@@ -32,8 +32,9 @@
 
     &__text {
       color: #FFFFFF;
-      font-weight: 600;
+      font-weight: 550;
       font-size: 15px;
+      font-family: "InterTight base", sans-serif;
       text-transform: uppercase;
     }
   }
@@ -54,8 +55,11 @@
       margin-bottom: 0;
       padding: 15px;
 
-      font-weight: 400;
-      font-size: 25px;
+      color: rgb(63 63 63);
+
+      font-weight: 500;
+      font-size: 20px;
+      font-family: "Pacifico Regular", sans-serif;
       text-transform: uppercase;
     }
   }
