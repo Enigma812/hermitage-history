@@ -68,6 +68,7 @@
 .map {
   display: flex;
   flex-grow: 1;
+  flex-shrink: 0;
   min-width: 96px;
   margin: 0 -34px;
 
@@ -158,6 +159,7 @@
 
         &__image {
           width: 100%;
+          min-width: 0;
           margin-bottom: 5px;
         }
 
