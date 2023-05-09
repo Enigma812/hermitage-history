@@ -989,10 +989,45 @@
                   "collections": [
                     {
                       "id": "painting",
-                      "path": "study-painting",
-                      "img": "assets/pic/rooms/nicolas/study-paint.webp",
+                      "path": "bedroom-painting",
+                      "img": "assets/pic/rooms/nicolas/bedroom-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет императрицы Александры Федоровны. Гау Эдуард Петрович 1870г. акварель"
+                      "description": "Спальня. Гау Эдуард Петрович 1859г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "bedroom-painting2",
+                      "img": "assets/pic/rooms/nicolas/bedroom-paint2.webp",
+                      "vertical": false,
+                      "description": "Спальня. Гау Эдуард Петрович 1870г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "bedroom-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/bedroom-photo.webp",
+                      "vertical": false,
+                      "description": "Во времена императрицы Александры Федоровны в Спальне изменилась отделка стен. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "bedroom-oldPhoto2",
+                      "img": "assets/pic/rooms/nicolas/bedroom-photo2.webp",
+                      "vertical": false,
+                      "description": "Спальня императрицы Александры Федоровны. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPhoto3",
+                      "path": "bedroom-oldPhoto3",
+                      "img": "assets/pic/rooms/nicolas/bedroom-photo3.webp",
+                      "vertical": false,
+                      "description": "Кровать в Спальне императрицы Александры Федоровны. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "bedroom-omodernPhoto",
+                      "img": "assets/pic/rooms/nicolas/bedroom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Спальни"
                     }
                   ]
                 }
