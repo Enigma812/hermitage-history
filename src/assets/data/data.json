@@ -1153,7 +1153,7 @@
                   "id": "nicolasII-study",
                   "path": "nicolasII-study",
                   "map": "assets/pic/rooms/nicolas/map-nicolas.webp",
-                  "next": "nicolasII-study",
+                  "next": "adjutant-room",
                   "prev": "boudoir",
                   "name": "Готический кабинет Николая II (Бывший Зимний сад императрицы Александры Федоровны)",
                   "description": "Из будуара большие арки вели в Зимний сад, в начале XX интерьер был изменен на готический кабинет, в него вошли помещения Зимнего сада и Будуара.",
@@ -1213,6 +1213,64 @@
                       "img": "assets/pic/rooms/nicolas/nicolas-now.webp",
                       "vertical": false,
                       "description": "Современный вид Готического кабинета Николая II"
+                    }
+                  ]
+                },
+                {
+                  "id": "adjutant",
+                  "path": "adjutant-room",
+                  "map": "assets/pic/rooms/nicolas/map-adjutant.webp",
+                  "next": "gothic-library",
+                  "prev": "nicolasII-study",
+                  "name": "Адьютантская и Бассейн Николая II",
+                  "status": "Бассейн Николая II был разобран и недоступен для посещения",
+                  "description": "Переход между Готическим кабинетом и Готической библиотекой",
+                  "collections": [
+                    {
+                      "id": "ussrPhoto",
+                      "path": "adjutant-ussrPhoto",
+                      "img": "assets/pic/rooms/nicolas/adjutant-photoUssr.webp",
+                      "vertical": true,
+                      "description": "Бассейн Николая II перед разборкой. СССР 1930г."
+                    },
+                    {
+                      "id": "ussrPhoto2",
+                      "path": "adjutant-ussrPhoto2",
+                      "img": "assets/pic/rooms/nicolas/adjutant-photoUssr2.webp",
+                      "vertical": true,
+                      "description": "Процесс разборки чугунной винтовой лестницы в Адьютантской. СССР 1930г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "adjutant-umodernPhoto",
+                      "img": "assets/pic/rooms/nicolas/adjutant-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Адьютансткой комнаты. За маленькой дверью в конце находился Бассейн Николая II, на месте дивана винтовая лестница"
+                    }
+                  ]
+                },
+                {
+                  "id": "library",
+                  "path": "gothic-library",
+                  "map": "assets/pic/rooms/nicolas/map-library.webp",
+                  "next": "billiard-room",
+                  "prev": "adjutant-room",
+                  "name": "Готическая библиотека Николая II",
+                  "description": "Личная библиотека императора была создана в конце XIX века для размещения собстенного собрания книг",
+                  "collections": [
+                    {
+                      "id": "oldPhoto",
+                      "path": "library-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/library-photo.webp",
+                      "vertical": false,
+                      "description": "Готическая библиотека Николая II. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "library-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/library-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид библиотеки"
                     }
                   ]
                 }
