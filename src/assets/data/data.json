@@ -982,7 +982,7 @@
                   "id": "bedroom",
                   "path": "bedroom",
                   "map": "assets/pic/rooms/nicolas/map-bedroom.webp",
-                  "next": "dressing",
+                  "next": "dressing-room",
                   "prev": "study",
                   "name": "Спальня",
                   "description": "Спальня императрицы Александры Федоровны",
@@ -1028,6 +1028,59 @@
                       "img": "assets/pic/rooms/nicolas/bedroom-now.webp",
                       "vertical": false,
                       "description": "Современный вид Спальни"
+                    }
+                  ]
+                },
+                {
+                  "id": "dressing",
+                  "path": "dressing-room",
+                  "map": "assets/pic/rooms/nicolas/map-dressing.webp",
+                  "next": "nicolasII-study",
+                  "prev": "bedroom",
+                  "name": "Туалетная комната",
+                  "description": "Туалетная комната императрицы Александры Федоровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dressing-painting",
+                      "img": "assets/pic/rooms/nicolas/dressing-paint.webp",
+                      "vertical": false,
+                      "description": "Туалетная комната императрицы Александры Федоровны. Гау Эдуард Петрович 1871г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "dressing-painting2",
+                      "img": "assets/pic/rooms/nicolas/dressing-paint2.webp",
+                      "vertical": true,
+                      "description": "Туалетная комната императрицы Александры Федоровны. Гау Эдуард Петрович 1871г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "dressing-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/dressing-photo.webp",
+                      "vertical": false,
+                      "description": "При Николаи II интерьер туалетной был изменен. Маленькая двверь ведет в Ванную комнату. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "dressing-oldPhoto2",
+                      "img": "assets/pic/rooms/nicolas/dressing-photo2.webp",
+                      "vertical": false,
+                      "description": "Туалетная комната. Кубеш Карл Карлович 1917г."
+                    },                   
+                    {
+                      "id": "oldPhoto3",
+                      "path": "dressing-oldPhoto3",
+                      "img": "assets/pic/rooms/nicolas/dressing-photo3.webp",
+                      "vertical": false,
+                      "description": "Разграбленная большивиками Туалетная комната. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "dressing-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/dressing-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Туалетной комнаты"
                     }
                   ]
                 }
