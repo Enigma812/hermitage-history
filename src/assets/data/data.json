@@ -1529,7 +1529,72 @@
               "path": "first-floor",
               "isActive": true,
               "img": "assets/pic/first-floor.webp",
-              "imgHover": "assets/pic/first-floor-hover.webp"
+              "imgHover": "assets/pic/first-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "corridor",
+                  "path": "corridor",
+                  "map": "assets/pic/rooms/nicolas/map-corridor.webp",
+                  "next": "gothic-livingRoom",
+                  "name": "Коридор",
+                  "description": "Передняя в апартаментах дочерей Николая I",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "corridor-painting",
+                      "img": "assets/pic/rooms/nicolas/corridor-paint.webp",
+                      "vertical": true,
+                      "description": "Коридор. Гау Эдуард Петрович 1869г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "corridor-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/corridor-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Коридора"
+                    }
+                  ]
+                },
+                {
+                  "id": "gothicLR",
+                  "path": "gothic-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-gothic.webp",
+                  "next": "amur-livingRoom",
+                  "prev": "corridor",
+                  "name": "Готическая гостиная",
+                  "description": "Служила парадной гостиной на половине дочерей Николая I, великих княжон Ольги и Александры.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "gothic-painting",
+                      "img": "assets/pic/rooms/nicolas/gothic-paint.webp",
+                      "vertical": false,
+                      "description": "Готическая гостиная. Юшков Ф. И. 1849г. масло"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "gothic-painting2",
+                      "img": "assets/pic/rooms/nicolas/gothic-paint2.webp",
+                      "vertical": false,
+                      "description": "Готическая гостиная с измененным иньерьером. Гау Эдуард Петрович 1868г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "gothic-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/gothic-photo.webp",
+                      "vertical": false,
+                      "description": "Готическая гостиная разграбленная большивиками. Штейнберг Яков 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "gothic-ModernPhoto",
+                      "img": "assets/pic/rooms/nicolas/gothic-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Готической гостиной"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
