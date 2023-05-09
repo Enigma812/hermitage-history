@@ -1335,7 +1335,7 @@
                   "id": "saltukov",
                   "path": "saltykov-staircase",
                   "map": "assets/pic/rooms/nicolas/map-saltykov.webp",
-                  "next": "saltykov-staircase",
+                  "next": "rotunda",
                   "prev": "reception-room",
                   "name": "Салтыковская лестница",
                   "description": "Лестница ведёт к выходу в бывший Собственный сад",
@@ -1360,6 +1360,77 @@
                       "img": "assets/pic/rooms/nicolas/saltykov-now.webp",
                       "vertical": true,
                       "description": "Современный вид Салтыковской лестницы"
+                    }
+                  ]
+                },
+                {
+                  "id": "rotunda",
+                  "path": "rotunda",
+                  "map": "assets/pic/rooms/nicolas/map-rotunda.webp",
+                  "next": "arab-diningRoom",
+                  "prev": "saltykov-staircase",
+                  "name": "Ротонда",
+                  "description": "Зал не входил в число жилых покоев, но всегда играл важную роль в их связи",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "rotunda-painting",
+                      "img": "assets/pic/rooms/nicolas/rotunda-paint.webp",
+                      "vertical": true,
+                      "description": "Ротонда до пожара 1837г. Ефим Тухаринов 1834г."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "rotunda-painting2",
+                      "img": "assets/pic/rooms/nicolas/rotunda-paint2.webp",
+                      "vertical": true,
+                      "description": "Ротонда востоновленная после пожара. Гау, Эдуард Петрович 1862г."
+                    },
+                    {
+                      "id": "oldphoto",
+                      "path": "rotunda-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/rotunda-photo.webp",
+                      "vertical": false,
+                      "description": "Доревлюционный вид Ротонды. 1914г."
+                    },
+                    {
+                      "id": "modernphoto",
+                      "path": "rotunda-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/rotunda-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Ротонды"
+                    }
+                  ]
+                },
+                {
+                  "id": "arab-diningRoom",
+                  "path": "arab-diningRoom",
+                  "map": "assets/pic/rooms/nicolas/map-arab.webp",
+                  "next": "diningRoom",
+                  "prev": "rotunda",
+                  "name": "Арапская (большая) столовая",
+                  "description": "Парадный зал в личных покоях. Название происходит от распологавшегося здесь императорского караула, состоявшего из четырех негров",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "arab-painting",
+                      "img": "assets/pic/rooms/nicolas/arab-paint.webp",
+                      "vertical": false,
+                      "description": "Арапская столовая. Ухтомский Константин Андреевич середина XIX века."
+                    },
+                    {
+                      "id": "oldphoto",
+                      "path": "arab-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/arab-photo.webp",
+                      "vertical": false,
+                      "description": "Арапская столовая. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernphoto",
+                      "path": "arab-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/arab-now.webp",
+                      "vertical": false,
+                      "description": "Современый вид Арапской столовой"
                     }
                   ]
                 }
