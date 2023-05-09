@@ -1407,7 +1407,7 @@
                   "path": "arab-diningRoom",
                   "map": "assets/pic/rooms/nicolas/map-arab.webp",
                   "next": "diningRoom",
-                  "prev": "rotunda",
+                  "prev": "arab-diningRoom",
                   "name": "Арапская (большая) столовая",
                   "description": "Парадный зал в личных покоях. Название происходит от распологавшегося здесь императорского караула, состоявшего из четырех негров",
                   "collections": [
@@ -1431,6 +1431,56 @@
                       "img": "assets/pic/rooms/nicolas/arab-now.webp",
                       "vertical": false,
                       "description": "Современый вид Арапской столовой"
+                    }
+                  ]
+                },
+                {
+                  "id": "diningRoom",
+                  "path": "diningRoom",
+                  "map": "assets/pic/rooms/nicolas/map-dining.webp",
+                  "next": "church-stairs",
+                  "prev": "rotunda",
+                  "name": "Малая столовая (бывшая Помпейская)",
+                  "description": "Приватная столовая императорской семьи",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dining-painting",
+                      "img": "assets/pic/rooms/nicolas/dining-paint.webp",
+                      "vertical": true,
+                      "description": "Помпейская столовая. Ухтомский Константин Андреевич 1874г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "dining-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/dining-photo.webp",
+                      "vertical": true,
+                      "description": "К свадьбе Николая II был создан новый интерьер. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "dining-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/dining-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Малой столовой"
+                    }
+                  ]
+                },
+                {
+                  "id": "church-stairs",
+                  "path": "church-stairs",
+                  "map": "assets/pic/rooms/nicolas/map-churchStairs.webp",
+                  "next": "church",
+                  "prev": "diningRoom",
+                  "name": "Церковная леситница",
+                  "description": "Приватная столовая императорской семьи",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dining-painting",
+                      "img": "assets/pic/rooms/nicolas/dining-paint.webp",
+                      "vertical": true,
+                      "description": "Помпейская столовая. Ухтомский Константин Андреевич 1874г."
                     }
                   ]
                 }
