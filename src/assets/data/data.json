@@ -1330,6 +1330,38 @@
                       "description": "Современный вид Приемной"
                     }
                   ]
+                },
+                {
+                  "id": "saltukov",
+                  "path": "saltykov-staircase",
+                  "map": "assets/pic/rooms/nicolas/map-saltykov.webp",
+                  "next": "saltykov-staircase",
+                  "prev": "reception-room",
+                  "name": "Салтыковская лестница",
+                  "description": "Лестница ведёт к выходу в бывший Собственный сад",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "saltykov-painting",
+                      "img": "assets/pic/rooms/nicolas/saltykov-paint.webp",
+                      "vertical": true,
+                      "description": "Салтыковская лестница. Ухтомский Константин Андреевич. Середина XIX века."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "saltykov-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/saltykov-photo.webp",
+                      "vertical": true,
+                      "description": "Лестница получила новое убранство в 1899 году. Стенные панно лестничной клетки были оформлены живописными вставками или композициями из ваз и блюд."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "saltykov-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/saltykov-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид Салтыковской лестницы"
+                    }
+                  ]
                 }
               ]
             },
