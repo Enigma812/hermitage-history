@@ -803,9 +803,198 @@
               "imgHover": "assets/pic/second-floor-hover.webp",
               "rooms": [
                 {
-                  "id": "malachite",
-                  "path": "malachite-living",
-                  "map": "assets/maps/malachite.webp"
+                  "id": "malakhite",
+                  "path": "malakhite-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-malakhiteLR.webp",
+                  "next": "white-livingRoom",
+                  "name": "Малахитовая гостиная",
+                  "description": "Парадная гостиная в северо-западной части Зимнего дворца, входившая в состав личных покоев супруги Николая I — Александры Фёдоровны. До пожара 1837г. именовалась Яшмовой гостиной, так как колонны были облицованы яшмой, при восстановлении их облицовка была заменена на малахит",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "malakhite-painting",
+                      "img": "assets/pic/rooms/nicolas/malakhite-paint.webp",
+                      "vertical": false,
+                      "description": "Яшмовая гостиная до пожара 1837г. Чернецов Григорий Григорьевич, 1833г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "malakhite-painting2",
+                      "img": "assets/pic/rooms/nicolas/malakhite-paint2.webp",
+                      "vertical": false,
+                      "description": "Малахитовая гостиная. Ухтомский Константин Андреевич, 1865г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "malakhite-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/malakhite-photo.webp",
+                      "vertical": false,
+                      "description": "Дореволюционный вид Малахитовой гостиной. Кубеш Карл Карлович, 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "malakhite-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/malakhite-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Малахитовой гостиной"
+                    }
+                  ]
+                },
+                {
+                  "id": "whiteLR",
+                  "path": "white-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-whiteLR.webp",
+                  "next": "silver-livingRoom",
+                  "prev": "malakhite-livingRoom",
+                  "name": "Белая гостиная",
+                  "description": "Первая из трех приватных гостиных императрицы Александры Фёдоровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "white-painting",
+                      "img": "assets/pic/rooms/nicolas/white-paint.webp",
+                      "vertical": false,
+                      "description": "Белая гостиная. Гау Эдуард Петрович 1860г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "white-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/white-photo.webp",
+                      "vertical": false,
+                      "description": "В начале XX века, под влиянием модерна был полностью изменен стиль отделки и интерьера. Кубеш Карл Карлович, 1917г"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "white-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/white-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Белой гостиной"
+                    }
+                  ]
+                },
+                {
+                  "id": "silverLR",
+                  "path": "silver-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-silverLR.webp",
+                  "next": "study",
+                  "prev": "white-livingRoom",
+                  "name": "Серебряная гостиная",
+                  "description": "Большая или Вторая (Серебряная) гостиная императрицы Александры Фёдоровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "silver-painting",
+                      "img": "assets/pic/rooms/nicolas/silver-paint.webp",
+                      "vertical": false,
+                      "description": "Большая гостиная исператрицы Александры Фёдоровны. Гау Эдуард Петрович 1871г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "silver-painting2",
+                      "img": "assets/pic/rooms/nicolas/silver-paint2.webp",
+                      "vertical": false,
+                      "description": "Большая гостиная исператрицы Александры Фёдоровны. Гау Эдуард Петрович 1871г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "silver-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/silver-photo.webp",
+                      "vertical": false,
+                      "description": "При Николаи II была переделана в гостиную в стиле Людовика XVI и получина название Серебряная. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "silver-oldPhoto2",
+                      "img": "assets/pic/rooms/nicolas/silver-photo2.webp",
+                      "vertical": false,
+                      "description": "Серебряная гостиная. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "silver-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/silver-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Серебряной гостиной"
+                    }
+                  ]
+                },
+                {
+                  "id": "study",
+                  "path": "study",
+                  "map": "assets/pic/rooms/nicolas/map-study.webp",
+                  "next": "bedroom",
+                  "prev": "silver-livingRoom",
+                  "name": "Кабинет (третья гостиная)",
+                  "description": "Кабинет императрицы Александры Федоровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "study-painting",
+                      "img": "assets/pic/rooms/nicolas/study-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет императрицы Александры Федоровны. Гау Эдуард Петрович 1870г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "study-painting2",
+                      "img": "assets/pic/rooms/nicolas/study-paint2.webp",
+                      "vertical": false,
+                      "description": "Кабинет императрицы Александры Федоровны. Гау Эдуард Петрович 1870г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "study-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/study-photo.webp",
+                      "vertical": true,
+                      "description": "В начале XX века отделка и интерьер были изменены в соответствии с новыми веяниями в архитектуре. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "study-oldPhoto2",
+                      "img": "assets/pic/rooms/nicolas/study-photo2.webp",
+                      "vertical": false,
+                      "description": "Кабинет императрицы Александры Федоровны. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPhoto3",
+                      "path": "study-oldPhoto3",
+                      "img": "assets/pic/rooms/nicolas/study-photo3.webp",
+                      "vertical": true,
+                      "description": "Писменный стол императрицы Александры Федоровны. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "study-oldPhoto4",
+                      "img": "assets/pic/rooms/nicolas/study-photo4.webp",
+                      "vertical": false,
+                      "description": "Разграбленный кабинет императрицы после революции. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "study-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/study-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид на Кабинет"
+                    }
+                  ]
+                },
+                {
+                  "id": "bedroom",
+                  "path": "bedroom",
+                  "map": "assets/pic/rooms/nicolas/map-bedroom.webp",
+                  "next": "dressing",
+                  "prev": "study",
+                  "name": "Спальня",
+                  "description": "Спальня императрицы Александры Федоровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "study-painting",
+                      "img": "assets/pic/rooms/nicolas/study-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет императрицы Александры Федоровны. Гау Эдуард Петрович 1870г. акварель"
+                    }
+                  ]
                 }
               ]
             },
