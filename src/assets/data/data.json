@@ -1593,6 +1593,45 @@
                       "description": "Современный вид Готической гостиной"
                     }
                   ]
+                },
+                {
+                  "id": "amurLR",
+                  "path": "amur-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-amurLR.webp",
+                  "next": "corner-room",
+                  "prev": "gothic-livingRoom",
+                  "name": "Гостиная с Амурами",
+                  "description": "Интерьер гостиной создан для великого князя Николая Николаевича, ранее, до своего замужества, помещение занимали его сестры, Ольга и Александра.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "amur-painting",
+                      "img": "assets/pic/rooms/nicolas/amurLR-paint.webp",
+                      "vertical": false,
+                      "description": "Гостиная с амурами. Гау Эдуард Петрович 1860-е. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "amur-painting2",
+                      "img": "assets/pic/rooms/nicolas/amurLR-paint2.webp",
+                      "vertical": false,
+                      "description": "Гостиная с амурами. Гау Эдуард Петрович 1868г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "amurLR-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/amurLR-photo.webp",
+                      "vertical": false,
+                      "description": "Гостиная с амурами после захвата большивиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "amurLR-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/amurLR-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Гостиной с амурами"
+                    }
+                  ]
                 }
               ]
             }
