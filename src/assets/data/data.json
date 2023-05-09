@@ -1273,6 +1273,63 @@
                       "description": "Современный вид библиотеки"
                     }
                   ]
+                },
+                {
+                  "id": "billiard",
+                  "path": "billiard-room",
+                  "map": "assets/pic/rooms/nicolas/map-billiard.webp",
+                  "next": "reception-room",
+                  "prev": "gothic-library",
+                  "name": "Бильярдная",
+                  "description": "Бильярдная комната в личных покоях Николая II",
+                  "collections": [
+                    {
+                      "id": "oldPhoto",
+                      "path": "billiard-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/billiard-photo.webp",
+                      "vertical": false,
+                      "description": "Бильярдная. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "billiard-oldPhoto2",
+                      "img": "assets/pic/rooms/nicolas/billiard-photo2.webp",
+                      "vertical": false,
+                      "description": "Бильярдная. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "billiard-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/billiard-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Бильярдной"
+                    }
+                  ]
+                },
+                {
+                  "id": "reception",
+                  "path": "reception-room",
+                  "map": "assets/pic/rooms/nicolas/map-reception.webp",
+                  "next": "saltykov-staircase",
+                  "prev": "billiard-room",
+                  "name": "Приемная",
+                  "description": "Приемная в личных покоях Николая II",
+                  "collections": [
+                    {
+                      "id": "oldPhoto",
+                      "path": "reception-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/reception-photo.webp",
+                      "vertical": false,
+                      "description": "Бильярдная. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "reception-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/reception-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Приемной"
+                    }
+                  ]
                 }
               ]
             },
