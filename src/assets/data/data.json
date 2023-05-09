@@ -803,10 +803,170 @@
               "imgHover": "assets/pic/second-floor-hover.webp",
               "rooms": [
                 {
+                  "id": "church-stairs",
+                  "path": "church-stairs",
+                  "map": "assets/pic/rooms/nicolas/map-churchStairs.webp",
+                  "next": "church",
+                  "name": "Церковная леситница",
+                  "description": "Получила свое название, потому что ведёт в помещение Малой церкви Зимнего дворца",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "churchStairs-painting",
+                      "img": "assets/pic/rooms/nicolas/churchStairs-paint.webp",
+                      "vertical": true,
+                      "description": "Церковная лестница. Гау Эдуард Петрович 1869г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "churchStairs-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/churchStairs-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид Церковной лестницы"
+                    }
+                  ]
+                },
+                {
+                  "id": "church",
+                  "path": "church",
+                  "map": "assets/pic/rooms/nicolas/map-church.webp",
+                  "next": "rotunda",
+                  "prev": "church-stairs",
+                  "name": "Малая церковь",
+                  "description": "Использовалась как домовая церковь",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "church-painting",
+                      "img": "assets/pic/rooms/nicolas/church-paint.webp",
+                      "vertical": false,
+                      "description": "Малая церковь. Бурдин Н. А. 1840г."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "church-painting2",
+                      "img": "assets/pic/rooms/nicolas/church-paint2.webp",
+                      "vertical": false,
+                      "description": "Малая церковь. Гау Эдуард Петрович 1862г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "church-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/church-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид Малой церкви"
+                    }
+                  ]
+                },
+                {
+                  "id": "rotunda",
+                  "path": "rotunda",
+                  "map": "assets/pic/rooms/nicolas/map-rotunda.webp",
+                  "next": "arab-diningRoom",
+                  "prev": "church",
+                  "name": "Ротонда",
+                  "description": "Зал не входил в число жилых покоев, но всегда играл важную роль в их связи",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "rotunda-painting",
+                      "img": "assets/pic/rooms/nicolas/rotunda-paint.webp",
+                      "vertical": true,
+                      "description": "Ротонда до пожара 1837г. Ефим Тухаринов 1834г."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "rotunda-painting2",
+                      "img": "assets/pic/rooms/nicolas/rotunda-paint2.webp",
+                      "vertical": true,
+                      "description": "Ротонда востоновленная после пожара. Гау, Эдуард Петрович 1862г."
+                    },
+                    {
+                      "id": "oldphoto",
+                      "path": "rotunda-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/rotunda-photo.webp",
+                      "vertical": false,
+                      "description": "Доревлюционный вид Ротонды. 1914г."
+                    },
+                    {
+                      "id": "modernphoto",
+                      "path": "rotunda-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/rotunda-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Ротонды"
+                    }
+                  ]
+                },
+                {
+                  "id": "arab-diningRoom",
+                  "path": "arab-diningRoom",
+                  "map": "assets/pic/rooms/nicolas/map-arab.webp",
+                  "next": "diningRoom",
+                  "prev": "rotunda",
+                  "name": "Арапская (большая) столовая",
+                  "description": "Парадный зал в личных покоях. Название происходит от распологавшегося здесь императорского караула, состоявшего из четырех негров",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "arab-painting",
+                      "img": "assets/pic/rooms/nicolas/arab-paint.webp",
+                      "vertical": false,
+                      "description": "Арапская столовая. Ухтомский Константин Андреевич середина XIX века."
+                    },
+                    {
+                      "id": "oldphoto",
+                      "path": "arab-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/arab-photo.webp",
+                      "vertical": false,
+                      "description": "Арапская столовая. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernphoto",
+                      "path": "arab-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/arab-now.webp",
+                      "vertical": false,
+                      "description": "Современый вид Арапской столовой"
+                    }
+                  ]
+                },
+                {
+                  "id": "diningRoom",
+                  "path": "diningRoom",
+                  "map": "assets/pic/rooms/nicolas/map-dining.webp",
+                  "next": "malakhite-livingRoom",
+                  "prev": "arab-diningRoom",
+                  "name": "Малая столовая (бывшая Помпейская)",
+                  "description": "Приватная столовая императорской семьи",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dining-painting",
+                      "img": "assets/pic/rooms/nicolas/dining-paint.webp",
+                      "vertical": true,
+                      "description": "Помпейская столовая. Ухтомский Константин Андреевич 1874г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "dining-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/dining-photo.webp",
+                      "vertical": true,
+                      "description": "К свадьбе Николая II был создан новый интерьер. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "dining-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/dining-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Малой столовой"
+                    }
+                  ]
+                },
+                {
                   "id": "malakhite",
                   "path": "malakhite-livingRoom",
                   "map": "assets/pic/rooms/nicolas/map-malakhiteLR.webp",
                   "next": "white-livingRoom",
+                  "prev": "diningRoom",
                   "name": "Малахитовая гостиная",
                   "description": "Парадная гостиная в северо-западной части Зимнего дворца, входившая в состав личных покоев супруги Николая I — Александры Фёдоровны. До пожара 1837г. именовалась Яшмовой гостиной, так как колонны были облицованы яшмой, при восстановлении их облицовка была заменена на малахит",
                   "collections": [
@@ -1335,7 +1495,6 @@
                   "id": "saltukov",
                   "path": "saltykov-staircase",
                   "map": "assets/pic/rooms/nicolas/map-saltykov.webp",
-                  "next": "rotunda",
                   "prev": "reception-room",
                   "name": "Салтыковская лестница",
                   "description": "Лестница ведёт к выходу в бывший Собственный сад",
@@ -1360,165 +1519,6 @@
                       "img": "assets/pic/rooms/nicolas/saltykov-now.webp",
                       "vertical": true,
                       "description": "Современный вид Салтыковской лестницы"
-                    }
-                  ]
-                },
-                {
-                  "id": "rotunda",
-                  "path": "rotunda",
-                  "map": "assets/pic/rooms/nicolas/map-rotunda.webp",
-                  "next": "arab-diningRoom",
-                  "prev": "saltykov-staircase",
-                  "name": "Ротонда",
-                  "description": "Зал не входил в число жилых покоев, но всегда играл важную роль в их связи",
-                  "collections": [
-                    {
-                      "id": "painting",
-                      "path": "rotunda-painting",
-                      "img": "assets/pic/rooms/nicolas/rotunda-paint.webp",
-                      "vertical": true,
-                      "description": "Ротонда до пожара 1837г. Ефим Тухаринов 1834г."
-                    },
-                    {
-                      "id": "painting2",
-                      "path": "rotunda-painting2",
-                      "img": "assets/pic/rooms/nicolas/rotunda-paint2.webp",
-                      "vertical": true,
-                      "description": "Ротонда востоновленная после пожара. Гау, Эдуард Петрович 1862г."
-                    },
-                    {
-                      "id": "oldphoto",
-                      "path": "rotunda-oldPhoto",
-                      "img": "assets/pic/rooms/nicolas/rotunda-photo.webp",
-                      "vertical": false,
-                      "description": "Доревлюционный вид Ротонды. 1914г."
-                    },
-                    {
-                      "id": "modernphoto",
-                      "path": "rotunda-modernPhoto",
-                      "img": "assets/pic/rooms/nicolas/rotunda-now.webp",
-                      "vertical": false,
-                      "description": "Современный вид Ротонды"
-                    }
-                  ]
-                },
-                {
-                  "id": "arab-diningRoom",
-                  "path": "arab-diningRoom",
-                  "map": "assets/pic/rooms/nicolas/map-arab.webp",
-                  "next": "diningRoom",
-                  "prev": "arab-diningRoom",
-                  "name": "Арапская (большая) столовая",
-                  "description": "Парадный зал в личных покоях. Название происходит от распологавшегося здесь императорского караула, состоявшего из четырех негров",
-                  "collections": [
-                    {
-                      "id": "painting",
-                      "path": "arab-painting",
-                      "img": "assets/pic/rooms/nicolas/arab-paint.webp",
-                      "vertical": false,
-                      "description": "Арапская столовая. Ухтомский Константин Андреевич середина XIX века."
-                    },
-                    {
-                      "id": "oldphoto",
-                      "path": "arab-oldPhoto",
-                      "img": "assets/pic/rooms/nicolas/arab-photo.webp",
-                      "vertical": false,
-                      "description": "Арапская столовая. Кубеш Карл Карлович 1917г."
-                    },
-                    {
-                      "id": "modernphoto",
-                      "path": "arab-modernPhoto",
-                      "img": "assets/pic/rooms/nicolas/arab-now.webp",
-                      "vertical": false,
-                      "description": "Современый вид Арапской столовой"
-                    }
-                  ]
-                },
-                {
-                  "id": "diningRoom",
-                  "path": "diningRoom",
-                  "map": "assets/pic/rooms/nicolas/map-dining.webp",
-                  "next": "church-stairs",
-                  "prev": "rotunda",
-                  "name": "Малая столовая (бывшая Помпейская)",
-                  "description": "Приватная столовая императорской семьи",
-                  "collections": [
-                    {
-                      "id": "painting",
-                      "path": "dining-painting",
-                      "img": "assets/pic/rooms/nicolas/dining-paint.webp",
-                      "vertical": true,
-                      "description": "Помпейская столовая. Ухтомский Константин Андреевич 1874г."
-                    },
-                    {
-                      "id": "oldPhoto",
-                      "path": "dining-oldPhoto",
-                      "img": "assets/pic/rooms/nicolas/dining-photo.webp",
-                      "vertical": true,
-                      "description": "К свадьбе Николая II был создан новый интерьер. Кубеш Карл Карлович 1917г."
-                    },
-                    {
-                      "id": "modernPhoto",
-                      "path": "dining-modernPhoto",
-                      "img": "assets/pic/rooms/nicolas/dining-now.webp",
-                      "vertical": false,
-                      "description": "Современный вид Малой столовой"
-                    }
-                  ]
-                },
-                {
-                  "id": "church-stairs",
-                  "path": "church-stairs",
-                  "map": "assets/pic/rooms/nicolas/map-churchStairs.webp",
-                  "next": "church",
-                  "prev": "diningRoom",
-                  "name": "Церковная леситница",
-                  "description": "Получила свое название, потому что ведёт в помещение Малой церкви Зимнего дворца",
-                  "collections": [
-                    {
-                      "id": "painting",
-                      "path": "churchStairs-painting",
-                      "img": "assets/pic/rooms/nicolas/churchStairs-paint.webp",
-                      "vertical": true,
-                      "description": "Церковная лестница. Гау Эдуард Петрович 1869г."
-                    },
-                    {
-                      "id": "modernPhoto",
-                      "path": "churchStairs-modernPhoto",
-                      "img": "assets/pic/rooms/nicolas/churchStairs-now.webp",
-                      "vertical": true,
-                      "description": "Современный вид Церковной лестницы"
-                    }
-                  ]
-                },
-                {
-                  "id": "church",
-                  "path": "church",
-                  "map": "assets/pic/rooms/nicolas/map-church.webp",
-                  "prev": "church-stairs",
-                  "name": "Малая церковь",
-                  "description": "Использовалась как домовая церковь",
-                  "collections": [
-                    {
-                      "id": "painting",
-                      "path": "church-painting",
-                      "img": "assets/pic/rooms/nicolas/church-paint.webp",
-                      "vertical": false,
-                      "description": "Малая церковь. Бурдин Н. А. 1840г."
-                    },
-                    {
-                      "id": "painting2",
-                      "path": "church-painting2",
-                      "img": "assets/pic/rooms/nicolas/church-paint2.webp",
-                      "vertical": false,
-                      "description": "Малая церковь. Гау Эдуард Петрович 1862г."
-                    },
-                    {
-                      "id": "modernPhoto",
-                      "path": "church-modernPhoto",
-                      "img": "assets/pic/rooms/nicolas/church-now.webp",
-                      "vertical": true,
-                      "description": "Современный вид Малой церкви"
                     }
                   ]
                 }
