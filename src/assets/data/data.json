@@ -793,7 +793,110 @@
               "path": "third-floor",
               "isActive": true,
               "img": "assets/pic/third-floor.webp",
-              "imgHover": "assets/pic/third-floor-hover.webp"
+              "imgHover": "assets/pic/third-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "nicolasStudy",
+                  "path": "nicolasStudy",
+                  "map": "assets/pic/rooms/nicolas/map-nicolasStudy.webp",
+                  "next": "nicolas-livingRoom",
+                  "name": "Кабинет императора Николая I в Зимнем дворце",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "nicolasStudy-painting",
+                      "img": "assets/pic/rooms/nicolas/nicolasStudy-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет императора Николая I. Гау Эдуард Петрович 1860-е. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "nicolasStudy-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/nicolasStudy-photo.webp",
+                      "vertical": false,
+                      "description": "Кабинет императора Николая I после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nicolasStudy-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/nicolasStudy-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Кабинета"
+                    }
+                  ]
+                },
+                {
+                  "id": "nicolasLR",
+                  "path": "nicolas-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-nicolasLR.webp",
+                  "next": "alexIII-livingRoom",
+                  "prev": "nicolasStudy",
+                  "name": "Угловая гостиная Николая I",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "nicolasLR-painting",
+                      "img": "assets/pic/rooms/nicolas/nicolasLR-paint.webp",
+                      "vertical": false,
+                      "description": "Угловая гостиная Николая I. Ухтомский Константин Андреевич 1850-е. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nicolasLR-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/nicolasLR-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Угловой гостиной"
+                    }
+                  ]
+                },
+                {
+                  "id": "alexLR",
+                  "path": "alexIII-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-alexLR.webp",
+                  "next": "alexIII-reception",
+                  "prev": "nicolas-livingRoom",
+                  "name": "Гостиная Александра III",
+                  "collections": [
+                    {
+                      "id": "oldPhoto",
+                      "path": "nicolasLR-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/alexLR-photo.webp",
+                      "vertical": false,
+                      "description": "Гостиная после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nicolasLR-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/alexLR-now.webp",
+                      "vertical": false,
+                      "description": "Гостиная после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    }
+                  ]
+                },
+                {
+                  "id": "alexReception",
+                  "path": "alexIII-reception",
+                  "map": "assets/pic/rooms/nicolas/map-alexReception.webp",
+                  "prev": "alexIII-livingRoom",
+                  "name": "Приемная Александра III",
+                  "collections": [
+                    {
+                      "id": "oldPhoto",
+                      "path": "nicolasLR-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/alexReception-photo.webp",
+                      "vertical": false,
+                      "description": "Разгромленная большевиками приемная. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nicolasLR-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/alexReception-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Приемной"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "second-floor",
