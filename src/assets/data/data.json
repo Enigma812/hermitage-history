@@ -1336,7 +1336,7 @@
                       "path": "dressing-oldPhoto3",
                       "img": "assets/pic/rooms/nicolas/dressing-photo3.webp",
                       "vertical": false,
-                      "description": "Разграбленная большивиками Туалетная комната. Кубеш Карл Карлович 1917г."
+                      "description": "Разграбленная большевиками Туалетная комната. Кубеш Карл Карлович 1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1376,7 +1376,7 @@
                       "path": "dressing-oldPhoto2",
                       "img": "assets/pic/rooms/nicolas/bath-photo2.webp",
                       "vertical": false,
-                      "description": "Гардеробная Императрицы после захвата большивиками. Кубеш Карл Карлович 1917г."
+                      "description": "Гардеробная Императрицы после захвата большевиками. Кубеш Карл Карлович 1917г."
                     }
                   ]
                 },
@@ -1461,7 +1461,7 @@
                       "path": "nicolasII-oldPhoto3",
                       "img": "assets/pic/rooms/nicolas/nicolas-photo3.webp",
                       "vertical": true,
-                      "description": "Разграбленный большивиками Готический кабинет Николая II. Кубеш Карл Карлович 1917г."
+                      "description": "Разграбленный большевиками Готический кабинет Николая II. Кубеш Карл Карлович 1917г."
                     },
                     {
                       "id": "ussrPhoto",
@@ -1686,7 +1686,7 @@
                       "path": "gothic-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/gothic-photo.webp",
                       "vertical": false,
-                      "description": "Готическая гостиная разграбленная большивиками. Штейнберг Яков 1917г."
+                      "description": "Готическая гостиная разграбленная большевиками. Штейнберг Яков 1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1725,7 +1725,7 @@
                       "path": "amurLR-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/amurLR-photo.webp",
                       "vertical": false,
-                      "description": "Гостиная с амурами после захвата большивиками. Кубеш Карл Карлович 1917г."
+                      "description": "Гостиная с амурами после захвата большевиками. Кубеш Карл Карлович 1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1789,7 +1789,7 @@
                       "path": "BedRoomFF-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/bedroomFF-photo.webp",
                       "vertical": false,
-                      "description": "Спальня, разграбленная большивиками. Кубеш Карл Карлович 1917г."
+                      "description": "Спальня, разграбленная большевиками. Кубеш Карл Карлович 1917г."
                     }
                   ]
                 },
