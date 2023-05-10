@@ -1862,6 +1862,70 @@
               ]
             }
           ]
+        },
+        {
+          "id": "third-reserved-apartment",
+          "name": "Третья запасная половина",
+          "path": "third-reserved-apartment",
+          "img": "assets/pic/third-reserved-apartment.webp",
+          "imgMobile": "assets/pic/third-reserved-apartment-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp",
+              "rooms": []
+            },            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {}
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp"
+            }
+
+          ]
+        },
+        {
+          "id": "walk-through",
+          "name": "Проходные залы",
+          "path": "walk-through",
+          "img": "assets/pic/walk-through.webp",
+          "imgMobile": "assets/pic/walk-through-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp",
+              "rooms": []
+            },            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {}
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp"
+            }
+
+          ]
         }
       ]
     },
