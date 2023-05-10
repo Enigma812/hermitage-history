@@ -98,20 +98,17 @@
   }
 
   &__frame {
+    margin-top: -2px;
     padding: 0;
     border: none;
     border-radius: 0;
 
     background-color: transparent;
 
-    // inset: 0 50% !important;
-
     &__img {
       width: 370px;
       height: 370px;
       border: 10px solid #D9D9D9;
-
-      // transform: translate(-50%, -2px);
     }
   }
 }
