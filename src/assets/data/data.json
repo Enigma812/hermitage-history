@@ -1816,6 +1816,20 @@
                       "description": "Туалетная в Четвертой запасной половине. Гау Эдуард Петрович 1868. акварель"
                     },
                     {
+                      "id": "painting7",
+                      "path": "nicolasLS-painting",
+                      "img": "assets/pic/rooms/nicolas/nicolasLS-paint.webp",
+                      "vertical": true,
+                      "description": "Нижний кабинет Николая I. Ухтомский Константин Андреевич 1860-е. акварель"
+                    },
+                    {
+                      "id": "oldPhoto7",
+                      "path": "nicolasLS-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/nicolasLS-photo.webp",
+                      "vertical": false,
+                      "description": "Нижний кабинет Николая I. Кубеш Карл Карлович 1917г"
+                    },
+                    {
                       "id": "painting3",
                       "path": "studyNN-painting",
                       "img": "assets/pic/rooms/nicolas/studyNN-paint.webp",
