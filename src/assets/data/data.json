@@ -1689,6 +1689,58 @@
                       "description": "Спальня, разграбленная большивиками. Кубеш Карл Карлович 1917г."
                     }
                   ]
+                },
+                {
+                  "id": "firstFloor",
+                  "path": "firstFloor",
+                  "map": "assets/pic/rooms/nicolas/map-firstFloor.webp",
+                  "prev": "bedRoom-FF",
+                  "name": "Жилые интерьеры Четвертой запасной половины первого этажа.",
+                  "status": "Интерьеры либо не сохранились, либо недоступны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dressingRoomFF-painting",
+                      "img": "assets/pic/rooms/nicolas/dressingRoomFF-paint.webp",
+                      "vertical": false,
+                      "description": "Туалетная в Четвертой запасной половине. Ухтомский Константин Андреевич 1860. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "dressingRoomFF-painting2",
+                      "img": "assets/pic/rooms/nicolas/dressingRoomFF-paint2.webp",
+                      "vertical": false,
+                      "description": "Туалетная в Четвертой запасной половине. Гау Эдуард Петрович 1868. акварель"
+                    },
+                    {
+                      "id": "painting3",
+                      "path": "studyNN-painting",
+                      "img": "assets/pic/rooms/nicolas/studyNN-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Великого князя Николая Николаевича. Ухтомский Константин Андреевич 1856. акварель"
+                    },
+                    {
+                      "id": "painting4",
+                      "path": "studyNN-painting2",
+                      "img": "assets/pic/rooms/nicolas/studyNN-paint2.webp",
+                      "vertical": true,
+                      "description": "Альков кабинета Великого князя Николая Николаевича. Садовников Василий Семенович 1860-е акварель"
+                    },
+                    {
+                      "id": "painting5",
+                      "path": "studyNN-painting3",
+                      "img": "assets/pic/rooms/nicolas/studyNN-paint3.webp",
+                      "vertical": false,
+                      "description": "Кабинет в Четвертой запасной половине. Гау Эдуард Петрович 1869г. акварель"
+                    },
+                    {
+                      "id": "painting6",
+                      "path": "livingRoomFF-painting3",
+                      "img": "assets/pic/rooms/nicolas/livingRoomFF-paint.webp",
+                      "vertical": false,
+                      "description": "Гостиная в Четвертой запасной половине. Гау Эдуард Петрович 1869г. акварель"
+                    }
+                  ]
                 }
               ]
             }
