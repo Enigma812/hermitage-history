@@ -1906,8 +1906,7 @@
               "id": "third-floor",
               "path": "third-floor",
               "isActive": false,
-              "img": "assets/pic/third-floor-disable.webp",
-              "rooms": []
+              "img": "assets/pic/third-floor-disable.webp"
             },            {
               "id": "second-floor",
               "path": "second-floor",
@@ -1915,7 +1914,80 @@
               "img": "assets/pic/second-floor.webp",
               "imgHover": "assets/pic/second-floor-hover.webp",
               "rooms": [
-                {}
+                {
+                  "id": "corridor",
+                  "path": "dark-corridor",
+                  "map": "assets/pic/rooms/walk-through/map-dark-corridor.webp",
+                  "next": "small-fieldmarshals",
+                  "name": "Темный коридор",
+                  "description": "Свое название получил из-за отсутствия окон. Коридор соединяет несколько жилых и запасных половин",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "nicolasStudy-painting",
+                      "img": "assets/pic/rooms/walk-through/dark-corridor-paint.webp",
+                      "vertical": true,
+                      "description": "Темный коридор. Ухтомский Константин Андреевич 1861г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "walk-through-modernPhoto",
+                      "img": "assets/pic/rooms/walk-through/dark-corridor-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Темного коридора"
+                    }
+                  ]
+                },
+                {
+                  "id": "fieldmarshals",
+                  "path": "small-fieldmarshals",
+                  "map": "assets/pic/rooms/walk-through/map-small-fieldmarshals.webp",
+                  "next": "transition",
+                  "prev": "dark-corridor",
+                  "name": "Малый Фельдмаршальский зал",
+                  "description": "Проходной зал западного крыла Зимнего дворца.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "small-fieldmarshals-painting",
+                      "img": "assets/pic/rooms/walk-through/small-fieldmarshals-paint.webp",
+                      "vertical": false,
+                      "description": "Малый Фельдмаршальский зал. Гау Эдуард Петрович 1863г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "small-fieldmarshals-modernPhoto",
+                      "img": "assets/pic/rooms/walk-through/small-fieldmarshals-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Малого Фельдмаршальского зала"
+                    }
+                  ]
+                },
+                {
+                  "id": "transition",
+                  "path": "transition",
+                  "map": "assets/pic/rooms/walk-through/map-transition.webp",
+                  "next": "transition",
+                  "prev": "small-fieldmarshals",
+                  "name": "Переход в Малый Фельдмаршальский зал",
+                  "description": "Соединял Малый Фельдмаршальский зал и Площадку лестницы на половине императрицы Марии Александровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "transition-painting",
+                      "img": "assets/pic/rooms/walk-through/transition-paint.webp",
+                      "vertical": true,
+                      "description": "Переход. Гау Эдуард Петрович 1871г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "transition-modernPhoto",
+                      "img": "assets/pic/rooms/walk-through/transition-now.webp",
+                      "vertical": false,
+                      "description": "Переход, современный вид"
+                    }
+                  ]
+                }
               ]
             },
             {
