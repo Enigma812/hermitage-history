@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ChangeDetectionStrategy, Component, HostListener, ViewChild } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { NgbDropdown } from '@ng-bootstrap/ng-bootstrap';
 import { Observable, map, switchMap } from 'rxjs';
 import { trackBy } from 'src/modules/utils/track-by';
 
@@ -14,6 +15,9 @@ import { Room } from '../../../app/models/room';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class RoomsPageComponent {
+  @ViewChild(NgbDropdown)
+  public dropdown?: NgbDropdown;
+
   public room$: Observable<Room | undefined>;
   public collection$: Observable<Collection[]>;
   public buildingPath$: Observable<string>;
@@ -22,7 +26,6 @@ export class RoomsPageComponent {
 
   constructor(
     private readonly _route: ActivatedRoute,
-    private readonly _router: Router,
     private readonly _dataService: DataService
   ) {
     this.room$ = this._route.params.pipe(
@@ -47,6 +50,13 @@ export class RoomsPageComponent {
     );
 
     this.buildingPath$ = this._route.params.pipe(map((params) => params['buildingPath']));
+  }
+
+  @HostListener('window:scroll', [ '$event' ])
+  public onScroll() {
+    if (this.dropdown !== undefined && this.dropdown.isOpen()) {
+      this.dropdown.close();
+    }
   }
 
   public topFunction() {
