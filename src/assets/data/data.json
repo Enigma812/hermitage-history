@@ -1967,7 +1967,7 @@
                   "id": "transition",
                   "path": "transition",
                   "map": "assets/pic/rooms/walk-through/map-transition.webp",
-                  "next": "transition",
+                  "next": "room&Landing",
                   "prev": "small-fieldmarshals",
                   "name": "Переход в Малый Фельдмаршальский зал",
                   "description": "Соединял Малый Фельдмаршальский зал и Площадку лестницы на половине императрицы Марии Александровны",
@@ -1985,6 +1985,31 @@
                       "img": "assets/pic/rooms/walk-through/transition-now.webp",
                       "vertical": false,
                       "description": "Переход, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "room&Landing",
+                  "path": "room&Landing",
+                  "map": "assets/pic/rooms/walk-through/map-room&Landing.webp",
+                  "next": "transition",
+                  "prev": "transition",
+                  "name": "Комната и площадка лестницы на половине императрицы Марии Александровны",
+                  "description": "В советское время была прорублена лестница на тертий этаж, в совершенно ином архитектурном стиле, что полностью нарушило геометрию комнаты",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "room&Landing-painting",
+                      "img": "assets/pic/rooms/walk-through/room&Landing-paint.webp",
+                      "vertical": false,
+                      "description": "Площадка лестницы. Гау Эдуард Петрович 1873г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "room&Landing-modernPhoto",
+                      "img": "assets/pic/rooms/walk-through/room&Landing-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Площадки с лестницей на третий этаж"
                     }
                   ]
                 }
