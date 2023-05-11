@@ -1924,7 +1924,37 @@
               "isActive": false,
               "img": "assets/pic/first-floor-disable.webp"
             }
-
+          ]
+        },
+        {
+          "id": "alexander",
+          "name": "Жилая половина Александра II",
+          "path": "alexander",
+          "img": "assets/pic/living-alex.webp",
+          "imgMobile": "assets/pic/living-alex-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp",
+              "rooms": []
+            },            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {}
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp"
+            }
           ]
         }
       ]
