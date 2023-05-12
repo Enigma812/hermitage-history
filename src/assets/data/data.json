@@ -1992,7 +1992,7 @@
                   "id": "room&Landing",
                   "path": "room&Landing",
                   "map": "assets/pic/rooms/walk-through/map-room&Landing.webp",
-                  "next": "transition",
+                  "next": "guardroom",
                   "prev": "transition",
                   "name": "Комната и площадка лестницы на половине императрицы Марии Александровны",
                   "description": "В советское время была прорублена лестница на тертий этаж, в совершенно ином архитектурном стиле, что полностью нарушило геометрию комнаты",
@@ -2010,6 +2010,37 @@
                       "img": "assets/pic/rooms/walk-through/room&Landing-now.webp",
                       "vertical": false,
                       "description": "Современный вид Площадки с лестницей на третий этаж"
+                    }
+                  ]
+                },
+                {
+                  "id": "guardroom",
+                  "path": "guardroom",
+                  "map": "assets/pic/rooms/walk-through/map-guardroom.webp",
+                  "prev": "room&Landing",
+                  "name": "Кирасирская пикетная комната",
+                  "description": "Использовалась для развода дворцового караула",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "guardroom-painting",
+                      "img": "assets/pic/rooms/walk-through/guardroom-paint.webp",
+                      "vertical": false,
+                      "description": "Кирасирская пикетная комната. Гау Эдуард Петрович 1864г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "guardroom-oldPhoto",
+                      "img": "assets/pic/rooms/walk-through/guardroom-photo.webp",
+                      "vertical": false,
+                      "description": "Кирасирская пикетная комната. 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "guardroom-modernPhoto",
+                      "img": "assets/pic/rooms/walk-through/guardroom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Кирасирской пикетной комнаты"
                     }
                   ]
                 }
