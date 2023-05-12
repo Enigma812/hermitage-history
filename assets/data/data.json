@@ -793,7 +793,110 @@
               "path": "third-floor",
               "isActive": true,
               "img": "assets/pic/third-floor.webp",
-              "imgHover": "assets/pic/third-floor-hover.webp"
+              "imgHover": "assets/pic/third-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "nicolasStudy",
+                  "path": "nicolasStudy",
+                  "map": "assets/pic/rooms/nicolas/map-nicolasStudy.webp",
+                  "next": "nicolas-livingRoom",
+                  "name": "Кабинет императора Николая I в Зимнем дворце",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "nicolasStudy-painting",
+                      "img": "assets/pic/rooms/nicolas/nicolasStudy-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет императора Николая I. Гау Эдуард Петрович 1860-е. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "nicolasStudy-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/nicolasStudy-photo.webp",
+                      "vertical": false,
+                      "description": "Кабинет императора Николая I после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nicolasStudy-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/nicolasStudy-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Кабинета"
+                    }
+                  ]
+                },
+                {
+                  "id": "nicolasLR",
+                  "path": "nicolas-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-nicolasLR.webp",
+                  "next": "alexIII-livingRoom",
+                  "prev": "nicolasStudy",
+                  "name": "Угловая гостиная Николая I",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "nicolasLR-painting",
+                      "img": "assets/pic/rooms/nicolas/nicolasLR-paint.webp",
+                      "vertical": false,
+                      "description": "Угловая гостиная Николая I. Ухтомский Константин Андреевич 1850-е. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nicolasLR-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/nicolasLR-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Угловой гостиной"
+                    }
+                  ]
+                },
+                {
+                  "id": "alexLR",
+                  "path": "alexIII-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-alexLR.webp",
+                  "next": "alexIII-reception",
+                  "prev": "nicolas-livingRoom",
+                  "name": "Гостиная Александра III",
+                  "collections": [
+                    {
+                      "id": "oldPhoto",
+                      "path": "nicolasLR-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/alexLR-photo.webp",
+                      "vertical": false,
+                      "description": "Гостиная после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nicolasLR-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/alexLR-now.webp",
+                      "vertical": false,
+                      "description": "Гостиная после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    }
+                  ]
+                },
+                {
+                  "id": "alexReception",
+                  "path": "alexIII-reception",
+                  "map": "assets/pic/rooms/nicolas/map-alexReception.webp",
+                  "prev": "alexIII-livingRoom",
+                  "name": "Приемная Александра III",
+                  "collections": [
+                    {
+                      "id": "oldPhoto",
+                      "path": "nicolasLR-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/alexReception-photo.webp",
+                      "vertical": false,
+                      "description": "Разгромленная большевиками приемная. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nicolasLR-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/alexReception-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Приемной"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "second-floor",
@@ -1233,7 +1336,7 @@
                       "path": "dressing-oldPhoto3",
                       "img": "assets/pic/rooms/nicolas/dressing-photo3.webp",
                       "vertical": false,
-                      "description": "Разграбленная большивиками Туалетная комната. Кубеш Карл Карлович 1917г."
+                      "description": "Разграбленная большевиками Туалетная комната. Кубеш Карл Карлович 1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1273,7 +1376,7 @@
                       "path": "dressing-oldPhoto2",
                       "img": "assets/pic/rooms/nicolas/bath-photo2.webp",
                       "vertical": false,
-                      "description": "Гардеробная Императрицы после захвата большивиками. Кубеш Карл Карлович 1917г."
+                      "description": "Гардеробная Императрицы после захвата большевиками. Кубеш Карл Карлович 1917г."
                     }
                   ]
                 },
@@ -1358,7 +1461,7 @@
                       "path": "nicolasII-oldPhoto3",
                       "img": "assets/pic/rooms/nicolas/nicolas-photo3.webp",
                       "vertical": true,
-                      "description": "Разграбленный большивиками Готический кабинет Николая II. Кубеш Карл Карлович 1917г."
+                      "description": "Разграбленный большевиками Готический кабинет Николая II. Кубеш Карл Карлович 1917г."
                     },
                     {
                       "id": "ussrPhoto",
@@ -1529,7 +1632,456 @@
               "path": "first-floor",
               "isActive": true,
               "img": "assets/pic/first-floor.webp",
-              "imgHover": "assets/pic/first-floor-hover.webp"
+              "imgHover": "assets/pic/first-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "corridor",
+                  "path": "corridor",
+                  "map": "assets/pic/rooms/nicolas/map-corridor.webp",
+                  "next": "gothic-livingRoom",
+                  "name": "Коридор",
+                  "description": "Передняя в апартаментах дочерей Николая I",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "corridor-painting",
+                      "img": "assets/pic/rooms/nicolas/corridor-paint.webp",
+                      "vertical": true,
+                      "description": "Коридор. Гау Эдуард Петрович 1869г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "corridor-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/corridor-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Коридора"
+                    }
+                  ]
+                },
+                {
+                  "id": "gothicLR",
+                  "path": "gothic-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-gothic.webp",
+                  "next": "amur-livingRoom",
+                  "prev": "corridor",
+                  "name": "Готическая гостиная",
+                  "description": "Служила парадной гостиной на половине дочерей Николая I, великих княжон Ольги и Александры.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "gothic-painting",
+                      "img": "assets/pic/rooms/nicolas/gothic-paint.webp",
+                      "vertical": false,
+                      "description": "Готическая гостиная. Юшков Ф. И. 1849г. масло"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "gothic-painting2",
+                      "img": "assets/pic/rooms/nicolas/gothic-paint2.webp",
+                      "vertical": false,
+                      "description": "Готическая гостиная с измененным иньерьером. Гау Эдуард Петрович 1868г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "gothic-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/gothic-photo.webp",
+                      "vertical": false,
+                      "description": "Готическая гостиная разграбленная большевиками. Штейнберг Яков 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "gothic-ModernPhoto",
+                      "img": "assets/pic/rooms/nicolas/gothic-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Готической гостиной"
+                    }
+                  ]
+                },
+                {
+                  "id": "amurLR",
+                  "path": "amur-livingRoom",
+                  "map": "assets/pic/rooms/nicolas/map-amurLR.webp",
+                  "next": "corner-room",
+                  "prev": "gothic-livingRoom",
+                  "name": "Гостиная с Амурами",
+                  "description": "Интерьер гостиной создан для великого князя Николая Николаевича, ранее, до своего замужества, помещение занимали его сестры, Ольга и Александра.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "amur-painting",
+                      "img": "assets/pic/rooms/nicolas/amurLR-paint.webp",
+                      "vertical": false,
+                      "description": "Гостиная с амурами. Гау Эдуард Петрович 1860-е. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "amur-painting2",
+                      "img": "assets/pic/rooms/nicolas/amurLR-paint2.webp",
+                      "vertical": false,
+                      "description": "Гостиная с амурами. Гау Эдуард Петрович 1868г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "amurLR-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/amurLR-photo.webp",
+                      "vertical": false,
+                      "description": "Гостиная с амурами после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "amurLR-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/amurLR-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Гостиной с амурами"
+                    }
+                  ]
+                },
+                {
+                  "id": "corner-room",
+                  "path": "corner-room",
+                  "map": "assets/pic/rooms/nicolas/map-cornerRoom.webp",
+                  "next": "bedRoom-FF",
+                  "prev": "amur-livingRoom",
+                  "name": "Угловой кабинет",
+                  "description": "Кабинет великой княжны Ольги Николаевны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "cornerRoom-painting",
+                      "img": "assets/pic/rooms/nicolas/cornerRoom-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет. Гау Эдуард Петрович 1868. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "cornerRoom-painting2",
+                      "img": "assets/pic/rooms/nicolas/cornerRoom-paint2.webp",
+                      "vertical": false,
+                      "description": "Кабинет. Гау Эдуард Петрович 1868. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "cornerRoom-modernPhoto",
+                      "img": "assets/pic/rooms/nicolas/cornerRoom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Кабинета"
+                    }
+                  ]
+                },
+                {
+                  "id": "bedRoomFF",
+                  "path": "bedRoom-FF",
+                  "map": "assets/pic/rooms/nicolas/map-bedroomFF.webp",
+                  "next": "firstFloor",
+                  "prev": "corner-room",
+                  "name": "Спальня",
+                  "description": "Спальная комната на Четвёртой запасной половине",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "BedRoomFF-painting",
+                      "img": "assets/pic/rooms/nicolas/bedroomFF-paint.webp",
+                      "vertical": false,
+                      "description": "Спальня. Гау Эдуард Петрович 1868. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "BedRoomFF-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/bedroomFF-photo.webp",
+                      "vertical": false,
+                      "description": "Спальня, разграбленная большевиками. Кубеш Карл Карлович 1917г."
+                    }
+                  ]
+                },
+                {
+                  "id": "firstFloor",
+                  "path": "firstFloor",
+                  "map": "assets/pic/rooms/nicolas/map-firstFloor.webp",
+                  "prev": "bedRoom-FF",
+                  "name": "Жилые интерьеры Четвертой запасной половины первого этажа.",
+                  "status": "Интерьеры либо не сохранились, либо недоступны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dressingRoomFF-painting",
+                      "img": "assets/pic/rooms/nicolas/dressingRoomFF-paint.webp",
+                      "vertical": false,
+                      "description": "Туалетная в Четвертой запасной половине. Ухтомский Константин Андреевич 1860. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "dressingRoomFF-painting2",
+                      "img": "assets/pic/rooms/nicolas/dressingRoomFF-paint2.webp",
+                      "vertical": false,
+                      "description": "Туалетная в Четвертой запасной половине. Гау Эдуард Петрович 1868. акварель"
+                    },
+                    {
+                      "id": "painting7",
+                      "path": "nicolasLS-painting",
+                      "img": "assets/pic/rooms/nicolas/nicolasLS-paint.webp",
+                      "vertical": true,
+                      "description": "Нижний кабинет Николая I. Ухтомский Константин Андреевич 1860-е. акварель"
+                    },
+                    {
+                      "id": "oldPhoto7",
+                      "path": "nicolasLS-oldPhoto",
+                      "img": "assets/pic/rooms/nicolas/nicolasLS-photo.webp",
+                      "vertical": false,
+                      "description": "Нижний кабинет Николая I. Кубеш Карл Карлович 1917г"
+                    },
+                    {
+                      "id": "painting3",
+                      "path": "studyNN-painting",
+                      "img": "assets/pic/rooms/nicolas/studyNN-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Великого князя Николая Николаевича. Ухтомский Константин Андреевич 1856. акварель"
+                    },
+                    {
+                      "id": "painting4",
+                      "path": "studyNN-painting2",
+                      "img": "assets/pic/rooms/nicolas/studyNN-paint2.webp",
+                      "vertical": true,
+                      "description": "Альков кабинета Великого князя Николая Николаевича. Садовников Василий Семенович 1860-е акварель"
+                    },
+                    {
+                      "id": "painting5",
+                      "path": "studyNN-painting3",
+                      "img": "assets/pic/rooms/nicolas/studyNN-paint3.webp",
+                      "vertical": false,
+                      "description": "Кабинет в Четвертой запасной половине. Гау Эдуард Петрович 1869г. акварель"
+                    },
+                    {
+                      "id": "painting6",
+                      "path": "livingRoomFF-painting3",
+                      "img": "assets/pic/rooms/nicolas/livingRoomFF-paint.webp",
+                      "vertical": false,
+                      "description": "Гостиная в Четвертой запасной половине. Гау Эдуард Петрович 1869г. акварель"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "third-reserved-apartment",
+          "name": "Третья запасная половина",
+          "path": "third-reserved-apartment",
+          "img": "assets/pic/third-reserved-apartment.webp",
+          "imgMobile": "assets/pic/third-reserved-apartment-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp",
+              "rooms": []
+            },            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {}
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp"
+            }
+
+          ]
+        },
+        {
+          "id": "walk-through",
+          "name": "Проходные залы",
+          "path": "walk-through",
+          "img": "assets/pic/walk-through.webp",
+          "imgMobile": "assets/pic/walk-through-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp"
+            },            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "corridor",
+                  "path": "dark-corridor",
+                  "map": "assets/pic/rooms/walk-through/map-dark-corridor.webp",
+                  "next": "small-fieldmarshals",
+                  "name": "Темный коридор",
+                  "description": "Свое название получил из-за отсутствия окон. Коридор соединяет несколько жилых и запасных половин",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "nicolasStudy-painting",
+                      "img": "assets/pic/rooms/walk-through/dark-corridor-paint.webp",
+                      "vertical": true,
+                      "description": "Темный коридор. Ухтомский Константин Андреевич 1861г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "walk-through-modernPhoto",
+                      "img": "assets/pic/rooms/walk-through/dark-corridor-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Темного коридора"
+                    }
+                  ]
+                },
+                {
+                  "id": "fieldmarshals",
+                  "path": "small-fieldmarshals",
+                  "map": "assets/pic/rooms/walk-through/map-small-fieldmarshals.webp",
+                  "next": "transition",
+                  "prev": "dark-corridor",
+                  "name": "Малый Фельдмаршальский зал",
+                  "description": "Проходной зал западного крыла Зимнего дворца.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "small-fieldmarshals-painting",
+                      "img": "assets/pic/rooms/walk-through/small-fieldmarshals-paint.webp",
+                      "vertical": false,
+                      "description": "Малый Фельдмаршальский зал. Гау Эдуард Петрович 1863г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "small-fieldmarshals-modernPhoto",
+                      "img": "assets/pic/rooms/walk-through/small-fieldmarshals-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Малого Фельдмаршальского зала"
+                    }
+                  ]
+                },
+                {
+                  "id": "transition",
+                  "path": "transition",
+                  "map": "assets/pic/rooms/walk-through/map-transition.webp",
+                  "next": "room&Landing",
+                  "prev": "small-fieldmarshals",
+                  "name": "Переход в Малый Фельдмаршальский зал",
+                  "description": "Соединял Малый Фельдмаршальский зал и Площадку лестницы на половине императрицы Марии Александровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "transition-painting",
+                      "img": "assets/pic/rooms/walk-through/transition-paint.webp",
+                      "vertical": true,
+                      "description": "Переход. Гау Эдуард Петрович 1871г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "transition-modernPhoto",
+                      "img": "assets/pic/rooms/walk-through/transition-now.webp",
+                      "vertical": false,
+                      "description": "Переход, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "room&Landing",
+                  "path": "room&Landing",
+                  "map": "assets/pic/rooms/walk-through/map-room&Landing.webp",
+                  "next": "guardroom",
+                  "prev": "transition",
+                  "name": "Комната и площадка лестницы на половине императрицы Марии Александровны",
+                  "description": "В советское время была прорублена лестница на тертий этаж, в совершенно ином архитектурном стиле, что полностью нарушило геометрию комнаты",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "room&Landing-painting",
+                      "img": "assets/pic/rooms/walk-through/room&Landing-paint.webp",
+                      "vertical": false,
+                      "description": "Площадка лестницы. Гау Эдуард Петрович 1873г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "room&Landing-modernPhoto",
+                      "img": "assets/pic/rooms/walk-through/room&Landing-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Площадки с лестницей на третий этаж"
+                    }
+                  ]
+                },
+                {
+                  "id": "guardroom",
+                  "path": "guardroom",
+                  "map": "assets/pic/rooms/walk-through/map-guardroom.webp",
+                  "prev": "room&Landing",
+                  "name": "Кирасирская пикетная комната",
+                  "description": "Использовалась для развода дворцового караула",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "guardroom-painting",
+                      "img": "assets/pic/rooms/walk-through/guardroom-paint.webp",
+                      "vertical": false,
+                      "description": "Кирасирская пикетная комната. Гау Эдуард Петрович 1864г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "guardroom-oldPhoto",
+                      "img": "assets/pic/rooms/walk-through/guardroom-photo.webp",
+                      "vertical": false,
+                      "description": "Кирасирская пикетная комната. 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "guardroom-modernPhoto",
+                      "img": "assets/pic/rooms/walk-through/guardroom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Кирасирской пикетной комнаты"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp"
+            }
+          ]
+        },
+        {
+          "id": "alexander",
+          "name": "Жилая половина Александра II",
+          "path": "alexander",
+          "img": "assets/pic/living-alex.webp",
+          "imgMobile": "assets/pic/living-alex-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp",
+              "rooms": []
+            },            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {}
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp"
             }
           ]
         }
