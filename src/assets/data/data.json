@@ -440,13 +440,13 @@
                       "img": "assets/pic/rooms/state-halls/armorial-paint2.webp",
                       "vertical": false,
                       "description": "Гербовый зал. Гау Эдуард Петрович 1863г. акварель"
-                    },                 
+                    },
                     {
-                    "id": "oldPhoto",
-                    "path": "armorial-oldPhoto",
-                    "img": "assets/pic/rooms/state-halls/armorial-photo.webp",
-                    "vertical": false,
-                    "description": "Дореволюционный вид Гербового зала 1914г."
+                      "id": "oldPhoto",
+                      "path": "armorial-oldPhoto",
+                      "img": "assets/pic/rooms/state-halls/armorial-photo.webp",
+                      "vertical": false,
+                      "description": "Дореволюционный вид Гербового зала 1914г."
                     },
                     {
                       "id": "oldPhoto2",
@@ -1330,7 +1330,7 @@
                       "img": "assets/pic/rooms/nicolas/dressing-photo2.webp",
                       "vertical": false,
                       "description": "Туалетная комната. Кубеш Карл Карлович 1917г."
-                    },                   
+                    },
                     {
                       "id": "oldPhoto3",
                       "path": "dressing-oldPhoto3",
@@ -1876,15 +1876,14 @@
               "isActive": false,
               "img": "assets/pic/third-floor-disable.webp",
               "rooms": []
-            },            {
+            },
+            {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
               "img": "assets/pic/second-floor.webp",
               "imgHover": "assets/pic/second-floor-hover.webp",
-              "rooms": [
-                {}
-              ]
+              "rooms": [{}]
             },
             {
               "id": "first-floor",
@@ -1892,7 +1891,6 @@
               "isActive": false,
               "img": "assets/pic/first-floor-disable.webp"
             }
-
           ]
         },
         {
@@ -1907,7 +1905,8 @@
               "path": "third-floor",
               "isActive": false,
               "img": "assets/pic/third-floor-disable.webp"
-            },            {
+            },
+            {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
@@ -2067,14 +2066,52 @@
               "isActive": false,
               "img": "assets/pic/third-floor-disable.webp",
               "rooms": []
-            },            {
+            },
+            {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
               "img": "assets/pic/second-floor.webp",
               "imgHover": "assets/pic/second-floor-hover.webp",
               "rooms": [
-                {}
+                {
+                  "id": "octoberSC",
+                  "path": "october-staircase",
+                  "map": "assets/pic/rooms/alexII/map-october-staircase.webp",
+                  "next": "white-hall",
+                  "name": "Октябрьская (Собственная) лестница",
+                  "description": "Собственный подъезд и лестница на половине императрицы Марии Александровны. После революции получила название Октябрьская",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "october-staircase-painting",
+                      "img": "assets/pic/rooms/alexII/october-staircase-paint.webp",
+                      "vertical": true,
+                      "description": "Собственная лестница. Ухтомский Константин Андреевич 1860-е. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "october-staircase-painting2",
+                      "img": "assets/pic/rooms/alexII/october-staircase-paint2.webp",
+                      "vertical": true,
+                      "description": "Собственный подъезд. Ухтомский Константин Андреевич 1860-е. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "october-staircase-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/october-staircase-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Собственной лестницы"
+                    },
+                    {
+                      "id": "modernPhoto2",
+                      "path": "october-staircase-modernPhoto2",
+                      "img": "assets/pic/rooms/alexII/october-staircase-now2.webp",
+                      "vertical": true,
+                      "description": "Современный вид Собственного подъезда"
+                    }
+                  ]
+                }
               ]
             },
             {
