@@ -2169,17 +2169,71 @@
                   "id": "gold",
                   "path": "gold-drawingRoom",
                   "map": "assets/pic/rooms/alexII/map-gold-drawingRoom.webp",
-                  "next": "white-hall",
+                  "next": "green-diningRoom",
                   "prev": "white-hall",
-                  "name": "Октябрьская (Собственная) лестница",
-                  "description": "Собственный подъезд и лестница на половине императрицы Марии Александровны. После революции получила название Октябрьская",
+                  "name": "Золотая гостиная",
+                  "description": "Парадная гостиная в апартаментах Марии Адександровны. Золоченые стены вдохновлены тронным залом Мюнхенской резиденции",
                   "collections": [
                     {
                       "id": "painting",
-                      "path": "october-staircase-painting",
-                      "img": "assets/pic/rooms/alexII/october-staircase-paint.webp",
-                      "vertical": true,
-                      "description": "Собственная лестница. Ухтомский Константин Андреевич 1860-е. акварель"
+                      "path": "gold-drawingRoom-painting",
+                      "img": "assets/pic/rooms/alexII/gold-drawingRoom-paint.webp",
+                      "vertical": false,
+                      "description": "Золотая гостиная. Кольб Александр Христофорович 1850-е. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "gold-drawingRoom-OldPhoto",
+                      "img": "assets/pic/rooms/alexII/gold-drawingRoom-photo.webp",
+                      "vertical": false,
+                      "description": "Золотая гостиная 1914г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "gold-drawingRoom-OldPhoto",
+                      "img": "assets/pic/rooms/alexII/gold-drawingRoom-photo.webp",
+                      "vertical": false,
+                      "description": "Охрана временного правительства в Золотой гостиной 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "gold-drawingRoom-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/gold-drawingRoom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Золотой гостиной"
+                    }
+                  ]
+                },
+                {
+                  "id": "green-diningRoom",
+                  "path": "green-diningRoom",
+                  "map": "assets/pic/rooms/alexII/map-green-diningRoom.webp",
+                  "next": "study-of-empress",
+                  "prev": "gold-drawingRoom",
+                  "name": "Зеленая столовая",
+                  "status": "Недоступна для посещения. Интерьер сохранен, но используется как подсобное помещение",
+                  "description": "Небольшая приватная Столовая, оформленная в стиле французского рококо. Не имеет окон и освещается только за счет потолка",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "green-diningRoom-painting",
+                      "img": "assets/pic/rooms/alexII/greenDR-paint.webp",
+                      "vertical": false,
+                      "description": "Зеленая столовая. Луиджи Премацци 1852. акварель"
+                    },
+                    {
+                      "id": "oldPhotoUssr",
+                      "path": "green-diningRoom-oldPhotoUssr",
+                      "img": "assets/pic/rooms/alexII/greenDR-photoUssr.webp",
+                      "vertical": false,
+                      "description": "Зеленая столовая в советское время лишилась потолочного освещения. 1960-е"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "green-diningRoom-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/greenDR-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Зеленой столовой"
                     }
                   ]
                 }
