@@ -2208,7 +2208,7 @@
                   "id": "green-diningRoom",
                   "path": "green-diningRoom",
                   "map": "assets/pic/rooms/alexII/map-green-diningRoom.webp",
-                  "next": "study-of-empress",
+                  "next": "crimson-study",
                   "prev": "gold-drawingRoom",
                   "name": "Зеленая столовая",
                   "status": "Недоступна для посещения. Интерьер сохранен, но используется как подсобное помещение",
@@ -2219,7 +2219,7 @@
                       "path": "green-diningRoom-painting",
                       "img": "assets/pic/rooms/alexII/greenDR-paint.webp",
                       "vertical": false,
-                      "description": "Зеленая столовая. Луиджи Премацци 1852. акварель"
+                      "description": "Зеленая столовая. Луиджи Премацци 1852г. акварель"
                     },
                     {
                       "id": "oldPhotoUssr",
@@ -2234,6 +2234,52 @@
                       "img": "assets/pic/rooms/alexII/greenDR-now.webp",
                       "vertical": false,
                       "description": "Современный вид Зеленой столовой"
+                    }
+                  ]
+                },
+                {
+                  "id": "study",
+                  "path": "crimson-study",
+                  "map": "assets/pic/rooms/alexII/map-crimson-study.webp",
+                  "next": "crimson-boudoir",
+                  "prev": "green-diningRoom",
+                  "name": "Малиновый кабинет",
+                  "description": "Кабинет императрицы Марии Александровны. Отделка и интерьер был изменен во второй половине XIX века",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "crimson-stury-painting",
+                      "img": "assets/pic/rooms/alexII/crimson-study-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Великой княгини Марии Александровны. Ухтомский Константин Андреевич 1850-е. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "crimson-stury-painting2",
+                      "img": "assets/pic/rooms/alexII/crimson-study-paint2.webp",
+                      "vertical": false,
+                      "description": "Малиновый кабинет императрицы Марии Александровны. Гау Эдуард Петрович 1850-е. акварель"
+                    },
+                    {
+                      "id": "painting3",
+                      "path": "crimson-stury-painting3",
+                      "img": "assets/pic/rooms/alexII/crimson-study-paint3.webp",
+                      "vertical": false,
+                      "description": "Малиновый кабинет императрицы Марии Александровны. Луиджи Премацци 1869г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "crimson-stury-oldPHoto",
+                      "img": "assets/pic/rooms/alexII/crimson-study-photo.webp",
+                      "vertical": false,
+                      "description": "Малиновый кабинет после захвата большевиками. 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "crimson-stury-ModernPhoto",
+                      "img": "assets/pic/rooms/alexII/crimson-study-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Малинового кабинета"
                     }
                   ]
                 }
