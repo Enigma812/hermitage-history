@@ -2111,6 +2111,77 @@
                       "description": "Современный вид Собственного подъезда"
                     }
                   ]
+                },
+                {
+                  "id": "white",
+                  "path": "white-hall",
+                  "map": "assets/pic/rooms/alexII/map-white-hall.webp",
+                  "next": "gold-drawingRoom",
+                  "prev": "october-staircase",
+                  "name": "Белый зал",
+                  "description": "Как и рядом расположенная Золотая гостиная является репрезентативной частью приготовленных к свадьбе наследника апартаментов",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "white-hall-painting",
+                      "img": "assets/pic/rooms/alexII/white-hall-paint.webp",
+                      "vertical": true,
+                      "description": "Белый зал в Зимнем дворце. Луиджи Премацци 1865г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "white-hall-oldPhoto",
+                      "img": "assets/pic/rooms/alexII/white-hall-photo.webp",
+                      "vertical": false,
+                      "description": "Дореволюционный Белый зал. Ателье Карла Буллы 1914г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "white-hall-oldPhoto2",
+                      "img": "assets/pic/rooms/alexII/white-hall-photo2.webp",
+                      "vertical": false,
+                      "description": "Дореволюционный Белый зал. Ателье Карла Буллы 1914г."
+                    },
+                    {
+                      "id": "oldPhoto3",
+                      "path": "white-hall-oldPhoto3",
+                      "img": "assets/pic/rooms/alexII/white-hall-photo3.webp",
+                      "vertical": true,
+                      "description": "Камин в Белом зале. Ателье Карла Буллы 1914г."
+                    },
+                    {
+                      "id": "oldPhoto4",
+                      "path": "white-hall-oldPhoto4",
+                      "img": "assets/pic/rooms/alexII/white-hall-photo4.webp",
+                      "vertical": false,
+                      "description": "Охрана Керенского в Белом зале. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "white-hall-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/white-hall-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Белого зала"
+                    }
+                  ]
+                },
+                {
+                  "id": "gold",
+                  "path": "gold-drawingRoom",
+                  "map": "assets/pic/rooms/alexII/map-gold-drawingRoom.webp",
+                  "next": "white-hall",
+                  "prev": "white-hall",
+                  "name": "Октябрьская (Собственная) лестница",
+                  "description": "Собственный подъезд и лестница на половине императрицы Марии Александровны. После революции получила название Октябрьская",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "october-staircase-painting",
+                      "img": "assets/pic/rooms/alexII/october-staircase-paint.webp",
+                      "vertical": true,
+                      "description": "Собственная лестница. Ухтомский Константин Андреевич 1860-е. акварель"
+                    }
+                  ]
                 }
               ]
             },
