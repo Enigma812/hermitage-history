@@ -188,7 +188,7 @@
   width: 100%;
 }
 
-@media (min-width: 429px) {
+@media (width >= 429px) {
   .navigate {
     height: 60px;
 
@@ -267,7 +267,7 @@
 
           &__image {
             flex-grow: 1;
-            max-width: 1450px;
+            max-width: 1400px;
             margin-bottom: 0;
           }
 
