@@ -2492,7 +2492,7 @@
                   "map": "assets/pic/rooms/alexII/map-council-room.webp",
                   "next": "reception-alexII",
                   "prev": "alexII-study",
-                  "name": " Учебная комната цесаревича Александра Николаевича",
+                  "name": "Учебная комната цесаревича Александра Николаевича",
                   "description": "Так же имела название Зал Совета императора Александра I",
                   "collections": [
                     {
@@ -2522,6 +2522,37 @@
                       "img": "assets/pic/rooms/alexII/council-room-now.webp",
                       "vertical": false,
                       "description": "Современный вид Учебной комнаты"
+                    }
+                  ]
+                },
+                {
+                  "id": "reception-alexII",
+                  "path": "reception-alexII",
+                  "map": "assets/pic/rooms/alexII/map-reception-alexII.webp",
+                  "next": "billiard-alexII",
+                  "prev": "council-room",
+                  "name": "Приемная Александра II",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "reception-alexII-painting",
+                      "img": "assets/pic/rooms/alexII/reception-alexII-paint.webp",
+                      "vertical": false,
+                      "description": "Приемная Александра II до пожара 1837г. Чернецов Никанор Григорьевич 1937г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "reception-alexII-painting2",
+                      "img": "assets/pic/rooms/alexII/reception-alexII-paint2.webp",
+                      "vertical": false,
+                      "description": "Приемная Александра II. Гау Эдуард Петрович 1860-е. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "reception-alexII-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/reception-alexII-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Приемной Александра II"
                     }
                   ]
                 }
