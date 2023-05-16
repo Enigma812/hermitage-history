@@ -2222,11 +2222,18 @@
                       "description": "Зеленая столовая. Луиджи Премацци 1852г. акварель"
                     },
                     {
+                      "id": "oldPHoto",
+                      "path": "green-diningRoom-photo",
+                      "img": "assets/pic/rooms/alexII/greenDR-photo.webp",
+                      "vertical": true,
+                      "description": "Дореволюционная Зеленая столовая. 1914г."
+                    },
+                    {
                       "id": "oldPhotoUssr",
                       "path": "green-diningRoom-oldPhotoUssr",
                       "img": "assets/pic/rooms/alexII/greenDR-photoUssr.webp",
-                      "vertical": false,
-                      "description": "Зеленая столовая в советское время лишилась потолочного освещения. 1960-е"
+                      "vertical": true,
+                      "description": "Зеленая столовая в советское время лишилась верхнего света. Потолок был зыкрыт бетонной плитой. 1960-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -2244,7 +2251,7 @@
                   "next": "crimson-boudoir",
                   "prev": "green-diningRoom",
                   "name": "Малиновый кабинет",
-                  "description": "Кабинет императрицы Марии Александровны. Отделка и интерьер был изменен во второй половине XIX века",
+                  "description": "Кабинет императрицы Марии Александровны. Отделка и интерьер были изменены во второй половине XIX века",
                   "collections": [
                     {
                       "id": "painting",
@@ -2280,6 +2287,63 @@
                       "img": "assets/pic/rooms/alexII/crimson-study-now.webp",
                       "vertical": false,
                       "description": "Современный вид Малинового кабинета"
+                    }
+                  ]
+                },
+                {
+                  "id": "boudoir",
+                  "path": "crimson-boudoir",
+                  "map": "assets/pic/rooms/alexII/map-crimson-boudoir.webp",
+                  "next": "blue-bedRoom",
+                  "prev": "crimson-study",
+                  "name": "Малиновый будуар",
+                  "description": "Будуар императрицы Марии Александровны. Отделка и интерьер были полностью изменены во второй половине XIX века",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "crimson-boudoir-painting",
+                      "img": "assets/pic/rooms/alexII/crimson-boudoir-paint.webp",
+                      "vertical": true,
+                      "description": "Будуар Великой княгини Марии Александровны. Гау Эдуард Петрович 1850-е. акварель"
+                    },                    
+                    {
+                      "id": "painting2",
+                      "path": "crimson-boudoir-painting2",
+                      "img": "assets/pic/rooms/alexII/crimson-boudoir-paint2.webp",
+                      "vertical": true,
+                      "description": "Будуар императрицы Марии Александровны. Гау Эдуард Петрович 1861г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "crimson-boudoir-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/crimson-boudoir-now.webp",
+                      "vertical": false,
+                      "description": "Совеменн вид Малинового Будуара"
+                    }
+                  ]
+                },
+                {
+                  "id": "bedRoom",
+                  "path": "blue-bedRoom",
+                  "map": "assets/pic/rooms/alexII/map-blue-bedRoom.webp",
+                  "next": "bathRoom",
+                  "prev": "crimson-boudoir",
+                  "name": "Спальня",
+                  "description": "Спальня императрицы Марии Александровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "blue-bedRoom-painting",
+                      "img": "assets/pic/rooms/alexII/blue-bedroom-paint.webp",
+                      "vertical": false,
+                      "description": "Спальня великой княгини Марии Александры. Луиджи Премацци 1850-е. акварель"
+                    },
+                    {
+                      "id": "painting",
+                      "path": "blue-bedRoom-painting",
+                      "img": "assets/pic/rooms/alexII/blue-bedroom-paint.webp",
+                      "vertical": false,
+                      "description": "Спальня великой княгини Марии Александры. Луиджи Премацци 1850-е. акварель"
                     }
                   ]
                 }
