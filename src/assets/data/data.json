@@ -2408,6 +2408,30 @@
                       "description": "Современный вид Уброной"
                     }
                   ]
+                },
+                {
+                  "id": "library",
+                  "path": "library",
+                  "map": "assets/pic/rooms/alexII/map-library-alexII.webp",
+                  "next": "alexII-study",
+                  "prev": "dressing-room",
+                  "name": "Библиотека императора Александра II",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "library-alexII-painting",
+                      "img": "assets/pic/rooms/alexII/library-alexII-paint.webp",
+                      "vertical": false,
+                      "description": "Библиотека императора Александра II. Гау Эдуард Петрович 1867г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "library-alexII-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/library-alexII-now.webp",
+                      "vertical": false,
+                      "description": "Библиотека императора Александра II. Современный вид"
+                    }
+                  ]
                 }
               ]
             },
