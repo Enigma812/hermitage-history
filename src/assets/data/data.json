@@ -2555,6 +2555,29 @@
                       "description": "Современный вид Приемной Александра II"
                     }
                   ]
+                },
+                {
+                  "id": "billiard-alexII",
+                  "path": "billiard-alexII",
+                  "map": "assets/pic/rooms/alexII/map-billiard-alexII.webp",
+                  "prev": "reception-alexII",
+                  "name": "Бильярдная Александра II",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "billiard-alexII-painting",
+                      "img": "assets/pic/rooms/alexII/billiard-alexII-paint.webp",
+                      "vertical": false,
+                      "description": "Бильярдная императора Александра II. Гау Эдуард Петрович 1960-е. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "billiard-alexII-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/billiard-alexII-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Бильярдной императора"
+                    }
+                  ]
                 }
               ]
             },
