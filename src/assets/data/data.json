@@ -2334,16 +2334,30 @@
                     {
                       "id": "painting",
                       "path": "blue-bedRoom-painting",
-                      "img": "assets/pic/rooms/alexII/blue-bedroom-paint.webp",
+                      "img": "assets/pic/rooms/alexII/blue-bedRoom-paint.webp",
                       "vertical": false,
                       "description": "Спальня великой княгини Марии Александры. Луиджи Премацци 1850-е. акварель"
                     },
                     {
                       "id": "painting",
-                      "path": "blue-bedRoom-painting",
-                      "img": "assets/pic/rooms/alexII/blue-bedroom-paint.webp",
+                      "path": "blue-bedRoom-painting2",
+                      "img": "assets/pic/rooms/alexII/blue-bedRoom-paint2.webp",
                       "vertical": false,
-                      "description": "Спальня великой княгини Марии Александры. Луиджи Премацци 1850-е. акварель"
+                      "description": "Спальня императрицы Марии Александры. Луиджи Премацци 1860-е. акварель"
+                    },
+                    {
+                      "id": "oldPHoto",
+                      "path": "blue-bedRoom-oldPhoto",
+                      "img": "assets/pic/rooms/alexII/blue-bedRoom-photo.webp",
+                      "vertical": false,
+                      "description": "Спальня императрицы Марии Александры. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPHoto",
+                      "path": "blue-bedRoom-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/blue-bedRoom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Спальни"
                     }
                   ]
                 }
