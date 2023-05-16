@@ -2384,6 +2384,30 @@
                       "description": "Современный вид Ванной"
                     }
                   ]
+                },
+                {
+                  "id": "dressing",
+                  "path": "dressing-room",
+                  "map": "assets/pic/rooms/alexII/map-dressing-room.webp",
+                  "next": "library",
+                  "prev": "bathRoom",
+                  "name": "Уборная императрицы Марии Александровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dressing-room-painting",
+                      "img": "assets/pic/rooms/alexII/dressing-room-paint.webp",
+                      "vertical": false,
+                      "description": "Уборная императрицы Марии Александровны. Луиджи Премацци 1857г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "dressing-room-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/dressing-room-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Уброной"
+                    }
+                  ]
                 }
               ]
             },
