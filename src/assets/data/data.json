@@ -2360,6 +2360,30 @@
                       "description": "Современный вид Спальни"
                     }
                   ]
+                },
+                {
+                  "id": "bathRoom",
+                  "path": "bathRoom",
+                  "map": "assets/pic/rooms/alexII/map-bathRoom.webp",
+                  "next": "dressing-room",
+                  "prev": "blue-bedRoom",
+                  "name": "Ванная Великой княгини Марии Александровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "bathRoom-painting",
+                      "img": "assets/pic/rooms/alexII/bathRoom-paint.webp",
+                      "vertical": true,
+                      "description": "Ванная Великой княгини Марии Александровны. Луиджи Премацци 1857г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "bathRoom-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/bathRoom-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид Ванной"
+                    }
+                  ]
                 }
               ]
             },
