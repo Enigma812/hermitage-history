@@ -2485,6 +2485,45 @@
                       "description": "Современный вид Кабинета Александра II"
                     }
                   ]
+                },
+                {
+                  "id": "council",
+                  "path": "council-room",
+                  "map": "assets/pic/rooms/alexII/map-council-room.webp",
+                  "next": "reception-alexII",
+                  "prev": "alexII-study",
+                  "name": " Учебная комната цесаревича Александра Николаевича",
+                  "description": "Так же имела название Зал Совета императора Александра I",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "council-room-painting",
+                      "img": "assets/pic/rooms/alexII/council-room-paint.webp",
+                      "vertical": false,
+                      "description": "Учебная комната цесаревича Александра Николаевича. Гау Эдуард Петрович 1860-е. акварель"
+                    },
+                    {
+                      "id": "oldPHoto",
+                      "path": "council-room-oldPhoto",
+                      "img": "assets/pic/rooms/alexII/council-room-photo.webp",
+                      "vertical": false,
+                      "description": "Учебная комната цесаревича Александра Николаевича. Кубеш Карл Карлович 1917г,"
+                    },
+                    {
+                      "id": "oldPHoto2",
+                      "path": "council-room-oldPhoto2",
+                      "img": "assets/pic/rooms/alexII/council-room-photo2.webp",
+                      "vertical": false,
+                      "description": "Учебная комната после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "council-room-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/council-room-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Учебной комнаты"
+                    }
+                  ]
                 }
               ]
             },
