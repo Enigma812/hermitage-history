@@ -2432,6 +2432,59 @@
                       "description": "Библиотека императора Александра II. Современный вид"
                     }
                   ]
+                },
+                {
+                  "id": "alexII-study",
+                  "path": "alexII-study",
+                  "map": "assets/pic/rooms/alexII/map-alexII-study.webp",
+                  "next": "council-room",
+                  "prev": "library",
+                  "name": "Кабинет императора Александра II",
+                  "description": "Именно сюда смертельно раненого Александра II привезли после последнего покушения, 1 марта 1881 года, где он и скончался",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "alexII-study-painting",
+                      "img": "assets/pic/rooms/alexII/alexII-study-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет императора Александра II. Гау Эдуард Петрович 1857г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "alexII-study-painting2",
+                      "img": "assets/pic/rooms/alexII/alexII-study-paint2.webp",
+                      "vertical": false,
+                      "description": "Кабинет императора Александра II. Гау Эдуард Петрович 1855-1860г. акварель"
+                    },
+                    {
+                      "id": "painting3",
+                      "path": "alexII-study-painting3",
+                      "img": "assets/pic/rooms/alexII/alexII-study-paint3.webp",
+                      "vertical": false,
+                      "description": "Кабинет императора Александра II. Гау Эдуард Петрович 1881г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "alexII-study-oldPhoto",
+                      "img": "assets/pic/rooms/alexII/alexII-study-photo.webp",
+                      "vertical": false,
+                      "description": "Кабинет императора Александра II. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "alexII-study-oldPhoto2",
+                      "img": "assets/pic/rooms/alexII/alexII-study-photo2.webp",
+                      "vertical": false,
+                      "description": "Разгром в Кабинете Александра II, устроенный большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "alexII-study-modernPhoto",
+                      "img": "assets/pic/rooms/alexII/alexII-study-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Кабинета Александра II"
+                    }
+                  ]
                 }
               ]
             },
