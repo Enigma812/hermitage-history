@@ -1967,7 +1967,7 @@
                   "id": "walk-through",
                   "path": "walk-through",
                   "map": "assets/pic/rooms/third-reserved-apartment/map-third-walkThrough.webp",
-                  "next": "walk-through",
+                  "next": "library",
                   "prev": "second-livingRoom",
                   "name": "Проходная в Третьей запасной половине",
                   "description": "Ранее Детская (Корабельная) сыновей Николая I",
@@ -1992,6 +1992,30 @@
                       "img": "assets/pic/rooms/third-reserved-apartment/third-walkThrough-now.webp",
                       "vertical": false,
                       "description": "Современный вид Проходной"
+                    }
+                  ]
+                },
+                {
+                  "id": "library",
+                  "path": "library",
+                  "map": "assets/pic/rooms/third-reserved-apartment/map-third-library.webp",
+                  "next": "study",
+                  "prev": "walk-through",
+                  "name": "Библиотека императора Александра II",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "third-library-painting",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-library-paint.webp",
+                      "vertical": false,
+                      "description": "Библиотека императора Александра II. Гау Эдуард Петрович 1871г. акварель"
+                    },
+                    {
+                      "id": "modernPHoto",
+                      "path": "third-library-modernPhoto",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-library-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Библиотеки"
                     }
                   ]
                 }
