@@ -1883,7 +1883,87 @@
               "isActive": true,
               "img": "assets/pic/second-floor.webp",
               "imgHover": "assets/pic/second-floor-hover.webp",
-              "rooms": [{}]
+              "rooms": [
+                {
+                  "id": "bedRoom",
+                  "path": "bedRoom",
+                  "map": "assets/pic/rooms/third-reserved-apartment/map-third-bedRoom.webp",
+                  "next": "livingRoom",
+                  "name": "Спальня в Третьей запасной половине",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "third-bedRoom-painting",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-bedRoom-paint.webp",
+                      "vertical": false,
+                      "description": "Спальня в Третьей запасной половине. Гау Эдуард Петрович 1873г. акварель"
+                    },
+                    {
+                      "id": "modernPHoto",
+                      "path": "third-bedRoom-modernPhoto",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-bedRoom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Спальни"
+                    }
+                  ]
+                },
+                {
+                  "id": "livingRoom",
+                  "path": "livingRoom",
+                  "map": "assets/pic/rooms/third-reserved-apartment/map-third-livingRoom.webp",
+                  "next": "second-livingRoom",
+                  "prev": "bedRoom",
+                  "name": "Гостниая в Третьей запасной половине",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "third-livingRoom-painting",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-livingRoom-paint.webp",
+                      "vertical": false,
+                      "description": "Гостиная в Третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
+                    },
+                    {
+                      "id": "modernPHoto",
+                      "path": "third-livingRoom-modernPhoto",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-livingRoom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Гостиной"
+                    }
+                  ]
+                },
+                {
+                  "id": "second-livingRoom",
+                  "path": "second-livingRoom",
+                  "map": "assets/pic/rooms/third-reserved-apartment/map-third-second-livingRoom.webp",
+                  "next": "walk-through",
+                  "prev": "livingRoom",
+                  "name": "Вторая Гостниая в Третьей запасной половине",
+                  "description": "Ранее Учебная комната (Библиотека) Великих князей Николая Николаевича и Михаила Николаевича",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "third-second-livingRoom-painting",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-second-livingRoom-paint.webp",
+                      "vertical": false,
+                      "description": "Учебная комната (Библиотека) Великих князей. Вольский Иван Петрович 1850-е. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "third-second-livingRoom2",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-second-livingRoom-paint2.webp",
+                      "vertical": false,
+                      "description": "Вторая Гостиная в Третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
+                    },
+                    {
+                      "id": "modernPHoto",
+                      "path": "third-second-livingRoom-modernPhoto",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-second-livingRoom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Второй Гостиной"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "first-floor",
@@ -2305,7 +2385,7 @@
                       "img": "assets/pic/rooms/alexII/crimson-boudoir-paint.webp",
                       "vertical": true,
                       "description": "Будуар Великой княгини Марии Александровны. Гау Эдуард Петрович 1850-е. акварель"
-                    },                    
+                    },
                     {
                       "id": "painting2",
                       "path": "crimson-boudoir-painting2",
