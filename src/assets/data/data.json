@@ -1962,6 +1962,38 @@
                       "description": "Современный вид Второй Гостиной"
                     }
                   ]
+                },
+                {
+                  "id": "walk-through",
+                  "path": "walk-through",
+                  "map": "assets/pic/rooms/third-reserved-apartment/map-third-walkThrough.webp",
+                  "next": "walk-through",
+                  "prev": "second-livingRoom",
+                  "name": "Проходная в Третьей запасной половине",
+                  "description": "Ранее Детская (Корабельная) сыновей Николая I",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "third-walk-through-painting",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-walkThrough-paint.png",
+                      "vertical": false,
+                      "description": "Детская (Корабельная) сыновей Николая I. Шарлемань Иосиф Иосифович 1856г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "third-walk-through2",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-walkThrough-paint2.webp",
+                      "vertical": false,
+                      "description": "Проходная в Третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
+                    },
+                    {
+                      "id": "modernPHoto",
+                      "path": "third-walk-through-modernPhoto",
+                      "img": "assets/pic/rooms/third-reserved-apartment/third-walkThrough-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Проходной"
+                    }
+                  ]
                 }
               ]
             },
