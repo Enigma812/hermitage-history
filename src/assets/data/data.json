@@ -2967,6 +2967,77 @@
                       "description": "Современный вид Большого салона"
                     }
                   ]
+                },
+                {
+                  "id": "salonML",
+                  "path": "salonML",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-salonML.webp",
+                  "next": "livingRoomML",
+                  "prev": "large-salon",
+                  "name": "Салон герцога Максимилиана Лейхтенбергского",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "salonML-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-salonML-paint.webp",
+                      "vertical": true,
+                      "description": "Салон герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1866г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "salonML-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-salonML-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Салона герцога"
+                    }
+                  ]
+                },
+                {
+                  "id": "livingRoomML",
+                  "path": "livingRoomML",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-livingRoomML.webp",
+                  "next": "studyML",
+                  "prev": "salonML",
+                  "name": "Гостиная герцога Максимилиана Лейхтенбергского",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "livingRoomML-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-livingRoomML-paint.webp",
+                      "vertical": false,
+                      "description": "Гостиная герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1868г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "livingRoomML-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-livingRoomML-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Гостиной герцога"
+                    }
+                  ]
+                },
+                {
+                  "id": "studyML",
+                  "path": "studyML",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-studyML.webp",
+                  "prev": "livingRoomML",
+                  "name": "Кабинет герцога Максимилиана Лейхтенбергского",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "studyML-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-studyML-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1868г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "studyML-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-studyML-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Кабинета герцога"
+                    }
+                  ]
                 }
               ]
             },
