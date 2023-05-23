@@ -2751,7 +2751,7 @@
                       "path": "billiard-alexII-painting",
                       "img": "assets/pic/rooms/alexII/billiard-alexII-paint.webp",
                       "vertical": false,
-                      "description": "Бильярдная императора Александра II. Гау Эдуард Петрович 1960-е. акварель"
+                      "description": "Бильярдная императора Александра II. Гау Эдуард Петрович 1860-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2759,6 +2759,60 @@
                       "img": "assets/pic/rooms/alexII/billiard-alexII-now.webp",
                       "vertical": false,
                       "description": "Современный вид Бильярдной императора"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp"
+            }
+          ]
+        },
+        {
+          "id": "first-reserved-apartment",
+          "name": "Первая запасная половина",
+          "path": "first-reserved-apartment",
+          "img": "assets/pic/first-reserved-apartment.webp",
+          "imgMobile": "assets/pic/first-reserved-apartment-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp"
+            },
+            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "study",
+                  "path": "study",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-study.webp",
+                  "next": "dressing-room",
+                  "name": "Кабинет великой княгини Марии Николаевны",
+                  "description": "После смерти Марии Федоровны половину превратили в запасную, где сразу же поселились молодые супруги – старшая дочь Николая I, великая княгиня Мария Николаевна, и ее муж, герцог Лейхтенбергский",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "study-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-study-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "study-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-study-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Кабинета"
                     }
                   ]
                 }
