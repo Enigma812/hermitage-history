@@ -2844,7 +2844,7 @@
                   "id": "bedRoom",
                   "path": "bedRoom",
                   "map": "assets/pic/rooms/first-reserved-apartment/map-first-bedRoom.webp",
-                  "next": "bedRoom",
+                  "next": "dressingML",
                   "prev": "dressing-room",
                   "name": "Спальня Великой княгини Марии Николаевны",
                   "collections": [
@@ -2861,6 +2861,54 @@
                       "img": "assets/pic/rooms/first-reserved-apartment/first-bedRoom-now.webp",
                       "vertical": false,
                       "description": "Современный вид Спальни"
+                    }
+                  ]
+                },
+                {
+                  "id": "dressingML",
+                  "path": "dressingML",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-dressingML.webp",
+                  "next": "large-study",
+                  "prev": "bedRoom",
+                  "name": "Туалетная герцога Максимилиана Лейхтенбергского",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dressingML-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-dressingML-paint.webp",
+                      "vertical": true,
+                      "description": "Туалетная герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1867. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "dressingML-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-dressingML-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Туалетной Максимилиана Лейхтенбергского"
+                    }
+                  ]
+                },
+                {
+                  "id": "large-study",
+                  "path": "large-study",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-large-study.webp",
+                  "next": "large-study",
+                  "prev": "dressingML",
+                  "name": "Большой кабинет Великой княгини Марии Николаевны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "large-study-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-large-study-paint.webp",
+                      "vertical": false,
+                      "description": "Большой кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "large-study-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-large-study-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Большого кабинета"
                     }
                   ]
                 }
