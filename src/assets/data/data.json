@@ -2805,7 +2805,7 @@
                       "path": "study-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-study-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867. акварель"
+                      "description": "Кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2829,7 +2829,7 @@
                       "path": "dressing-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-dressing-paint.webp",
                       "vertical": false,
-                      "description": "Туалетная Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867. акварель"
+                      "description": "Туалетная Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2853,7 +2853,7 @@
                       "path": "bedRoom-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-bedRoom-paint.webp",
                       "vertical": false,
-                      "description": "Спальня Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867. акварель"
+                      "description": "Спальня Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2877,7 +2877,7 @@
                       "path": "dressingML-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-dressingML-paint.webp",
                       "vertical": true,
-                      "description": "Туалетная герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1867. акварель"
+                      "description": "Туалетная герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2892,7 +2892,7 @@
                   "id": "large-study",
                   "path": "large-study",
                   "map": "assets/pic/rooms/first-reserved-apartment/map-first-large-study.webp",
-                  "next": "large-study",
+                  "next": "yellow-salon",
                   "prev": "dressingML",
                   "name": "Большой кабинет Великой княгини Марии Николаевны",
                   "collections": [
@@ -2901,7 +2901,7 @@
                       "path": "large-study-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-large-study-paint.webp",
                       "vertical": false,
-                      "description": "Большой кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867. акварель"
+                      "description": "Большой кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2909,6 +2909,62 @@
                       "img": "assets/pic/rooms/first-reserved-apartment/first-large-study-now.webp",
                       "vertical": false,
                       "description": "Современный вид Большого кабинета"
+                    }
+                  ]
+                },
+                {
+                  "id": "yellow-salon",
+                  "path": "yellow-salon",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-yellow-salon.webp",
+                  "next": "large-salon",
+                  "prev": "large-study",
+                  "name": "Желтый салон Великой княгини Марии Николаевны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "yellow-salon-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-yellow-salon-paint.webp",
+                      "vertical": false,
+                      "description": "Желтый салон Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "yellow-salon-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-yellow-salon-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Желтого салона"
+                    }
+                  ]
+                },
+                {
+                  "id": "large-salon",
+                  "path": "large-salon",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-large-salon.webp",
+                  "next": "salonML",
+                  "prev": "yellow-salon",
+                  "name": "Большой салон Великой княгини Марии Николаевны и герцога Максимилиана Лейхтенбергского",
+                  "description": "До превращения в запасную половину, на месте Большого салона находился Тронный зал императрицы Марии Федоровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "large-salon-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-large-salon-paint.webp",
+                      "vertical": false,
+                      "description": "Тронный зал императрицы Марии Федоровны. Крендовский Евграф Федорович 1830г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "large-salon-painting2",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-large-salon-paint2.webp",
+                      "vertical": false,
+                      "description": "Большой салон Великой княгини Марии Николаевны и герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1866. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "large-salon-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-large-salon-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Большого салона"
                     }
                   ]
                 }
