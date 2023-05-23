@@ -2815,6 +2815,54 @@
                       "description": "Современный вид Кабинета"
                     }
                   ]
+                },
+                {
+                  "id": "dressing-room",
+                  "path": "dressing-room",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-dressing.webp",
+                  "next": "bedRoom",
+                  "prev": "study",
+                  "name": "Туалетная Великой княгини Марии Николаевны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dressing-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-dressing-paint.webp",
+                      "vertical": false,
+                      "description": "Туалетная Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "dressing-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-dressing-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Туалетной"
+                    }
+                  ]
+                },
+                {
+                  "id": "bedRoom",
+                  "path": "bedRoom",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-bedRoom.webp",
+                  "next": "bedRoom",
+                  "prev": "dressing-room",
+                  "name": "Спальня Великой княгини Марии Николаевны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "bedRoom-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-bedRoom-paint.webp",
+                      "vertical": false,
+                      "description": "Спальня Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "bedRoom-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-bedRoom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Спальни"
+                    }
+                  ]
                 }
               ]
             },
