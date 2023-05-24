@@ -3092,6 +3092,31 @@
                       "description": "Первый зал военных картин, современный вид"
                     }
                   ]
+                },
+                {
+                  "id": "war2",
+                  "path": "war2",
+                  "map": "assets/pic/rooms/war-halls/map-war2.webp",
+                  "next": "war2",
+                  "prev": "war1",
+                  "name": "Второй зал военных картин",
+                  "description": "Ранее здесь выставлялись полотна А. Е. Коцебу, посвящённые сражениям XVIII века",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war2-painting",
+                      "img": "assets/pic/rooms/war-halls/war2-paint.webp",
+                      "vertical": false,
+                      "description": "Второй зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war2-modernPhoto",
+                      "img": "assets/pic/rooms/war-halls/war2-now.webp",
+                      "vertical": false,
+                      "description": "Второй зал военных картин, современный вид"
+                    }
+                  ]
                 }
               ]
             },
