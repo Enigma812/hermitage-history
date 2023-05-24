@@ -2751,7 +2751,7 @@
                       "path": "billiard-alexII-painting",
                       "img": "assets/pic/rooms/alexII/billiard-alexII-paint.webp",
                       "vertical": false,
-                      "description": "Бильярдная императора Александра II. Гау Эдуард Петрович 1960-е. акварель"
+                      "description": "Бильярдная императора Александра II. Гау Эдуард Петрович 1860-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2759,6 +2759,518 @@
                       "img": "assets/pic/rooms/alexII/billiard-alexII-now.webp",
                       "vertical": false,
                       "description": "Современный вид Бильярдной императора"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp"
+            }
+          ]
+        },
+        {
+          "id": "first-reserved-apartment",
+          "name": "Первая запасная половина",
+          "path": "first-reserved-apartment",
+          "img": "assets/pic/first-reserved-apartment.webp",
+          "imgMobile": "assets/pic/first-reserved-apartment-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp"
+            },
+            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "study",
+                  "path": "study",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-study.webp",
+                  "next": "dressing-room",
+                  "name": "Кабинет великой княгини Марии Николаевны",
+                  "description": "После смерти Марии Федоровны половину превратили в запасную, где сразу же поселились молодые супруги – старшая дочь Николая I, великая княгиня Мария Николаевна, и ее муж, герцог Лейхтенбергский",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "study-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-study-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "study-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-study-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Кабинета"
+                    }
+                  ]
+                },
+                {
+                  "id": "dressing-room",
+                  "path": "dressing-room",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-dressing.webp",
+                  "next": "bedRoom",
+                  "prev": "study",
+                  "name": "Туалетная Великой княгини Марии Николаевны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dressing-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-dressing-paint.webp",
+                      "vertical": false,
+                      "description": "Туалетная Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "dressing-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-dressing-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Туалетной"
+                    }
+                  ]
+                },
+                {
+                  "id": "bedRoom",
+                  "path": "bedRoom",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-bedRoom.webp",
+                  "next": "dressingML",
+                  "prev": "dressing-room",
+                  "name": "Спальня Великой княгини Марии Николаевны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "bedRoom-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-bedRoom-paint.webp",
+                      "vertical": false,
+                      "description": "Спальня Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "bedRoom-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-bedRoom-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Спальни"
+                    }
+                  ]
+                },
+                {
+                  "id": "dressingML",
+                  "path": "dressingML",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-dressingML.webp",
+                  "next": "large-study",
+                  "prev": "bedRoom",
+                  "name": "Туалетная герцога Максимилиана Лейхтенбергского",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "dressingML-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-dressingML-paint.webp",
+                      "vertical": true,
+                      "description": "Туалетная герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1867г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "dressingML-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-dressingML-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Туалетной Максимилиана Лейхтенбергского"
+                    }
+                  ]
+                },
+                {
+                  "id": "large-study",
+                  "path": "large-study",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-large-study.webp",
+                  "next": "yellow-salon",
+                  "prev": "dressingML",
+                  "name": "Большой кабинет Великой княгини Марии Николаевны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "large-study-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-large-study-paint.webp",
+                      "vertical": false,
+                      "description": "Большой кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "large-study-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-large-study-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Большого кабинета"
+                    }
+                  ]
+                },
+                {
+                  "id": "yellow-salon",
+                  "path": "yellow-salon",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-yellow-salon.webp",
+                  "next": "large-salon",
+                  "prev": "large-study",
+                  "name": "Желтый салон Великой княгини Марии Николаевны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "yellow-salon-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-yellow-salon-paint.webp",
+                      "vertical": false,
+                      "description": "Желтый салон Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "yellow-salon-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-yellow-salon-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Желтого салона"
+                    }
+                  ]
+                },
+                {
+                  "id": "large-salon",
+                  "path": "large-salon",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-large-salon.webp",
+                  "next": "salonML",
+                  "prev": "yellow-salon",
+                  "name": "Большой салон Великой княгини Марии Николаевны и герцога Максимилиана Лейхтенбергского",
+                  "description": "До превращения в запасную половину, на месте Большого салона находился Тронный зал императрицы Марии Федоровны",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "large-salon-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-large-salon-paint.webp",
+                      "vertical": false,
+                      "description": "Тронный зал императрицы Марии Федоровны. Крендовский Евграф Федорович 1830г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "large-salon-painting2",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-large-salon-paint2.webp",
+                      "vertical": false,
+                      "description": "Большой салон Великой княгини Марии Николаевны и герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1866. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "large-salon-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-large-salon-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Большого салона"
+                    }
+                  ]
+                },
+                {
+                  "id": "salonML",
+                  "path": "salonML",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-salonML.webp",
+                  "next": "livingRoomML",
+                  "prev": "large-salon",
+                  "name": "Салон герцога Максимилиана Лейхтенбергского",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "salonML-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-salonML-paint.webp",
+                      "vertical": true,
+                      "description": "Салон герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1866г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "salonML-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-salonML-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Салона герцога"
+                    }
+                  ]
+                },
+                {
+                  "id": "livingRoomML",
+                  "path": "livingRoomML",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-livingRoomML.webp",
+                  "next": "studyML",
+                  "prev": "salonML",
+                  "name": "Гостиная герцога Максимилиана Лейхтенбергского",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "livingRoomML-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-livingRoomML-paint.webp",
+                      "vertical": false,
+                      "description": "Гостиная герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1868г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "livingRoomML-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-livingRoomML-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Гостиной герцога"
+                    }
+                  ]
+                },
+                {
+                  "id": "studyML",
+                  "path": "studyML",
+                  "map": "assets/pic/rooms/first-reserved-apartment/map-first-studyML.webp",
+                  "prev": "livingRoomML",
+                  "name": "Кабинет герцога Максимилиана Лейхтенбергского",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "studyML-painting",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-studyML-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1868г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "studyML-modernPhoto",
+                      "img": "assets/pic/rooms/first-reserved-apartment/first-studyML-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Кабинета герцога"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp"
+            }
+          ]
+        },
+        {
+          "id": "war",
+          "name": "Залы военных картин",
+          "path": "war-halls",
+          "img": "assets/pic/war.webp",
+          "imgMobile": "assets/pic/war-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp"
+            },
+            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "war1",
+                  "path": "war1",
+                  "map": "assets/pic/rooms/war-halls/map-war1.webp",
+                  "next": "war2",
+                  "name": "Первый зал военных картин",
+                  "description": "В зале были представлены живописные полотна, отражающие победы русского оружия в период до Отечественной войны 1812г.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war1-painting",
+                      "img": "assets/pic/rooms/war-halls/war1-paint.webp",
+                      "vertical": false,
+                      "description": "Первый зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war1-modernPhoto",
+                      "img": "assets/pic/rooms/war-halls/war1-now.webp",
+                      "vertical": false,
+                      "description": "Первый зал военных картин, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "war2",
+                  "path": "war2",
+                  "map": "assets/pic/rooms/war-halls/map-war2.webp",
+                  "next": "war3",
+                  "prev": "war1",
+                  "name": "Второй зал военных картин",
+                  "description": "Ранее здесь выставлялись полотна А. Е. Коцебу, посвящённые сражениям XVIII века",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war2-painting",
+                      "img": "assets/pic/rooms/war-halls/war2-paint.webp",
+                      "vertical": false,
+                      "description": "Второй зал военных картин. Гау Эдуард Петрович 1872г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war2-modernPhoto",
+                      "img": "assets/pic/rooms/war-halls/war2-now.webp",
+                      "vertical": false,
+                      "description": "Второй зал военных картин, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "war3",
+                  "path": "war3",
+                  "map": "assets/pic/rooms/war-halls/map-war3.webp",
+                  "next": "war4",
+                  "prev": "war2",
+                  "name": "Третий зал военных картин",
+                  "description": "Ранее здесь выставлялись полотна П. фон Хесса, посвящённые сражениям Отечественной войны 1812 года",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war3-painting",
+                      "img": "assets/pic/rooms/war-halls/war3-paint.webp",
+                      "vertical": false,
+                      "description": "Третий зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                    },
+                    {
+                      "id": "oldPHoto",
+                      "path": "war3-oldPHoto",
+                      "img": "assets/pic/rooms/war-halls/war3-photo.webp",
+                      "vertical": false,
+                      "description": "Караул юнкеров которые для защиты Временного правительства в Третьем зале военных картин. 1917г."
+                    },
+                    {
+                      "id": "oldPHoto2",
+                      "path": "war3-oldPHoto2",
+                      "img": "assets/pic/rooms/war-halls/war3-photo2.webp",
+                      "vertical": false,
+                      "description": "Третий зал военных картин после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPHoto3",
+                      "path": "war3-oldPHoto3",
+                      "img": "assets/pic/rooms/war-halls/war3-photo3.webp",
+                      "vertical": false,
+                      "description": "Третий зал военных картин после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war3-modernPhoto",
+                      "img": "assets/pic/rooms/war-halls/war3-now.webp",
+                      "vertical": false,
+                      "description": "Третий зал военных картин, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "war4",
+                  "path": "war4",
+                  "map": "assets/pic/rooms/war-halls/map-war4.webp",
+                  "next": "war5",
+                  "prev": "war3",
+                  "name": "Четвертый зал военных картин",
+                  "description": "Ранее здесь выставлялись полотна А. Е. Коцебу и А. К. Айвазовского, посвящённые морским сражениям 1-й половины XIX века",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war4-painting",
+                      "img": "assets/pic/rooms/war-halls/war4-paint.webp",
+                      "vertical": false,
+                      "description": "Четвертый зал военных картин. Гау Эдуард Петрович 1864г. акварель"
+                    },
+                    {
+                      "id": "oldPHoto",
+                      "path": "war4-oldPHoto",
+                      "img": "assets/pic/rooms/war-halls/war4-photo.webp",
+                      "vertical": false,
+                      "description": "Четвертый зал военных картин, дореволюционный вид. 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war4-modernPhoto",
+                      "img": "assets/pic/rooms/war-halls/war4-now.webp",
+                      "vertical": false,
+                      "description": "Четвертый зал военных картин, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "war5",
+                  "path": "war5",
+                  "map": "assets/pic/rooms/war-halls/map-war5.webp",
+                  "prev": "war4",
+                  "name": "Пятый зал военных картин",
+                  "description": "Ранее здесь выставлялись полотна А. Е. Коцебу, посвящённые сражениям XVIII века",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war5-painting",
+                      "img": "assets/pic/rooms/war-halls/war5-paint.webp",
+                      "vertical": false,
+                      "description": "Пятый зал военных картин. Гау Эдуард Петрович 1862г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war5-modernPhoto",
+                      "img": "assets/pic/rooms/war-halls/war5-now.webp",
+                      "vertical": false,
+                      "description": "Пятый зал военных картин, современный вид"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp"
+            }
+          ]
+        },
+        {
+          "id": "second-reserved-apartment",
+          "name": "Вторая запасная половина",
+          "path": "second-reserved-apartment",
+          "img": "assets/pic/second-reserved-apartment.webp",
+          "imgMobile": "assets/pic/second-reserved-apartment-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp"
+            },
+            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "war1",
+                  "path": "war1",
+                  "map": "assets/pic/rooms/war-halls/map-war1.webp",
+                  "next": "war2",
+                  "name": "Первый зал военных картин",
+                  "description": "В зале были представлены живописные полотна, отражающие победы русского оружия в период до Отечественной войны 1812г.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war1-painting",
+                      "img": "assets/pic/rooms/war-halls/war1-paint.webp",
+                      "vertical": false,
+                      "description": "Первый зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war5-modernPhoto",
+                      "img": "assets/pic/rooms/war-halls/war5-now.webp",
+                      "vertical": false,
+                      "description": "Пятый зал военных картин, современный вид"
                     }
                   ]
                 }
