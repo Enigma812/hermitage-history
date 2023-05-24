@@ -3251,26 +3251,26 @@
               "imgHover": "assets/pic/second-floor-hover.webp",
               "rooms": [
                 {
-                  "id": "war1",
-                  "path": "war1",
-                  "map": "assets/pic/rooms/war-halls/map-war1.webp",
-                  "next": "war2",
-                  "name": "Первый зал военных картин",
-                  "description": "В зале были представлены живописные полотна, отражающие победы русского оружия в период до Отечественной войны 1812г.",
+                  "id": "hall",
+                  "path": "hall",
+                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-hall.webp",
+                  "next": "hall2",
+                  "name": "Первый зал",
+                  "description": "Запасная половина была образона на месте покоев Екатерины II",
                   "collections": [
                     {
                       "id": "painting",
-                      "path": "war1-painting",
-                      "img": "assets/pic/rooms/war-halls/war1-paint.webp",
+                      "path": "second-hall-painting",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-hall-paint.webp",
                       "vertical": false,
-                      "description": "Первый зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                      "description": "Первый зал Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
                     },
                     {
                       "id": "modernPhoto",
-                      "path": "war5-modernPhoto",
-                      "img": "assets/pic/rooms/war-halls/war5-now.webp",
+                      "path": "second-hall-modernPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-hall-now.webp",
                       "vertical": false,
-                      "description": "Пятый зал военных картин, современный вид"
+                      "description": "Первый зал Второй запасной половины, современный вид"
                     }
                   ]
                 }
