@@ -3378,6 +3378,77 @@
                       "description": "Гостиная, современный вид"
                     }
                   ]
+                },
+                {
+                  "id": "study",
+                  "path": "study",
+                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-study.webp",
+                  "next": "bedRoom",
+                  "prev": "livingRoom",
+                  "name": "Спальня во Второй запасной половине",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "second-study-painting",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-study-paint.webp",
+                      "vertical": true,
+                      "description": "Спальня Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "second-study-modernPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-study-now.webp",
+                      "vertical": false,
+                      "description": "Спальня, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "bedRoom",
+                  "path": "bedRoom",
+                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-bedRoom.webp",
+                  "next": "classRoom",
+                  "prev": "study",
+                  "name": "Спальня во Второй запасной половине",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "second-bedRoom-painting",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-bedRoom-paint.webp",
+                      "vertical": true,
+                      "description": "Спальня Второй запасной половины. Гау Эдуард Петрович 1874г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "second-bedRoom-modernPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-bedRoom-now.webp",
+                      "vertical": false,
+                      "description": "Спальня, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "classRoom",
+                  "path": "classRoom",
+                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-classRoom.webp",
+                  "prev": "bedRoom",
+                  "name": "Учебная комната во Второй запасной половине",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "second-classRoom-painting",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-classRoom-paint.webp",
+                      "vertical": false,
+                      "description": "Учебная комната Второй запасной половины. Гау Эдуард Петрович 1870г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "second-classRoom-modernPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-classRoom-now.webp",
+                      "vertical": false,
+                      "description": "Учебная комната, современный вид"
+                    }
+                  ]
                 }
               ]
             },
