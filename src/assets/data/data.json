@@ -3273,6 +3273,111 @@
                       "description": "Первый зал Второй запасной половины, современный вид"
                     }
                   ]
+                },
+                {
+                  "id": "hall2",
+                  "path": "hall2",
+                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-hall2.webp",
+                  "next": "commandant-entrance",
+                  "prev": "hall",
+                  "name": "Второй зал (Приемная или Зал перед 'Фонариком')",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "second-hall2-painting",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-hall2-paint.webp",
+                      "vertical": false,
+                      "description": "Приемная Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "second-hall2-modernPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-hall2-now.webp",
+                      "vertical": false,
+                      "description": "Приемная, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "commandant-entrance",
+                  "path": "commandant-entrance",
+                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-commandant-entrance.webp",
+                  "next": "balcony",
+                  "prev": "hall2",
+                  "name": "Комендантский подъезд Зимнего дворца",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "second-commandant-entrance-painting",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-commandant-entrance-paint.webp",
+                      "vertical": true,
+                      "description": "Комендантский подъезд Зимнего дворца. Ухтомский Константин Андреевич 1866г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "second-commandant-entrance-modernPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-commandant-entrance-now.webp",
+                      "vertical": true,
+                      "description": "Комендантский подъезд, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "balcony",
+                  "path": "balcony",
+                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-balcony.webp",
+                  "next": "livingRoom",
+                  "prev": "commandant-entrance",
+                  "status": "'Фонарик' разобран и ныне не существует",
+                  "name": "'Фонарик' над Комендантским подъездом.",
+                  "description": "При сооружении балконов учитывались особенности климата, поэтому в юго-западном ризалите над подъездом, позже названным Комендантским, появился первый знаменитый Фонарик.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "second-balcony-painting",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-balcony-paint.webp",
+                      "vertical": true,
+                      "description": "'Фонарик' во Второй запасной половине. Гау Эдуард Петрович 1870г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "second-balcony-oldPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-balcony-photo.webp",
+                      "vertical": true,
+                      "description": "'Фонарик' над Комендантским подъездом перед разбором 1920-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "second-balcony-modernPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-balcony-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "livingRoom",
+                  "path": "livingRoom",
+                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-livingRoom.webp",
+                  "next": "study",
+                  "prev": "commandant-entrance",
+                  "name": "Гостиная во Второй запасной половине",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "second-livingRoom-painting",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-livingRoom-paint.webp",
+                      "vertical": false,
+                      "description": "Гостиная Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "second-livingRoom-modernPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-livingRoom-now.webp",
+                      "vertical": false,
+                      "description": "Гостиная, современный вид"
+                    }
+                  ]
                 }
               ]
             },
