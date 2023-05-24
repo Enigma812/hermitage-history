@@ -3097,7 +3097,7 @@
                   "id": "war2",
                   "path": "war2",
                   "map": "assets/pic/rooms/war-halls/map-war2.webp",
-                  "next": "war2",
+                  "next": "war3",
                   "prev": "war1",
                   "name": "Второй зал военных картин",
                   "description": "Ранее здесь выставлялись полотна А. Е. Коцебу, посвящённые сражениям XVIII века",
@@ -3107,7 +3107,7 @@
                       "path": "war2-painting",
                       "img": "assets/pic/rooms/war-halls/war2-paint.webp",
                       "vertical": false,
-                      "description": "Второй зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                      "description": "Второй зал военных картин. Гау Эдуард Петрович 1872г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3115,6 +3115,52 @@
                       "img": "assets/pic/rooms/war-halls/war2-now.webp",
                       "vertical": false,
                       "description": "Второй зал военных картин, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "war3",
+                  "path": "war3",
+                  "map": "assets/pic/rooms/war-halls/map-war3.webp",
+                  "next": "war4",
+                  "prev": "war2",
+                  "name": "Третий зал военных картин",
+                  "description": "ранее здесь выставлялись полотна П. фон Хесса, посвящённые сражениям Отечественной войны 1812 года",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war3-painting",
+                      "img": "assets/pic/rooms/war-halls/war3-paint.webp",
+                      "vertical": false,
+                      "description": "Третий зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                    },
+                    {
+                      "id": "oldPHoto",
+                      "path": "war3-oldPHoto",
+                      "img": "assets/pic/rooms/war-halls/war3-photo.webp",
+                      "vertical": false,
+                      "description": "Караул юнкеров которые для защиты Временного правительства в Третьем зале военных картин. 1917г."
+                    },
+                    {
+                      "id": "oldPHoto2",
+                      "path": "war3-oldPHoto2",
+                      "img": "assets/pic/rooms/war-halls/war3-photo2.webp",
+                      "vertical": false,
+                      "description": "Третий зал военных картин после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "oldPHoto3",
+                      "path": "war3-oldPHoto3",
+                      "img": "assets/pic/rooms/war-halls/war3-photo3.webp",
+                      "vertical": false,
+                      "description": "Третий зал военных картин после захвата большевиками. Кубеш Карл Карлович 1917г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war3-modernPhoto",
+                      "img": "assets/pic/rooms/war-halls/war3-now.webp",
+                      "vertical": false,
+                      "description": "Третий зал военных картин, современный вид"
                     }
                   ]
                 }
