@@ -3125,7 +3125,7 @@
                   "next": "war4",
                   "prev": "war2",
                   "name": "Третий зал военных картин",
-                  "description": "ранее здесь выставлялись полотна П. фон Хесса, посвящённые сражениям Отечественной войны 1812 года",
+                  "description": "Ранее здесь выставлялись полотна П. фон Хесса, посвящённые сражениям Отечественной войны 1812 года",
                   "collections": [
                     {
                       "id": "painting",
@@ -3161,6 +3161,62 @@
                       "img": "assets/pic/rooms/war-halls/war3-now.webp",
                       "vertical": false,
                       "description": "Третий зал военных картин, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "war4",
+                  "path": "war4",
+                  "map": "assets/pic/rooms/war-halls/map-war4.webp",
+                  "next": "war5",
+                  "prev": "war3",
+                  "name": "Четвертый зал военных картин",
+                  "description": "Ранее здесь выставлялись полотна А. Е. Коцебу и А. К. Айвазовского, посвящённые морским сражениям 1-й половины XIX века",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war4-painting",
+                      "img": "assets/pic/rooms/war-halls/war4-paint.webp",
+                      "vertical": false,
+                      "description": "Четвертый зал военных картин. Гау Эдуард Петрович 1864г. акварель"
+                    },
+                    {
+                      "id": "oldPHoto",
+                      "path": "war4-oldPHoto",
+                      "img": "assets/pic/rooms/war-halls/war4-photo.webp",
+                      "vertical": false,
+                      "description": "Четвертый зал военных картин, дореволюционный вид. 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war4-modernPhoto",
+                      "img": "assets/pic/rooms/war-halls/war4-now.webp",
+                      "vertical": false,
+                      "description": "Четвертый зал военных картин, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "war5",
+                  "path": "war5",
+                  "map": "assets/pic/rooms/war-halls/map-war5.webp",
+                  "prev": "war4",
+                  "name": "Пятый зал военных картин",
+                  "description": "Ранее здесь выставлялись полотна А. Е. Коцебу, посвящённые сражениям XVIII века",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "war5-painting",
+                      "img": "assets/pic/rooms/war-halls/war5-paint.webp",
+                      "vertical": false,
+                      "description": "Пятый зал военных картин. Гау Эдуард Петрович 1862г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "war5-modernPhoto",
+                      "img": "assets/pic/rooms/war-halls/war5-now.webp",
+                      "vertical": false,
+                      "description": "Пятый зал военных картин, современный вид"
                     }
                   ]
                 }
