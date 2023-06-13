@@ -5,7 +5,7 @@
     <a
       *ngFor="let building of buildings; trackBy: buildingTrackBy"
       class="field__frame__buttons"
-      [routerLink]="[building.path]"
+      [routerLink]="[building.link ?? building.path]"
       (click)="topFunction()">
       <img
         class="field__frame__buttons__image"

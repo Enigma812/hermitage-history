@@ -3,7 +3,7 @@
     <a
       *ngIf="room.prev === undefined"
       class="navigate__back-button backToChoise"
-      [routerLink]="['/', 'interiors', buildingPath$ | async]"
+      [routerLink]="room.downToFloor ? room.downToFloor : ['/', 'interiors', buildingPath$ | async]"
       (click)="topFunction()">
       <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
     </a>
@@ -44,7 +44,7 @@
     <a
       *ngIf="room.next === undefined"
       class="navigate__forward-button backToChoise"
-      [routerLink]="'../../../'"
+      [routerLink]="room.downToFloor ? room.downToFloor : '../../../'"
       (click)="topFunction()">
       <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
     </a>

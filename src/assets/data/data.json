@@ -3466,8 +3466,60 @@
       "id": "small-hermitage",
       "title": "Малый Эрмитаж",
       "path": "small-hermitage",
+      "link": "small-hermitage/small-hermitage/second-floor/jordan-staircase",
       "img": "assets/pic/small-hermitage.webp",
-      "imgMobile": "assets/pic/small-hermitage-mobile.webp"
+      "imgMobile": "assets/pic/small-hermitage-mobile.webp",
+      "interiors": [
+        {
+          "id": "small-hermitage",
+          "name": "Малый Эрмитаж",
+          "path": "small-hermitage",
+          "img": "assets/pic/main-stairs.webp",
+          "imgMobile": "assets/pic/main-stairs-mobile.webp",
+          "floors": [
+            {
+              "id": "third-floor",
+              "path": "third-floor",
+              "isActive": false,
+              "img": "assets/pic/third-floor-disable.webp",
+              "rooms": []
+            },
+            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "jordan-staircase",
+                  "path": "jordan-staircase",
+                  "map": "assets/pic/rooms/main-stairs/map-jordan.webp",
+                  "downToFloor": "/interiors",
+                  "name": "Иорданская (Посольская) лестница",
+                  "description": "Парадная лестница, один из немногих интерьеров, востановленный после пожара 1837г. Позже лестницу стали именовать Иорданской - по ней во время Крещения из Большого собора Зимнего дворца спускался крестный ход к Неве",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "jordan-painting",
+                      "img": "assets/pic/rooms/main-stairs/jordan-paint.webp",
+                      "vertical": true,
+                      "description": "Парадная лестница. Ухтомский Константин Андреевич, 1860-е. акварель"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp",
+              "rooms": []
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "hermitage",
