@@ -3466,7 +3466,7 @@
       "id": "small-hermitage",
       "title": "Малый Эрмитаж",
       "path": "small-hermitage",
-      "link": "small-hermitage/small-hermitage/second-floor/jordan-staircase",
+      "link": "small-hermitage/small-hermitage",
       "img": "assets/pic/small-hermitage.webp",
       "imgMobile": "assets/pic/small-hermitage-mobile.webp",
       "interiors": [
@@ -3478,13 +3478,6 @@
           "imgMobile": "assets/pic/main-stairs-mobile.webp",
           "floors": [
             {
-              "id": "third-floor",
-              "path": "third-floor",
-              "isActive": false,
-              "img": "assets/pic/third-floor-disable.webp",
-              "rooms": []
-            },
-            {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
@@ -3492,19 +3485,88 @@
               "imgHover": "assets/pic/second-floor-hover.webp",
               "rooms": [
                 {
-                  "id": "jordan-staircase",
-                  "path": "jordan-staircase",
-                  "map": "assets/pic/rooms/main-stairs/map-jordan.webp",
+                  "id": "transition",
+                  "path": "library-transition",
+                  "map": "assets/pic/rooms/small-hermitage/map-library-transition.webp",
                   "downToFloor": "/interiors",
-                  "name": "Иорданская (Посольская) лестница",
-                  "description": "Парадная лестница, один из немногих интерьеров, востановленный после пожара 1837г. Позже лестницу стали именовать Иорданской - по ней во время Крещения из Большого собора Зимнего дворца спускался крестный ход к Неве",
+                  "next": "small-hermitage-apart",
+                  "name": "Галерея видов Петербурга (ныне Библиотечный переход в Малом Эрмитаже)",
+                  "description": "Галерея была переходом из Зимнего дворца в Новый Эрмитаж, так же она вела в покои Южного павильона Малого Эрмитажа",
                   "collections": [
                     {
                       "id": "painting",
-                      "path": "jordan-painting",
-                      "img": "assets/pic/rooms/main-stairs/jordan-paint.webp",
+                      "path": "library-transition-painting",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-paint.webp",
                       "vertical": true,
-                      "description": "Парадная лестница. Ухтомский Константин Андреевич, 1860-е. акварель"
+                      "description": "Галерея видов Петербурга. Гау Эдуард Петрович, 1864г. акварель"
+                    },
+                    {
+                      "id": "modern-photo",
+                      "path": "library-transition-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-now.webp",
+                      "vertical": true,
+                      "description": "Галерея видов Петербурга, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "apart",
+                  "path": "small-hermitage-apart",
+                  "map": "assets/pic/rooms/small-hermitage/map-apart.webp",
+                  "prev": "library-transition",
+                  "next": "romanov-gallery",
+                  "status": "Апартаменты недоступны для посещения. Сейчас помещения занимет научная библиотека Эрмитажа",
+                  "name": "Покои Южного павильона Малого Эрмитажа",
+                  "description": "Изначально апартаменты пренадлежали графу Орлову, позже эти апартаменты занял Григорий Потёмкин, затем цесаревич Николай Александрович. Сегодня здесь располагается Научная библиотека Государственного Эрмитажа.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "apart-study",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет цесаревича Николая Александровича. Гау Эдуард Петрович, 1865г. акварель"
+                    },
+                    {
+                      "id": "oldPhotoUssr",
+                      "path": "apart-study-oldPhotoUssr",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room-photoUssr.webp",
+                      "vertical": false,
+                      "description": "Отдел абонементного обслуживания библиотеки музея на месте кабинета. 1988г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "apart-study-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид кабинета."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "apart-bedRoom",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room2-paint.webp",
+                      "vertical": false,
+                      "description": "Спальня цесаревича Николая Александровича. Гау Эдуард Петрович, 1865г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto3",
+                      "path": "apart-study-modernPhoto3",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room2-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид спальни."
+                    },
+                    {
+                      "id": "oldPhotoUssr2",
+                      "path": "apart-hall-oldPhotoUssr",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room3-photoUssr.webp",
+                      "vertical": false,
+                      "description": "Читальный зал библиотеки музея на месте гостиной. 1988г."
+                    },
+                    {
+                      "id": "modernPhoto2",
+                      "path": "apart-study-modernPhoto2",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room3-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид гостиной."
                     }
                   ]
                 }
