@@ -3693,6 +3693,30 @@
                       "description": "Современный вид Павильонного зала"
                     }
                   ]
+                },
+                {
+                  "id": "mosaicStudy",
+                  "path": "mosaicStudy",
+                  "map": "assets/pic/rooms/small-hermitage/map-mosaicStudy.webp",
+                  "prev": "pavilion-hall",
+                  "next": "mosaicStudy",
+                  "name": "Кабинет мозаичных картин (кабинет Кваренги)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "mosaicStudy-painting",
+                      "img": "assets/pic/rooms/small-hermitage/mosaicStudy-paint.webp",
+                      "vertical": true,
+                      "description": "Кабинет мозаичных картин. Ухтомский Константин Андреевич, 1860-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "mosaicStudy-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/mosaicStudy-now.webp",
+                      "vertical": true,
+                      "description": "Кабинет мозаичных картин. Современный вид"
+                    }
+                  ]
                 }
               ]
             },
