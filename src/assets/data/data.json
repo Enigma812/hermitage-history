@@ -3575,7 +3575,7 @@
                   "path": "romanov-gallery",
                   "map": "assets/pic/rooms/small-hermitage/map-romanov-gallery.webp",
                   "prev": "small-hermitage-apart",
-                  "next": "westStudy",
+                  "next": "nortStudy",
                   "name": "Романовская галерея Малого Эрмитажа",
                   "description": "Ныне расформированное собрание портретов членов императорской династии Романовых",
                   "collections": [
@@ -3613,6 +3613,31 @@
                       "img": "assets/pic/rooms/small-hermitage/romanov-gallery-now.webp",
                       "vertical": true,
                       "description": "Современный вид Романоской галереи"
+                    }
+                  ]
+                },
+                {
+                  "id": "nortStudy",
+                  "path": "nortStudy",
+                  "map": "assets/pic/rooms/small-hermitage/map-nortStudy.webp",
+                  "prev": "romanov-gallery",
+                  "next": "pavilion-hall",
+                  "name": "Северный кабинет Малого Эрмитажа",
+                  "description": "Проходное помещение Малого эрмитажа с переходом в Зимний дворец",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "nortStudy-painting",
+                      "img": "assets/pic/rooms/small-hermitage/nortStudy-paint.webp",
+                      "vertical": true,
+                      "description": "Северный кабинет. Гау Эдуард Петрович, 1865г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nortStudy-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/nortStudy-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид Северного кабинета"
                     }
                   ]
                 }
