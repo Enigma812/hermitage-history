@@ -3699,7 +3699,7 @@
                   "path": "mosaicStudy",
                   "map": "assets/pic/rooms/small-hermitage/map-mosaicStudy.webp",
                   "prev": "pavilion-hall",
-                  "next": "mosaicStudy",
+                  "next": "east-gallery",
                   "name": "Кабинет мозаичных картин (кабинет Кваренги)",
                   "collections": [
                     {
@@ -3715,6 +3715,52 @@
                       "img": "assets/pic/rooms/small-hermitage/mosaicStudy-now.webp",
                       "vertical": true,
                       "description": "Кабинет мозаичных картин. Современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "east-gallery",
+                  "path": "east-gallery",
+                  "map": "assets/pic/rooms/small-hermitage/map-east-gallery.webp",
+                  "prev": "mosaicStudy",
+                  "downToFloor": "/interiors",
+                  "name": "Восточная галерея Малого Эрмитажа",
+                  "description": "Часть восточной галереи занимала Галерея драгоценностей",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "east-gallery-painting",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-paint.webp",
+                      "vertical": true,
+                      "description": "Галерея драгоценностей. Ухтомский Константин Андреевич, 1864г."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "east-gallery-painting2",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-paint2.webp",
+                      "vertical": true,
+                      "description": "Часы 'Павлин' в Восточной галерее. Ухтомский Константин Андреевич, 1860г."
+                    },
+                    {
+                      "id": "painting3",
+                      "path": "east-gallery-painting3",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-paint3.webp",
+                      "vertical": true,
+                      "description": "Восточная галерея. Гау Эдуард Петрович, 1861г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "east-gallery-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид центральная часть Восточной галереи, где стояли часы 'Павлин'"
+                    },
+                    {
+                      "id": "modernPhoto2",
+                      "path": "east-gallery-modernPhoto2",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-now2.webp",
+                      "vertical": true,
+                      "description": "Современный вид Восточной галереи"
                     }
                   ]
                 }
