@@ -3814,7 +3814,59 @@
       "title": "Эрмитаж",
       "path": "hermitage",
       "img": "assets/pic/hermitage.webp",
-      "imgMobile": "assets/pic/hermitage-mobile.webp"
+      "imgMobile": "assets/pic/hermitage-mobile.webp",
+      "interiors": [
+        {
+          "id": "new-hermitage",
+          "name": "Новый Эрмитаж",
+          "path": "new-hermitage",
+          "img": "assets/pic/new-hermitage.webp",
+          "imgMobile": "assets/pic/new-hermitage-mobile.webp",
+          "floors": [
+            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": []
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": true,
+              "img": "assets/pic/first-floor.webp",
+              "imgHover": "assets/pic/first-floor-hover.webp",
+              "rooms": []
+            }
+          ]
+        },
+        {
+          "id": "old-hermitage",
+          "name": "Старый Эрмитаж",
+          "path": "old-hermitage",
+          "img": "assets/pic/old-hermitage.webp",
+          "imgMobile": "assets/pic/old-hermitage-mobile.webp",
+          "floors": [
+            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": []
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": false,
+              "img": "assets/pic/first-floor-disable.webp",
+              "rooms": []
+            }
+          ]
+        }
+      ]
+        
     }
   ]
 }
