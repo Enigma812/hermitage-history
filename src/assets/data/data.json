@@ -3569,6 +3569,52 @@
                       "description": "Современный вид гостиной."
                     }
                   ]
+                },
+                {
+                  "id": "romanov",
+                  "path": "romanov-gallery",
+                  "map": "assets/pic/rooms/small-hermitage/map-romanov-gallery.webp",
+                  "prev": "small-hermitage-apart",
+                  "next": "westStudy",
+                  "name": "Романовская галерея Малого Эрмитажа",
+                  "description": "Ныне расформированное собрание портретов членов императорской династии Романовых",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "romanov-gallery-painting",
+                      "img": "assets/pic/rooms/small-hermitage/romanov-gallery-paint.webp",
+                      "vertical": true,
+                      "description": "Романовская галерея. Гау Эдуард Петрович, 1864г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "romanov-gallery-painting2",
+                      "img": "assets/pic/rooms/small-hermitage/romanov-gallery-paint2.webp",
+                      "vertical": true,
+                      "description": "Романовская галерея. Гау Эдуард Петрович, 1864г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "romanov-gallery-oldPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/romanov-gallery-photo.webp",
+                      "vertical": true,
+                      "description": "Романовская галерея. Начало XX века"
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "romanov-gallery-oldPhoto2",
+                      "img": "assets/pic/rooms/small-hermitage/romanov-gallery-photo2.webp",
+                      "vertical": true,
+                      "description": "Романовская галерея. Начало XX века"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "romanov-gallery-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/romanov-gallery-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид Романоской галереи"
+                    }
+                  ]
                 }
               ]
             },
