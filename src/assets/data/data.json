@@ -3646,7 +3646,7 @@
                   "path": "pavilion-hall",
                   "map": "assets/pic/rooms/small-hermitage/map-pavilion-hall.webp",
                   "prev": "nortStudy",
-                  "next": "mosaicStudy",
+                  "next": "garden",
                   "name": "Павильонный зал Малого Эрмитажа",
                   "description": "Парадный зал Малого эрмитажа, предназначался для небольших приёмов и балов",
                   "collections": [
@@ -3695,10 +3695,42 @@
                   ]
                 },
                 {
+                  "id": "garden",
+                  "path": "garden",
+                  "map": "assets/pic/rooms/small-hermitage/map-mosaicStudy.webp",
+                  "prev": "pavilion-hall",
+                  "next": "mosaicStudy",
+                  "name": "Висячий (Зимний) сад Малого эрмитажа",
+                  "description": "Расположен на уровне 2-го этажа, над помещениями бывших царских конюшен и каретных сараев, и занимает пространство между галереями, соединяющими Северный и Южный павильоны Малого Эрмитажа",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "garden-painting",
+                      "img": "assets/pic/rooms/small-hermitage/garden-paint.webp",
+                      "vertical": true,
+                      "description": "Висячий сад. 1778г. гравюра"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "garden-painting2",
+                      "img": "assets/pic/rooms/small-hermitage/garden-paint2.webp",
+                      "vertical": false,
+                      "description": "Зимний сад Малого Эрмитажа. Гау Эдуард Петрович 1865г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "garden-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/garden-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Висячего сада"
+                    }
+                  ]
+                },
+                {
                   "id": "mosaicStudy",
                   "path": "mosaicStudy",
                   "map": "assets/pic/rooms/small-hermitage/map-mosaicStudy.webp",
-                  "prev": "pavilion-hall",
+                  "prev": "garden",
                   "next": "east-gallery",
                   "name": "Кабинет мозаичных картин (кабинет Кваренги)",
                   "collections": [
@@ -3723,7 +3755,7 @@
                   "path": "east-gallery",
                   "map": "assets/pic/rooms/small-hermitage/map-east-gallery.webp",
                   "prev": "mosaicStudy",
-                  "downToFloor": "/interiors",
+                  "upToFloor": "/interiors",
                   "name": "Восточная галерея Малого Эрмитажа",
                   "description": "Часть восточной галереи занимала Галерея драгоценностей",
                   "collections": [

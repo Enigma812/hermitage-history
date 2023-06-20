@@ -44,7 +44,7 @@
     <a
       *ngIf="room.next === undefined"
       class="navigate__forward-button backToChoise"
-      [routerLink]="room.downToFloor ? room.downToFloor : '../../../'"
+      [routerLink]="room.upToFloor ? room.upToFloor : '../../../'"
       (click)="topFunction()">
       <div class="navigate__back-button__text">{{ 'Common.backToChoice' | translate }}</div>
     </a>
