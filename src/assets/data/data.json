@@ -3640,6 +3640,59 @@
                       "description": "Современный вид Северного кабинета"
                     }
                   ]
+                },
+                {
+                  "id": "pavilion-hall",
+                  "path": "pavilion-hall",
+                  "map": "assets/pic/rooms/small-hermitage/map-pavilion-hall.webp",
+                  "prev": "nortStudy",
+                  "next": "mosaicStudy",
+                  "name": "Павильонный зал Малого Эрмитажа",
+                  "description": "Парадный зал Малого эрмитажа, предназначался для небольших приёмов и балов",
+                  "collections": [
+                    {
+                      "id": "painting0",
+                      "path": "pavilion-hall-painting0",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint0.webp",
+                      "vertical": false,
+                      "description": "Большой зал Северного павильона до перестройки. Ю.Фриденрейх, 1840г."
+                    },
+                    {
+                      "id": "painting",
+                      "path": "pavilion-hall-painting",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint.webp",
+                      "vertical": false,
+                      "description": "Павильонный зал. Кольб Александр Христофорович, 1864г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "pavilion-hall-oldPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo.webp",
+                      "vertical": true,
+                      "description": "Павильонный зал. 1903г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "pavilion-hall-oldPhoto2",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo2.webp",
+                      "vertical": false,
+                      "description": "Вид с балкона Павильонного зала. 1914г."
+                    },
+                    {
+                      "id": "oldPhoto3",
+                      "path": "pavilion-hall-oldPhoto3",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo3.webp",
+                      "vertical": false,
+                      "description": "Заготовление перевязочного материала во время Первой мировой войны в Павильонном зале. 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "pavilion-hall-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Павильонного зала"
+                    }
+                  ]
                 }
               ]
             },
