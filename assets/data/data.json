@@ -3466,7 +3466,7 @@
       "id": "small-hermitage",
       "title": "Малый Эрмитаж",
       "path": "small-hermitage",
-      "link": "small-hermitage/small-hermitage/second-floor/jordan-staircase",
+      "link": "small-hermitage/small-hermitage/second-floor/library-transition",
       "img": "assets/pic/small-hermitage.webp",
       "imgMobile": "assets/pic/small-hermitage-mobile.webp",
       "interiors": [
@@ -3478,13 +3478,6 @@
           "imgMobile": "assets/pic/main-stairs-mobile.webp",
           "floors": [
             {
-              "id": "third-floor",
-              "path": "third-floor",
-              "isActive": false,
-              "img": "assets/pic/third-floor-disable.webp",
-              "rooms": []
-            },
-            {
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
@@ -3492,19 +3485,314 @@
               "imgHover": "assets/pic/second-floor-hover.webp",
               "rooms": [
                 {
-                  "id": "jordan-staircase",
-                  "path": "jordan-staircase",
-                  "map": "assets/pic/rooms/main-stairs/map-jordan.webp",
+                  "id": "transition",
+                  "path": "library-transition",
+                  "map": "assets/pic/rooms/small-hermitage/map-library-transition.webp",
                   "downToFloor": "/interiors",
-                  "name": "Иорданская (Посольская) лестница",
-                  "description": "Парадная лестница, один из немногих интерьеров, востановленный после пожара 1837г. Позже лестницу стали именовать Иорданской - по ней во время Крещения из Большого собора Зимнего дворца спускался крестный ход к Неве",
+                  "next": "small-hermitage-apart",
+                  "name": "Галерея видов Петербурга (ныне Библиотечный переход в Малом Эрмитаже)",
+                  "description": "Галерея была переходом из Зимнего дворца в Новый Эрмитаж, так же она вела в покои Южного павильона Малого Эрмитажа",
                   "collections": [
                     {
                       "id": "painting",
-                      "path": "jordan-painting",
-                      "img": "assets/pic/rooms/main-stairs/jordan-paint.webp",
+                      "path": "library-transition-painting",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-paint.webp",
                       "vertical": true,
-                      "description": "Парадная лестница. Ухтомский Константин Андреевич, 1860-е. акварель"
+                      "description": "Галерея видов Петербурга. Гау Эдуард Петрович, 1864г. акварель"
+                    },
+                    {
+                      "id": "modern-photo",
+                      "path": "library-transition-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-now.webp",
+                      "vertical": true,
+                      "description": "Галерея видов Петербурга, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "apart",
+                  "path": "small-hermitage-apart",
+                  "map": "assets/pic/rooms/small-hermitage/map-apart.webp",
+                  "prev": "library-transition",
+                  "next": "romanov-gallery",
+                  "status": "Апартаменты недоступны для посещения. Сейчас помещения занимет научная библиотека Эрмитажа",
+                  "name": "Покои Южного павильона Малого Эрмитажа",
+                  "description": "Изначально апартаменты пренадлежали графу Орлову, позже эти апартаменты занял Григорий Потёмкин, затем цесаревич Николай Александрович. Сегодня здесь располагается Научная библиотека Государственного Эрмитажа.",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "apart-study",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет цесаревича Николая Александровича. Гау Эдуард Петрович, 1865г. акварель"
+                    },
+                    {
+                      "id": "oldPhotoUssr",
+                      "path": "apart-study-oldPhotoUssr",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room-photoUssr.webp",
+                      "vertical": false,
+                      "description": "Отдел абонементного обслуживания библиотеки музея на месте кабинета. 1988г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "apart-study-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид кабинета."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "apart-bedRoom",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room2-paint.webp",
+                      "vertical": false,
+                      "description": "Спальня цесаревича Николая Александровича. Гау Эдуард Петрович, 1865г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto3",
+                      "path": "apart-study-modernPhoto3",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room2-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид спальни."
+                    },
+                    {
+                      "id": "oldPhotoUssr2",
+                      "path": "apart-hall-oldPhotoUssr",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room3-photoUssr.webp",
+                      "vertical": false,
+                      "description": "Читальный зал библиотеки музея на месте гостиной. 1988г."
+                    },
+                    {
+                      "id": "modernPhoto2",
+                      "path": "apart-study-modernPhoto2",
+                      "img": "assets/pic/rooms/small-hermitage/library-transition-room3-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид гостиной."
+                    }
+                  ]
+                },
+                {
+                  "id": "romanov",
+                  "path": "romanov-gallery",
+                  "map": "assets/pic/rooms/small-hermitage/map-romanov-gallery.webp",
+                  "prev": "small-hermitage-apart",
+                  "next": "nortStudy",
+                  "name": "Романовская галерея Малого Эрмитажа",
+                  "description": "Ныне расформированное собрание портретов членов императорской династии Романовых",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "romanov-gallery-painting",
+                      "img": "assets/pic/rooms/small-hermitage/romanov-gallery-paint.webp",
+                      "vertical": true,
+                      "description": "Романовская галерея. Гау Эдуард Петрович, 1864г. акварель"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "romanov-gallery-painting2",
+                      "img": "assets/pic/rooms/small-hermitage/romanov-gallery-paint2.webp",
+                      "vertical": true,
+                      "description": "Романовская галерея. Гау Эдуард Петрович, 1864г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "romanov-gallery-oldPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/romanov-gallery-photo.webp",
+                      "vertical": true,
+                      "description": "Романовская галерея. Начало XX века"
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "romanov-gallery-oldPhoto2",
+                      "img": "assets/pic/rooms/small-hermitage/romanov-gallery-photo2.webp",
+                      "vertical": true,
+                      "description": "Романовская галерея. Начало XX века"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "romanov-gallery-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/romanov-gallery-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид Романоской галереи"
+                    }
+                  ]
+                },
+                {
+                  "id": "nortStudy",
+                  "path": "nortStudy",
+                  "map": "assets/pic/rooms/small-hermitage/map-nortStudy.webp",
+                  "prev": "romanov-gallery",
+                  "next": "pavilion-hall",
+                  "name": "Северный кабинет Малого Эрмитажа",
+                  "description": "Проходное помещение Малого эрмитажа с переходом в Зимний дворец",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "nortStudy-painting",
+                      "img": "assets/pic/rooms/small-hermitage/nortStudy-paint.webp",
+                      "vertical": true,
+                      "description": "Северный кабинет. Гау Эдуард Петрович, 1865г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "nortStudy-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/nortStudy-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид Северного кабинета"
+                    }
+                  ]
+                },
+                {
+                  "id": "pavilion-hall",
+                  "path": "pavilion-hall",
+                  "map": "assets/pic/rooms/small-hermitage/map-pavilion-hall.webp",
+                  "prev": "nortStudy",
+                  "next": "garden",
+                  "name": "Павильонный зал Малого Эрмитажа",
+                  "description": "Парадный зал Малого эрмитажа, предназначался для небольших приёмов и балов",
+                  "collections": [
+                    {
+                      "id": "painting0",
+                      "path": "pavilion-hall-painting0",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint0.webp",
+                      "vertical": false,
+                      "description": "Большой зал Северного павильона до перестройки. Ю.Фриденрейх, 1840г."
+                    },
+                    {
+                      "id": "painting",
+                      "path": "pavilion-hall-painting",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint.webp",
+                      "vertical": false,
+                      "description": "Павильонный зал. Кольб Александр Христофорович, 1864г. акварель"
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "pavilion-hall-oldPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo.webp",
+                      "vertical": true,
+                      "description": "Павильонный зал. 1903г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "pavilion-hall-oldPhoto2",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo2.webp",
+                      "vertical": false,
+                      "description": "Вид с балкона Павильонного зала. 1914г."
+                    },
+                    {
+                      "id": "oldPhoto3",
+                      "path": "pavilion-hall-oldPhoto3",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo3.webp",
+                      "vertical": false,
+                      "description": "Заготовление перевязочного материала во время Первой мировой войны в Павильонном зале. 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "pavilion-hall-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Павильонного зала"
+                    }
+                  ]
+                },
+                {
+                  "id": "garden",
+                  "path": "garden",
+                  "map": "assets/pic/rooms/small-hermitage/map-mosaicStudy.webp",
+                  "prev": "pavilion-hall",
+                  "next": "mosaicStudy",
+                  "name": "Висячий (Зимний) сад Малого эрмитажа",
+                  "description": "Расположен на уровне 2-го этажа, над помещениями бывших царских конюшен и каретных сараев, и занимает пространство между галереями, соединяющими Северный и Южный павильоны Малого Эрмитажа",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "garden-painting",
+                      "img": "assets/pic/rooms/small-hermitage/garden-paint.webp",
+                      "vertical": true,
+                      "description": "Висячий сад. 1778г. гравюра"
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "garden-painting2",
+                      "img": "assets/pic/rooms/small-hermitage/garden-paint2.webp",
+                      "vertical": false,
+                      "description": "Зимний сад Малого Эрмитажа. Гау Эдуард Петрович 1865г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "garden-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/garden-now.webp",
+                      "vertical": false,
+                      "description": "Современный вид Висячего сада"
+                    }
+                  ]
+                },
+                {
+                  "id": "mosaicStudy",
+                  "path": "mosaicStudy",
+                  "map": "assets/pic/rooms/small-hermitage/map-mosaicStudy.webp",
+                  "prev": "garden",
+                  "next": "east-gallery",
+                  "name": "Кабинет мозаичных картин (кабинет Кваренги)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "mosaicStudy-painting",
+                      "img": "assets/pic/rooms/small-hermitage/mosaicStudy-paint.webp",
+                      "vertical": true,
+                      "description": "Кабинет мозаичных картин. Ухтомский Константин Андреевич, 1860-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "mosaicStudy-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/mosaicStudy-now.webp",
+                      "vertical": true,
+                      "description": "Кабинет мозаичных картин. Современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "east-gallery",
+                  "path": "east-gallery",
+                  "map": "assets/pic/rooms/small-hermitage/map-east-gallery.webp",
+                  "prev": "mosaicStudy",
+                  "upToFloor": "/interiors",
+                  "name": "Восточная галерея Малого Эрмитажа",
+                  "description": "Часть восточной галереи занимала Галерея драгоценностей",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "east-gallery-painting",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-paint.webp",
+                      "vertical": true,
+                      "description": "Галерея драгоценностей. Ухтомский Константин Андреевич, 1864г."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "east-gallery-painting2",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-paint2.webp",
+                      "vertical": true,
+                      "description": "Часы 'Павлин' в Восточной галерее. Ухтомский Константин Андреевич, 1860г."
+                    },
+                    {
+                      "id": "painting3",
+                      "path": "east-gallery-painting3",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-paint3.webp",
+                      "vertical": true,
+                      "description": "Восточная галерея. Гау Эдуард Петрович, 1861г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "east-gallery-modernPhoto",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-now.webp",
+                      "vertical": true,
+                      "description": "Современный вид центральная часть Восточной галереи, где стояли часы 'Павлин'"
+                    },
+                    {
+                      "id": "modernPhoto2",
+                      "path": "east-gallery-modernPhoto2",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-now2.webp",
+                      "vertical": true,
+                      "description": "Современный вид Восточной галереи"
                     }
                   ]
                 }
@@ -3525,8 +3813,56 @@
       "id": "hermitage",
       "title": "Эрмитаж",
       "path": "hermitage",
+      "link": "hermitage/new-hermitage",
       "img": "assets/pic/hermitage.webp",
-      "imgMobile": "assets/pic/hermitage-mobile.webp"
+      "imgMobile": "assets/pic/hermitage-mobile.webp",
+      "interiors": [
+        {
+          "id": "new-hermitage",
+          "name": "Новый Эрмитаж",
+          "path": "new-hermitage",
+          "downToFloor": "/interiors",
+          "img": "assets/pic/new-hermitage.webp",
+          "imgMobile": "assets/pic/new-hermitage-mobile.webp",
+          "floors": [
+            {
+              "id": "second-floor",
+              "path": "second-floor",
+              "isActive": true,
+              "img": "assets/pic/second-floor.webp",
+              "imgHover": "assets/pic/second-floor-hover.webp",
+              "rooms": [
+                {
+                  "id": "east-gallery",
+                  "path": "east-gallery",
+                  "map": "assets/pic/rooms/small-hermitage/map-east-gallery.webp",
+                  "next": "mosaicStudy",
+                  "downToFloor": "/interiors",
+                  "name": "Восточная галерея Малого Эрмитажа",
+                  "description": "Часть восточной галереи занимала Галерея драгоценностей",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "east-gallery-painting",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-paint.webp",
+                      "vertical": true,
+                      "description": "Галерея драгоценностей. Ухтомский Константин Андреевич, 1864г."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "first-floor",
+              "path": "first-floor",
+              "isActive": true,
+              "img": "assets/pic/first-floor.webp",
+              "imgHover": "assets/pic/first-floor-hover.webp",
+              "rooms": []
+            }
+          ]
+        }
+      ] 
     }
   ]
 }
