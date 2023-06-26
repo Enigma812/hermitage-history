@@ -4,6 +4,7 @@ import { map, Observable, switchMap } from 'rxjs';
 
 import { DataService } from '../../../app/data.service';
 import { Floor } from '../../../app/models/floor';
+import { Interior } from '../../../app/models/interior';
 import { trackBy } from '../../../modules/utils/track-by';
 
 @Component({
@@ -15,6 +16,7 @@ import { trackBy } from '../../../modules/utils/track-by';
 
 export class FloorsPageComponent {
   public floors$: Observable<Floor[]>;
+  public interiors$: Observable<Interior | undefined>;
 
   public trackById = trackBy('id');
 
@@ -29,6 +31,14 @@ export class FloorsPageComponent {
         map((data) => data.buildings.find((building) => building.path === buildingPath)),
         map((building) => building?.interiors.find((interior) => interior.path === interiorPath)),
         map((interior) => interior?.floors ?? [])
+      ))
+    );
+
+    this.interiors$ = this._route.params.pipe(
+      map((params) => [ params['buildingPath'], params['interiorPath'] ]),
+      switchMap(([ buildingPath, interiorPath ]) => this._dataService.data$.pipe(
+        map((data) => data.buildings.find((building) => building.path === buildingPath)),
+        map((building) => building?.interiors.find((interior) => interior.path === interiorPath))
       ))
     );
   }

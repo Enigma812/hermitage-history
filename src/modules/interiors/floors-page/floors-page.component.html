@@ -1,7 +1,9 @@
-<div class="navigate">
+<div
+  *ngIf="interiors$ | async as interior"
+  class="navigate">
   <a
     class="navigate__back-button"
-    [routerLink]="'../'"
+    [routerLink]="interior.downToFloor ? interior.downToFloor : '../'"
     (click)="topFunction()">
     <img
       class="navigate__back-button__arrow"

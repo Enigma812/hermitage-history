@@ -3466,7 +3466,7 @@
       "id": "small-hermitage",
       "title": "Малый Эрмитаж",
       "path": "small-hermitage",
-      "link": "small-hermitage/small-hermitage",
+      "link": "small-hermitage/small-hermitage/second-floor/library-transition",
       "img": "assets/pic/small-hermitage.webp",
       "imgMobile": "assets/pic/small-hermitage-mobile.webp",
       "interiors": [
@@ -3813,6 +3813,7 @@
       "id": "hermitage",
       "title": "Эрмитаж",
       "path": "hermitage",
+      "link": "hermitage/new-hermitage",
       "img": "assets/pic/hermitage.webp",
       "imgMobile": "assets/pic/hermitage-mobile.webp",
       "interiors": [
@@ -3820,6 +3821,7 @@
           "id": "new-hermitage",
           "name": "Новый Эрмитаж",
           "path": "new-hermitage",
+          "downToFloor": "/interiors",
           "img": "assets/pic/new-hermitage.webp",
           "imgMobile": "assets/pic/new-hermitage-mobile.webp",
           "floors": [
@@ -3829,7 +3831,26 @@
               "isActive": true,
               "img": "assets/pic/second-floor.webp",
               "imgHover": "assets/pic/second-floor-hover.webp",
-              "rooms": []
+              "rooms": [
+                {
+                  "id": "east-gallery",
+                  "path": "east-gallery",
+                  "map": "assets/pic/rooms/small-hermitage/map-east-gallery.webp",
+                  "next": "mosaicStudy",
+                  "downToFloor": "/interiors",
+                  "name": "Восточная галерея Малого Эрмитажа",
+                  "description": "Часть восточной галереи занимала Галерея драгоценностей",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "east-gallery-painting",
+                      "img": "assets/pic/rooms/small-hermitage/east-gallery-paint.webp",
+                      "vertical": true,
+                      "description": "Галерея драгоценностей. Ухтомский Константин Андреевич, 1864г."
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "first-floor",
@@ -3840,33 +3861,8 @@
               "rooms": []
             }
           ]
-        },
-        {
-          "id": "old-hermitage",
-          "name": "Старый Эрмитаж",
-          "path": "old-hermitage",
-          "img": "assets/pic/old-hermitage.webp",
-          "imgMobile": "assets/pic/old-hermitage-mobile.webp",
-          "floors": [
-            {
-              "id": "second-floor",
-              "path": "second-floor",
-              "isActive": true,
-              "img": "assets/pic/second-floor.webp",
-              "imgHover": "assets/pic/second-floor-hover.webp",
-              "rooms": []
-            },
-            {
-              "id": "first-floor",
-              "path": "first-floor",
-              "isActive": false,
-              "img": "assets/pic/first-floor-disable.webp",
-              "rooms": []
-            }
-          ]
         }
-      ]
-        
+      ] 
     }
   ]
 }

@@ -5,6 +5,7 @@ export interface Interior {
   name: string;
   path: string;
   img: string;
+  downToFloor: string;
   imgMobile: string;
   floors: Floor[];
 }

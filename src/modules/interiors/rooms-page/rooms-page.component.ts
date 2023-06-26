@@ -2,11 +2,11 @@ import { ChangeDetectionStrategy, Component, HostListener, ViewChild } from '@an
 import { ActivatedRoute } from '@angular/router';
 import { NgbDropdown } from '@ng-bootstrap/ng-bootstrap';
 import { Observable, map, switchMap } from 'rxjs';
-import { trackBy } from 'src/modules/utils/track-by';
 
 import { DataService } from '../../../app/data.service';
 import { Collection } from '../../../app/models/collection';
 import { Room } from '../../../app/models/room';
+import { trackBy } from '../../../modules/utils/track-by';
 
 @Component({
   selector: 'app-rooms-page',

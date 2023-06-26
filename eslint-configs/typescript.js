@@ -259,7 +259,7 @@ module.exports = {
       }
     ],
     'jsdoc/check-alignment': 'error',
-    'jsdoc/newline-after-description': 'error',
+    'jsdoc/newline-after-description': 'off',
     'jsdoc/no-types': 'error',
     'max-classes-per-file': 'off',
     'max-len': [
