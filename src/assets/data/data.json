@@ -3840,20 +3840,50 @@
               "imgHover": "assets/pic/second-floor-hermitage-hover.webp",
               "rooms": [
                 {
-                  "id": "east-gallery",
-                  "path": "east-gallery",
-                  "map": "assets/pic/rooms/small-hermitage/map-east-gallery.webp",
-                  "next": "mosaicStudy",
+                  "id": "holland",
+                  "path": "holland",
+                  "map": "assets/pic/rooms/hermitage-f2/map-holland.webp",
+                  "next": "tent-roofed",
                   "downToFloor": "/interiors",
-                  "name": "Восточная галерея Малого Эрмитажа",
-                  "description": "Часть восточной галереи занимала Галерея драгоценностей",
+                  "name": "Зал голландской и фламандской школ (Угловой зал)",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "east-gallery-painting",
-                      "img": "assets/pic/rooms/small-hermitage/east-gallery-paint.webp",
-                      "vertical": true,
-                      "description": "Галерея драгоценностей. Ухтомский Константин Андреевич, 1864г."
+                      "img": "assets/pic/rooms/hermitage-f2/holland-paint.webp",
+                      "vertical": false,
+                      "description": "Зал голландской и фламандской школ. Луиджи Премацци, 1860г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "east-gallery-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/holland-now.webp",
+                      "vertical": false,
+                      "description": "Зал голландской и фламандской школ современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "holland",
+                  "path": "tent-roofed",
+                  "map": "assets/pic/rooms/hermitage-f2/map-tent-roofed.webp",
+                  "next": "german",
+                  "prev": "holland",
+                  "name": "Шатровый зал (голландская и фламандская школы)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "tent-roofed-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/tent-roofed-paint.webp",
+                      "vertical": false,
+                      "description": "Шатровый зал. Луиджи Премацци, 1858г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "tent-roofed-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/tent-roofed-now.webp",
+                      "vertical": false,
+                      "description": "Шатровый зал, современный вид."
                     }
                   ]
                 }
