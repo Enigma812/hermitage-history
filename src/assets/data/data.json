@@ -4389,6 +4389,51 @@
                       "description": "Большой Итальянский просвет, современный вид"
                     }
                   ]
+                },
+                {
+                  "id": "ancient-painting-gallery",
+                  "path": "ancient-painting-gallery",
+                  "map": "assets/pic/rooms/hermitage-f2/map-ancient-painting-gallery.webp",
+                  "next": "mainStaircase",
+                  "prev": "flemish-skylight",
+                  "name": "Галерея истории древней живописи",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "ancient-painting-gallery-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-paint.webp",
+                      "vertical": true,
+                      "description": "Галерея истории древней живописи. Гау Эдуард Петрович, 1859г."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "ancient-painting-gallery-painting2",
+                      "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-paint2.webp",
+                      "vertical": true,
+                      "description": "Галерея истории древней живописи. Конец XIX века."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "ancient-painting-gallery-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-photo.webp",
+                      "vertical": true,
+                      "description": "Галерея истории древней живописи. 1870-е."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "ancient-painting-gallery-oldPhoto2",
+                      "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-photo2.webp",
+                      "vertical": true,
+                      "description": "Галерея истории древней живописи. 1900-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "ancient-painting-gallery-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-now.webp",
+                      "vertical": false,
+                      "description": "Галерея истории древней живописи, современный вид"
+                    }
+                  ]
                 }
               ]
             },
