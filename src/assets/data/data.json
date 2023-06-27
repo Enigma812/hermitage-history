@@ -3859,7 +3859,7 @@
                       "path": "east-gallery-modernPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/holland-now.webp",
                       "vertical": false,
-                      "description": "Зал голландской и фламандской школ современный вид."
+                      "description": "Зал голландской и фламандской школ, современный вид."
                     }
                   ]
                 },
@@ -3883,7 +3883,79 @@
                       "path": "tent-roofed-modernPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/tent-roofed-now.webp",
                       "vertical": false,
-                      "description": "Шатровый зал, современный вид."
+                      "description": "Шатровый зал (Голандская живопись XVII век.), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "german",
+                  "path": "german",
+                  "map": "assets/pic/rooms/hermitage-f2/map-german.webp",
+                  "next": "flemish",
+                  "prev": "tent-roofed",
+                  "name": "Зал немецкой школы",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "german-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/german-paint.webp",
+                      "vertical": false,
+                      "description": "Зал немецкой школы. Гау Эдуард Петрович, 1857г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "german-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/german-now.webp",
+                      "vertical": false,
+                      "description": "Зал Немецкой школы (Голандская живопись XVII век.), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "flemish",
+                  "path": "flemish",
+                  "map": "assets/pic/rooms/hermitage-f2/map-flemish.webp",
+                  "next": "german2",
+                  "prev": "german",
+                  "name": "Зал Фламандской школы",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "flemish-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/flemish-paint.webp",
+                      "vertical": false,
+                      "description": "Зал Фламандской школы. Гау Эдуард Петрович, 1860г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "flemish-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/flemish-now.webp",
+                      "vertical": false,
+                      "description": "Зал Фламандской школы (Голандская живопись XVII век.), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "german2",
+                  "path": "german2",
+                  "map": "assets/pic/rooms/hermitage-f2/map-german2.webp",
+                  "next": "french",
+                  "prev": "flemish",
+                  "name": "Зал Немецкой школы",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "german2-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/german2-paint.webp",
+                      "vertical": true,
+                      "description": "Зал Немецкой школы. Гау Эдуард Петрович, 1860г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "german2-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/german2-now.webp",
+                      "vertical": false,
+                      "description": "Зал Немецкой школы (Голандская живопись XVII век.), современный вид."
                     }
                   ]
                 }
