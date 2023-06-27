@@ -4670,6 +4670,92 @@
                       "description": "Кабинет египетской скульптуры (Помпеянский зал), современный вид"
                     }
                   ]
+                },
+                {
+                  "id": "kolyvan",
+                  "path": "kolyvan",
+                  "map": "assets/pic/rooms/hermitage-f1/map-kolyvan.webp",
+                  "next": "sculptureStudy",
+                  "prev": "egyptStudy",
+                  "name": "Зал Колыванской вазы",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "kolyvan-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/kolyvan-paint.webp",
+                      "vertical": false,
+                      "description": "Зал Колыванской вазы. Ухтомский Константин Андреевич, 1858г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "kolyvan-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/kolyvan-photo.webp",
+                      "vertical": false,
+                      "description": "Зал Колыванской вазы. Миколаевский Федор Львович, 1910-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "kolyvan-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/kolyvan-now.webp",
+                      "vertical": false,
+                      "description": "Зал Колыванской вазы, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "sculptureStudy",
+                  "path": "sculptureStudy",
+                  "map": "assets/pic/rooms/hermitage-f1/map-sculptureStudy.webp",
+                  "next": "jupiter",
+                  "prev": "kolyvan",
+                  "name": "Кабинет скульптуры",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "sculptureStudy-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/sculptureStudy-paint.webp",
+                      "vertical": true,
+                      "description": "Кабинет скульптуры. Ухтомский Константин Андреевич, 1858г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "sculptureStudy-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/sculptureStudy-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет скульптуры, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "jupiter",
+                  "path": "jupiter",
+                  "map": "assets/pic/rooms/hermitage-f1/map-jupiter.webp",
+                  "next": "ancientSculptures",
+                  "prev": "sculptureStudy",
+                  "name": "Зал Юпитера",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "jupiter-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/jupiter-paint.webp",
+                      "vertical": false,
+                      "description": "Зал Юпитера. Луиджи Премацци, 1856г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "jupiter-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/jupiter-photo.webp",
+                      "vertical": true,
+                      "description": "Зал Юпитера. Классен В. Е, 1870-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "jupiter-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/jupiter-now.webp",
+                      "vertical": false,
+                      "description": "Зал Юпитера, современный вид"
+                    }
+                  ]
                 }
               ]
             }
