@@ -1899,7 +1899,7 @@
                       "description": "Спальня в Третьей запасной половине. Гау Эдуард Петрович 1873г. акварель"
                     },
                     {
-                      "id": "modernPHoto",
+                      "id": "modernPhoto",
                       "path": "third-bedRoom-modernPhoto",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-bedRoom-now.webp",
                       "vertical": false,
@@ -1923,7 +1923,7 @@
                       "description": "Гостиная в Третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
                     },
                     {
-                      "id": "modernPHoto",
+                      "id": "modernPhoto",
                       "path": "third-livingRoom-modernPhoto",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-livingRoom-now.webp",
                       "vertical": false,
@@ -1955,7 +1955,7 @@
                       "description": "Вторая Гостиная в Третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
                     },
                     {
-                      "id": "modernPHoto",
+                      "id": "modernPhoto",
                       "path": "third-second-livingRoom-modernPhoto",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-second-livingRoom-now.webp",
                       "vertical": false,
@@ -1987,7 +1987,7 @@
                       "description": "Проходная в Третьей запасной половине. Гау Эдуард Петрович 1872г. акварель"
                     },
                     {
-                      "id": "modernPHoto",
+                      "id": "modernPhoto",
                       "path": "third-walk-through-modernPhoto",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-walkThrough-now.webp",
                       "vertical": false,
@@ -2011,7 +2011,7 @@
                       "description": "Библиотека императора Александра II. Гау Эдуард Петрович 1871г. акварель"
                     },
                     {
-                      "id": "modernPHoto",
+                      "id": "modernPhoto",
                       "path": "third-library-modernPhoto",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-library-now.webp",
                       "vertical": false,
@@ -2035,7 +2035,7 @@
                       "description": "Кабинет в третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
                     },
                     {
-                      "id": "modernPHoto",
+                      "id": "modernPhoto",
                       "path": "third-study-modernPhoto",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-study-now.webp",
                       "vertical": false,
@@ -2058,7 +2058,7 @@
                       "description": "Гардеробная в третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
                     },
                     {
-                      "id": "modernPHoto",
+                      "id": "modernPhoto",
                       "path": "third-dressing-room-modernPhoto",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-dressing-room-now.webp",
                       "vertical": true,
@@ -2405,7 +2405,7 @@
                       "description": "Зеленая столовая. Луиджи Премацци 1852г. акварель"
                     },
                     {
-                      "id": "oldPHoto",
+                      "id": "oldPhoto",
                       "path": "green-diningRoom-photo",
                       "img": "assets/pic/rooms/alexII/greenDR-photo.webp",
                       "vertical": true,
@@ -2459,7 +2459,7 @@
                     },
                     {
                       "id": "oldPhoto",
-                      "path": "crimson-stury-oldPHoto",
+                      "path": "crimson-stury-oldPhoto",
                       "img": "assets/pic/rooms/alexII/crimson-study-photo.webp",
                       "vertical": false,
                       "description": "Малиновый кабинет после захвата большевиками. 1917г."
@@ -2529,14 +2529,14 @@
                       "description": "Спальня императрицы Марии Александры. Луиджи Премацци 1860-е. акварель"
                     },
                     {
-                      "id": "oldPHoto",
+                      "id": "oldPhoto",
                       "path": "blue-bedRoom-oldPhoto",
                       "img": "assets/pic/rooms/alexII/blue-bedRoom-photo.webp",
                       "vertical": false,
                       "description": "Спальня императрицы Марии Александры. Кубеш Карл Карлович 1917г."
                     },
                     {
-                      "id": "modernPHoto",
+                      "id": "modernPhoto",
                       "path": "blue-bedRoom-modernPhoto",
                       "img": "assets/pic/rooms/alexII/blue-bedRoom-now.webp",
                       "vertical": false,
@@ -2686,14 +2686,14 @@
                       "description": "Учебная комната цесаревича Александра Николаевича. Гау Эдуард Петрович 1860-е. акварель"
                     },
                     {
-                      "id": "oldPHoto",
+                      "id": "oldPhoto",
                       "path": "council-room-oldPhoto",
                       "img": "assets/pic/rooms/alexII/council-room-photo.webp",
                       "vertical": false,
                       "description": "Учебная комната цесаревича Александра Николаевича. Кубеш Карл Карлович 1917г,"
                     },
                     {
-                      "id": "oldPHoto2",
+                      "id": "oldPhoto2",
                       "path": "council-room-oldPhoto2",
                       "img": "assets/pic/rooms/alexII/council-room-photo2.webp",
                       "vertical": false,
@@ -3135,22 +3135,22 @@
                       "description": "Третий зал военных картин. Гау Эдуард Петрович 1866г. акварель"
                     },
                     {
-                      "id": "oldPHoto",
-                      "path": "war3-oldPHoto",
+                      "id": "oldPhoto",
+                      "path": "war3-oldPhoto",
                       "img": "assets/pic/rooms/war-halls/war3-photo.webp",
                       "vertical": false,
                       "description": "Караул юнкеров которые для защиты Временного правительства в Третьем зале военных картин. 1917г."
                     },
                     {
-                      "id": "oldPHoto2",
-                      "path": "war3-oldPHoto2",
+                      "id": "oldPhoto2",
+                      "path": "war3-oldPhoto2",
                       "img": "assets/pic/rooms/war-halls/war3-photo2.webp",
                       "vertical": false,
                       "description": "Третий зал военных картин после захвата большевиками. Кубеш Карл Карлович 1917г."
                     },
                     {
-                      "id": "oldPHoto3",
-                      "path": "war3-oldPHoto3",
+                      "id": "oldPhoto3",
+                      "path": "war3-oldPhoto3",
                       "img": "assets/pic/rooms/war-halls/war3-photo3.webp",
                       "vertical": false,
                       "description": "Третий зал военных картин после захвата большевиками. Кубеш Карл Карлович 1917г."
@@ -3181,8 +3181,8 @@
                       "description": "Четвертый зал военных картин. Гау Эдуард Петрович 1864г. акварель"
                     },
                     {
-                      "id": "oldPHoto",
-                      "path": "war4-oldPHoto",
+                      "id": "oldPhoto",
+                      "path": "war4-oldPhoto",
                       "img": "assets/pic/rooms/war-halls/war4-photo.webp",
                       "vertical": false,
                       "description": "Четвертый зал военных картин, дореволюционный вид. 1914г."
@@ -3501,7 +3501,7 @@
                       "description": "Галерея видов Петербурга. Гау Эдуард Петрович, 1864г. акварель"
                     },
                     {
-                      "id": "modern-photo",
+                      "id": "modernPhoto",
                       "path": "library-transition-modernPhoto",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-now.webp",
                       "vertical": true,
@@ -4432,6 +4432,51 @@
                       "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-now.webp",
                       "vertical": false,
                       "description": "Галерея истории древней живописи, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "mainStaircase",
+                  "path": "mainStaircase",
+                  "map": "assets/pic/rooms/hermitage-f2/map-mainStaircase.webp",
+                  "next": "roomOfCoins",
+                  "prev": "ancient-painting-gallery",
+                  "name": "Парадная лестница Нового Эрмитажа",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "mainStaircase-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/mainStaircase-paint.webp",
+                      "vertical": false,
+                      "description": "Парадная лестница Нового Эрмитажа. Гау Эдуард Петрович, 1853г."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "mainStaircase-painting2",
+                      "img": "assets/pic/rooms/hermitage-f2/mainStaircase-paint2.webp",
+                      "vertical": false,
+                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа. Гау Эдуард Петрович, 1860г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "mainStaircase-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/mainStaircase-photo.webp",
+                      "vertical": true,
+                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа. 1870-е."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "mainStaircase-oldPhoto2",
+                      "img": "assets/pic/rooms/hermitage-f2/mainStaircase-photo2.webp",
+                      "vertical": false,
+                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа. 1890-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "mainStaircase-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/mainStaircase-now.webp",
+                      "vertical": false,
+                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа, современный вид"
                     }
                   ]
                 }
