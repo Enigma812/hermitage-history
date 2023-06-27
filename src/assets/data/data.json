@@ -3658,6 +3658,13 @@
                       "description": "Большой зал Северного павильона до перестройки. Ю.Фриденрейх, 1840г."
                     },
                     {
+                      "id": "painting2",
+                      "path": "pavilion-hall-painting2",
+                      "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint2.webp",
+                      "vertical": false,
+                      "description": "Павильонный зал. Тутукин П.В., 1856г. акварель"
+                    },
+                    {
                       "id": "painting",
                       "path": "pavilion-hall-painting",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint.webp",
@@ -3697,7 +3704,7 @@
                 {
                   "id": "garden",
                   "path": "garden",
-                  "map": "assets/pic/rooms/small-hermitage/map-mosaicStudy.webp",
+                  "map": "assets/pic/rooms/small-hermitage/map-garden.webp",
                   "prev": "pavilion-hall",
                   "next": "mosaicStudy",
                   "name": "Висячий (Зимний) сад Малого эрмитажа",
