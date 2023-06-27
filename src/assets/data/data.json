@@ -4730,7 +4730,7 @@
                   "id": "jupiter",
                   "path": "jupiter",
                   "map": "assets/pic/rooms/hermitage-f1/map-jupiter.webp",
-                  "next": "ancientSculptures",
+                  "next": "antic",
                   "prev": "sculptureStudy",
                   "name": "Зал Юпитера",
                   "collections": [
@@ -4754,6 +4754,86 @@
                       "img": "assets/pic/rooms/hermitage-f1/jupiter-now.webp",
                       "vertical": false,
                       "description": "Зал Юпитера, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "antic",
+                  "path": "antic",
+                  "map": "assets/pic/rooms/hermitage-f1/map-antic.webp",
+                  "next": "greek",
+                  "prev": "jupiter",
+                  "name": "Зал древней скульптуры (Римский дворик)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "antic-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/antic-paint.webp",
+                      "vertical": false,
+                      "description": "Зал древней скульптуры. Луиджи Премацци, 1856г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "antic-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/antic-now.webp",
+                      "vertical": false,
+                      "description": "Зал древней скульптуры (Римский дворик), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "greek",
+                  "path": "greek",
+                  "map": "assets/pic/rooms/hermitage-f1/map-greek.webp",
+                  "next": "mainEntrance",
+                  "prev": "antic",
+                  "name": "Зал греческой скульптуры (Зал Диониса)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "greek-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/greek-paint.webp",
+                      "vertical": false,
+                      "description": "Зал греческой скульптуры. Ухтомский Константин Андреевич, 1853г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "greek-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/greek-now.webp",
+                      "vertical": false,
+                      "description": "Зал греческой скульптуры (Зал Диониса), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "mainEntrance",
+                  "path": "mainEntrance",
+                  "map": "assets/pic/rooms/hermitage-f1/map-mainEntrance.webp",
+                  "next": "roomOfDrawings",
+                  "prev": "greek",
+                  "name": "Вестибюль Парадной лестницы Нового Эрмитажа",
+                  "description": "На главную летницу Нового Эрмитажа ведет портик с гранитными Атлантами ",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "mainEntrance-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/mainEntrance-paint.webp",
+                      "vertical": true,
+                      "description": "Вестибюль Парадной лестницы Нового Эрмитажа. Ухтомский Константин Андреевич, 1853г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "mainEntrance-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/mainEntrance-now.webp",
+                      "vertical": false,
+                      "description": "Вестибюль Парадной лестницы Нового Эрмитажа, современный вид"
+                    },
+                    {
+                      "id": "modernPhoto2",
+                      "path": "mainEntrance-modernPhoto2",
+                      "img": "assets/pic/rooms/hermitage-f1/mainEntrance-atlants.webp",
+                      "vertical": false,
+                      "description": "Атланты на портике Нового Эрмитажа"
                     }
                   ]
                 }
