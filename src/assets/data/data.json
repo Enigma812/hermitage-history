@@ -4164,21 +4164,104 @@
                   "map": "assets/pic/rooms/hermitage-f2/map-italian6.webp",
                   "next": "italian7",
                   "prev": "italian5",
-                  "name": "Кабинет Итальянских школ",
+                  "name": "Зал Леонардо и Микеланджело (Итальянский кабинет)",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "italian6-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian6-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянских школ. Луиджи Премацци, 1860г."
+                      "description": "Зал Леонардо и Микеланджело. Луиджи Премацци, 1860г."
+                    },
+                    {
+                      "id": "olfPhoto",
+                      "path": "italian6-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian6-photo.webp",
+                      "vertical": true,
+                      "description": "Зал Леонардо и Микеланджело. 1900-е."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "italian6-modernPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/italian6-now.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянских школ (Итальянский кабинет), современный вид."
+                      "description": "Зал Леонардо и Микеланджело (Итальянский кабинет), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "italian7",
+                  "path": "italian7",
+                  "map": "assets/pic/rooms/hermitage-f2/map-italian7.webp",
+                  "next": "cameos-room",
+                  "prev": "italian6",
+                  "name": "Зал с фресками Рафаэля (Кабинет драгоценностей)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "italian7-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/italian7-paint.webp",
+                      "vertical": true,
+                      "description": "Зал с фресками Рафаэля. Гау Эдуард Петрович, 1860г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "italian7-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian7-photo.webp",
+                      "vertical": true,
+                      "description": "Зал с фресками Рафаэля.1900-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "italian7-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian7-now.webp",
+                      "vertical": false,
+                      "description": "Зал с фресками Рафаэля, современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "cameos-room",
+                  "path": "cameos-room",
+                  "map": "assets/pic/rooms/hermitage-f2/map-cameos.webp",
+                  "next": "raphael-loggias",
+                  "prev": "italian7",
+                  "name": "Зал камей (Зал Рафаэля)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "cameos-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/cameos-paint.webp",
+                      "vertical": false,
+                      "description": "Зал камей. Гау Эдуард Петрович, 1854г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "cameos-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/cameos-photo.webp",
+                      "vertical": true,
+                      "description": "Зал камей. 1892г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "cameos-oldPhoto2",
+                      "img": "assets/pic/rooms/hermitage-f2/cameos-photo2.webp",
+                      "vertical": false,
+                      "description": "Зал предметов из серебра. 1900-е."
+                    },
+                    {
+                      "id": "oldPhoto3",
+                      "path": "cameos-oldPhoto3",
+                      "img": "assets/pic/rooms/hermitage-f2/cameos-photo3.webp",
+                      "vertical": false,
+                      "description": "Зал предметов из серебра. 1900-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "cameos-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/cameos-now.webp",
+                      "vertical": false,
+                      "description": "Зал камей (Зал Рафаэля), современный вид"
                     }
                   ]
                 }
