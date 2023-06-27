@@ -3958,6 +3958,61 @@
                       "description": "Зал Немецкой школы (Голандская живопись XVII век.), современный вид."
                     }
                   ]
+                },
+                {
+                  "id": "french",
+                  "path": "french",
+                  "map": "assets/pic/rooms/hermitage-f2/map-french.webp",
+                  "next": "flemish2",
+                  "prev": "german2",
+                  "name": "Зал Французской школы",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "french-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/french-paint.webp",
+                      "vertical": false,
+                      "description": "Зал Французской школы. Луиджи Премацци, 1859г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "french-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/french-photo.webp",
+                      "vertical": true,
+                      "description": "Зал Французской школы (Зал Рембрандта), Классен Василий Ефремович, 1871г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "french-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/french-now.webp",
+                      "vertical": false,
+                      "description": "Зал Французской школы (Зал Рембрандта), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "flemish2",
+                  "path": "flemish2",
+                  "map": "assets/pic/rooms/hermitage-f2/map-flemish2.webp",
+                  "next": "flemishStudy",
+                  "prev": "french",
+                  "name": "Галерея Фламандской живописи",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "flemish2-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/flemish2-paint.webp",
+                      "vertical": false,
+                      "description": "Галерея Фламандской живописи. Луиджи Премацци, 1860г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "flemish2-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/flemish2-now.webp",
+                      "vertical": false,
+                      "description": "Галерея Фламандской живописи (Школа Рембрандта), современный вид."
+                    }
+                  ]
                 }
               ]
             },
