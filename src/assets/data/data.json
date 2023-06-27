@@ -4269,7 +4269,7 @@
                   "id": "raphael-loggias",
                   "path": "raphael-loggias",
                   "map": "assets/pic/rooms/hermitage-f2/map-raphael-loggias.webp",
-                  "next": "raphael-loggias",
+                  "next": "spahish-skylight",
                   "prev": "cameos-room",
                   "name": "Лоджии Рафаэля",
                   "description": "Галерея с копиями рафаэлевских фресок из Ватиканского дворца в Риме",
@@ -4301,6 +4301,92 @@
                       "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-now.webp",
                       "vertical": true,
                       "description": "Лоджии Рафаэля, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "spahish-skylight",
+                  "path": "spahish-skylight",
+                  "map": "assets/pic/rooms/hermitage-f2/map-spanish-skylight.webp",
+                  "next": "italian-skylight",
+                  "prev": "raphael-loggias",
+                  "name": "Испанский просвет (Малый Итальянский просвет)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "spahish-skylight-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/spanish-skylight-paint.webp",
+                      "vertical": false,
+                      "description": "Испанский просвет. Гау Эдуард Петрович, 1856г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "spahish-skylight-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/spanish-skylight-photo.webp",
+                      "vertical": false,
+                      "description": "Испанский просвет. 1870-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "spahish-skylight-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/spanish-skylight-now.webp",
+                      "vertical": false,
+                      "description": "Испанский просвет (Малый Итальянский просвет), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "italian-skylight",
+                  "path": "italian-skylight",
+                  "map": "assets/pic/rooms/hermitage-f2/map-italian-skylight.webp",
+                  "next": "flemish-skylight",
+                  "prev": "spahish-skylight",
+                  "name": "Большой Итальянский просвет",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "italian-skylight-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/italian-skylight-paint.webp",
+                      "vertical": false,
+                      "description": "Большой Итальянский просвет. Гау Эдуард Петрович, 1853г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "italian-skylight-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian-skylight-photo.webp",
+                      "vertical": false,
+                      "description": "Большой Итальянский просвет. 1870-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "italian-skylight-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian-skylight-now.webp",
+                      "vertical": false,
+                      "description": "Большой Итальянский просвет, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "flemish-skylight",
+                  "path": "flemish-skylight",
+                  "map": "assets/pic/rooms/hermitage-f2/map-flemish-skylight.webp",
+                  "next": "ancient-painting-gallery",
+                  "prev": "italian-skylight",
+                  "name": "Фламандский просвет (Испанский просвет)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "flemish-skylight-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/flemish-skylight-paint.webp",
+                      "vertical": false,
+                      "description": "Фламандский просвет. Гау Эдуард Петрович, 1854г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "flemish-skylight-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/flemish-skylight-now.webp",
+                      "vertical": false,
+                      "description": "Большой Итальянский просвет, современный вид"
                     }
                   ]
                 }
