@@ -4622,7 +4622,25 @@
               "isActive": true,
               "img": "assets/pic/first-floor-hermitage.webp",
               "imgHover": "assets/pic/first-floor-hermitage-hover.webp",
-              "rooms": []
+              "rooms": [
+                {
+                  "id": "holland2",
+                  "path": "holland2",
+                  "map": "assets/pic/rooms/hermitage-f2/map-holland2.webp",
+                  "prev": "russian2",
+                  "upToFloor": "/interiors",
+                  "name": "Зал голландской и фламандской школ (Зал Рубенса)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "holland2-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/holland2-paint.webp",
+                      "vertical": false,
+                      "description": "Зал голландской и фламандской школ. Гау Эдуард Петрович, 1857г."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
