@@ -29,7 +29,7 @@ export class BuildingPageComponent {
     setTimeout(() => {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
-      this._router.navigate([ building.path ], { relativeTo: this._route });
+      this._router.navigate([ building.link ?? building.path ], { relativeTo: this._route });
     }, 500);
   }
 
