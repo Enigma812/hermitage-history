@@ -4479,6 +4479,54 @@
                       "description": "Верхняя площадка парадной лестницы Нового Эрмитажа, современный вид"
                     }
                   ]
+                },
+                {
+                  "id": "roomOfCoins",
+                  "path": "roomOfCoins",
+                  "map": "assets/pic/rooms/hermitage-f2/map-roomOfCoins.webp",
+                  "next": "twelve-column-hall",
+                  "prev": "mainStaircase",
+                  "name": "Зал монет (Рыцарский зал)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "roomOfCoins-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/roomOfCoins-paint.webp",
+                      "vertical": false,
+                      "description": "Зал монет. Ухтомский Константин Андреевич, 1860г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "roomOfCoins-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/roomOfCoins-now.webp",
+                      "vertical": false,
+                      "description": "Зал монет (Рыцарский зал), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "twelve-column-hall",
+                  "path": "twelve-column-hall",
+                  "map": "assets/pic/rooms/hermitage-f2/map-twelve-column-hall.webp",
+                  "next": "twelve-column-hall",
+                  "prev": "roomOfCoins",
+                  "name": "Двеадцатиколонный зал монет и медалей",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "twelve-column-hall-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/twelve-column-hall-paint.webp",
+                      "vertical": false,
+                      "description": "Двеадцатиколонный зал монет и медалей. Луиджи Премацци, 1853г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "twelve-column-hall-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/twelve-column-hall-now.webp",
+                      "vertical": false,
+                      "description": "Двеадцатиколонный зал, современный вид"
+                    }
+                  ]
                 }
               ]
             },
