@@ -4044,21 +4044,21 @@
                   "map": "assets/pic/rooms/hermitage-f2/map-italian.webp",
                   "next": "italian2",
                   "prev": "flemishStudy",
-                  "name": "Кабинет Итальянской школы",
+                  "name": "Кабинет Итальянских школ",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "italian-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянской школы. Луиджи Премацци, 1859г."
+                      "description": "Кабинет Итальянских школ. Луиджи Премацци, 1859г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "italian-modernPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/italian-now.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянской школы (Итальянский кабинет), современный вид."
+                      "description": "Кабинет Итальянских школ (Итальянский кабинет), современный вид."
                     }
                   ]
                 },
@@ -4082,7 +4082,7 @@
                       "path": "italian2-modernPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/italian2-now.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянской школы (Итальянский кабинет), современный вид."
+                      "description": "Кабинет Итальянских школ (Итальянский кабинет), современный вид."
                     }
                   ]
                 },
@@ -4106,7 +4106,79 @@
                       "path": "italian3-modernPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/italian3-now.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянской школы (Итальянский кабинет), современный вид."
+                      "description": "Кабинет Итальянских школ (Итальянский кабинет), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "italian4",
+                  "path": "italian4",
+                  "map": "assets/pic/rooms/hermitage-f2/map-italian4.webp",
+                  "next": "italian5",
+                  "prev": "italian3",
+                  "name": "Кабинет Тициана",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "italian4-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/italian4-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Тициана. Гау Эдуард Петрович, 1856г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "italian4-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian4-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет Тициана (Итальянский кабинет), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "italian5",
+                  "path": "italian5",
+                  "map": "assets/pic/rooms/hermitage-f2/map-italian5.webp",
+                  "next": "italian6",
+                  "prev": "italian4",
+                  "name": "Кабинет Итальянских школ",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "italian5-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/italian5-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Итальянских школ. Гау Эдуард Петрович, 1859г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "italian5-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian5-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет Итальянских школ (Итальянский кабинет), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "italian6",
+                  "path": "italian6",
+                  "map": "assets/pic/rooms/hermitage-f2/map-italian6.webp",
+                  "next": "italian7",
+                  "prev": "italian5",
+                  "name": "Кабинет Итальянских школ",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "italian6-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/italian6-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Итальянских школ. Луиджи Премацци, 1860г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "italian6-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian6-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет Итальянских школ (Итальянский кабинет), современный вид."
                     }
                   ]
                 }
