@@ -4624,19 +4624,216 @@
               "imgHover": "assets/pic/first-floor-hermitage-hover.webp",
               "rooms": [
                 {
-                  "id": "holland2",
-                  "path": "holland2",
-                  "map": "assets/pic/rooms/hermitage-f2/map-holland2.webp",
-                  "prev": "russian2",
-                  "upToFloor": "/interiors",
-                  "name": "Зал голландской и фламандской школ (Зал Рубенса)",
+                  "id": "twentyColumns",
+                  "path": "twentyColumns",
+                  "map": "assets/pic/rooms/hermitage-f1/map-twentyColumns.webp",
+                  "next": "egyptStudy",
+                  "downToFloor": "/interiors",
+                  "name": "Двадцатиколонный зал греко-этрусских ваз",
                   "collections": [
                     {
                       "id": "painting",
-                      "path": "holland2-painting",
-                      "img": "assets/pic/rooms/hermitage-f2/holland2-paint.webp",
+                      "path": "twentyColumns-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/twentyColumns-paint.webp",
                       "vertical": false,
-                      "description": "Зал голландской и фламандской школ. Гау Эдуард Петрович, 1857г."
+                      "description": "Двадцатиколонный зал греко-этрусских ваз. Ухтомский Константин Андреевич, 1850-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "twentyColumns-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/twentyColumns-now.webp",
+                      "vertical": false,
+                      "description": "Двадцатиколонный зал греко-этрусских ваз, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "egyptStudy",
+                  "path": "egyptStudy",
+                  "map": "assets/pic/rooms/hermitage-f1/map-egyptStudy.webp",
+                  "next": "kolyvan",
+                  "prev": "twentyColumns",
+                  "name": "Кабинет египетской скульптуры (Помпеянский зал)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "egyptStudy-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/egyptStudy-paint.webp",
+                      "vertical": true,
+                      "description": "Кабинет египетской скульптуры. Ухтомский Константин Андреевич, 1858г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "egyptStudy-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/egyptStudy-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет египетской скульптуры (Помпеянский зал), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "kolyvan",
+                  "path": "kolyvan",
+                  "map": "assets/pic/rooms/hermitage-f1/map-kolyvan.webp",
+                  "next": "sculptureStudy",
+                  "prev": "egyptStudy",
+                  "name": "Зал Колыванской вазы",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "kolyvan-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/kolyvan-paint.webp",
+                      "vertical": false,
+                      "description": "Зал Колыванской вазы. Ухтомский Константин Андреевич, 1858г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "kolyvan-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/kolyvan-photo.webp",
+                      "vertical": false,
+                      "description": "Зал Колыванской вазы. Миколаевский Федор Львович, 1910-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "kolyvan-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/kolyvan-now.webp",
+                      "vertical": false,
+                      "description": "Зал Колыванской вазы, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "sculptureStudy",
+                  "path": "sculptureStudy",
+                  "map": "assets/pic/rooms/hermitage-f1/map-sculptureStudy.webp",
+                  "next": "jupiter",
+                  "prev": "kolyvan",
+                  "name": "Кабинет скульптуры",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "sculptureStudy-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/sculptureStudy-paint.webp",
+                      "vertical": true,
+                      "description": "Кабинет скульптуры. Ухтомский Константин Андреевич, 1858г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "sculptureStudy-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/sculptureStudy-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет скульптуры, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "jupiter",
+                  "path": "jupiter",
+                  "map": "assets/pic/rooms/hermitage-f1/map-jupiter.webp",
+                  "next": "antic",
+                  "prev": "sculptureStudy",
+                  "name": "Зал Юпитера",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "jupiter-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/jupiter-paint.webp",
+                      "vertical": false,
+                      "description": "Зал Юпитера. Луиджи Премацци, 1856г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "jupiter-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/jupiter-photo.webp",
+                      "vertical": true,
+                      "description": "Зал Юпитера. Классен В. Е, 1870-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "jupiter-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/jupiter-now.webp",
+                      "vertical": false,
+                      "description": "Зал Юпитера, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "antic",
+                  "path": "antic",
+                  "map": "assets/pic/rooms/hermitage-f1/map-antic.webp",
+                  "next": "greek",
+                  "prev": "jupiter",
+                  "name": "Зал древней скульптуры (Римский дворик)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "antic-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/antic-paint.webp",
+                      "vertical": false,
+                      "description": "Зал древней скульптуры. Луиджи Премацци, 1856г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "antic-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/antic-now.webp",
+                      "vertical": false,
+                      "description": "Зал древней скульптуры (Римский дворик), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "greek",
+                  "path": "greek",
+                  "map": "assets/pic/rooms/hermitage-f1/map-greek.webp",
+                  "next": "mainEntrance",
+                  "prev": "antic",
+                  "name": "Зал греческой скульптуры (Зал Диониса)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "greek-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/greek-paint.webp",
+                      "vertical": false,
+                      "description": "Зал греческой скульптуры. Ухтомский Константин Андреевич, 1853г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "greek-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/greek-now.webp",
+                      "vertical": false,
+                      "description": "Зал греческой скульптуры (Зал Диониса), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "mainEntrance",
+                  "path": "mainEntrance",
+                  "map": "assets/pic/rooms/hermitage-f1/map-mainEntrance.webp",
+                  "next": "roomOfDrawings",
+                  "prev": "greek",
+                  "name": "Вестибюль Парадной лестницы Нового Эрмитажа",
+                  "description": "На главную летницу Нового Эрмитажа ведет портик с гранитными Атлантами ",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "mainEntrance-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/mainEntrance-paint.webp",
+                      "vertical": true,
+                      "description": "Вестибюль Парадной лестницы Нового Эрмитажа. Ухтомский Константин Андреевич, 1853г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "mainEntrance-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/mainEntrance-now.webp",
+                      "vertical": false,
+                      "description": "Вестибюль Парадной лестницы Нового Эрмитажа, современный вид"
+                    },
+                    {
+                      "id": "modernPhoto2",
+                      "path": "mainEntrance-modernPhoto2",
+                      "img": "assets/pic/rooms/hermitage-f1/mainEntrance-atlants.webp",
+                      "vertical": false,
+                      "description": "Атланты на портике Нового Эрмитажа"
                     }
                   ]
                 }
