@@ -3836,8 +3836,8 @@
               "id": "second-floor",
               "path": "second-floor",
               "isActive": true,
-              "img": "assets/pic/second-floor.webp",
-              "imgHover": "assets/pic/second-floor-hover.webp",
+              "img": "assets/pic/second-floor-hermitage.webp",
+              "imgHover": "assets/pic/second-floor-hermitage-hover.webp",
               "rooms": [
                 {
                   "id": "east-gallery",
@@ -3863,8 +3863,8 @@
               "id": "first-floor",
               "path": "first-floor",
               "isActive": true,
-              "img": "assets/pic/first-floor.webp",
-              "imgHover": "assets/pic/first-floor-hover.webp",
+              "img": "assets/pic/first-floor-hermitage.webp",
+              "imgHover": "assets/pic/first-floor-hermitage-hover.webp",
               "rooms": []
             }
           ]
