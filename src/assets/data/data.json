@@ -4013,6 +4013,102 @@
                       "description": "Галерея Фламандской живописи (Школа Рембрандта), современный вид."
                     }
                   ]
+                },
+                {
+                  "id": "flemishStudy",
+                  "path": "flemishStudy",
+                  "map": "assets/pic/rooms/hermitage-f2/map-flemishStudy.webp",
+                  "next": "italian",
+                  "prev": "flemish2",
+                  "name": "Кабинет Фламандской школы",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "flemishStudy-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/flemishStudy-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Фламандской школы. Гау Эдуард Петровичи, 1859г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "flemishStudy-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/flemishStudy-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет Фламандской школы (Испанский кабинет), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "italian",
+                  "path": "italian",
+                  "map": "assets/pic/rooms/hermitage-f2/map-italian.webp",
+                  "next": "italian2",
+                  "prev": "flemishStudy",
+                  "name": "Кабинет Итальянской школы",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "italian-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/italian-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Итальянской школы. Луиджи Премацци, 1859г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "italian-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет Итальянской школы (Итальянский кабинет), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "italian2",
+                  "path": "italian2",
+                  "map": "assets/pic/rooms/hermitage-f2/map-italian2.webp",
+                  "next": "italian3",
+                  "prev": "italian",
+                  "name": "Кабинет Итальянских школ",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "italian2-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/italian2-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Итальянских школ. Гау Эдуард Петрович, 1860г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "italian2-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian2-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет Итальянской школы (Итальянский кабинет), современный вид."
+                    }
+                  ]
+                },
+                {
+                  "id": "italian3",
+                  "path": "italian3",
+                  "map": "assets/pic/rooms/hermitage-f2/map-italian3.webp",
+                  "next": "italian4",
+                  "prev": "italian2",
+                  "name": "Кабинет Итальянских школ",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "italian3-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/italian3-paint.webp",
+                      "vertical": false,
+                      "description": "Кабинет Итальянских школ. Гау Эдуард Петрович, 1860г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "italian3-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/italian3-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет Итальянской школы (Итальянский кабинет), современный вид."
+                    }
+                  ]
                 }
               ]
             },
