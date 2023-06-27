@@ -4508,7 +4508,7 @@
                   "id": "twelve-column-hall",
                   "path": "twelve-column-hall",
                   "map": "assets/pic/rooms/hermitage-f2/map-twelve-column-hall.webp",
-                  "next": "twelve-column-hall",
+                  "next": "russian",
                   "prev": "roomOfCoins",
                   "name": "Двеадцатиколонный зал монет и медалей",
                   "collections": [
@@ -4525,6 +4525,92 @@
                       "img": "assets/pic/rooms/hermitage-f2/twelve-column-hall-now.webp",
                       "vertical": false,
                       "description": "Двеадцатиколонный зал, современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "russian",
+                  "path": "russian",
+                  "map": "assets/pic/rooms/hermitage-f2/map-russian.webp",
+                  "next": "russian2",
+                  "prev": "twelve-column-hall",
+                  "name": "Зал Русской школы (Зал Снейдера)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "russian-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/russian-paint.webp",
+                      "vertical": false,
+                      "description": "Зал Русской школы. Гау Эдуард Петрович, 1856г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "russian-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/russian-now.webp",
+                      "vertical": false,
+                      "description": "Зал Русской школы (Зал Снейдера), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "russian2",
+                  "path": "russian2",
+                  "map": "assets/pic/rooms/hermitage-f2/map-russian2.webp",
+                  "next": "holland2",
+                  "prev": "russian",
+                  "name": "Зал Русской школы (Зал Ван Дейка)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "russian2-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/russian2-paint.webp",
+                      "vertical": false,
+                      "description": "Зал Русской школы. Гау Эдуард Петрович, 1855г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "russian2-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/russian2-photo.webp",
+                      "vertical": false,
+                      "description": "Зал Русской школы. 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "russian2-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/russian2-now.webp",
+                      "vertical": false,
+                      "description": "Зал Русской школы (Зал Ван Дейка), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "holland2",
+                  "path": "holland2",
+                  "map": "assets/pic/rooms/hermitage-f2/map-holland2.webp",
+                  "prev": "russian2",
+                  "upToFloor": "/interiors",
+                  "name": "Зал голландской и фламандской школ (Зал Рубенса)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "holland2-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/holland2-paint.webp",
+                      "vertical": false,
+                      "description": "Зал голландской и фламандской школ. Гау Эдуард Петрович, 1857г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "holland2-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/holland2-photo.webp",
+                      "vertical": false,
+                      "description": "Зал голландской и фламандской школ. 1914г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "holland2-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/holland2-now.webp",
+                      "vertical": false,
+                      "description": "Зал голландской и фламандской школ (Зал Рубенса), современный вид"
                     }
                   ]
                 }
