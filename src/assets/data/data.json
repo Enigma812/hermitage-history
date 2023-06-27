@@ -4264,6 +4264,45 @@
                       "description": "Зал камей (Зал Рафаэля), современный вид"
                     }
                   ]
+                },
+                {
+                  "id": "raphael-loggias",
+                  "path": "raphael-loggias",
+                  "map": "assets/pic/rooms/hermitage-f2/map-raphael-loggias.webp",
+                  "next": "raphael-loggias",
+                  "prev": "cameos-room",
+                  "name": "Лоджии Рафаэля",
+                  "description": "Галерея с копиями рафаэлевских фресок из Ватиканского дворца в Риме",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "raphael-loggias-painting",
+                      "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-paint.webp",
+                      "vertical": true,
+                      "description": "Лоджии Рафаэля. Ухтомский Константин Андреевич, 1860г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "raphael-loggias-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-photo.webp",
+                      "vertical": true,
+                      "description": "Лоджии Рафаэля. 1860-е."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "raphael-loggias-oldPhoto2",
+                      "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-photo2.webp",
+                      "vertical": true,
+                      "description": "Лоджии Рафаэля. Миколаевсикй Ф. Л, 1911г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "raphael-loggias-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-now.webp",
+                      "vertical": true,
+                      "description": "Лоджии Рафаэля, современный вид"
+                    }
+                  ]
                 }
               ]
             },
