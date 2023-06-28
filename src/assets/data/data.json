@@ -5077,6 +5077,85 @@
                       "description": "Зал древностей Боспора Киммерийского (Зал Эллинизма), современный вид"
                     }
                   ]
+                },
+                {
+                  "id": "bosphorus2",
+                  "path": "bosphorus2",
+                  "map": "assets/pic/rooms/hermitage-f1/map-bosphorus2.webp",
+                  "next": "engravings",
+                  "prev": "bosphorus",
+                  "name": "Галерея древностей Боспора Киммерийского (Зал резныйх камней)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "bosphorus2-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/bosphorus2-paint.webp",
+                      "vertical": true,
+                      "description": "Галерея древностей Боспора Киммерийского. Ухтомский Константин Андреевич, 1857г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "bosphorus2-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/bosphorus2-now.webp",
+                      "vertical": false,
+                      "description": "Галерея древностей Боспора Киммерийского (Зал резныйх камней), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "engravings",
+                  "path": "engravings",
+                  "map": "assets/pic/rooms/hermitage-f1/map-engravings.webp",
+                  "next": "sculptureStudy2",
+                  "prev": "bosphorus2",
+                  "name": "Зал гравюр (Зал ваз)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "engravings-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/engravings-paint.webp",
+                      "vertical": false,
+                      "description": "Зал гравюр. Ухтомский Константин Андреевич, 1856г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "engravings-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/engravings-now.webp",
+                      "vertical": false,
+                      "description": "Зал гравюр (Зал ваз), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "sculptureStudy2",
+                  "path": "sculptureStudy2",
+                  "map": "assets/pic/rooms/hermitage-f1/map-sculptureStudy2.webp",
+                  "prev": "engravings",
+                  "upToFloor": "/interiors",
+                  "name": "Кабинет скульптуры (Зал Августа)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "sculptureStudy2-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/sculptureStudy2-paint.webp",
+                      "vertical": true,
+                      "description": "Кабинет скульптуры. Ухтомский Константин Андреевич, 1854г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "sculptureStudy2-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/sculptureStudy2-photo.webp",
+                      "vertical": true,
+                      "description": "Кабинет скульптуры. Классен В. Е., 1872г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "sculptureStudy2-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/sculptureStudy2-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет скульптуры (Зал Августа), современный вид"
+                    }
+                  ]
                 }
               ]
             }
