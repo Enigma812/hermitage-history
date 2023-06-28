@@ -4898,6 +4898,92 @@
                       "description": "Зал манускриптов (Скульптура древней Греции), современный вид"
                     }
                   ]
+                },
+                {
+                  "id": "archeology",
+                  "path": "archeology",
+                  "map": "assets/pic/rooms/hermitage-f1/map-archeology.webp",
+                  "next": "libraryIV",
+                  "prev": "manuscript",
+                  "name": "Зал археологии (Древняя Греция)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "archeology-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/archeology-paint.webp",
+                      "vertical": true,
+                      "description": "Зал археологии. Ухтомский Константин Андреевич, 1855г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "archeology-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/archeology-now.webp",
+                      "vertical": false,
+                      "description": "Зал археологии (Древняя Греция), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "libraryIV",
+                  "path": "libraryIV",
+                  "map": "assets/pic/rooms/hermitage-f1/map-libraryIV.webp",
+                  "next": "italianPaintings",
+                  "prev": "archeology",
+                  "name": "Зал IV библиотеки (Искусство Древней Греции)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "libraryIV-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryIV-paint.webp",
+                      "vertical": false,
+                      "description": "Зал IV библиотеки. Ухтомский Константин Андреевич, 1855г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "libraryIV-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryIV-photo.webp",
+                      "vertical": false,
+                      "description": "Зал IV библиотеки, выставка Греческих ваз. Ухов Иван Кузмич, 1916г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "libraryIV-oldPhoto2",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryIV-photo2.webp",
+                      "vertical": false,
+                      "description": "Зал IV библиотеки, выставка Греческих ваз. Миколаевский Федор Львович, 1910-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "libraryIV-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryIV-now.webp",
+                      "vertical": false,
+                      "description": "Зал IV библиотеки (Искусство Древней Греции), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "italianPaintings",
+                  "path": "italianPaintings",
+                  "map": "assets/pic/rooms/hermitage-f1/map-italianPaintings.webp",
+                  "next": "libraryV",
+                  "prev": "libraryIV",
+                  "name": "Картинная галерея Итальянских школ (Античная колонизация севернрго Причерноморья)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "italianPaintings-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/italianPaintings-paint.webp",
+                      "vertical": true,
+                      "description": "Картинная галерея Итальянских школ. Ухтомский Константин Андреевич, 1858г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "italianPaintings-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/italianPaintings-now.webp",
+                      "vertical": true,
+                      "description": "Картинная галерея Итальянских школ (Античная колонизация севернрго Причерноморья), современный вид"
+                    }
+                  ]
                 }
               ]
             }
