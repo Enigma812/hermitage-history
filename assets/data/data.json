@@ -4836,6 +4836,326 @@
                       "description": "Атланты на портике Нового Эрмитажа"
                     }
                   ]
+                },
+                {
+                  "id": "roomOfDrawings",
+                  "path": "roomOfDrawings",
+                  "map": "assets/pic/rooms/hermitage-f1/map-roomOfDrawings.webp",
+                  "next": "manuscript",
+                  "prev": "mainEntrance",
+                  "name": "Зал рисунков (Древняя Греция)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "roomOfDrawings-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/roomOfDrawings-paint.webp",
+                      "vertical": false,
+                      "description": "Зал Русской скульптуры. Луиджи Пермацци, 1854г."
+                    },
+                    {
+                      "id": "painting",
+                      "path": "roomOfDrawings-painting2",
+                      "img": "assets/pic/rooms/hermitage-f1/roomOfDrawings-paint2.webp",
+                      "vertical": false,
+                      "description": "Зал рисунков. Ухтомский Константин Андреевич, 1859г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "roomOfDrawings-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/roomOfDrawings-now.webp",
+                      "vertical": false,
+                      "description": "Зал рисунков (Древняя Греция), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "manuscript",
+                  "path": "manuscript",
+                  "map": "assets/pic/rooms/hermitage-f1/map-manuscript.webp",
+                  "next": "archeology",
+                  "prev": "roomOfDrawings",
+                  "name": "Зал манускриптов (Скульптура древней Греции)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "manuscript-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/manuscript-paint.webp",
+                      "vertical": false,
+                      "description": "Зал манускриптов. Ухтомский Константин Андреевич, 1855г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "manuscript-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/manuscript-photo.webp",
+                      "vertical": false,
+                      "description": "Зал манускриптов (Скульптура древней Греции). Ухов Иван Кузьмич, 1916г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "manuscript-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/manuscript-now.webp",
+                      "vertical": false,
+                      "description": "Зал манускриптов (Скульптура древней Греции), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "archeology",
+                  "path": "archeology",
+                  "map": "assets/pic/rooms/hermitage-f1/map-archeology.webp",
+                  "next": "libraryIV",
+                  "prev": "manuscript",
+                  "name": "Зал археологии (Древняя Греция)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "archeology-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/archeology-paint.webp",
+                      "vertical": true,
+                      "description": "Зал археологии. Ухтомский Константин Андреевич, 1855г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "archeology-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/archeology-now.webp",
+                      "vertical": false,
+                      "description": "Зал археологии (Древняя Греция), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "libraryIV",
+                  "path": "libraryIV",
+                  "map": "assets/pic/rooms/hermitage-f1/map-libraryIV.webp",
+                  "next": "italianPaintings",
+                  "prev": "archeology",
+                  "name": "Зал IV библиотеки (Искусство Древней Греции)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "libraryIV-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryIV-paint.webp",
+                      "vertical": false,
+                      "description": "Зал IV библиотеки. Ухтомский Константин Андреевич, 1855г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "libraryIV-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryIV-photo.webp",
+                      "vertical": false,
+                      "description": "Зал IV библиотеки, выставка Греческих ваз. Ухов Иван Кузмич, 1916г."
+                    },
+                    {
+                      "id": "oldPhoto2",
+                      "path": "libraryIV-oldPhoto2",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryIV-photo2.webp",
+                      "vertical": false,
+                      "description": "Зал IV библиотеки, выставка Греческих ваз. Миколаевский Федор Львович, 1910-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "libraryIV-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryIV-now.webp",
+                      "vertical": false,
+                      "description": "Зал IV библиотеки (Искусство Древней Греции), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "italianPaintings",
+                  "path": "italianPaintings",
+                  "map": "assets/pic/rooms/hermitage-f1/map-italianPaintings.webp",
+                  "next": "libraryV",
+                  "prev": "libraryIV",
+                  "name": "Картинная галерея Итальянских школ (Античная колонизация севернрго Причерноморья)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "italianPaintings-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/italianPaintings-paint.webp",
+                      "vertical": true,
+                      "description": "Картинная галерея Итальянских школ. Ухтомский Константин Андреевич, 1858г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "italianPaintings-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/italianPaintings-now.webp",
+                      "vertical": true,
+                      "description": "Картинная галерея Итальянских школ (Античная колонизация севернрго Причерноморья), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "libraryV",
+                  "path": "libraryV",
+                  "map": "assets/pic/rooms/hermitage-f1/map-libraryV.webp",
+                  "next": "voltaire",
+                  "prev": "italianPaintings",
+                  "name": "Зал V библиотеки (Древности северного Причерноморья)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "libraryV-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryV-paint.webp",
+                      "vertical": false,
+                      "description": "Зал V библиотеки. Ухтомский Константин Андреевич, 1860г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "libraryV-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryV-photo.webp",
+                      "vertical": true,
+                      "description": "Зал V библиотеки. Конец XIX века."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "libraryV-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/libraryV-now.webp",
+                      "vertical": false,
+                      "description": "Зал V библиотеки (Древности северного Причерноморья), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "voltaire",
+                  "path": "voltaire",
+                  "map": "assets/pic/rooms/hermitage-f1/map-voltaire.webp",
+                  "next": "bosphorus",
+                  "prev": "libraryV",
+                  "name": "Библиотека Вольтера (Древности северного Причерноморья)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "voltaire-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/voltaire-paint.webp",
+                      "vertical": true,
+                      "description": "Библиотека Вольтера. Ухтомский Константин Андреевич, 1859г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "voltaire-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/voltaire-now.webp",
+                      "vertical": true,
+                      "description": "Библиотека Вольтера (Древности северного Причерноморья), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "bosphorus",
+                  "path": "bosphorus",
+                  "map": "assets/pic/rooms/hermitage-f1/map-bosphorus.webp",
+                  "next": "bosphorus2",
+                  "prev": "voltaire",
+                  "name": "Зал древностей Боспора Киммерийского (Зал Эллинизма)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "bosphorus-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/bosphorus-paint.webp",
+                      "vertical": false,
+                      "description": "Зал древностей Боспора Киммерийского. Ухтомский Константин Андреевич, 1853г."
+                    },
+                    {
+                      "id": "painting2",
+                      "path": "bosphorus-painting2",
+                      "img": "assets/pic/rooms/hermitage-f1/bosphorus-paint2.webp",
+                      "vertical": true,
+                      "description": "Зал древностей Боспора Киммерийского. Ухтомский Константин Андреевич, 1853г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "bosphorus-oldPhoo",
+                      "img": "assets/pic/rooms/hermitage-f1/bosphorus-photo.webp",
+                      "vertical": true,
+                      "description": "Зал древностей Боспора Киммерийского. 1870-е."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "bosphorus-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/bosphorus-now.webp",
+                      "vertical": false,
+                      "description": "Зал древностей Боспора Киммерийского (Зал Эллинизма), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "bosphorus2",
+                  "path": "bosphorus2",
+                  "map": "assets/pic/rooms/hermitage-f1/map-bosphorus2.webp",
+                  "next": "engravings",
+                  "prev": "bosphorus",
+                  "name": "Галерея древностей Боспора Киммерийского (Зал резныйх камней)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "bosphorus2-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/bosphorus2-paint.webp",
+                      "vertical": true,
+                      "description": "Галерея древностей Боспора Киммерийского. Ухтомский Константин Андреевич, 1857г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "bosphorus2-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/bosphorus2-now.webp",
+                      "vertical": false,
+                      "description": "Галерея древностей Боспора Киммерийского (Зал резныйх камней), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "engravings",
+                  "path": "engravings",
+                  "map": "assets/pic/rooms/hermitage-f1/map-engravings.webp",
+                  "next": "sculptureStudy2",
+                  "prev": "bosphorus2",
+                  "name": "Зал гравюр (Зал ваз)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "engravings-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/engravings-paint.webp",
+                      "vertical": false,
+                      "description": "Зал гравюр. Ухтомский Константин Андреевич, 1856г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "engravings-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/engravings-now.webp",
+                      "vertical": false,
+                      "description": "Зал гравюр (Зал ваз), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "sculptureStudy2",
+                  "path": "sculptureStudy2",
+                  "map": "assets/pic/rooms/hermitage-f1/map-sculptureStudy2.webp",
+                  "prev": "engravings",
+                  "upToFloor": "/interiors",
+                  "name": "Кабинет скульптуры (Зал Августа)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "sculptureStudy2-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/sculptureStudy2-paint.webp",
+                      "vertical": true,
+                      "description": "Кабинет скульптуры. Ухтомский Константин Андреевич, 1854г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "sculptureStudy2-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/sculptureStudy2-photo.webp",
+                      "vertical": true,
+                      "description": "Кабинет скульптуры. Классен В. Е., 1872г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "sculptureStudy2-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/sculptureStudy2-now.webp",
+                      "vertical": false,
+                      "description": "Кабинет скульптуры (Зал Августа), современный вид"
+                    }
+                  ]
                 }
               ]
             }
