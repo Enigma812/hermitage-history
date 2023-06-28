@@ -4836,6 +4836,68 @@
                       "description": "Атланты на портике Нового Эрмитажа"
                     }
                   ]
+                },
+                {
+                  "id": "roomOfDrawings",
+                  "path": "roomOfDrawings",
+                  "map": "assets/pic/rooms/hermitage-f1/map-roomOfDrawings.webp",
+                  "next": "manuscript",
+                  "prev": "mainEntrance",
+                  "name": "Зал рисунков (Древняя Греция)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "roomOfDrawings-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/roomOfDrawings-paint.webp",
+                      "vertical": false,
+                      "description": "Зал Русской скульптуры. Луиджи Пермацци, 1854г."
+                    },
+                    {
+                      "id": "painting",
+                      "path": "roomOfDrawings-painting2",
+                      "img": "assets/pic/rooms/hermitage-f1/roomOfDrawings-paint2.webp",
+                      "vertical": false,
+                      "description": "Зал рисунков. Ухтомский Константин Андреевич, 1859г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "roomOfDrawings-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/roomOfDrawings-now.webp",
+                      "vertical": false,
+                      "description": "Зал рисунков (Древняя Греция), современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "manuscript",
+                  "path": "manuscript",
+                  "map": "assets/pic/rooms/hermitage-f1/map-manuscript.webp",
+                  "next": "archeology",
+                  "prev": "roomOfDrawings",
+                  "name": "Зал манускриптов (Скульптура древней Греции)",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "manuscript-painting",
+                      "img": "assets/pic/rooms/hermitage-f1/manuscript-paint.webp",
+                      "vertical": false,
+                      "description": "Зал манускриптов. Ухтомский Константин Андреевич, 1855г."
+                    },
+                    {
+                      "id": "oldPhoto",
+                      "path": "manuscript-oldPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/manuscript-photo.webp",
+                      "vertical": false,
+                      "description": "Зал манускриптов (Скульптура древней Греции). Ухов Иван Кузьмич, 1916г."
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "manuscript-modernPhoto",
+                      "img": "assets/pic/rooms/hermitage-f1/manuscript-now.webp",
+                      "vertical": false,
+                      "description": "Зал манускриптов (Скульптура древней Греции), современный вид"
+                    }
+                  ]
                 }
               ]
             }
