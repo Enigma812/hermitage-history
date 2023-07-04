@@ -3,11 +3,23 @@
 }
 
 .loading{
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 270px;
 }
 
 .container{
-  float:left;
+  width: 100%;
+  padding: 0;
+
+  &__image {
+    width: 100%;
+  }
+}
+
+@media (width >= 429px) {
+  .loading{
+    min-height: 800px;
+  }
 }

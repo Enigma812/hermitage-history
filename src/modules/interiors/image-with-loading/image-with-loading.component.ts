@@ -1,4 +1,10 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  Input,
+  OnChanges,
+  SimpleChanges
+} from '@angular/core';
 
 @Component({
   selector: 'app-image-with-loading',
@@ -6,16 +12,20 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   styleUrls: [ './image-with-loading.component.scss' ],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ImageWithLoadingComponent {
+export class ImageWithLoadingComponent implements OnChanges {
   @Input() public loader?: string;
-  @Input() public height = 200;
-  @Input() public width = 200;
   @Input() public image?: string;
 
   public isLoading: boolean;
 
   constructor() {
     this.isLoading = true;
+  }
+
+  public ngOnChanges(changes: SimpleChanges): void {
+    if (changes['image'] !== undefined) {
+      this.isLoading = true;
+    }
   }
 
   public hideLoader() {
