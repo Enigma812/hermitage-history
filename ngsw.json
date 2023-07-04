@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688497337298,
+  "timestamp": 1688499501657,
   "index": "/hermitage-history/index.html",
   "assetGroups": [
     {
@@ -14,13 +14,13 @@
         "/hermitage-history/143.b1f9ac67699a255b.js",
         "/hermitage-history/728.9678d7f614e71652.js",
         "/hermitage-history/823.72c5e49245f9e6cc.js",
-        "/hermitage-history/903.0b57a6455c1f895e.js",
+        "/hermitage-history/903.207bf4315451ff21.js",
         "/hermitage-history/favicon.ico",
         "/hermitage-history/index.html",
         "/hermitage-history/main.f6e9717cd031f463.js",
         "/hermitage-history/manifest.webmanifest",
         "/hermitage-history/polyfills.04b134521bbf9575.js",
-        "/hermitage-history/runtime.ba469dec5b38d1c5.js",
+        "/hermitage-history/runtime.dbabc78bbac37f0b.js",
         "/hermitage-history/styles.f8c6f8054d9d1c09.css"
       ],
       "patterns": []
@@ -724,7 +724,7 @@
     "/hermitage-history/143.b1f9ac67699a255b.js": "3969a585845198d61920add87d7d73d301829bb2",
     "/hermitage-history/728.9678d7f614e71652.js": "d90bdbac2718041657e2d36a8c8fbdf4548a531a",
     "/hermitage-history/823.72c5e49245f9e6cc.js": "8b1decd1368b1b7b803bba523adf146f5c6f7d4f",
-    "/hermitage-history/903.0b57a6455c1f895e.js": "3b3a199de17d88cef51e1f2648071a040cfd0954",
+    "/hermitage-history/903.207bf4315451ff21.js": "d94d9f4db23f5672fd0aea1bd6971b8b63936ef7",
     "/hermitage-history/InterTight-VariableFont_wght.89337e2725620fa5.ttf": "b82bc4bd9a709cfe6f162b2850589ba07a259a2e",
     "/hermitage-history/Lobster-Regular.b98b2901a8dba0dd.ttf": "42cb9e7e75f8523c3b3bf938b9a2b07bc6886eba",
     "/hermitage-history/Pacifico-Regular.be1825237c4dd0d7.ttf": "e31302d2fce7caf5cb86ddde0db78cdac47952bd",
@@ -1408,11 +1408,11 @@
     "/hermitage-history/assets/pic/winter-palace-mobile.webp": "970f922fdd9b0a55c76833cce43413886c23b7ac",
     "/hermitage-history/assets/pic/winter-palace.webp": "d2f982efb1bc093cad7295b8f6d435d8da41ef33",
     "/hermitage-history/favicon.ico": "ed479b23fa8811836f6869e9ee32c619d360bebd",
-    "/hermitage-history/index.html": "90783fff11dfdf5af7eb70d95887d7144cfc0840",
+    "/hermitage-history/index.html": "74aa812f471a5ee71d102a39af44c8534ab07e28",
     "/hermitage-history/main.f6e9717cd031f463.js": "70c2e4da9cb66390d95bc4896430471abab7d535",
     "/hermitage-history/manifest.webmanifest": "ea58c67f7c7e1d22f864e7451c95891733199ab2",
     "/hermitage-history/polyfills.04b134521bbf9575.js": "2e61b1e01d1ba20571fb15872b8f4dfcf103363b",
-    "/hermitage-history/runtime.ba469dec5b38d1c5.js": "3279db62afc2a377bbc4624da911ce9676c6cffa",
+    "/hermitage-history/runtime.dbabc78bbac37f0b.js": "ccbc926f4c06124861300faef5e38e827734637f",
     "/hermitage-history/styles.f8c6f8054d9d1c09.css": "7882da966d14827ffe0fcd37332f509e6e09a7cf"
   },
   "navigationUrls": [
