@@ -6,7 +6,7 @@
   </div>
   <img
     class="container__image"
-    [ngStyle]="{ visibility: isLoading ? 'hidden' : '' }"
+    [ngStyle]="{ display: isLoading ? 'none' : 'block' }"
     [src]="image"
     (load)="hideLoader()"
     (error)="hideLoader()" />
