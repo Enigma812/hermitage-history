@@ -77,15 +77,25 @@
         <div
           *ngFor="let collection of collections; trackBy: trackById"
           class="field__frame__block__img-frame">
-          <app-image-with-loading
+          <!-- <app-image-with-loading
             class="field__frame__block__img-frame__image"
             [ngClass]="{ 'image-vertical': collection.vertical }"
             [image]="collection.img"
-            loader="assets/pic/load.gif"></app-image-with-loading>
-          <!-- <img
-            class="field__frame__block__img-frame__image"
-            [ngClass]="{ 'image-vertical': collection.vertical }"
-            [src]="collection.img" /> -->
+            loader="assets/pic/load.gif"></app-image-with-loading> -->
+          <ngx-skeleton-loader
+            *ngIf="!contentLoaded"
+            count="1"
+            appearance="circle"
+            animation="progress"></ngx-skeleton-loader>
+          <div *ngIf="contentLoaded">
+            <img
+              class="field__frame__block__img-frame__image"
+              [ngStyle]="{ display: !contentLoaded ? 'none' : 'block' }"
+              [ngClass]="{ 'image-vertical': collection.vertical }"
+              [src]="collection.img"
+              (load)="hideLoader()"
+              (error)="hideLoader()" />
+          </div>
           <div class="field__frame__block__img-frame__description">{{ collection.description }}</div>
         </div>
       </div>

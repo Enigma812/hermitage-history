@@ -188,6 +188,21 @@
   width: 100%;
 }
 
+::ng-deep {
+  .circle {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 5px !important;
+  }
+
+  .skeleton-loader {
+    background: #EEEEEE !important;
+  }
+}
+
+
+
+
 @media (width >= 429px) {
   .navigate {
     height: 60px;
