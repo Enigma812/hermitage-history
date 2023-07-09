@@ -1,11 +1,4 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  HostListener,
-  OnChanges,
-  SimpleChanges,
-  ViewChild
-} from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostListener, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { NgbDropdown } from '@ng-bootstrap/ng-bootstrap';
 import { Observable, map, switchMap } from 'rxjs';
@@ -21,9 +14,8 @@ import { trackBy } from '../../../modules/utils/track-by';
   styleUrls: [ './rooms-page.component.scss' ],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class RoomsPageComponent implements OnChanges {
+export class RoomsPageComponent {
   @ViewChild(NgbDropdown)
-  public contentLoaded = false;
   public dropdown?: NgbDropdown;
 
   public room$: Observable<Room | undefined>;
@@ -65,16 +57,6 @@ export class RoomsPageComponent implements OnChanges {
     if (this.dropdown !== undefined && this.dropdown.isOpen()) {
       this.dropdown.close();
     }
-  }
-
-  public ngOnChanges(changes: SimpleChanges): void {
-    if (changes[''] !== undefined) {
-      this.contentLoaded = false;
-    }
-  }
-
-  public hideLoader() {
-    this.contentLoaded = true;
   }
 
   public topFunction() {

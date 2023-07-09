@@ -2,24 +2,54 @@
   display: block;
 }
 
-.loading{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 270px;
-}
+.container {
+  position: relative;
 
-.container{
   width: 100%;
+  min-height: 180px;
   padding: 0;
 
   &__image {
     width: 100%;
   }
+
+  &__loader {
+    display: block;
+    width: 100%;
+    min-height: 180px;
+  }
+}
+
+::ng-deep ngx-skeleton-loader {
+  .skeleton-loader { 
+    display: block !important;
+
+    background: #EEEEEE !important;
+  }
+
+  .skeleton-loader.circle {
+
+    width: 100% !important;
+    min-height: 180px;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+
 }
 
 @media (width >= 429px) {
-  .loading{
-    min-height: 800px;
+  .container {
+    min-height: 500px;
+    
+    &__loader {
+      min-height: 500px;
+    }
+  }
+
+  ::ng-deep ngx-skeleton-loader {
+    .skeleton-loader.circle {
+      min-height: 500px;
+    }
   }
 }
+

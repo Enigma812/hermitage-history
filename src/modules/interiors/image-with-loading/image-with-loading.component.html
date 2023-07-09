@@ -1,9 +1,10 @@
 <div class="container">
-  <div
+  <ngx-skeleton-loader
     *ngIf="isLoading"
-    class="loading">
-    <img [src]="loader" />
-  </div>
+    class="container__loader"
+    count="1"
+    appearance="circle"
+    animation="progress"></ngx-skeleton-loader>
   <img
     class="container__image"
     [ngStyle]="{ display: isLoading ? 'none' : 'block' }"
