@@ -11,7 +11,6 @@ export class TitleService implements OnDestroy {
   constructor() {
     this._titleSubject = new ReplaySubject<string>();
     this.title$ = this._titleSubject.asObservable();
-    this.setTitle('УТРАЧЕННЫЕ ИНТЕРЬЕРЫ');
   }
 
   public ngOnDestroy(): void {

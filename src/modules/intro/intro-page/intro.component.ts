@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { TitleService } from 'src/app/title.service';
 
 @Component({
   selector: 'app-intro',
@@ -8,4 +9,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 })
 export class IntroPageComponent {
 
+  constructor(
+    private readonly _titleService: TitleService
+  ) {
+    this._titleService.setTitle('Вступление');
+  }
 }

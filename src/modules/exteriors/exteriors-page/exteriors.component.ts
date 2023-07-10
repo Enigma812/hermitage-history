@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { TitleService } from 'src/app/title.service';
 
 @Component({
   selector: 'app-exteriors',
@@ -7,5 +8,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ExteriorsPageComponent {
+
+  constructor(
+    private readonly _titleService: TitleService
+  ) {
+    this._titleService.setTitle('Экстерьеры');
+  }
 
 }

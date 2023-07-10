@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, TrackByFunction } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { map, Observable } from 'rxjs';
+import { TitleService } from 'src/app/title.service';
 
 import { DataService } from '../../../app/data.service';
 import { Building } from '../../../app/models/building';
@@ -20,9 +21,11 @@ export class BuildingPageComponent {
   constructor(
     private readonly _dataService: DataService,
     private readonly _router: Router,
-    private readonly _route: ActivatedRoute
+    private readonly _route: ActivatedRoute,
+    private readonly _titleService: TitleService
   ) {
     this.buildings$ = this._dataService.data$.pipe(map((data) => data.buildings));
+    this._titleService.setTitle('Интерьеры');
   }
 
   public topFunctionTimeout(building: Building) {
