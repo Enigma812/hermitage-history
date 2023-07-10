@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { map, Observable, switchMap } from 'rxjs';
+import { map, Observable, switchMap, tap } from 'rxjs';
+import { TitleService } from 'src/app/title.service';
 
 import { DataService } from '../../../app/data.service';
 import { Floor } from '../../../app/models/floor';
@@ -23,12 +24,18 @@ export class FloorsPageComponent {
   constructor(
     private readonly _route: ActivatedRoute,
     private readonly _router: Router,
-    private readonly _dataService: DataService
+    private readonly _dataService: DataService,
+    private readonly _titleService: TitleService
   ) {
     this.floors$ = this._route.params.pipe(
       map((params) => [ params['buildingPath'], params['interiorPath'] ]),
       switchMap(([ buildingPath, interiorPath ]) => this._dataService.data$.pipe(
         map((data) => data.buildings.find((building) => building.path === buildingPath)),
+        tap((building) => {
+          if (building !== undefined) {
+            this._titleService.setTitle(building.title);
+          }
+        }),
         map((building) => building?.interiors.find((interior) => interior.path === interiorPath)),
         map((interior) => interior?.floors ?? [])
       ))

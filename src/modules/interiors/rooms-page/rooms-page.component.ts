@@ -1,7 +1,8 @@
 import { ChangeDetectionStrategy, Component, HostListener, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { NgbDropdown } from '@ng-bootstrap/ng-bootstrap';
-import { Observable, map, switchMap } from 'rxjs';
+import { Observable, map, switchMap, tap } from 'rxjs';
+import { TitleService } from 'src/app/title.service';
 
 import { DataService } from '../../../app/data.service';
 import { Collection } from '../../../app/models/collection';
@@ -26,12 +27,18 @@ export class RoomsPageComponent {
 
   constructor(
     private readonly _route: ActivatedRoute,
-    private readonly _dataService: DataService
+    private readonly _dataService: DataService,
+    private readonly _titleService: TitleService
   ) {
     this.room$ = this._route.params.pipe(
       map((params) => [ params['buildingPath'], params['interiorPath'], params['floorPath'], params['roomPath'] ]),
       switchMap(([ buildingPath, interiorPath, floorPath, roomPath ]) => this._dataService.data$.pipe(
         map((data) => data.buildings.find((building) => building.path === buildingPath)),
+        tap((building) => {
+          if (building !== undefined) {
+            this._titleService.setTitle(building.title);
+          }
+        }),
         map((building) => building?.interiors.find((interior) => interior.path === interiorPath)),
         map((interior) => interior?.floors.find((floor) => floor.path === floorPath)),
         map((floor) => floor?.rooms.find((room) => room.path === roomPath))
