@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { Observable, ReplaySubject, Subject } from 'rxjs';
 
 import { Data } from './models/data';
@@ -22,6 +23,7 @@ export class DataService {
 
   private fetchData(): void {
     this._http.get<Data>('assets/data/data.json')
+      .pipe(takeUntilDestroyed())
       .subscribe((data) => {
         this._dataSubject.next(data);
       });
