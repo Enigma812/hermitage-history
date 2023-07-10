@@ -1,4 +1,7 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Observable } from 'rxjs';
+
+import { TitleService } from './title.service';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +11,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 })
 export class AppComponent{
   public logoPath = 'assets/pic/logo.svg';
+  public title$: Observable<string>;
 
-  constructor() {
-    return;
+  constructor(
+    private readonly _titleService: TitleService
+  ) {
+    this.title$ = this._titleService.title$;
   }
 
   public logoOver(isOver: boolean): void {
