@@ -15,7 +15,7 @@ import { trackBy } from 'src/modules/utils/track-by';
 })
 export class ExteriorsPageComponent {
 
-  public exteriors$: Observable<Exterior[]>;
+  public exterior$: Observable<Exterior>;
   public collection$: Observable<Collection[]>;
 
   public trackById = trackBy('id');
@@ -26,14 +26,8 @@ export class ExteriorsPageComponent {
     private readonly _titleService: TitleService
   ) {
     this._titleService.setTitle('Экстерьеры');
-    this.exteriors$ = this._dataService.data$.pipe(map((data) => data.exteriors));
-    this.collection$ = this._route.params.pipe(
-      map((params) => [ params ['exteriorPath'] ]),
-      switchMap(([ exteriorPath ]) => this._dataService.data$.pipe(
-        map((data) => data?.exteriors.find((exterior) => exterior.path === exteriorPath)),
-        map((exterior) => exterior?.collections ?? [])
-      ))
-    );
+    this.exterior$ = this._dataService.data$.pipe(map((data) => data.exterior));
+    this.collection$ = this.exterior$.pipe(map((exterior) => exterior.collections ?? []));
   }
 
 }

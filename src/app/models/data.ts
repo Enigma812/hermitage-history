@@ -3,5 +3,5 @@ import { Exterior } from './exterior';
 
 export interface Data {
   buildings: Building[];
-  exteriors: Exterior[];
+  exterior: Exterior;
 }

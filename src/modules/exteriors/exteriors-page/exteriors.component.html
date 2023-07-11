@@ -1,7 +1,5 @@
-<div *ngIf="exteriors$ | async as exteriors">
-  <div
-    *ngFor="let exterior of exteriors; trackBy: trackById"
-    class="field">
+<div *ngIf="exterior$ | async as exterior">
+  <div class="field">
     <div class="field__frame">
       <div class="field__frame__header">{{ exterior.title }}</div>
       <div class="field__frame__description">{{ exterior.description }}</div>
@@ -14,6 +12,7 @@
           <app-image-with-loading
             class="field__frame__block__img-frame__image"
             [ngClass]="{ 'image-vertical': collection.vertical }"
+            [image]="collection.img"
             loader="assets/pic/load.gif"></app-image-with-loading>
           <div class="field__frame__block__img-frame__description">{{ collection.description }}</div>
         </div>
