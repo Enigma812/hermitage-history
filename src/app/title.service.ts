@@ -17,7 +17,7 @@ export class TitleService implements OnDestroy {
     this._titleSubject.complete();
   }
 
-  public setTitle(title: string): void {
-    this._titleSubject.next(title);
+  public setTitle(title?: string): void {
+    this._titleSubject.next(title ?? 'Утраченные интерьеры');
   }
 }

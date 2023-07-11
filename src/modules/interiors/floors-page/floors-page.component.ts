@@ -1,6 +1,12 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { map, Observable, switchMap, tap } from 'rxjs';
+import {
+  delay,
+  map,
+  Observable,
+  switchMap,
+  tap
+} from 'rxjs';
 import { TitleService } from 'src/app/title.service';
 
 import { DataService } from '../../../app/data.service';
@@ -31,10 +37,9 @@ export class FloorsPageComponent {
       map((params) => [ params['buildingPath'], params['interiorPath'] ]),
       switchMap(([ buildingPath, interiorPath ]) => this._dataService.data$.pipe(
         map((data) => data.buildings.find((building) => building.path === buildingPath)),
+        delay(0),
         tap((building) => {
-          if (building !== undefined) {
-            this._titleService.setTitle(building.title);
-          }
+          this._titleService.setTitle(building?.title);
         }),
         map((building) => building?.interiors.find((interior) => interior.path === interiorPath)),
         map((interior) => interior?.floors ?? [])

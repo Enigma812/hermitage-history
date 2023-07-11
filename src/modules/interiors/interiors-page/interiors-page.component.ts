@@ -33,9 +33,7 @@ export class InteriorsPageComponent {
     building$
       .pipe(takeUntilDestroyed())
       .subscribe((building) => {
-        if (building !== undefined) {
-          this._titleService.setTitle(building.title);
-        }
+        this._titleService.setTitle(building?.title);
       });
     this.interiors$ = building$.pipe(
       map((building) => building?.interiors ?? [])
