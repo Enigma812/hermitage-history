@@ -1,1 +1,23 @@
-<p>exteriors works!</p>
+<div *ngIf="exteriors$ | async as exteriors">
+  <div
+    *ngFor="let exterior of exteriors; trackBy: trackById"
+    class="field">
+    <div class="field__frame">
+      <div class="field__frame__header">{{ exterior.title }}</div>
+      <div class="field__frame__description">{{ exterior.description }}</div>
+      <div
+        *ngIf="collection$ | async as collections"
+        class="field__frame__block">
+        <div
+          *ngFor="let collection of collections; trackBy: trackById"
+          class="field__frame__block__img-frame">
+          <app-image-with-loading
+            class="field__frame__block__img-frame__image"
+            [ngClass]="{ 'image-vertical': collection.vertical }"
+            loader="assets/pic/load.gif"></app-image-with-loading>
+          <div class="field__frame__block__img-frame__description">{{ collection.description }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

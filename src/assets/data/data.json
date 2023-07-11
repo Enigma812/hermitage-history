@@ -5163,5 +5163,22 @@
         }
       ] 
     }
+  ],
+  "exteriors": [
+    {
+      "id": "private-garden",
+      "title": "Ограда Собственного сада",
+      "description": "Ограда Собственного сада",
+      "path": "private-garden",
+      "collections": [
+        {
+          "id": "oldPhoto",
+          "path": "fense-oldPhoto",
+          "img": "assets/pic/rooms/main-stairs/jordan-paint.webp",
+          "vertical": false,
+          "description": "Парадная лестница. Ухтомский Константин Андреевич, 1860-е. акварель"
+        }
+      ]
+    }
   ]
 }

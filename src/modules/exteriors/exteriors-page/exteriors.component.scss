@@ -1,3 +1,125 @@
 :host {
   display: block;
 }
+
+.field {
+  width: 100%;
+  min-height: 788px;
+  border-color: #EEEEEE;
+  border-style: solid;
+  border-width: 10px;
+
+  &__frame {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 6px;
+
+    &__header {
+      margin-top: 30px;
+
+      font-weight: 600;
+      font-size: 22px;
+      font-family: "InterTight base", sans-serif;
+      text-transform: uppercase;
+    }
+
+    &__description {
+      margin-bottom: 5px;
+
+      font-weight: 400;
+      font-size: 18px;
+      font-family: "InterTight base", sans-serif;
+    }
+
+    &__block {
+      &__img-frame {
+        margin-bottom: 10px;
+        padding: 5px;
+
+        background-color: #D9D9D9;
+
+        &__image {
+          width: 100%;
+          min-width: 0;
+        }
+
+        &__description {
+          align-items: center;
+          min-height: 45px;
+          padding: 10px;
+
+          color: white;
+          font-weight: 400;
+          font-size: 15px;
+          font-family: "InterTight base", sans-serif;
+
+          background-color: #333333;
+        }
+      }
+    }
+  }
+}
+
+.image-vertical {
+  width: 100%;
+}
+
+
+
+
+@media (width >= 429px) {
+  .field{
+    border-width: 45px;
+
+    &__frame {
+      gap: 25px;
+      padding: 60px 40px 40px;
+
+      &__header {
+        margin-top: 0;
+
+        font-size: 45px;
+      }
+
+      &__description {
+        font-size: 30px;
+      }
+      
+      &__block {
+        &__img-frame {
+          display: flex;
+
+          margin-bottom: 10px;
+          padding: 20px;
+
+          &__image {
+            flex-grow: 1;
+            max-width: 1400px;
+            margin-bottom: 0;
+          }
+
+          &__description {
+            align-items: none;
+            min-width: 200px;
+            max-width: 300px;
+            padding-left: 20px;
+
+            color: black;
+            font-weight: 500;
+
+            font-size: 21px;
+
+            background-color: #D9D9D9;
+          }
+        }
+      }
+    }
+  }
+
+  .image-vertical {
+    flex-grow: 1;
+    max-width: 800px;
+  }
+}
+
