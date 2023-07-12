@@ -1,13 +1,8 @@
 {
   "Menu": {
     "Home": "на главную",
-    "Welcome": "вступление",
     "Interiors": "интерьеры",
-    "Exteriors": "экстерьеры"
-  },
-
-  "Intro": {
-    "Title": "Вступление"
+    "Exteriors": "экстерьер"
   },
 
   "Interior": {

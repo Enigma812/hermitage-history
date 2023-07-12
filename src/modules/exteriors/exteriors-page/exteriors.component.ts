@@ -25,7 +25,7 @@ export class ExteriorsPageComponent {
     private readonly _route: ActivatedRoute,
     private readonly _titleService: TitleService
   ) {
-    this._titleService.setTitle('Экстерьеры');
+    this._titleService.setTitle('Экстерьер');
     this.exterior$ = this._dataService.data$.pipe(map((data) => data.exterior));
     this.collection$ = this.exterior$.pipe(map((exterior) => exterior.collections ?? []));
   }

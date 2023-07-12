@@ -9,13 +9,6 @@ const routes: Routes = [
     loadChildren: () => import('../modules/welcome/welcome.module').then((m) => m.WelcomeModule)
   },
   {
-    path: 'intro',
-    loadChildren: () => import('../modules/intro/intro.module').then((m) => m.IntroModule),
-    data: {
-      title: 'Intro.Title'
-    }
-  },
-  {
     path: 'interiors',
     loadChildren: () => import('../modules/interiors/interiors.module').then((m) => m.InteriorsModule)
   },
