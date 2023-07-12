@@ -4,4 +4,6 @@ export interface Collection {
   img: string;
   vertical: boolean;
   description: string;
+  author?: string;
+  date?: string;
 }
