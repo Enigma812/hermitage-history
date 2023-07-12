@@ -52,7 +52,6 @@
                       "img": "assets/pic/rooms/main-stairs/jordan-photo2.webp",
                       "vertical": false,
                       "description": "Дореволюционное фото Иорданской лестницы",
-                      "author": "Ухтомский Константин Андреевич",
                       "date": "1911-г."
                     },
                     {
@@ -102,7 +101,9 @@
                       "path": "vestibule-painting",
                       "img": "assets/pic/rooms/main-stairs/gallery-paint.webp",
                       "vertical": false,
-                      "description": "Парадный вестибюль. Ухтомский Константин Андреевич, 1850-е. акварель"
+                      "description": "Парадный вестибюль",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1850-е, акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -176,14 +177,18 @@
                       "path": "anteroom-painting",
                       "img": "assets/pic/rooms/state-halls/anteroom-paint.webp",
                       "vertical": false,
-                      "description": "Вид Аванзала Зимнего Дворца. Ухтомский Константин Андреевич, 1861г. акварель"
+                      "description": "Вид Аванзала Зимнего Дворца",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1861г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "anteroom-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/anteroom-photo.webp",
                       "vertical": true,
-                      "description": "Дореволюционный вид Аванзала Зимнего Дворца. Ателье Карла Буллы 1914г."
+                      "description": "Дореволюционный вид Аванзала Зимнего Дворца",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -208,21 +213,26 @@
                       "path": "nicholas-painting",
                       "img": "assets/pic/rooms/state-halls/nicholas-paint.webp",
                       "vertical": false,
-                      "description": "Николаевский зал. Ухтомский Константин Андреевич, 1866г. акварель"
+                      "description": "Николаевский зал",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1866г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "nicholas-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/nicholas-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Николаевского зала 1914г."
+                      "description": "Дореволюционный вид Николаевского зала",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "nicholas-oldPhoto2",
                       "img": "assets/pic/rooms/state-halls/nicholas-photo2.webp",
                       "vertical": false,
-                      "description": "Деталь Николаевского зала. Ателье Карла Буллы 1914г."
+                      "description": "Деталь Николаевского зала",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto-wwi",
@@ -261,7 +271,9 @@
                       "path": "concert-painting",
                       "img": "assets/pic/rooms/state-halls/concert-paint.webp",
                       "vertical": false,
-                      "description": "Концертный зал. Ухтомский Константин Андреевич, 1865г. акварель"
+                      "description": "Концертный зал",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "painting2",
@@ -282,14 +294,17 @@
                       "path": "concert-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/concert-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный Концертный зал. Ателье Карла Буллы 1914г."
+                      "description": "Дореволюционный Концертный зал",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "concert-modernPhoto",
                       "img": "assets/pic/rooms/state-halls/concert-now.webp",
                       "vertical": false,
-                      "description": "Современный вид Концертного зала. Серебряная гробница князя Александра Невского, ныне находящаяся в зале, была передана в Эрмитаж из Троицкого собора Александро-Невской Лавры."
+                      "description": "Современный вид Концертного зала. Серебряная гробница князя Александра Невского",
+                      "author": "Была передана в Эрмитаж из Троицкого собора Александро-Невской Лавры"
                     }
                   ]
                 },
@@ -307,7 +322,9 @@
                       "path": "pompeiian-painting",
                       "img": "assets/pic/rooms/state-halls/pompeiian-paint.webp",
                       "vertical": true,
-                      "description": "Помпейская галерея. Ухтомский Константин Андреевич, 1862г. акварель"
+                      "description": "Помпейская галерея",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1862г. акварель"
                     },
                     {
                       "id": "painting2",
@@ -321,14 +338,17 @@
                       "path": "pompeiian-painting3",
                       "img": "assets/pic/rooms/state-halls/pompeiian-paint3.webp",
                       "vertical": true,
-                      "description": "Зимний сад в Помпейской галереи"
+                      "description": "Зимний сад в Помпейской галереи",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860-е"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "pompeiian-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/pompeiian-photo.webp",
                       "vertical": true,
-                      "description": "Обновленная отделка Новой галереи 1914г."
+                      "description": "Обновленная отделка Новой галереи",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto-wwi",
@@ -360,21 +380,26 @@
                       "path": "fieldmarshal-painting",
                       "img": "assets/pic/rooms/state-halls/fieldmarshal-paint2.webp",
                       "vertical": false,
-                      "description": "Большой Фельдмаршальский зал. Зарянко Сергей Константинович 1836г. масло"
+                      "description": "Большой Фельдмаршальский зал",
+                      "author": "Зарянко Сергей Константинович",
+                      "date": "1836г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "fieldmarshals-painting2",
                       "img": "assets/pic/rooms/state-halls/fieldmarshal-paint.webp",
                       "vertical": false,
-                      "description": "Большой Фельдмаршальский зал. Гау Эдуард Петрович 1866г. акварель"
+                      "description": "Большой Фельдмаршальский зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1866г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "fieldmarshal-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/fieldmarshal-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Большого Фельдмаршальского зала 1914г."
+                      "description": "Дореволюционный вид Большого Фельдмаршальского зала",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -399,21 +424,26 @@
                       "path": "peter-painting",
                       "img": "assets/pic/rooms/state-halls/peter-paint.webp",
                       "vertical": false,
-                      "description": "Петровский зал до пожара 1837г. Зарянко Сергей Константинович 1837г. масло"
+                      "description": "Петровский зал до пожара 1837г",
+                      "author": "Зарянко Сергей Константинович",
+                      "date": "1837г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "peter-painting2",
                       "img": "assets/pic/rooms/state-halls/peter-paint2.webp",
                       "vertical": false,
-                      "description": "Петровский зал после пожара. Гау Эдуард Петрович 1863г. акварель"
+                      "description": "Петровский зал после пожара",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1863г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "peter-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/peter-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Петровского зала 1914г."
+                      "description": "Дореволюционный вид Петровского зала",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -438,28 +468,34 @@
                       "path": "armorial-painting",
                       "img": "assets/pic/rooms/state-halls/armorial-paint.webp",
                       "vertical": false,
-                      "description": "Часть Белого (Гербового) зала. Ладюрнер Адольф Игнатьевич 1838г. масло"
+                      "description": "Часть Белого (Гербового) зала",
+                      "author": "Ладюрнер Адольф Игнатьевич",
+                      "date": "1838г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "armorial-painting2",
                       "img": "assets/pic/rooms/state-halls/armorial-paint2.webp",
                       "vertical": false,
-                      "description": "Гербовый зал. Гау Эдуард Петрович 1863г. акварель"
+                      "description": "Гербовый зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1863г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "armorial-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/armorial-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Гербового зала 1914г."
+                      "description": "Дореволюционный вид Гербового зала",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "armorial-oldPhoto2",
                       "img": "assets/pic/rooms/state-halls/armorial-photo2.webp",
                       "vertical": true,
-                      "description": "Гербы в Гербовом зале 1914г."
+                      "description": "Гербы в Гербовом зале",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto3",
@@ -473,14 +509,16 @@
                       "path": "armorial-oldPhoto4",
                       "img": "assets/pic/rooms/state-halls/armorial-photo4.webp",
                       "vertical": true,
-                      "description": "Гербовый зал с закрытыми люстрами и мебелью. 1900-е"
+                      "description": "Гербовый зал с закрытыми люстрами и мебелью",
+                      "date": "1900-е"
                     },
                     {
                       "id": "oldPhoto-wwi",
                       "path": "armorial-oldPhoto-wwi",
                       "img": "assets/pic/rooms/state-halls/armorial-photo-wwi.webp",
                       "vertical": false,
-                      "description": "Госпитальная палата в Гербовом зале. 1915г."
+                      "description": "Госпитальная палата в Гербовом зале",
+                      "date": "1915г."
                     },
                     {
                       "id": "modernPhoto",
@@ -505,7 +543,9 @@
                       "path": "sntry-painting",
                       "img": "assets/pic/rooms/state-halls/sentry-paint.webp",
                       "vertical": false,
-                      "description": "Пикетный зал. Гау Эдуард Петрович 1865г. акварель"
+                      "description": "Пикетный зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -530,21 +570,27 @@
                       "path": "alexander-painting",
                       "img": "assets/pic/rooms/state-halls/alexander-paint.webp",
                       "vertical": false,
-                      "description": "Пикетный зал. Гау Эдуард Петрович 1865г. акварель"
+                      "description": "Александровский зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1861г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "alexander-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/alexander-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Александровского зала. Ателье Карла Буллы 1914г."
+                      "description": "Дореволюционный вид Александровского зала",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "alexander-oldPhoto2",
                       "img": "assets/pic/rooms/state-halls/alexander-photo2.webp",
                       "vertical": true,
-                      "description": "Портрет Александра I в Александровском зале. Ателье Карла Буллы 1914г."
+                      "description": "Портрет Александра I в Александровском зале",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -576,7 +622,9 @@
                       "path": "antechurch-painting",
                       "img": "assets/pic/rooms/state-halls/antechurch-paint.webp",
                       "vertical": true,
-                      "description": "Предцерковный зал. Ухтомский Константин Андреевич 1863г. акварель"
+                      "description": "Предцерковный зал",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1863г. акварель."
                     },
                     {
                       "id": "modernPhoto",
@@ -601,28 +649,35 @@
                       "path": "gChurch-painting",
                       "img": "assets/pic/rooms/state-halls/gChurch-paint.webp",
                       "vertical": true,
-                      "description": "Большая церковь Зимнего дворца до пожара 1837г. Тыранов Алексей Васильевич 1829г. масло"
+                      "description": "Большая церковь Зимнего дворца до пожара 1837г.",
+                      "author": "Тыранов Алексей Васильевич",
+                      "date": "1829г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "gChurch-painting2",
                       "img": "assets/pic/rooms/state-halls/gChurch-paint2.webp",
                       "vertical": false,
-                      "description": "Свадьба наследника Александра Николаевича и Марии Александровны в Большой церкви. Садовников В. С. 1855г."
+                      "description": "Свадьба наследника Александра Николаевича и Марии Александровны в Большой церкви",
+                      "author": "Садовников В. С.",
+                      "date": "1855г."
                     },
                     {
                       "id": "painting3",
                       "path": "gChurch-painting3",
                       "img": "assets/pic/rooms/state-halls/gChurch-paint3.webp",
                       "vertical": true,
-                      "description": "Большая церковь Зимнего дворца. Гау Эдуард Петрович 1858г. акварель"
+                      "description": "Большая церковь Зимнего дворца",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1858г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "gChurch-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/gChurch-photo.webp",
                       "vertical": true,
-                      "description": "Алтарная чаасть Большой церкови Зимнего дворца 1913г."
+                      "description": "Алтарная чаасть Большой церкови Зимнего дворца",
+                      "date": "1913г."
                     },
                     {
                       "id": "modernPhoto",
@@ -647,21 +702,27 @@
                       "path": "war-painting",
                       "img": "assets/pic/rooms/state-halls/war-paint.webp",
                       "vertical": true,
-                      "description": "Военная галерея 1812 года до пожара 1837г. Чернецов Григорий Григорьевич 1829г."
+                      "description": "Военная галерея 1812 года до пожара 1837г",
+                      "author": "Чернецов Григорий Григорьевич",
+                      "date": "1829г."
                     },
                     {
                       "id": "painting2",
                       "path": "war-painting2",
                       "img": "assets/pic/rooms/state-halls/war-paint2.webp",
                       "vertical": true,
-                      "description": "Военная галерея 1812 года. Гау Эдуард Петрович 1862г. акварель"
+                      "description": "Военная галерея 1812 года",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1862г. акварель"
                     },
                     {
                       "id": "painting3",
                       "path": "war-painting3",
                       "img": "assets/pic/rooms/state-halls/war-paint3.webp",
                       "vertical": true,
-                      "description": "Рота дворцовых гренадер в Военной галереи 1812 года. Пиратский Карл Карлович 1862г. масло"
+                      "description": "Рота дворцовых гренадер в Военной галереи 1812 года",
+                      "author": "Пиратский Карл Карлович",
+                      "date": "1862г. масло"
                     },
                     {
                       "id": "modernPhoto",
@@ -686,49 +747,59 @@
                       "path": "throne-painting",
                       "img": "assets/pic/rooms/state-halls/throne-paint.webp",
                       "vertical": true,
-                      "description": "Вид Большого тронного зала до пожара 1837г. Катафалк над гробами Петра III и Екатерины II 1796г. гравюра"
+                      "description": "Вид Большого тронного зала до пожара 1837г. Катафалк над гробами Петра III и Екатерины II",
+                      "date": "1796г. гравюра"
                     },
                     {
                       "id": "painting2",
                       "path": "throne-painting2",
                       "img": "assets/pic/rooms/state-halls/throne-paint2.webp",
                       "vertical": false,
-                      "description": "Георгиевский зал. Садовников В.С 1858г."
+                      "description": "Георгиевский зал",
+                      "author": "Садовников В.С",
+                      "date": "1858г."
                     },
                     {
                       "id": "painting3",
                       "path": "throne-painting3",
                       "img": "assets/pic/rooms/state-halls/throne-paint3.webp",
                       "vertical": false,
-                      "description": "Георгиевский зал. Садовников В.С Ухтомский Константин Андреевич 1858г. акварель"
+                      "description": "Георгиевский зал",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1858г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "throne-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/throne-photo.webp",
                       "vertical": false,
-                      "description": "Император Николай II в Тронном зале Зимнего дворца 1906г."
+                      "description": "Император Николай II в Тронном зале Зимнего дворца",
+                      "date": "1906г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "throne-oldPhoto2",
                       "img": "assets/pic/rooms/state-halls/throne-photo2.webp",
                       "vertical": true,
-                      "description": "Трон в Георгиевском зале 1914г."
+                      "description": "Трон в Георгиевском зале",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "throne-oldPhoto3",
                       "img": "assets/pic/rooms/state-halls/throne-photo3.webp",
                       "vertical": false,
-                      "description": "Дореволюционный Георгиевский зал 1914г."
+                      "description": "Дореволюционный Георгиевский зал",
+                      "date": "1914г."
                     },
                     {
                       "id": "ussrPhoto",
                       "path": "throne-ussrPhoto",
                       "img": "assets/pic/rooms/state-halls/throne-photo-ussr.webp",
                       "vertical": false,
-                      "description": "Драгоценная карта СССР на месте императорского трона 1963г. (сейчас находится в Центральном научно-исследовательском геологоразведочном музее)."
+                      "description": "Драгоценная карта СССР на месте императорского трона",
+                      "author": "Сейчас карта находится в Центральном научно-исследовательском геологоразведочном музее",
+                      "date": "1963г."
                     },
                     {
                       "id": "ussrPhoto2",
@@ -759,14 +830,18 @@
                       "path": "apollo-painting",
                       "img": "assets/pic/rooms/state-halls/apollo-paint.webp",
                       "vertical": false,
-                      "description": "Аполлонов зал до пожара 1837г. Беллер Александр Иванович 1832г. масло"
+                      "description": "Аполлонов зал до пожара 1837г",
+                      "author": "Беллер Александр Иванович",
+                      "date": "1832г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "apollo-painting2",
                       "img": "assets/pic/rooms/state-halls/apollo-paint2.webp",
                       "vertical": false,
-                      "description": "Аполлонов зал. Гау Эдуард Петрович 1832г. акварель"
+                      "description": "Аполлонов зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1862г. акварель"
                     },
                     {
                       "id": "modernPhoto",
