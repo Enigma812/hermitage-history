@@ -42,28 +42,33 @@
                       "path": "jordan-painting",
                       "img": "assets/pic/rooms/main-stairs/jordan-paint.webp",
                       "vertical": true,
-                      "description": "Парадная лестница. Ухтомский Константин Андреевич, 1860-е. акварель"
+                      "description": "Парадная лестница",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860-е, акварель"
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "jordan-oldPhoto2",
                       "img": "assets/pic/rooms/main-stairs/jordan-photo2.webp",
                       "vertical": false,
-                      "description": "Дореволюционное фото Иорданской лестницы 1911г."
+                      "description": "Дореволюционное фото Иорданской лестницы",
+                      "date": "1911-г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "jordan-oldPhoto",
                       "img": "assets/pic/rooms/main-stairs/jordan-photo.webp",
                       "vertical": true,
-                      "description": "Дореволюционное фото Иорданской лестницы 1914г."
+                      "description": "Дореволюционное фото Иорданской лестницы",
+                      "date": "1914-г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "jordan-oldPhoto3",
                       "img": "assets/pic/rooms/main-stairs/jordan-photo3.webp",
                       "vertical": false,
-                      "description": "Сестры милосердия на Иорданской лстнице 1915г."
+                      "description": "Сестры милосердия на Иорданской лстнице",
+                      "date": "1915-г."
                     },
                     {
                       "id": "modernPhoto",
@@ -96,7 +101,9 @@
                       "path": "vestibule-painting",
                       "img": "assets/pic/rooms/main-stairs/gallery-paint.webp",
                       "vertical": false,
-                      "description": "Парадный вестибюль. Ухтомский Константин Андреевич, 1850-е. акварель"
+                      "description": "Парадный вестибюль",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1850-е, акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -170,14 +177,18 @@
                       "path": "anteroom-painting",
                       "img": "assets/pic/rooms/state-halls/anteroom-paint.webp",
                       "vertical": false,
-                      "description": "Вид Аванзала Зимнего Дворца. Ухтомский Константин Андреевич, 1861г. акварель"
+                      "description": "Вид Аванзала Зимнего Дворца",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1861г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "anteroom-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/anteroom-photo.webp",
                       "vertical": true,
-                      "description": "Дореволюционный вид Аванзала Зимнего Дворца. Ателье Карла Буллы 1914г."
+                      "description": "Дореволюционный вид Аванзала Зимнего Дворца",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -202,21 +213,26 @@
                       "path": "nicholas-painting",
                       "img": "assets/pic/rooms/state-halls/nicholas-paint.webp",
                       "vertical": false,
-                      "description": "Николаевский зал. Ухтомский Константин Андреевич, 1866г. акварель"
+                      "description": "Николаевский зал",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1866г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "nicholas-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/nicholas-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Николаевского зала 1914г."
+                      "description": "Дореволюционный вид Николаевского зала",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "nicholas-oldPhoto2",
                       "img": "assets/pic/rooms/state-halls/nicholas-photo2.webp",
                       "vertical": false,
-                      "description": "Деталь Николаевского зала. Ателье Карла Буллы 1914г."
+                      "description": "Деталь Николаевского зала",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto-wwi",
@@ -255,7 +271,9 @@
                       "path": "concert-painting",
                       "img": "assets/pic/rooms/state-halls/concert-paint.webp",
                       "vertical": false,
-                      "description": "Концертный зал. Ухтомский Константин Андреевич, 1865г. акварель"
+                      "description": "Концертный зал",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "painting2",
@@ -276,14 +294,17 @@
                       "path": "concert-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/concert-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный Концертный зал. Ателье Карла Буллы 1914г."
+                      "description": "Дореволюционный Концертный зал",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "concert-modernPhoto",
                       "img": "assets/pic/rooms/state-halls/concert-now.webp",
                       "vertical": false,
-                      "description": "Современный вид Концертного зала. Серебряная гробница князя Александра Невского, ныне находящаяся в зале, была передана в Эрмитаж из Троицкого собора Александро-Невской Лавры."
+                      "description": "Современный вид Концертного зала. Серебряная гробница князя Александра Невского",
+                      "author": "Была передана в Эрмитаж из Троицкого собора Александро-Невской Лавры"
                     }
                   ]
                 },
@@ -301,7 +322,9 @@
                       "path": "pompeiian-painting",
                       "img": "assets/pic/rooms/state-halls/pompeiian-paint.webp",
                       "vertical": true,
-                      "description": "Помпейская галерея. Ухтомский Константин Андреевич, 1862г. акварель"
+                      "description": "Помпейская галерея",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1862г. акварель"
                     },
                     {
                       "id": "painting2",
@@ -315,14 +338,17 @@
                       "path": "pompeiian-painting3",
                       "img": "assets/pic/rooms/state-halls/pompeiian-paint3.webp",
                       "vertical": true,
-                      "description": "Зимний сад в Помпейской галереи"
+                      "description": "Зимний сад в Помпейской галереи",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860-е"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "pompeiian-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/pompeiian-photo.webp",
                       "vertical": true,
-                      "description": "Обновленная отделка Новой галереи 1914г."
+                      "description": "Обновленная отделка Новой галереи",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto-wwi",
@@ -354,21 +380,26 @@
                       "path": "fieldmarshal-painting",
                       "img": "assets/pic/rooms/state-halls/fieldmarshal-paint2.webp",
                       "vertical": false,
-                      "description": "Большой Фельдмаршальский зал. Зарянко Сергей Константинович 1836г. масло"
+                      "description": "Большой Фельдмаршальский зал",
+                      "author": "Зарянко Сергей Константинович",
+                      "date": "1836г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "fieldmarshals-painting2",
                       "img": "assets/pic/rooms/state-halls/fieldmarshal-paint.webp",
                       "vertical": false,
-                      "description": "Большой Фельдмаршальский зал. Гау Эдуард Петрович 1866г. акварель"
+                      "description": "Большой Фельдмаршальский зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1866г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "fieldmarshal-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/fieldmarshal-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Большого Фельдмаршальского зала 1914г."
+                      "description": "Дореволюционный вид Большого Фельдмаршальского зала",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -393,21 +424,26 @@
                       "path": "peter-painting",
                       "img": "assets/pic/rooms/state-halls/peter-paint.webp",
                       "vertical": false,
-                      "description": "Петровский зал до пожара 1837г. Зарянко Сергей Константинович 1837г. масло"
+                      "description": "Петровский зал до пожара 1837г",
+                      "author": "Зарянко Сергей Константинович",
+                      "date": "1837г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "peter-painting2",
                       "img": "assets/pic/rooms/state-halls/peter-paint2.webp",
                       "vertical": false,
-                      "description": "Петровский зал после пожара. Гау Эдуард Петрович 1863г. акварель"
+                      "description": "Петровский зал после пожара",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1863г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "peter-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/peter-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Петровского зала 1914г."
+                      "description": "Дореволюционный вид Петровского зала",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -432,28 +468,34 @@
                       "path": "armorial-painting",
                       "img": "assets/pic/rooms/state-halls/armorial-paint.webp",
                       "vertical": false,
-                      "description": "Часть Белого (Гербового) зала. Ладюрнер Адольф Игнатьевич 1838г. масло"
+                      "description": "Часть Белого (Гербового) зала",
+                      "author": "Ладюрнер Адольф Игнатьевич",
+                      "date": "1838г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "armorial-painting2",
                       "img": "assets/pic/rooms/state-halls/armorial-paint2.webp",
                       "vertical": false,
-                      "description": "Гербовый зал. Гау Эдуард Петрович 1863г. акварель"
+                      "description": "Гербовый зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1863г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "armorial-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/armorial-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Гербового зала 1914г."
+                      "description": "Дореволюционный вид Гербового зала",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "armorial-oldPhoto2",
                       "img": "assets/pic/rooms/state-halls/armorial-photo2.webp",
                       "vertical": true,
-                      "description": "Гербы в Гербовом зале 1914г."
+                      "description": "Гербы в Гербовом зале",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto3",
@@ -467,14 +509,16 @@
                       "path": "armorial-oldPhoto4",
                       "img": "assets/pic/rooms/state-halls/armorial-photo4.webp",
                       "vertical": true,
-                      "description": "Гербовый зал с закрытыми люстрами и мебелью. 1900-е"
+                      "description": "Гербовый зал с закрытыми люстрами и мебелью",
+                      "date": "1900-е"
                     },
                     {
                       "id": "oldPhoto-wwi",
                       "path": "armorial-oldPhoto-wwi",
                       "img": "assets/pic/rooms/state-halls/armorial-photo-wwi.webp",
                       "vertical": false,
-                      "description": "Госпитальная палата в Гербовом зале. 1915г."
+                      "description": "Госпитальная палата в Гербовом зале",
+                      "date": "1915г."
                     },
                     {
                       "id": "modernPhoto",
@@ -499,7 +543,9 @@
                       "path": "sntry-painting",
                       "img": "assets/pic/rooms/state-halls/sentry-paint.webp",
                       "vertical": false,
-                      "description": "Пикетный зал. Гау Эдуард Петрович 1865г. акварель"
+                      "description": "Пикетный зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -524,21 +570,27 @@
                       "path": "alexander-painting",
                       "img": "assets/pic/rooms/state-halls/alexander-paint.webp",
                       "vertical": false,
-                      "description": "Пикетный зал. Гау Эдуард Петрович 1865г. акварель"
+                      "description": "Александровский зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1861г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "alexander-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/alexander-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Александровского зала. Ателье Карла Буллы 1914г."
+                      "description": "Дореволюционный вид Александровского зала",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "alexander-oldPhoto2",
                       "img": "assets/pic/rooms/state-halls/alexander-photo2.webp",
                       "vertical": true,
-                      "description": "Портрет Александра I в Александровском зале. Ателье Карла Буллы 1914г."
+                      "description": "Портрет Александра I в Александровском зале",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -570,7 +622,9 @@
                       "path": "antechurch-painting",
                       "img": "assets/pic/rooms/state-halls/antechurch-paint.webp",
                       "vertical": true,
-                      "description": "Предцерковный зал. Ухтомский Константин Андреевич 1863г. акварель"
+                      "description": "Предцерковный зал",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1863г. акварель."
                     },
                     {
                       "id": "modernPhoto",
@@ -595,28 +649,35 @@
                       "path": "gChurch-painting",
                       "img": "assets/pic/rooms/state-halls/gChurch-paint.webp",
                       "vertical": true,
-                      "description": "Большая церковь Зимнего дворца до пожара 1837г. Тыранов Алексей Васильевич 1829г. масло"
+                      "description": "Большая церковь Зимнего дворца до пожара 1837г.",
+                      "author": "Тыранов Алексей Васильевич",
+                      "date": "1829г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "gChurch-painting2",
                       "img": "assets/pic/rooms/state-halls/gChurch-paint2.webp",
                       "vertical": false,
-                      "description": "Свадьба наследника Александра Николаевича и Марии Александровны в Большой церкви. Садовников В. С. 1855г."
+                      "description": "Свадьба наследника Александра Николаевича и Марии Александровны в Большой церкви",
+                      "author": "Садовников В. С.",
+                      "date": "1855г."
                     },
                     {
                       "id": "painting3",
                       "path": "gChurch-painting3",
                       "img": "assets/pic/rooms/state-halls/gChurch-paint3.webp",
                       "vertical": true,
-                      "description": "Большая церковь Зимнего дворца. Гау Эдуард Петрович 1858г. акварель"
+                      "description": "Большая церковь Зимнего дворца",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1858г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "gChurch-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/gChurch-photo.webp",
                       "vertical": true,
-                      "description": "Алтарная чаасть Большой церкови Зимнего дворца 1913г."
+                      "description": "Алтарная чаасть Большой церкови Зимнего дворца",
+                      "date": "1913г."
                     },
                     {
                       "id": "modernPhoto",
@@ -641,21 +702,27 @@
                       "path": "war-painting",
                       "img": "assets/pic/rooms/state-halls/war-paint.webp",
                       "vertical": true,
-                      "description": "Военная галерея 1812 года до пожара 1837г. Чернецов Григорий Григорьевич 1829г."
+                      "description": "Военная галерея 1812 года до пожара 1837г",
+                      "author": "Чернецов Григорий Григорьевич",
+                      "date": "1829г."
                     },
                     {
                       "id": "painting2",
                       "path": "war-painting2",
                       "img": "assets/pic/rooms/state-halls/war-paint2.webp",
                       "vertical": true,
-                      "description": "Военная галерея 1812 года. Гау Эдуард Петрович 1862г. акварель"
+                      "description": "Военная галерея 1812 года",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1862г. акварель"
                     },
                     {
                       "id": "painting3",
                       "path": "war-painting3",
                       "img": "assets/pic/rooms/state-halls/war-paint3.webp",
                       "vertical": true,
-                      "description": "Рота дворцовых гренадер в Военной галереи 1812 года. Пиратский Карл Карлович 1862г. масло"
+                      "description": "Рота дворцовых гренадер в Военной галереи 1812 года",
+                      "author": "Пиратский Карл Карлович",
+                      "date": "1862г. масло"
                     },
                     {
                       "id": "modernPhoto",
@@ -680,49 +747,59 @@
                       "path": "throne-painting",
                       "img": "assets/pic/rooms/state-halls/throne-paint.webp",
                       "vertical": true,
-                      "description": "Вид Большого тронного зала до пожара 1837г. Катафалк над гробами Петра III и Екатерины II 1796г. гравюра"
+                      "description": "Вид Большого тронного зала до пожара 1837г. Катафалк над гробами Петра III и Екатерины II",
+                      "date": "1796г. гравюра"
                     },
                     {
                       "id": "painting2",
                       "path": "throne-painting2",
                       "img": "assets/pic/rooms/state-halls/throne-paint2.webp",
                       "vertical": false,
-                      "description": "Георгиевский зал. Садовников В.С 1858г."
+                      "description": "Георгиевский зал",
+                      "author": "Садовников В.С",
+                      "date": "1858г."
                     },
                     {
                       "id": "painting3",
                       "path": "throne-painting3",
                       "img": "assets/pic/rooms/state-halls/throne-paint3.webp",
                       "vertical": false,
-                      "description": "Георгиевский зал. Садовников В.С Ухтомский Константин Андреевич 1858г. акварель"
+                      "description": "Георгиевский зал",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1858г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "throne-oldPhoto",
                       "img": "assets/pic/rooms/state-halls/throne-photo.webp",
                       "vertical": false,
-                      "description": "Император Николай II в Тронном зале Зимнего дворца 1906г."
+                      "description": "Император Николай II в Тронном зале Зимнего дворца",
+                      "date": "1906г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "throne-oldPhoto2",
                       "img": "assets/pic/rooms/state-halls/throne-photo2.webp",
                       "vertical": true,
-                      "description": "Трон в Георгиевском зале 1914г."
+                      "description": "Трон в Георгиевском зале",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "throne-oldPhoto3",
                       "img": "assets/pic/rooms/state-halls/throne-photo3.webp",
                       "vertical": false,
-                      "description": "Дореволюционный Георгиевский зал 1914г."
+                      "description": "Дореволюционный Георгиевский зал",
+                      "date": "1914г."
                     },
                     {
                       "id": "ussrPhoto",
                       "path": "throne-ussrPhoto",
                       "img": "assets/pic/rooms/state-halls/throne-photo-ussr.webp",
                       "vertical": false,
-                      "description": "Драгоценная карта СССР на месте императорского трона 1963г. (сейчас находится в Центральном научно-исследовательском геологоразведочном музее)."
+                      "description": "Драгоценная карта СССР на месте императорского трона",
+                      "author": "Сейчас карта находится в Центральном научно-исследовательском геологоразведочном музее",
+                      "date": "1963г."
                     },
                     {
                       "id": "ussrPhoto2",
@@ -753,14 +830,18 @@
                       "path": "apollo-painting",
                       "img": "assets/pic/rooms/state-halls/apollo-paint.webp",
                       "vertical": false,
-                      "description": "Аполлонов зал до пожара 1837г. Беллер Александр Иванович 1832г. масло"
+                      "description": "Аполлонов зал до пожара 1837г",
+                      "author": "Беллер Александр Иванович",
+                      "date": "1832г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "apollo-painting2",
                       "img": "assets/pic/rooms/state-halls/apollo-paint2.webp",
                       "vertical": false,
-                      "description": "Аполлонов зал. Гау Эдуард Петрович 1832г. акварель"
+                      "description": "Аполлонов зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1862г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -807,14 +888,18 @@
                       "path": "nicolasStudy-painting",
                       "img": "assets/pic/rooms/nicolas/nicolasStudy-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет императора Николая I. Гау Эдуард Петрович 1860-е. акварель"
+                      "description": "Кабинет императора Николая I",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860-е. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "nicolasStudy-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/nicolasStudy-photo.webp",
                       "vertical": false,
-                      "description": "Кабинет императора Николая I после захвата большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Кабинет императора Николая I после захвата большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -838,7 +923,9 @@
                       "path": "nicolasLR-painting",
                       "img": "assets/pic/rooms/nicolas/nicolasLR-paint.webp",
                       "vertical": false,
-                      "description": "Угловая гостиная Николая I. Ухтомский Константин Андреевич 1850-е. акварель"
+                      "description": "Угловая гостиная Николая I",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1850-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -862,14 +949,16 @@
                       "path": "nicolasLR-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/alexLR-photo.webp",
                       "vertical": false,
-                      "description": "Гостиная после захвата большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Гостиная после захвата большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "nicolasLR-modernPhoto",
                       "img": "assets/pic/rooms/nicolas/alexLR-now.webp",
                       "vertical": false,
-                      "description": "Гостиная после захвата большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Гостиная Александра III, современный вид"
                     }
                   ]
                 },
@@ -885,7 +974,9 @@
                       "path": "nicolasLR-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/alexReception-photo.webp",
                       "vertical": false,
-                      "description": "Разгромленная большевиками приемная. Кубеш Карл Карлович 1917г."
+                      "description": "Разгромленная большевиками приемная",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -918,7 +1009,9 @@
                       "path": "churchStairs-painting",
                       "img": "assets/pic/rooms/nicolas/churchStairs-paint.webp",
                       "vertical": true,
-                      "description": "Церковная лестница. Гау Эдуард Петрович 1869г."
+                      "description": "Церковная лестница",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г."
                     },
                     {
                       "id": "modernPhoto",
@@ -943,14 +1036,18 @@
                       "path": "church-painting",
                       "img": "assets/pic/rooms/nicolas/church-paint.webp",
                       "vertical": false,
-                      "description": "Малая церковь. Бурдин Н. А. 1840г."
+                      "description": "Малая церковь",
+                      "author": "Бурдин Н. А.",
+                      "date": "1840г."
                     },
                     {
                       "id": "painting2",
                       "path": "church-painting2",
                       "img": "assets/pic/rooms/nicolas/church-paint2.webp",
                       "vertical": false,
-                      "description": "Малая церковь. Гау Эдуард Петрович 1862г."
+                      "description": "Малая церковь",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1862г."
                     },
                     {
                       "id": "modernPhoto",
@@ -975,21 +1072,26 @@
                       "path": "rotunda-painting",
                       "img": "assets/pic/rooms/nicolas/rotunda-paint.webp",
                       "vertical": true,
-                      "description": "Ротонда до пожара 1837г. Ефим Тухаринов 1834г."
+                      "description": "Ротонда до пожара 1837г",
+                      "author": "Тухаринов Ефим",
+                      "date": "1834г."
                     },
                     {
                       "id": "painting2",
                       "path": "rotunda-painting2",
                       "img": "assets/pic/rooms/nicolas/rotunda-paint2.webp",
                       "vertical": true,
-                      "description": "Ротонда востоновленная после пожара. Гау, Эдуард Петрович 1862г."
+                      "description": "Ротонда востоновленная после пожара",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1862г."
                     },
                     {
                       "id": "oldphoto",
                       "path": "rotunda-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/rotunda-photo.webp",
                       "vertical": false,
-                      "description": "Доревлюционный вид Ротонды. 1914г."
+                      "description": "Доревлюционный вид Ротонды",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernphoto",
@@ -1014,14 +1116,18 @@
                       "path": "arab-painting",
                       "img": "assets/pic/rooms/nicolas/arab-paint.webp",
                       "vertical": false,
-                      "description": "Арапская столовая. Ухтомский Константин Андреевич середина XIX века."
+                      "description": "Арапская столовая",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "Середина XIX века"
                     },
                     {
                       "id": "oldphoto",
                       "path": "arab-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/arab-photo.webp",
                       "vertical": false,
-                      "description": "Арапская столовая. Кубеш Карл Карлович 1917г."
+                      "description": "Арапская столовая",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernphoto",
@@ -1046,14 +1152,18 @@
                       "path": "dining-painting",
                       "img": "assets/pic/rooms/nicolas/dining-paint.webp",
                       "vertical": true,
-                      "description": "Помпейская столовая. Ухтомский Константин Андреевич 1874г."
+                      "description": "Помпейская столовая",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1874г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "dining-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/dining-photo.webp",
                       "vertical": true,
-                      "description": "К свадьбе Николая II был создан новый интерьер. Кубеш Карл Карлович 1917г."
+                      "description": "К свадьбе Николая II был создан новый интерьер",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1078,21 +1188,27 @@
                       "path": "malakhite-painting",
                       "img": "assets/pic/rooms/nicolas/malakhite-paint.webp",
                       "vertical": false,
-                      "description": "Яшмовая гостиная до пожара 1837г. Чернецов Григорий Григорьевич, 1833г. акварель"
+                      "description": "Яшмовая гостиная до пожара 1837г",
+                      "author": "Чернецов Григорий Григорьевич",
+                      "date": "1833г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "malakhite-painting2",
                       "img": "assets/pic/rooms/nicolas/malakhite-paint2.webp",
                       "vertical": false,
-                      "description": "Малахитовая гостиная. Ухтомский Константин Андреевич, 1865г. акварель"
+                      "description": "Малахитовая гостиная",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "malakhite-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/malakhite-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный вид Малахитовой гостиной. Кубеш Карл Карлович, 1917г."
+                      "description": "Дореволюционный вид Малахитовой гостиной",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1117,14 +1233,18 @@
                       "path": "white-painting",
                       "img": "assets/pic/rooms/nicolas/white-paint.webp",
                       "vertical": false,
-                      "description": "Белая гостиная. Гау Эдуард Петрович 1860г. акварель"
+                      "description": "Белая гостиная",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "white-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/white-photo.webp",
                       "vertical": false,
-                      "description": "В начале XX века, под влиянием модерна был полностью изменен стиль отделки и интерьера. Кубеш Карл Карлович, 1917г"
+                      "description": "В начале XX века, под влиянием модерна был полностью изменен стиль отделки и интерьера",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1149,28 +1269,36 @@
                       "path": "silver-painting",
                       "img": "assets/pic/rooms/nicolas/silver-paint.webp",
                       "vertical": false,
-                      "description": "Большая гостиная исператрицы Александры Фёдоровны. Гау Эдуард Петрович 1871г. акварель"
+                      "description": "Большая гостиная исператрицы Александры Фёдоровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1871г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "silver-painting2",
                       "img": "assets/pic/rooms/nicolas/silver-paint2.webp",
                       "vertical": false,
-                      "description": "Большая гостиная исператрицы Александры Фёдоровны. Гау Эдуард Петрович 1871г. акварель"
+                      "description": "Большая гостиная исператрицы Александры Фёдоровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1871г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "silver-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/silver-photo.webp",
                       "vertical": false,
-                      "description": "При Николаи II была переделана в гостиную в стиле Людовика XVI и получина название Серебряная. Кубеш Карл Карлович 1917г."
+                      "description": "При Николаи II была переделана в гостиную в стиле Людовика XVI и получина название Серебряная",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "silver-oldPhoto2",
                       "img": "assets/pic/rooms/nicolas/silver-photo2.webp",
                       "vertical": false,
-                      "description": "Серебряная гостиная. Кубеш Карл Карлович 1917г."
+                      "description": "Серебряная гостиная",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1195,42 +1323,54 @@
                       "path": "study-painting",
                       "img": "assets/pic/rooms/nicolas/study-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет императрицы Александры Федоровны. Гау Эдуард Петрович 1870г. акварель"
+                      "description": "Кабинет императрицы Александры Федоровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "study-painting2",
                       "img": "assets/pic/rooms/nicolas/study-paint2.webp",
                       "vertical": false,
-                      "description": "Кабинет императрицы Александры Федоровны. Гау Эдуард Петрович 1870г. акварель"
+                      "description": "Кабинет императрицы Александры Федоровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "study-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/study-photo.webp",
                       "vertical": true,
-                      "description": "В начале XX века отделка и интерьер были изменены в соответствии с новыми веяниями в архитектуре. Кубеш Карл Карлович 1917г."
+                      "description": "В начале XX века отделка и интерьер были изменены в соответствии с новыми веяниями в архитектуре",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "study-oldPhoto2",
                       "img": "assets/pic/rooms/nicolas/study-photo2.webp",
                       "vertical": false,
-                      "description": "Кабинет императрицы Александры Федоровны. Кубеш Карл Карлович 1917г."
+                      "description": "Кабинет императрицы Александры Федоровны",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "study-oldPhoto3",
                       "img": "assets/pic/rooms/nicolas/study-photo3.webp",
                       "vertical": true,
-                      "description": "Писменный стол императрицы Александры Федоровны. Кубеш Карл Карлович 1917г."
+                      "description": "Писменный стол императрицы Александры Федоровны",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "study-oldPhoto4",
                       "img": "assets/pic/rooms/nicolas/study-photo4.webp",
                       "vertical": false,
-                      "description": "Разграбленный кабинет императрицы после революции. Кубеш Карл Карлович 1917г."
+                      "description": "Разграбленный кабинет императрицы после революции",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1255,35 +1395,45 @@
                       "path": "bedroom-painting",
                       "img": "assets/pic/rooms/nicolas/bedroom-paint.webp",
                       "vertical": false,
-                      "description": "Спальня. Гау Эдуард Петрович 1859г. акварель"
+                      "description": "Спальня",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1859г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "bedroom-painting2",
                       "img": "assets/pic/rooms/nicolas/bedroom-paint2.webp",
                       "vertical": false,
-                      "description": "Спальня. Гау Эдуард Петрович 1870г. акварель"
+                      "description": "Спальня",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "bedroom-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/bedroom-photo.webp",
                       "vertical": false,
-                      "description": "Во времена императрицы Александры Федоровны в Спальне изменилась отделка стен. Кубеш Карл Карлович 1917г."
+                      "description": "Во времена императрицы Александры Федоровны в Спальне изменилась отделка стен",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "bedroom-oldPhoto2",
                       "img": "assets/pic/rooms/nicolas/bedroom-photo2.webp",
                       "vertical": false,
-                      "description": "Спальня императрицы Александры Федоровны. Кубеш Карл Карлович 1917г."
+                      "description": "Спальня императрицы Александры Федоровны",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "bedroom-oldPhoto3",
                       "img": "assets/pic/rooms/nicolas/bedroom-photo3.webp",
                       "vertical": false,
-                      "description": "Кровать в Спальне императрицы Александры Федоровны. Кубеш Карл Карлович 1917г."
+                      "description": "Кровать в Спальне императрицы Александры Федоровны",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1308,35 +1458,45 @@
                       "path": "dressing-painting",
                       "img": "assets/pic/rooms/nicolas/dressing-paint.webp",
                       "vertical": false,
-                      "description": "Туалетная комната императрицы Александры Федоровны. Гау Эдуард Петрович 1871г. акварель"
+                      "description": "Туалетная комната императрицы Александры Федоровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1871г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "dressing-painting2",
                       "img": "assets/pic/rooms/nicolas/dressing-paint2.webp",
                       "vertical": true,
-                      "description": "Туалетная комната императрицы Александры Федоровны. Гау Эдуард Петрович 1871г. акварель"
+                      "description": "Туалетная комната императрицы Александры Федоровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1871г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "dressing-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/dressing-photo.webp",
                       "vertical": false,
-                      "description": "При Николаи II интерьер туалетной был изменен. Маленькая двверь ведет в Ванную комнату. Кубеш Карл Карлович 1917г."
+                      "description": "При Николаи II интерьер туалетной был изменен. Маленькая двверь ведет в Ванную комнату",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "dressing-oldPhoto2",
                       "img": "assets/pic/rooms/nicolas/dressing-photo2.webp",
                       "vertical": false,
-                      "description": "Туалетная комната. Кубеш Карл Карлович 1917г."
+                      "description": "Туалетная комната",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "dressing-oldPhoto3",
                       "img": "assets/pic/rooms/nicolas/dressing-photo3.webp",
                       "vertical": false,
-                      "description": "Разграбленная большевиками Туалетная комната. Кубеш Карл Карлович 1917г."
+                      "description": "Разграбленная большевиками Туалетная комната",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1362,21 +1522,27 @@
                       "path": "dressing-painting",
                       "img": "assets/pic/rooms/nicolas/bath-paint.webp",
                       "vertical": true,
-                      "description": "Ванная комната императрицы Александры Федоровны. Гау Эдуард Петрович 1870г. акварель"
+                      "description": "Ванная комната императрицы Александры Федоровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "dressing-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/bath-photo.webp",
                       "vertical": false,
-                      "description": "При Николаи II Ванная комната сменила отделку. Кубеш Карл Карлович 1917г."
+                      "description": "При Николаи II Ванная комната сменила отделку",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "dressing-oldPhoto2",
                       "img": "assets/pic/rooms/nicolas/bath-photo2.webp",
                       "vertical": false,
-                      "description": "Гардеробная Императрицы после захвата большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Гардеробная Императрицы после захвата большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     }
                   ]
                 },
@@ -1394,14 +1560,18 @@
                       "path": "boudoir-painting",
                       "img": "assets/pic/rooms/nicolas/boudoir-paint.webp",
                       "vertical": true,
-                      "description": "Будуар императрицы Александры Федоровны. Гау Эдуард Петрович 1871г. акварель"
+                      "description": "Будуар императрицы Александры Федоровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1871г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "boudoir-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/boudoir-photo.webp",
                       "vertical": true,
-                      "description": "Будуар как часть Готического кабинета. Кубеш Карл Карлович 1917г."
+                      "description": "Будуар как часть Готического кабинета",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1426,49 +1596,62 @@
                       "path": "nicolasII-painting",
                       "img": "assets/pic/rooms/nicolas/nicolas-paint2.webp",
                       "vertical": true,
-                      "description": "Зимний сад императрицы Александры Федоровны. Ухтомский Константин Андреевич 1860г. акварель"
+                      "description": "Зимний сад императрицы Александры Федоровны",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "nicolasII-painting2",
                       "img": "assets/pic/rooms/nicolas/nicolas-paint3.webp",
                       "vertical": true,
-                      "description": "Зимний сад императрицы Александры Федоровны. Ухтомский Константин Андреевич 1860г. акварель"
+                      "description": "Зимний сад императрицы Александры Федоровны",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г. акварель"
                     },
                     {
                       "id": "painting3",
                       "path": "nicolasII-painting3",
                       "img": "assets/pic/rooms/nicolas/nicolas-paint.webp",
                       "vertical": true,
-                      "description": "Зимний сад императрицы Александры Федоровны. Гау Эдуард Петрович 1871г. акварель"
+                      "description": "Зимний сад императрицы Александры Федоровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1871г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "nicolasII-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/nicolas-photo.webp",
                       "vertical": true,
-                      "description": "Готический кабинет Николая II. Кубеш Карл Карлович 1917г."
+                      "description": "Готический кабинет Николая II",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "nicolasII-oldPhoto2",
                       "img": "assets/pic/rooms/nicolas/nicolas-photo2.webp",
                       "vertical": true,
-                      "description": "Готический кабинет Николая II. Кубеш Карл Карлович 1917г."
+                      "description": "Готический кабинет Николая II",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "nicolasII-oldPhoto3",
                       "img": "assets/pic/rooms/nicolas/nicolas-photo3.webp",
                       "vertical": true,
-                      "description": "Разграбленный большевиками Готический кабинет Николая II. Кубеш Карл Карлович 1917г."
+                      "description": "Разграбленный большевиками Готический кабинет Николая II",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "ussrPhoto",
                       "path": "nicolasII-ussrPhoto",
                       "img": "assets/pic/rooms/nicolas/nicolas-photoUssr.webp",
                       "vertical": false,
-                      "description": "Процесс слома интерьера Кабинета Николая II. СССР 1930г."
+                      "description": "Процесс слома интерьера Кабинета Николая II",
+                      "date": "СССР 1930г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1494,21 +1677,24 @@
                       "path": "adjutant-ussrPhoto",
                       "img": "assets/pic/rooms/nicolas/adjutant-photoUssr.webp",
                       "vertical": true,
-                      "description": "Бассейн Николая II перед разборкой. СССР 1930г."
+                      "description": "Бассейн Николая II перед разборкой",
+                      "date": "СССР 1930г."
                     },
                     {
                       "id": "ussrPhoto2",
                       "path": "adjutant-ussrPhoto2",
                       "img": "assets/pic/rooms/nicolas/adjutant-photoUssr2.webp",
                       "vertical": true,
-                      "description": "Процесс разборки чугунной винтовой лестницы в Адьютантской. СССР 1930г."
+                      "description": "Процесс разборки чугунной винтовой лестницы в Адьютантской",
+                      "date": "СССР 1930г."
                     },
                     {
                       "id": "modernPhoto",
                       "path": "adjutant-umodernPhoto",
                       "img": "assets/pic/rooms/nicolas/adjutant-now.webp",
                       "vertical": false,
-                      "description": "Современный вид Адьютансткой комнаты. За маленькой дверью в конце находился Бассейн Николая II, на месте дивана винтовая лестница"
+                      "description": "Современный вид Адьютансткой комнаты",
+                      "author": "За маленькой дверью в конце находился Бассейн Николая II, на месте дивана винтовая лестница"
                     }
                   ]
                 },
@@ -1526,7 +1712,9 @@
                       "path": "library-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/library-photo.webp",
                       "vertical": false,
-                      "description": "Готическая библиотека Николая II. Кубеш Карл Карлович 1917г."
+                      "description": "Готическая библиотека Николая II",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1551,14 +1739,18 @@
                       "path": "billiard-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/billiard-photo.webp",
                       "vertical": false,
-                      "description": "Бильярдная. Кубеш Карл Карлович 1917г."
+                      "description": "Бильярдная",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "billiard-oldPhoto2",
                       "img": "assets/pic/rooms/nicolas/billiard-photo2.webp",
                       "vertical": false,
-                      "description": "Бильярдная. Кубеш Карл Карлович 1917г."
+                      "description": "Бильярдная",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1583,7 +1775,9 @@
                       "path": "reception-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/reception-photo.webp",
                       "vertical": false,
-                      "description": "Бильярдная. Кубеш Карл Карлович 1917г."
+                      "description": "Приемная",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1607,14 +1801,18 @@
                       "path": "saltykov-painting",
                       "img": "assets/pic/rooms/nicolas/saltykov-paint.webp",
                       "vertical": true,
-                      "description": "Салтыковская лестница. Ухтомский Константин Андреевич. Середина XIX века."
+                      "description": "Салтыковская лестница",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "Середина XIX века"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "saltykov-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/saltykov-photo.webp",
                       "vertical": true,
-                      "description": "Лестница получила новое убранство в 1899 году. Стенные панно лестничной клетки были оформлены живописными вставками или композициями из ваз и блюд."
+                      "description": "Лестница получила новое убранство в 1899 году",
+                      "author": "Стенные панно лестничной клетки были оформлены живописными вставками или композициями из ваз и блюд.",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1647,7 +1845,9 @@
                       "path": "corridor-painting",
                       "img": "assets/pic/rooms/nicolas/corridor-paint.webp",
                       "vertical": true,
-                      "description": "Коридор. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Коридор",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -1672,21 +1872,27 @@
                       "path": "gothic-painting",
                       "img": "assets/pic/rooms/nicolas/gothic-paint.webp",
                       "vertical": false,
-                      "description": "Готическая гостиная. Юшков Ф. И. 1849г. масло"
+                      "description": "Готическая гостиная",
+                      "author": "Юшков Ф. И.",
+                      "date": "1849г. масло"
                     },
                     {
                       "id": "painting2",
                       "path": "gothic-painting2",
                       "img": "assets/pic/rooms/nicolas/gothic-paint2.webp",
                       "vertical": false,
-                      "description": "Готическая гостиная с измененным иньерьером. Гау Эдуард Петрович 1868г. акварель"
+                      "description": "Готическая гостиная с измененным иньерьером",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1868г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "gothic-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/gothic-photo.webp",
                       "vertical": false,
-                      "description": "Готическая гостиная разграбленная большевиками. Штейнберг Яков 1917г."
+                      "description": "Готическая гостиная разграбленная большевиками",
+                      "author": "Штейнберг Яков",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1711,21 +1917,27 @@
                       "path": "amur-painting",
                       "img": "assets/pic/rooms/nicolas/amurLR-paint.webp",
                       "vertical": false,
-                      "description": "Гостиная с амурами. Гау Эдуард Петрович 1860-е. акварель"
+                      "description": "Гостиная с амурами",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860-е. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "amur-painting2",
                       "img": "assets/pic/rooms/nicolas/amurLR-paint2.webp",
                       "vertical": false,
-                      "description": "Гостиная с амурами. Гау Эдуард Петрович 1868г. акварель"
+                      "description": "Гостиная с амурами",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1868г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "amurLR-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/amurLR-photo.webp",
                       "vertical": false,
-                      "description": "Гостиная с амурами после захвата большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Гостиная с амурами после захвата большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -1750,14 +1962,18 @@
                       "path": "cornerRoom-painting",
                       "img": "assets/pic/rooms/nicolas/cornerRoom-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет. Гау Эдуард Петрович 1868. акварель"
+                      "description": "Кабинет",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1868г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "cornerRoom-painting2",
                       "img": "assets/pic/rooms/nicolas/cornerRoom-paint2.webp",
                       "vertical": false,
-                      "description": "Кабинет. Гау Эдуард Петрович 1868. акварель"
+                      "description": "Кабинет",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1868г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -1782,14 +1998,18 @@
                       "path": "BedRoomFF-painting",
                       "img": "assets/pic/rooms/nicolas/bedroomFF-paint.webp",
                       "vertical": false,
-                      "description": "Спальня. Гау Эдуард Петрович 1868. акварель"
+                      "description": "Спальня",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1868г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "BedRoomFF-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/bedroomFF-photo.webp",
                       "vertical": false,
-                      "description": "Спальня, разграбленная большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Спальня, разграбленная большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     }
                   ]
                 },
@@ -1806,56 +2026,72 @@
                       "path": "dressingRoomFF-painting",
                       "img": "assets/pic/rooms/nicolas/dressingRoomFF-paint.webp",
                       "vertical": false,
-                      "description": "Туалетная в Четвертой запасной половине. Ухтомский Константин Андреевич 1860. акварель"
+                      "description": "Туалетная в Четвертой запасной половине",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "dressingRoomFF-painting2",
                       "img": "assets/pic/rooms/nicolas/dressingRoomFF-paint2.webp",
                       "vertical": false,
-                      "description": "Туалетная в Четвертой запасной половине. Гау Эдуард Петрович 1868. акварель"
+                      "description": "Туалетная в Четвертой запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1868г. акварель"
                     },
                     {
                       "id": "painting7",
                       "path": "nicolasLS-painting",
                       "img": "assets/pic/rooms/nicolas/nicolasLS-paint.webp",
                       "vertical": true,
-                      "description": "Нижний кабинет Николая I. Ухтомский Константин Андреевич 1860-е. акварель"
+                      "description": "Нижний кабинет Николая I",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860-е. акварель"
                     },
                     {
                       "id": "oldPhoto7",
                       "path": "nicolasLS-oldPhoto",
                       "img": "assets/pic/rooms/nicolas/nicolasLS-photo.webp",
                       "vertical": false,
-                      "description": "Нижний кабинет Николая I. Кубеш Карл Карлович 1917г"
+                      "description": "Нижний кабинет Николая I",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "painting3",
                       "path": "studyNN-painting",
                       "img": "assets/pic/rooms/nicolas/studyNN-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Великого князя Николая Николаевича. Ухтомский Константин Андреевич 1856. акварель"
+                      "description": "Кабинет Великого князя Николая Николаевича.  ",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1856г. акварель"
                     },
                     {
                       "id": "painting4",
                       "path": "studyNN-painting2",
                       "img": "assets/pic/rooms/nicolas/studyNN-paint2.webp",
                       "vertical": true,
-                      "description": "Альков кабинета Великого князя Николая Николаевича. Садовников Василий Семенович 1860-е акварель"
+                      "description": "Альков кабинета Великого князя Николая Николаевича",
+                      "author": "Садовников Василий Семенович",
+                      "date": "1860-е акварель"
                     },
                     {
                       "id": "painting5",
                       "path": "studyNN-painting3",
                       "img": "assets/pic/rooms/nicolas/studyNN-paint3.webp",
                       "vertical": false,
-                      "description": "Кабинет в Четвертой запасной половине. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Кабинет в Четвертой запасной половине.  ",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "painting6",
                       "path": "livingRoomFF-painting3",
                       "img": "assets/pic/rooms/nicolas/livingRoomFF-paint.webp",
                       "vertical": false,
-                      "description": "Гостиная в Четвертой запасной половине. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Гостиная в Четвертой запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     }
                   ]
                 }
@@ -5164,7 +5400,7 @@
       ] 
     }
   ],
-  "exteriors": [
+  "exterior": 
     {
       "id": "private-garden",
       "title": "Ограда Собственного сада",
@@ -5180,5 +5416,4 @@
         }
       ]
     }
-  ]
 }
