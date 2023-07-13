@@ -4276,7 +4276,9 @@
                       "path": "east-gallery-painting",
                       "img": "assets/pic/rooms/hermitage-f2/holland-paint.webp",
                       "vertical": false,
-                      "description": "Зал голландской и фламандской школ. Луиджи Премацци, 1860г."
+                      "description": "Зал голландской и фламандской школ",
+                      "author": "Луиджи Премацци",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4300,7 +4302,9 @@
                       "path": "tent-roofed-painting",
                       "img": "assets/pic/rooms/hermitage-f2/tent-roofed-paint.webp",
                       "vertical": false,
-                      "description": "Шатровый зал. Луиджи Премацци, 1858г."
+                      "description": "Шатровый зал",
+                      "author": "Луиджи Премацци",
+                      "date": "1858г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4324,7 +4328,9 @@
                       "path": "german-painting",
                       "img": "assets/pic/rooms/hermitage-f2/german-paint.webp",
                       "vertical": false,
-                      "description": "Зал немецкой школы. Гау Эдуард Петрович, 1857г."
+                      "description": "Зал немецкой школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1857г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4348,7 +4354,9 @@
                       "path": "flemish-painting",
                       "img": "assets/pic/rooms/hermitage-f2/flemish-paint.webp",
                       "vertical": false,
-                      "description": "Зал Фламандской школы. Гау Эдуард Петрович, 1860г."
+                      "description": "Зал Фламандской школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4372,7 +4380,9 @@
                       "path": "german2-painting",
                       "img": "assets/pic/rooms/hermitage-f2/german2-paint.webp",
                       "vertical": true,
-                      "description": "Зал Немецкой школы. Гау Эдуард Петрович, 1860г."
+                      "description": "Зал Немецкой школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4396,14 +4406,18 @@
                       "path": "french-painting",
                       "img": "assets/pic/rooms/hermitage-f2/french-paint.webp",
                       "vertical": false,
-                      "description": "Зал Французской школы. Луиджи Премацци, 1859г."
+                      "description": "Зал Французской школы",
+                      "author": "Луиджи Премацци",
+                      "date": "1859г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "french-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/french-photo.webp",
                       "vertical": true,
-                      "description": "Зал Французской школы (Зал Рембрандта), Классен Василий Ефремович, 1871г."
+                      "description": "Зал Французской школы (Зал Рембрандта)",
+                      "author": " Классен Василий Ефремович",
+                      "date": "1871г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4427,7 +4441,9 @@
                       "path": "flemish2-painting",
                       "img": "assets/pic/rooms/hermitage-f2/flemish2-paint.webp",
                       "vertical": false,
-                      "description": "Галерея Фламандской живописи. Луиджи Премацци, 1860г."
+                      "description": "Галерея Фламандской живописи",
+                      "author": "Луиджи Премацци",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4451,7 +4467,9 @@
                       "path": "flemishStudy-painting",
                       "img": "assets/pic/rooms/hermitage-f2/flemishStudy-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Фламандской школы. Гау Эдуард Петровичи, 1859г."
+                      "description": "Кабинет Фламандской школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1859г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4475,7 +4493,9 @@
                       "path": "italian-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянских школ. Луиджи Премацци, 1859г."
+                      "description": "Кабинет Итальянских школ",
+                      "author": "Луиджи Премацци",
+                      "date": "1859г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4499,7 +4519,9 @@
                       "path": "italian2-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian2-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянских школ. Гау Эдуард Петрович, 1860г."
+                      "description": "Кабинет Итальянских школ",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4523,7 +4545,9 @@
                       "path": "italian3-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian3-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянских школ. Гау Эдуард Петрович, 1860г."
+                      "description": "Кабинет Итальянских школ",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4547,7 +4571,9 @@
                       "path": "italian4-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian4-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Тициана. Гау Эдуард Петрович, 1856г."
+                      "description": "Кабинет Тициана",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1856г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4571,7 +4597,9 @@
                       "path": "italian5-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian5-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянских школ. Гау Эдуард Петрович, 1859г."
+                      "description": "Кабинет Итальянских школ",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1859г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4595,14 +4623,17 @@
                       "path": "italian6-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian6-paint.webp",
                       "vertical": false,
-                      "description": "Зал Леонардо и Микеланджело. Луиджи Премацци, 1860г."
+                      "description": "Зал Леонардо и Микеланджело",
+                      "author": "Луиджи Премацци",
+                      "date": "1860г."
                     },
                     {
                       "id": "olfPhoto",
                       "path": "italian6-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/italian6-photo.webp",
                       "vertical": true,
-                      "description": "Зал Леонардо и Микеланджело. 1900-е."
+                      "description": "Зал Леонардо и Микеланджело",
+                      "date": "1900-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4626,14 +4657,17 @@
                       "path": "italian7-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian7-paint.webp",
                       "vertical": true,
-                      "description": "Зал с фресками Рафаэля. Гау Эдуард Петрович, 1860г."
+                      "description": "Зал с фресками Рафаэля",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "italian7-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/italian7-photo.webp",
                       "vertical": true,
-                      "description": "Зал с фресками Рафаэля.1900-е."
+                      "description": "Зал с фресками Рафаэля.1900-е.",
+                      "date": "1900-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4657,28 +4691,33 @@
                       "path": "cameos-painting",
                       "img": "assets/pic/rooms/hermitage-f2/cameos-paint.webp",
                       "vertical": false,
-                      "description": "Зал камей. Гау Эдуард Петрович, 1854г."
+                      "description": "Зал камей",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1854г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "cameos-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/cameos-photo.webp",
                       "vertical": true,
-                      "description": "Зал камей. 1892г."
+                      "description": "Зал камей",
+                      "date": "1892г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "cameos-oldPhoto2",
                       "img": "assets/pic/rooms/hermitage-f2/cameos-photo2.webp",
                       "vertical": false,
-                      "description": "Зал предметов из серебра. 1900-е."
+                      "description": "Зал предметов из серебра",
+                      "date": "1900-е."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "cameos-oldPhoto3",
                       "img": "assets/pic/rooms/hermitage-f2/cameos-photo3.webp",
                       "vertical": false,
-                      "description": "Зал предметов из серебра. 1900-е."
+                      "description": "Зал предметов из серебра",
+                      "date": "1900-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4703,21 +4742,26 @@
                       "path": "raphael-loggias-painting",
                       "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-paint.webp",
                       "vertical": true,
-                      "description": "Лоджии Рафаэля. Ухтомский Константин Андреевич, 1860г."
+                      "description": "Лоджии Рафаэля",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "raphael-loggias-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-photo.webp",
                       "vertical": true,
-                      "description": "Лоджии Рафаэля. 1860-е."
+                      "description": "Лоджии Рафаэля",
+                      "date": "1880-е."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "raphael-loggias-oldPhoto2",
                       "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-photo2.webp",
                       "vertical": true,
-                      "description": "Лоджии Рафаэля. Миколаевсикй Ф. Л, 1911г."
+                      "description": "Лоджии Рафаэля",
+                      "author": "Миколаевсикй Ф. Л",
+                      "date": "1911г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4741,14 +4785,17 @@
                       "path": "spahish-skylight-painting",
                       "img": "assets/pic/rooms/hermitage-f2/spanish-skylight-paint.webp",
                       "vertical": false,
-                      "description": "Испанский просвет. Гау Эдуард Петрович, 1856г."
+                      "description": "Испанский просвет",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1856г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "spahish-skylight-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/spanish-skylight-photo.webp",
                       "vertical": false,
-                      "description": "Испанский просвет. 1870-е."
+                      "description": "Испанский просвет",
+                      "date": "1870-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4772,14 +4819,17 @@
                       "path": "italian-skylight-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian-skylight-paint.webp",
                       "vertical": false,
-                      "description": "Большой Итальянский просвет. Гау Эдуард Петрович, 1853г."
+                      "description": "Большой Итальянский просвет",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1853г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "italian-skylight-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/italian-skylight-photo.webp",
                       "vertical": false,
-                      "description": "Большой Итальянский просвет. 1870-е."
+                      "description": "Большой Итальянский просвет",
+                      "date": "1870-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4803,7 +4853,9 @@
                       "path": "flemish-skylight-painting",
                       "img": "assets/pic/rooms/hermitage-f2/flemish-skylight-paint.webp",
                       "vertical": false,
-                      "description": "Фламандский просвет. Гау Эдуард Петрович, 1854г."
+                      "description": "Фламандский просвет",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1854г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4827,28 +4879,33 @@
                       "path": "ancient-painting-gallery-painting",
                       "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-paint.webp",
                       "vertical": true,
-                      "description": "Галерея истории древней живописи. Гау Эдуард Петрович, 1859г."
+                      "description": "Галерея истории древней живописи",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1859г."
                     },
                     {
                       "id": "painting2",
                       "path": "ancient-painting-gallery-painting2",
                       "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-paint2.webp",
                       "vertical": true,
-                      "description": "Галерея истории древней живописи. Конец XIX века."
+                      "description": "Галерея истории древней живописи",
+                      "date": "Конец XIX века"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "ancient-painting-gallery-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-photo.webp",
                       "vertical": true,
-                      "description": "Галерея истории древней живописи. 1870-е."
+                      "description": "Галерея истории древней живописи",
+                      "date": "1870-е."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "ancient-painting-gallery-oldPhoto2",
                       "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-photo2.webp",
                       "vertical": true,
-                      "description": "Галерея истории древней живописи. 1900-е."
+                      "description": "Галерея истории древней живописи",
+                      "date": "1900-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4872,28 +4929,34 @@
                       "path": "mainStaircase-painting",
                       "img": "assets/pic/rooms/hermitage-f2/mainStaircase-paint.webp",
                       "vertical": false,
-                      "description": "Парадная лестница Нового Эрмитажа. Гау Эдуард Петрович, 1853г."
+                      "description": "Парадная лестница Нового Эрмитажа",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1853г."
                     },
                     {
                       "id": "painting2",
                       "path": "mainStaircase-painting2",
                       "img": "assets/pic/rooms/hermitage-f2/mainStaircase-paint2.webp",
                       "vertical": false,
-                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа. Гау Эдуард Петрович, 1860г."
+                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "mainStaircase-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/mainStaircase-photo.webp",
                       "vertical": true,
-                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа. 1870-е."
+                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа",
+                      "date": "1870-е."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "mainStaircase-oldPhoto2",
                       "img": "assets/pic/rooms/hermitage-f2/mainStaircase-photo2.webp",
                       "vertical": false,
-                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа. 1890-е."
+                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа",
+                      "date": "1890-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4917,7 +4980,9 @@
                       "path": "roomOfCoins-painting",
                       "img": "assets/pic/rooms/hermitage-f2/roomOfCoins-paint.webp",
                       "vertical": false,
-                      "description": "Зал монет. Ухтомский Константин Андреевич, 1860г."
+                      "description": "Зал монет",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4941,7 +5006,9 @@
                       "path": "twelve-column-hall-painting",
                       "img": "assets/pic/rooms/hermitage-f2/twelve-column-hall-paint.webp",
                       "vertical": false,
-                      "description": "Двеадцатиколонный зал монет и медалей. Луиджи Премацци, 1853г."
+                      "description": "Двеадцатиколонный зал монет и медалей",
+                      "author": "Луиджи Премацци",
+                      "date": "1853г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4965,7 +5032,9 @@
                       "path": "russian-painting",
                       "img": "assets/pic/rooms/hermitage-f2/russian-paint.webp",
                       "vertical": false,
-                      "description": "Зал Русской школы. Гау Эдуард Петрович, 1856г."
+                      "description": "Зал Русской школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1856г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4989,14 +5058,17 @@
                       "path": "russian2-painting",
                       "img": "assets/pic/rooms/hermitage-f2/russian2-paint.webp",
                       "vertical": false,
-                      "description": "Зал Русской школы. Гау Эдуард Петрович, 1855г."
+                      "description": "Зал Русской школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1855г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "russian2-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/russian2-photo.webp",
                       "vertical": false,
-                      "description": "Зал Русской школы. 1914г."
+                      "description": "Зал Русской школы",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5020,14 +5092,17 @@
                       "path": "holland2-painting",
                       "img": "assets/pic/rooms/hermitage-f2/holland2-paint.webp",
                       "vertical": false,
-                      "description": "Зал голландской и фламандской школ. Гау Эдуард Петрович, 1857г."
+                      "description": "Зал голландской и фламандской школ",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1857г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "holland2-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/holland2-photo.webp",
                       "vertical": false,
-                      "description": "Зал голландской и фламандской школ. 1914г."
+                      "description": "Зал голландской и фламандской школ",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
