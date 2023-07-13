@@ -52,7 +52,7 @@
                       "img": "assets/pic/rooms/main-stairs/jordan-photo2.webp",
                       "vertical": false,
                       "description": "Дореволюционное фото Иорданской лестницы",
-                      "date": "1911-г."
+                      "date": "1911г."
                     },
                     {
                       "id": "oldPhoto",
@@ -60,7 +60,7 @@
                       "img": "assets/pic/rooms/main-stairs/jordan-photo.webp",
                       "vertical": true,
                       "description": "Дореволюционное фото Иорданской лестницы",
-                      "date": "1914-г."
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto3",
@@ -68,7 +68,7 @@
                       "img": "assets/pic/rooms/main-stairs/jordan-photo3.webp",
                       "vertical": false,
                       "description": "Сестры милосердия на Иорданской лстнице",
-                      "date": "1915-г."
+                      "date": "1915г."
                     },
                     {
                       "id": "modernPhoto",
@@ -3138,7 +3138,9 @@
                       "path": "study-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-study-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Кабинет Великой княгини Марии Николаевны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860-е, акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3162,7 +3164,9 @@
                       "path": "dressing-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-dressing-paint.webp",
                       "vertical": false,
-                      "description": "Туалетная Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Туалетная Великой княгини Марии Николаевны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3186,7 +3190,9 @@
                       "path": "bedRoom-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-bedRoom-paint.webp",
                       "vertical": false,
-                      "description": "Спальня Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Спальня Великой княгини Марии Николаевны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3210,7 +3216,9 @@
                       "path": "dressingML-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-dressingML-paint.webp",
                       "vertical": true,
-                      "description": "Туалетная герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Туалетная герцога Максимилиана Лейхтенбергского",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3234,7 +3242,9 @@
                       "path": "large-study-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-large-study-paint.webp",
                       "vertical": false,
-                      "description": "Большой кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Большой кабинет Великой княгини Марии Николаевны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3258,7 +3268,9 @@
                       "path": "yellow-salon-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-yellow-salon-paint.webp",
                       "vertical": false,
-                      "description": "Желтый салон Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Желтый салон Великой княгини Марии Николаевны.",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3283,14 +3295,18 @@
                       "path": "large-salon-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-large-salon-paint.webp",
                       "vertical": false,
-                      "description": "Тронный зал императрицы Марии Федоровны. Крендовский Евграф Федорович 1830г. акварель"
+                      "description": "Тронный зал императрицы Марии Федоровны",
+                      "author": "Крендовский Евграф Федорович",
+                      "date": "1830г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "large-salon-painting2",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-large-salon-paint2.webp",
                       "vertical": false,
-                      "description": "Большой салон Великой княгини Марии Николаевны и герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1866. акварель"
+                      "description": "Большой салон Великой княгини Марии Николаевны и герцога Максимилиана Лейхтенбергского",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1866. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3314,7 +3330,9 @@
                       "path": "salonML-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-salonML-paint.webp",
                       "vertical": true,
-                      "description": "Салон герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1866г. акварель"
+                      "description": "Салон герцога Максимилиана Лейхтенбергского",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1866г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3338,7 +3356,9 @@
                       "path": "livingRoomML-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-livingRoomML-paint.webp",
                       "vertical": false,
-                      "description": "Гостиная герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1868г. акварель"
+                      "description": "Гостиная герцога Максимилиана Лейхтенбергского",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1868г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3361,7 +3381,9 @@
                       "path": "studyML-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-studyML-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1868г. акварель"
+                      "description": "Кабинет герцога Максимилиана Лейхтенбергского",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1868г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3415,7 +3437,9 @@
                       "path": "war1-painting",
                       "img": "assets/pic/rooms/war-halls/war1-paint.webp",
                       "vertical": false,
-                      "description": "Первый зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                      "description": "Первый зал военных картин",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1866г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3440,7 +3464,9 @@
                       "path": "war2-painting",
                       "img": "assets/pic/rooms/war-halls/war2-paint.webp",
                       "vertical": false,
-                      "description": "Второй зал военных картин. Гау Эдуард Петрович 1872г. акварель"
+                      "description": "Второй зал военных картин",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1872г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3465,28 +3491,35 @@
                       "path": "war3-painting",
                       "img": "assets/pic/rooms/war-halls/war3-paint.webp",
                       "vertical": false,
-                      "description": "Третий зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                      "description": "Третий зал военных картин",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1866г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "war3-oldPhoto",
                       "img": "assets/pic/rooms/war-halls/war3-photo.webp",
                       "vertical": false,
-                      "description": "Караул юнкеров которые для защиты Временного правительства в Третьем зале военных картин. 1917г."
+                      "description": "Караул юнкеров которые для защиты Временного правительства в Третьем зале военных картин",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "war3-oldPhoto2",
                       "img": "assets/pic/rooms/war-halls/war3-photo2.webp",
                       "vertical": false,
-                      "description": "Третий зал военных картин после захвата большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Третий зал военных картин после захвата большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "war3-oldPhoto3",
                       "img": "assets/pic/rooms/war-halls/war3-photo3.webp",
                       "vertical": false,
-                      "description": "Третий зал военных картин после захвата большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Третий зал военных картин после захвата большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -3511,14 +3544,17 @@
                       "path": "war4-painting",
                       "img": "assets/pic/rooms/war-halls/war4-paint.webp",
                       "vertical": false,
-                      "description": "Четвертый зал военных картин. Гау Эдуард Петрович 1864г. акварель"
+                      "description": "Четвертый зал военных картин",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "war4-oldPhoto",
                       "img": "assets/pic/rooms/war-halls/war4-photo.webp",
                       "vertical": false,
-                      "description": "Четвертый зал военных картин, дореволюционный вид. 1914г."
+                      "description": "Четвертый зал военных картин, дореволюционный вид. 1914г.",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -3542,7 +3578,9 @@
                       "path": "war5-painting",
                       "img": "assets/pic/rooms/war-halls/war5-paint.webp",
                       "vertical": false,
-                      "description": "Пятый зал военных картин. Гау Эдуард Петрович 1862г. акварель"
+                      "description": "Пятый зал военных картин",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1862г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3596,7 +3634,9 @@
                       "path": "second-hall-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-hall-paint.webp",
                       "vertical": false,
-                      "description": "Первый зал Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Первый зал Второй запасной половины",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3611,7 +3651,7 @@
                   "id": "hall2",
                   "path": "hall2",
                   "map": "assets/pic/rooms/second-reserved-apartment/map-second-hall2.webp",
-                  "next": "commandant-entrance",
+                  "next": "balcony",
                   "prev": "hall",
                   "name": "Второй зал (Приемная или Зал перед 'Фонариком')",
                   "collections": [
@@ -3620,7 +3660,9 @@
                       "path": "second-hall2-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-hall2-paint.webp",
                       "vertical": false,
-                      "description": "Приемная Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Приемная Второй запасной половины",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3632,35 +3674,11 @@
                   ]
                 },
                 {
-                  "id": "commandant-entrance",
-                  "path": "commandant-entrance",
-                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-commandant-entrance.webp",
-                  "next": "balcony",
-                  "prev": "hall2",
-                  "name": "Комендантский подъезд Зимнего дворца",
-                  "collections": [
-                    {
-                      "id": "painting",
-                      "path": "second-commandant-entrance-painting",
-                      "img": "assets/pic/rooms/second-reserved-apartment/second-commandant-entrance-paint.webp",
-                      "vertical": true,
-                      "description": "Комендантский подъезд Зимнего дворца. Ухтомский Константин Андреевич 1866г. акварель"
-                    },
-                    {
-                      "id": "modernPhoto",
-                      "path": "second-commandant-entrance-modernPhoto",
-                      "img": "assets/pic/rooms/second-reserved-apartment/second-commandant-entrance-now.webp",
-                      "vertical": true,
-                      "description": "Комендантский подъезд, современный вид"
-                    }
-                  ]
-                },
-                {
                   "id": "balcony",
                   "path": "balcony",
                   "map": "assets/pic/rooms/second-reserved-apartment/map-second-balcony.webp",
-                  "next": "livingRoom",
-                  "prev": "commandant-entrance",
+                  "next": "commandant-entrance",
+                  "prev": "hall2",
                   "status": "'Фонарик' разобран и ныне не существует",
                   "name": "'Фонарик' над Комендантским подъездом.",
                   "description": "При сооружении балконов учитывались особенности климата, поэтому в юго-западном ризалите над подъездом, позже названным Комендантским, появился первый знаменитый Фонарик.",
@@ -3670,14 +3688,17 @@
                       "path": "second-balcony-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-balcony-paint.webp",
                       "vertical": true,
-                      "description": "'Фонарик' во Второй запасной половине. Гау Эдуард Петрович 1870г. акварель"
+                      "description": "'Фонарик' во Второй запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "second-balcony-oldPhoto",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-balcony-photo.webp",
                       "vertical": true,
-                      "description": "'Фонарик' над Комендантским подъездом перед разбором 1920-е."
+                      "description": "'Фонарик' над Комендантским подъездом перед разбором",
+                      "date": "1920-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -3685,6 +3706,32 @@
                       "img": "assets/pic/rooms/second-reserved-apartment/second-balcony-now.webp",
                       "vertical": false,
                       "description": "Современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "commandant-entrance",
+                  "path": "commandant-entrance",
+                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-commandant-entrance.webp",
+                  "next": "livingRoom",
+                  "prev": "balcony",
+                  "name": "Комендантский подъезд Зимнего дворца",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "second-commandant-entrance-painting",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-commandant-entrance-paint.webp",
+                      "vertical": true,
+                      "description": "Комендантский подъезд Зимнего дворца",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1866г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "second-commandant-entrance-modernPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-commandant-entrance-now.webp",
+                      "vertical": true,
+                      "description": "Комендантский подъезд, современный вид"
                     }
                   ]
                 },
@@ -3701,7 +3748,9 @@
                       "path": "second-livingRoom-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-livingRoom-paint.webp",
                       "vertical": false,
-                      "description": "Гостиная Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Гостиная Второй запасной половины",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3718,21 +3767,23 @@
                   "map": "assets/pic/rooms/second-reserved-apartment/map-second-study.webp",
                   "next": "bedRoom",
                   "prev": "livingRoom",
-                  "name": "Спальня во Второй запасной половине",
+                  "name": "Малый кабинет во Второй запасной половине",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "second-study-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-study-paint.webp",
                       "vertical": true,
-                      "description": "Спальня Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Малый кабинет во Второй запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "second-study-modernPhoto",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-study-now.webp",
                       "vertical": false,
-                      "description": "Спальня, современный вид"
+                      "description": "Малый кабинет, современный вид"
                     }
                   ]
                 },
@@ -3749,7 +3800,9 @@
                       "path": "second-bedRoom-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-bedRoom-paint.webp",
                       "vertical": true,
-                      "description": "Спальня Второй запасной половины. Гау Эдуард Петрович 1874г. акварель"
+                      "description": "Спальня Второй запасной половины",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1874г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3772,7 +3825,9 @@
                       "path": "second-classRoom-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-classRoom-paint.webp",
                       "vertical": false,
-                      "description": "Учебная комната Второй запасной половины. Гау Эдуард Петрович 1870г. акварель"
+                      "description": "Учебная комната Второй запасной половины",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870г. акварель"
                     },
                     {
                       "id": "modernPhoto",
