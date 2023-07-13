@@ -3886,7 +3886,9 @@
                       "path": "library-transition-painting",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-paint.webp",
                       "vertical": true,
-                      "description": "Галерея видов Петербурга. Гау Эдуард Петрович, 1864г. акварель"
+                      "description": "Галерея видов Петербурга",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3912,14 +3914,17 @@
                       "path": "apart-study",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-room-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет цесаревича Николая Александровича. Гау Эдуард Петрович, 1865г. акварель"
+                      "description": "Кабинет цесаревича Николая Александровича",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "oldPhotoUssr",
                       "path": "apart-study-oldPhotoUssr",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-room-photoUssr.webp",
                       "vertical": false,
-                      "description": "Отдел абонементного обслуживания библиотеки музея на месте кабинета. 1988г."
+                      "description": "Отдел абонементного обслуживания библиотеки музея на месте кабинета",
+                      "date": "1988г."
                     },
                     {
                       "id": "modernPhoto",
@@ -3933,7 +3938,9 @@
                       "path": "apart-bedRoom",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-room2-paint.webp",
                       "vertical": false,
-                      "description": "Спальня цесаревича Николая Александровича. Гау Эдуард Петрович, 1865г. акварель"
+                      "description": "Спальня цесаревича Николая Александровича",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "modernPhoto3",
@@ -3947,7 +3954,8 @@
                       "path": "apart-hall-oldPhotoUssr",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-room3-photoUssr.webp",
                       "vertical": false,
-                      "description": "Читальный зал библиотеки музея на месте гостиной. 1988г."
+                      "description": "Читальный зал библиотеки музея на месте гостиной",
+                      "date": "1988г."
                     },
                     {
                       "id": "modernPhoto2",
@@ -3972,28 +3980,34 @@
                       "path": "romanov-gallery-painting",
                       "img": "assets/pic/rooms/small-hermitage/romanov-gallery-paint.webp",
                       "vertical": true,
-                      "description": "Романовская галерея. Гау Эдуард Петрович, 1864г. акварель"
+                      "description": "Романовская галерея",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "romanov-gallery-painting2",
                       "img": "assets/pic/rooms/small-hermitage/romanov-gallery-paint2.webp",
                       "vertical": true,
-                      "description": "Романовская галерея. Гау Эдуард Петрович, 1864г. акварель"
+                      "description": "Романовская галерея",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "romanov-gallery-oldPhoto",
                       "img": "assets/pic/rooms/small-hermitage/romanov-gallery-photo.webp",
                       "vertical": true,
-                      "description": "Романовская галерея. Начало XX века"
+                      "description": "Романовская галерея",
+                      "date": "Начало XX века"
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "romanov-gallery-oldPhoto2",
                       "img": "assets/pic/rooms/small-hermitage/romanov-gallery-photo2.webp",
                       "vertical": true,
-                      "description": "Романовская галерея. Начало XX века"
+                      "description": "Романовская галерея",
+                      "date": "Начало XX века"
                     },
                     {
                       "id": "modernPhoto",
@@ -4018,7 +4032,9 @@
                       "path": "nortStudy-painting",
                       "img": "assets/pic/rooms/small-hermitage/nortStudy-paint.webp",
                       "vertical": true,
-                      "description": "Северный кабинет. Гау Эдуард Петрович, 1865г. акварель"
+                      "description": "Северный кабинет",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -4043,42 +4059,51 @@
                       "path": "pavilion-hall-painting0",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint0.webp",
                       "vertical": false,
-                      "description": "Большой зал Северного павильона до перестройки. Ю.Фриденрейх, 1840г."
+                      "description": "Большой зал Северного павильона до перестройки",
+                      "author": "Фриденрейх Ю.",
+                      "date": "1840г. рисунок"
                     },
                     {
                       "id": "painting2",
                       "path": "pavilion-hall-painting2",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint2.webp",
                       "vertical": false,
-                      "description": "Павильонный зал. Тутукин П.В., 1856г. акварель"
+                      "description": "Павильонный зал",
+                      "author": "Тутукин П.В.",
+                      "date": "1856г. акварель"
                     },
                     {
                       "id": "painting",
                       "path": "pavilion-hall-painting",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint.webp",
                       "vertical": false,
-                      "description": "Павильонный зал. Кольб Александр Христофорович, 1864г. акварель"
+                      "description": "Павильонный зал",
+                      "author": "Кольб Александр Христофорович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "pavilion-hall-oldPhoto",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo.webp",
                       "vertical": true,
-                      "description": "Павильонный зал. 1903г."
+                      "description": "Павильонный зал",
+                      "date": "1903г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "pavilion-hall-oldPhoto2",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo2.webp",
                       "vertical": false,
-                      "description": "Вид с балкона Павильонного зала. 1914г."
+                      "description": "Вид с балкона Павильонного зала",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "pavilion-hall-oldPhoto3",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo3.webp",
                       "vertical": false,
-                      "description": "Заготовление перевязочного материала во время Первой мировой войны в Павильонном зале. 1914г."
+                      "description": "Заготовление перевязочного материала во время Первой мировой войны в Павильонном зале",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4103,14 +4128,17 @@
                       "path": "garden-painting",
                       "img": "assets/pic/rooms/small-hermitage/garden-paint.webp",
                       "vertical": true,
-                      "description": "Висячий сад. 1778г. гравюра"
+                      "description": "Висячий сад",
+                      "date": "1778г. гравюра"
                     },
                     {
                       "id": "painting2",
                       "path": "garden-painting2",
                       "img": "assets/pic/rooms/small-hermitage/garden-paint2.webp",
                       "vertical": false,
-                      "description": "Зимний сад Малого Эрмитажа. Гау Эдуард Петрович 1865г. акварель"
+                      "description": "Зимний сад Малого Эрмитажа",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -4134,7 +4162,9 @@
                       "path": "mosaicStudy-painting",
                       "img": "assets/pic/rooms/small-hermitage/mosaicStudy-paint.webp",
                       "vertical": true,
-                      "description": "Кабинет мозаичных картин. Ухтомский Константин Андреевич, 1860-е."
+                      "description": "Кабинет мозаичных картин",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4159,21 +4189,27 @@
                       "path": "east-gallery-painting",
                       "img": "assets/pic/rooms/small-hermitage/east-gallery-paint.webp",
                       "vertical": true,
-                      "description": "Галерея драгоценностей. Ухтомский Константин Андреевич, 1864г."
+                      "description": "Галерея драгоценностей. Ухтомский Константин Андреевич",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1864г."
                     },
                     {
                       "id": "painting2",
                       "path": "east-gallery-painting2",
                       "img": "assets/pic/rooms/small-hermitage/east-gallery-paint2.webp",
                       "vertical": true,
-                      "description": "Часы 'Павлин' в Восточной галерее. Ухтомский Константин Андреевич, 1860г."
+                      "description": "Часы 'Павлин' в Восточной галерее",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г."
                     },
                     {
                       "id": "painting3",
                       "path": "east-gallery-painting3",
                       "img": "assets/pic/rooms/small-hermitage/east-gallery-paint3.webp",
                       "vertical": true,
-                      "description": "Восточная галерея. Гау Эдуард Петрович, 1861г."
+                      "description": "Восточная галерея",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1861г. акварель"
                     },
                     {
                       "id": "modernPhoto",
