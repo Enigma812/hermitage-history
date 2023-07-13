@@ -52,7 +52,7 @@
                       "img": "assets/pic/rooms/main-stairs/jordan-photo2.webp",
                       "vertical": false,
                       "description": "Дореволюционное фото Иорданской лестницы",
-                      "date": "1911-г."
+                      "date": "1911г."
                     },
                     {
                       "id": "oldPhoto",
@@ -60,7 +60,7 @@
                       "img": "assets/pic/rooms/main-stairs/jordan-photo.webp",
                       "vertical": true,
                       "description": "Дореволюционное фото Иорданской лестницы",
-                      "date": "1914-г."
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto3",
@@ -68,7 +68,7 @@
                       "img": "assets/pic/rooms/main-stairs/jordan-photo3.webp",
                       "vertical": false,
                       "description": "Сестры милосердия на Иорданской лстнице",
-                      "date": "1915-г."
+                      "date": "1915г."
                     },
                     {
                       "id": "modernPhoto",
@@ -2132,7 +2132,9 @@
                       "path": "third-bedRoom-painting",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-bedRoom-paint.webp",
                       "vertical": false,
-                      "description": "Спальня в Третьей запасной половине. Гау Эдуард Петрович 1873г. акварель"
+                      "description": "Спальня в Третьей запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1873г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2156,7 +2158,9 @@
                       "path": "third-livingRoom-painting",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-livingRoom-paint.webp",
                       "vertical": false,
-                      "description": "Гостиная в Третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
+                      "description": "Гостиная в Третьей запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2181,14 +2185,18 @@
                       "path": "third-second-livingRoom-painting",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-second-livingRoom-paint.webp",
                       "vertical": false,
-                      "description": "Учебная комната (Библиотека) Великих князей. Вольский Иван Петрович 1850-е. акварель"
+                      "description": "Учебная комната (Библиотека) Великих князей",
+                      "author": "Вольский Иван Петрович",
+                      "date": "1850-е. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "third-second-livingRoom2",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-second-livingRoom-paint2.webp",
                       "vertical": false,
-                      "description": "Вторая Гостиная в Третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
+                      "description": "Вторая Гостиная в Третьей запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2213,14 +2221,18 @@
                       "path": "third-walk-through-painting",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-walkThrough-paint.png",
                       "vertical": false,
-                      "description": "Детская (Корабельная) сыновей Николая I. Шарлемань Иосиф Иосифович 1856г. акварель"
+                      "description": "Детская (Корабельная) сыновей Николая I",
+                      "author": "Шарлемань Иосиф Иосифович",
+                      "date": "1856г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "third-walk-through2",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-walkThrough-paint2.webp",
                       "vertical": false,
-                      "description": "Проходная в Третьей запасной половине. Гау Эдуард Петрович 1872г. акварель"
+                      "description": "Проходная в Третьей запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1872г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2244,7 +2256,9 @@
                       "path": "third-library-painting",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-library-paint.webp",
                       "vertical": false,
-                      "description": "Библиотека императора Александра II. Гау Эдуард Петрович 1871г. акварель"
+                      "description": "Библиотека императора Александра II",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1871г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2268,7 +2282,9 @@
                       "path": "third-study-painting",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-study-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет в третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
+                      "description": "Кабинет в третьей запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2291,7 +2307,9 @@
                       "path": "third-dressing-room-painting",
                       "img": "assets/pic/rooms/third-reserved-apartment/third-dressing-room-paint.webp",
                       "vertical": true,
-                      "description": "Гардеробная в третьей запасной половине. Гау Эдуард Петрович 1870-е. акварель"
+                      "description": "Гардеробная в третьей запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2345,7 +2363,9 @@
                       "path": "nicolasStudy-painting",
                       "img": "assets/pic/rooms/walk-through/dark-corridor-paint.webp",
                       "vertical": true,
-                      "description": "Темный коридор. Ухтомский Константин Андреевич 1861г. акварель"
+                      "description": "Темный коридор",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1861г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2370,7 +2390,9 @@
                       "path": "small-fieldmarshals-painting",
                       "img": "assets/pic/rooms/walk-through/small-fieldmarshals-paint.webp",
                       "vertical": false,
-                      "description": "Малый Фельдмаршальский зал. Гау Эдуард Петрович 1863г. акварель"
+                      "description": "Малый Фельдмаршальский зал",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1863г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2395,7 +2417,9 @@
                       "path": "transition-painting",
                       "img": "assets/pic/rooms/walk-through/transition-paint.webp",
                       "vertical": true,
-                      "description": "Переход. Гау Эдуард Петрович 1871г. акварель"
+                      "description": "Переход",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1871г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2420,7 +2444,9 @@
                       "path": "room&Landing-painting",
                       "img": "assets/pic/rooms/walk-through/room&Landing-paint.webp",
                       "vertical": false,
-                      "description": "Площадка лестницы. Гау Эдуард Петрович 1873г. акварель"
+                      "description": "Площадка лестницы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1873г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2444,14 +2470,17 @@
                       "path": "guardroom-painting",
                       "img": "assets/pic/rooms/walk-through/guardroom-paint.webp",
                       "vertical": false,
-                      "description": "Кирасирская пикетная комната. Гау Эдуард Петрович 1864г. акварель"
+                      "description": "Кирасирская пикетная комната",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "guardroom-oldPhoto",
                       "img": "assets/pic/rooms/walk-through/guardroom-photo.webp",
                       "vertical": false,
-                      "description": "Кирасирская пикетная комната. 1914г."
+                      "description": "Кирасирская пикетная комната",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -2506,14 +2535,18 @@
                       "path": "october-staircase-painting",
                       "img": "assets/pic/rooms/alexII/october-staircase-paint.webp",
                       "vertical": true,
-                      "description": "Собственная лестница. Ухтомский Константин Андреевич 1860-е. акварель"
+                      "description": "Собственная лестница",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860-е. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "october-staircase-painting2",
                       "img": "assets/pic/rooms/alexII/october-staircase-paint2.webp",
                       "vertical": true,
-                      "description": "Собственный подъезд. Ухтомский Константин Андреевич 1860-е. акварель"
+                      "description": "Собственный подъезд",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2545,35 +2578,45 @@
                       "path": "white-hall-painting",
                       "img": "assets/pic/rooms/alexII/white-hall-paint.webp",
                       "vertical": true,
-                      "description": "Белый зал в Зимнем дворце. Луиджи Премацци 1865г. акварель"
+                      "description": "Белый зал в Зимнем дворце",
+                      "author": "Луиджи Премацци",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "white-hall-oldPhoto",
                       "img": "assets/pic/rooms/alexII/white-hall-photo.webp",
                       "vertical": false,
-                      "description": "Дореволюционный Белый зал. Ателье Карла Буллы 1914г."
+                      "description": "Дореволюционный Белый зал",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "white-hall-oldPhoto2",
                       "img": "assets/pic/rooms/alexII/white-hall-photo2.webp",
                       "vertical": false,
-                      "description": "Дореволюционный Белый зал. Ателье Карла Буллы 1914г."
+                      "description": "Дореволюционный Белый зал",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "white-hall-oldPhoto3",
                       "img": "assets/pic/rooms/alexII/white-hall-photo3.webp",
                       "vertical": true,
-                      "description": "Камин в Белом зале. Ателье Карла Буллы 1914г."
+                      "description": "Камин в Белом зале",
+                      "author": "Ателье Карла Буллы",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto4",
                       "path": "white-hall-oldPhoto4",
                       "img": "assets/pic/rooms/alexII/white-hall-photo4.webp",
                       "vertical": false,
-                      "description": "Охрана Керенского в Белом зале. Кубеш Карл Карлович 1917г."
+                      "description": "Охрана Керенского в Белом зале",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -2598,21 +2641,25 @@
                       "path": "gold-drawingRoom-painting",
                       "img": "assets/pic/rooms/alexII/gold-drawingRoom-paint.webp",
                       "vertical": false,
-                      "description": "Золотая гостиная. Кольб Александр Христофорович 1850-е. акварель"
+                      "description": "Золотая гостиная",
+                      "author": "Кольб Александр Христофорович",
+                      "date": "1850-е. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "gold-drawingRoom-OldPhoto",
                       "img": "assets/pic/rooms/alexII/gold-drawingRoom-photo.webp",
                       "vertical": false,
-                      "description": "Золотая гостиная 1914г."
+                      "description": "Золотая гостиная ",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "gold-drawingRoom-OldPhoto",
-                      "img": "assets/pic/rooms/alexII/gold-drawingRoom-photo.webp",
+                      "img": "assets/pic/rooms/alexII/gold-drawingRoom-photo2.webp",
                       "vertical": false,
-                      "description": "Охрана временного правительства в Золотой гостиной 1917г."
+                      "description": "Охрана временного правительства в Золотой гостиной ",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -2638,21 +2685,26 @@
                       "path": "green-diningRoom-painting",
                       "img": "assets/pic/rooms/alexII/greenDR-paint.webp",
                       "vertical": false,
-                      "description": "Зеленая столовая. Луиджи Премацци 1852г. акварель"
+                      "description": "Зеленая столовая",
+                      "author": "Луиджи Премацци",
+                      "date": "1852г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "green-diningRoom-photo",
                       "img": "assets/pic/rooms/alexII/greenDR-photo.webp",
                       "vertical": true,
-                      "description": "Дореволюционная Зеленая столовая. 1914г."
+                      "description": "Дореволюционная Зеленая столовая",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhotoUssr",
                       "path": "green-diningRoom-oldPhotoUssr",
                       "img": "assets/pic/rooms/alexII/greenDR-photoUssr.webp",
                       "vertical": true,
-                      "description": "Зеленая столовая в советское время лишилась верхнего света. Потолок был зыкрыт бетонной плитой. 1960-е"
+                      "description": "Зеленая столовая в советское время лишилась верхнего света. Потолок был зыкрыт бетонной плитой ",
+                      "author": "СССР",
+                      "date": "1960-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -2677,28 +2729,35 @@
                       "path": "crimson-stury-painting",
                       "img": "assets/pic/rooms/alexII/crimson-study-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Великой княгини Марии Александровны. Ухтомский Константин Андреевич 1850-е. акварель"
+                      "description": "Кабинет Великой княгини Марии Александровны",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1850-е. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "crimson-stury-painting2",
                       "img": "assets/pic/rooms/alexII/crimson-study-paint2.webp",
                       "vertical": false,
-                      "description": "Малиновый кабинет императрицы Марии Александровны. Гау Эдуард Петрович 1850-е. акварель"
+                      "description": "Малиновый кабинет императрицы Марии Александровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1850-е. акварель"
                     },
                     {
                       "id": "painting3",
                       "path": "crimson-stury-painting3",
                       "img": "assets/pic/rooms/alexII/crimson-study-paint3.webp",
                       "vertical": false,
-                      "description": "Малиновый кабинет императрицы Марии Александровны. Луиджи Премацци 1869г. акварель"
+                      "description": "Малиновый кабинет императрицы Марии Александровны",
+                      "author": "Луиджи Премацци",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "crimson-stury-oldPhoto",
                       "img": "assets/pic/rooms/alexII/crimson-study-photo.webp",
                       "vertical": false,
-                      "description": "Малиновый кабинет после захвата большевиками. 1917г."
+                      "description": "Малиновый кабинет после захвата большевиками",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -2723,14 +2782,18 @@
                       "path": "crimson-boudoir-painting",
                       "img": "assets/pic/rooms/alexII/crimson-boudoir-paint.webp",
                       "vertical": true,
-                      "description": "Будуар Великой княгини Марии Александровны. Гау Эдуард Петрович 1850-е. акварель"
+                      "description": "Будуар Великой княгини Марии Александровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1850-е. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "crimson-boudoir-painting2",
                       "img": "assets/pic/rooms/alexII/crimson-boudoir-paint2.webp",
                       "vertical": true,
-                      "description": "Будуар императрицы Марии Александровны. Гау Эдуард Петрович 1861г. акварель"
+                      "description": "Будуар императрицы Марии Александровны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1861г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2755,21 +2818,27 @@
                       "path": "blue-bedRoom-painting",
                       "img": "assets/pic/rooms/alexII/blue-bedRoom-paint.webp",
                       "vertical": false,
-                      "description": "Спальня великой княгини Марии Александры. Луиджи Премацци 1850-е. акварель"
+                      "description": "Спальня великой княгини Марии Александры",
+                      "author": "Луиджи Премацци",
+                      "date": "1850-е. акварель"
                     },
                     {
                       "id": "painting",
                       "path": "blue-bedRoom-painting2",
                       "img": "assets/pic/rooms/alexII/blue-bedRoom-paint2.webp",
                       "vertical": false,
-                      "description": "Спальня императрицы Марии Александры. Луиджи Премацци 1860-е. акварель"
+                      "description": "Спальня императрицы Марии Александры",
+                      "author": "Луиджи Премацци",
+                      "date": "1860-е. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "blue-bedRoom-oldPhoto",
                       "img": "assets/pic/rooms/alexII/blue-bedRoom-photo.webp",
                       "vertical": false,
-                      "description": "Спальня императрицы Марии Александры. Кубеш Карл Карлович 1917г."
+                      "description": "Спальня императрицы Марии Александры",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -2793,7 +2862,9 @@
                       "path": "bathRoom-painting",
                       "img": "assets/pic/rooms/alexII/bathRoom-paint.webp",
                       "vertical": true,
-                      "description": "Ванная Великой княгини Марии Александровны. Луиджи Премацци 1857г. акварель"
+                      "description": "Ванная Великой княгини Марии Александровны",
+                      "author": "Луиджи Премацци",
+                      "date": "1857г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2817,7 +2888,9 @@
                       "path": "dressing-room-painting",
                       "img": "assets/pic/rooms/alexII/dressing-room-paint.webp",
                       "vertical": false,
-                      "description": "Уборная императрицы Марии Александровны. Луиджи Премацци 1857г. акварель"
+                      "description": "Уборная императрицы Марии Александровны",
+                      "author": "Луиджи Премацци",
+                      "date": "1857г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2841,7 +2914,9 @@
                       "path": "library-alexII-painting",
                       "img": "assets/pic/rooms/alexII/library-alexII-paint.webp",
                       "vertical": false,
-                      "description": "Библиотека императора Александра II. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Библиотека императора Александра II",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2866,35 +2941,45 @@
                       "path": "alexII-study-painting",
                       "img": "assets/pic/rooms/alexII/alexII-study-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет императора Александра II. Гау Эдуард Петрович 1857г. акварель"
+                      "description": "Кабинет императора Александра II",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1857г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "alexII-study-painting2",
                       "img": "assets/pic/rooms/alexII/alexII-study-paint2.webp",
                       "vertical": false,
-                      "description": "Кабинет императора Александра II. Гау Эдуард Петрович 1855-1860г. акварель"
+                      "description": "Кабинет императора Александра II",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1855-1860г. акварель"
                     },
                     {
                       "id": "painting3",
                       "path": "alexII-study-painting3",
                       "img": "assets/pic/rooms/alexII/alexII-study-paint3.webp",
                       "vertical": false,
-                      "description": "Кабинет императора Александра II. Гау Эдуард Петрович 1881г. акварель"
+                      "description": "Кабинет императора Александра II",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1881г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "alexII-study-oldPhoto",
                       "img": "assets/pic/rooms/alexII/alexII-study-photo.webp",
                       "vertical": false,
-                      "description": "Кабинет императора Александра II. Кубеш Карл Карлович 1917г."
+                      "description": "Кабинет императора Александра II",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "alexII-study-oldPhoto2",
                       "img": "assets/pic/rooms/alexII/alexII-study-photo2.webp",
                       "vertical": false,
-                      "description": "Разгром в Кабинете Александра II, устроенный большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Разгром в Кабинете Александра II, устроенный большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -2919,21 +3004,27 @@
                       "path": "council-room-painting",
                       "img": "assets/pic/rooms/alexII/council-room-paint.webp",
                       "vertical": false,
-                      "description": "Учебная комната цесаревича Александра Николаевича. Гау Эдуард Петрович 1860-е. акварель"
+                      "description": "Учебная комната цесаревича Александра Николаевича",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860-е. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "council-room-oldPhoto",
                       "img": "assets/pic/rooms/alexII/council-room-photo.webp",
                       "vertical": false,
-                      "description": "Учебная комната цесаревича Александра Николаевича. Кубеш Карл Карлович 1917г,"
+                      "description": "Учебная комната цесаревича Александра Николаевича",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "council-room-oldPhoto2",
                       "img": "assets/pic/rooms/alexII/council-room-photo2.webp",
                       "vertical": false,
-                      "description": "Учебная комната после захвата большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Учебная комната после захвата большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -2957,14 +3048,18 @@
                       "path": "reception-alexII-painting",
                       "img": "assets/pic/rooms/alexII/reception-alexII-paint.webp",
                       "vertical": false,
-                      "description": "Приемная Александра II до пожара 1837г. Чернецов Никанор Григорьевич 1937г. акварель"
+                      "description": "Приемная Александра II до пожара 1837г.",
+                      "author": "Чернецов Никанор Григорьевич",
+                      "date": "1837г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "reception-alexII-painting2",
                       "img": "assets/pic/rooms/alexII/reception-alexII-paint2.webp",
                       "vertical": false,
-                      "description": "Приемная Александра II. Гау Эдуард Петрович 1860-е. акварель"
+                      "description": "Приемная Александра II",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -2987,7 +3082,9 @@
                       "path": "billiard-alexII-painting",
                       "img": "assets/pic/rooms/alexII/billiard-alexII-paint.webp",
                       "vertical": false,
-                      "description": "Бильярдная императора Александра II. Гау Эдуард Петрович 1860-е. акварель"
+                      "description": "Бильярдная императора Александра II",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860-е. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3041,7 +3138,9 @@
                       "path": "study-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-study-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Кабинет Великой княгини Марии Николаевны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860-е, акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3065,7 +3164,9 @@
                       "path": "dressing-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-dressing-paint.webp",
                       "vertical": false,
-                      "description": "Туалетная Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Туалетная Великой княгини Марии Николаевны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3089,7 +3190,9 @@
                       "path": "bedRoom-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-bedRoom-paint.webp",
                       "vertical": false,
-                      "description": "Спальня Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Спальня Великой княгини Марии Николаевны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3113,7 +3216,9 @@
                       "path": "dressingML-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-dressingML-paint.webp",
                       "vertical": true,
-                      "description": "Туалетная герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Туалетная герцога Максимилиана Лейхтенбергского",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3137,7 +3242,9 @@
                       "path": "large-study-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-large-study-paint.webp",
                       "vertical": false,
-                      "description": "Большой кабинет Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Большой кабинет Великой княгини Марии Николаевны",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3161,7 +3268,9 @@
                       "path": "yellow-salon-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-yellow-salon-paint.webp",
                       "vertical": false,
-                      "description": "Желтый салон Великой княгини Марии Николаевны. Гау Эдуард Петрович 1867г. акварель"
+                      "description": "Желтый салон Великой княгини Марии Николаевны.",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1867г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3186,14 +3295,18 @@
                       "path": "large-salon-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-large-salon-paint.webp",
                       "vertical": false,
-                      "description": "Тронный зал императрицы Марии Федоровны. Крендовский Евграф Федорович 1830г. акварель"
+                      "description": "Тронный зал императрицы Марии Федоровны",
+                      "author": "Крендовский Евграф Федорович",
+                      "date": "1830г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "large-salon-painting2",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-large-salon-paint2.webp",
                       "vertical": false,
-                      "description": "Большой салон Великой княгини Марии Николаевны и герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1866. акварель"
+                      "description": "Большой салон Великой княгини Марии Николаевны и герцога Максимилиана Лейхтенбергского",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1866. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3217,7 +3330,9 @@
                       "path": "salonML-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-salonML-paint.webp",
                       "vertical": true,
-                      "description": "Салон герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1866г. акварель"
+                      "description": "Салон герцога Максимилиана Лейхтенбергского",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1866г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3241,7 +3356,9 @@
                       "path": "livingRoomML-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-livingRoomML-paint.webp",
                       "vertical": false,
-                      "description": "Гостиная герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1868г. акварель"
+                      "description": "Гостиная герцога Максимилиана Лейхтенбергского",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1868г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3264,7 +3381,9 @@
                       "path": "studyML-painting",
                       "img": "assets/pic/rooms/first-reserved-apartment/first-studyML-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет герцога Максимилиана Лейхтенбергского. Гау Эдуард Петрович 1868г. акварель"
+                      "description": "Кабинет герцога Максимилиана Лейхтенбергского",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1868г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3318,7 +3437,9 @@
                       "path": "war1-painting",
                       "img": "assets/pic/rooms/war-halls/war1-paint.webp",
                       "vertical": false,
-                      "description": "Первый зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                      "description": "Первый зал военных картин",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1866г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3343,7 +3464,9 @@
                       "path": "war2-painting",
                       "img": "assets/pic/rooms/war-halls/war2-paint.webp",
                       "vertical": false,
-                      "description": "Второй зал военных картин. Гау Эдуард Петрович 1872г. акварель"
+                      "description": "Второй зал военных картин",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1872г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3368,28 +3491,35 @@
                       "path": "war3-painting",
                       "img": "assets/pic/rooms/war-halls/war3-paint.webp",
                       "vertical": false,
-                      "description": "Третий зал военных картин. Гау Эдуард Петрович 1866г. акварель"
+                      "description": "Третий зал военных картин",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1866г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "war3-oldPhoto",
                       "img": "assets/pic/rooms/war-halls/war3-photo.webp",
                       "vertical": false,
-                      "description": "Караул юнкеров которые для защиты Временного правительства в Третьем зале военных картин. 1917г."
+                      "description": "Караул юнкеров которые для защиты Временного правительства в Третьем зале военных картин",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "war3-oldPhoto2",
                       "img": "assets/pic/rooms/war-halls/war3-photo2.webp",
                       "vertical": false,
-                      "description": "Третий зал военных картин после захвата большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Третий зал военных картин после захвата большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "war3-oldPhoto3",
                       "img": "assets/pic/rooms/war-halls/war3-photo3.webp",
                       "vertical": false,
-                      "description": "Третий зал военных картин после захвата большевиками. Кубеш Карл Карлович 1917г."
+                      "description": "Третий зал военных картин после захвата большевиками",
+                      "author": "Кубеш Карл Карлович",
+                      "date": "1917г."
                     },
                     {
                       "id": "modernPhoto",
@@ -3414,14 +3544,17 @@
                       "path": "war4-painting",
                       "img": "assets/pic/rooms/war-halls/war4-paint.webp",
                       "vertical": false,
-                      "description": "Четвертый зал военных картин. Гау Эдуард Петрович 1864г. акварель"
+                      "description": "Четвертый зал военных картин",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "war4-oldPhoto",
                       "img": "assets/pic/rooms/war-halls/war4-photo.webp",
                       "vertical": false,
-                      "description": "Четвертый зал военных картин, дореволюционный вид. 1914г."
+                      "description": "Четвертый зал военных картин, дореволюционный вид. 1914г.",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -3445,7 +3578,9 @@
                       "path": "war5-painting",
                       "img": "assets/pic/rooms/war-halls/war5-paint.webp",
                       "vertical": false,
-                      "description": "Пятый зал военных картин. Гау Эдуард Петрович 1862г. акварель"
+                      "description": "Пятый зал военных картин",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1862г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3499,7 +3634,9 @@
                       "path": "second-hall-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-hall-paint.webp",
                       "vertical": false,
-                      "description": "Первый зал Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Первый зал Второй запасной половины",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3514,7 +3651,7 @@
                   "id": "hall2",
                   "path": "hall2",
                   "map": "assets/pic/rooms/second-reserved-apartment/map-second-hall2.webp",
-                  "next": "commandant-entrance",
+                  "next": "balcony",
                   "prev": "hall",
                   "name": "Второй зал (Приемная или Зал перед 'Фонариком')",
                   "collections": [
@@ -3523,7 +3660,9 @@
                       "path": "second-hall2-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-hall2-paint.webp",
                       "vertical": false,
-                      "description": "Приемная Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Приемная Второй запасной половины",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3535,35 +3674,11 @@
                   ]
                 },
                 {
-                  "id": "commandant-entrance",
-                  "path": "commandant-entrance",
-                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-commandant-entrance.webp",
-                  "next": "balcony",
-                  "prev": "hall2",
-                  "name": "Комендантский подъезд Зимнего дворца",
-                  "collections": [
-                    {
-                      "id": "painting",
-                      "path": "second-commandant-entrance-painting",
-                      "img": "assets/pic/rooms/second-reserved-apartment/second-commandant-entrance-paint.webp",
-                      "vertical": true,
-                      "description": "Комендантский подъезд Зимнего дворца. Ухтомский Константин Андреевич 1866г. акварель"
-                    },
-                    {
-                      "id": "modernPhoto",
-                      "path": "second-commandant-entrance-modernPhoto",
-                      "img": "assets/pic/rooms/second-reserved-apartment/second-commandant-entrance-now.webp",
-                      "vertical": true,
-                      "description": "Комендантский подъезд, современный вид"
-                    }
-                  ]
-                },
-                {
                   "id": "balcony",
                   "path": "balcony",
                   "map": "assets/pic/rooms/second-reserved-apartment/map-second-balcony.webp",
-                  "next": "livingRoom",
-                  "prev": "commandant-entrance",
+                  "next": "commandant-entrance",
+                  "prev": "hall2",
                   "status": "'Фонарик' разобран и ныне не существует",
                   "name": "'Фонарик' над Комендантским подъездом.",
                   "description": "При сооружении балконов учитывались особенности климата, поэтому в юго-западном ризалите над подъездом, позже названным Комендантским, появился первый знаменитый Фонарик.",
@@ -3573,14 +3688,17 @@
                       "path": "second-balcony-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-balcony-paint.webp",
                       "vertical": true,
-                      "description": "'Фонарик' во Второй запасной половине. Гау Эдуард Петрович 1870г. акварель"
+                      "description": "'Фонарик' во Второй запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "second-balcony-oldPhoto",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-balcony-photo.webp",
                       "vertical": true,
-                      "description": "'Фонарик' над Комендантским подъездом перед разбором 1920-е."
+                      "description": "'Фонарик' над Комендантским подъездом перед разбором",
+                      "date": "1920-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -3588,6 +3706,32 @@
                       "img": "assets/pic/rooms/second-reserved-apartment/second-balcony-now.webp",
                       "vertical": false,
                       "description": "Современный вид"
+                    }
+                  ]
+                },
+                {
+                  "id": "commandant-entrance",
+                  "path": "commandant-entrance",
+                  "map": "assets/pic/rooms/second-reserved-apartment/map-second-commandant-entrance.webp",
+                  "next": "livingRoom",
+                  "prev": "balcony",
+                  "name": "Комендантский подъезд Зимнего дворца",
+                  "collections": [
+                    {
+                      "id": "painting",
+                      "path": "second-commandant-entrance-painting",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-commandant-entrance-paint.webp",
+                      "vertical": true,
+                      "description": "Комендантский подъезд Зимнего дворца",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1866г. акварель"
+                    },
+                    {
+                      "id": "modernPhoto",
+                      "path": "second-commandant-entrance-modernPhoto",
+                      "img": "assets/pic/rooms/second-reserved-apartment/second-commandant-entrance-now.webp",
+                      "vertical": true,
+                      "description": "Комендантский подъезд, современный вид"
                     }
                   ]
                 },
@@ -3604,7 +3748,9 @@
                       "path": "second-livingRoom-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-livingRoom-paint.webp",
                       "vertical": false,
-                      "description": "Гостиная Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Гостиная Второй запасной половины",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3621,21 +3767,23 @@
                   "map": "assets/pic/rooms/second-reserved-apartment/map-second-study.webp",
                   "next": "bedRoom",
                   "prev": "livingRoom",
-                  "name": "Спальня во Второй запасной половине",
+                  "name": "Малый кабинет во Второй запасной половине",
                   "collections": [
                     {
                       "id": "painting",
                       "path": "second-study-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-study-paint.webp",
                       "vertical": true,
-                      "description": "Спальня Второй запасной половины. Гау Эдуард Петрович 1869г. акварель"
+                      "description": "Малый кабинет во Второй запасной половине",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1869г. акварель"
                     },
                     {
                       "id": "modernPhoto",
                       "path": "second-study-modernPhoto",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-study-now.webp",
                       "vertical": false,
-                      "description": "Спальня, современный вид"
+                      "description": "Малый кабинет, современный вид"
                     }
                   ]
                 },
@@ -3652,7 +3800,9 @@
                       "path": "second-bedRoom-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-bedRoom-paint.webp",
                       "vertical": true,
-                      "description": "Спальня Второй запасной половины. Гау Эдуард Петрович 1874г. акварель"
+                      "description": "Спальня Второй запасной половины",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1874г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3675,7 +3825,9 @@
                       "path": "second-classRoom-painting",
                       "img": "assets/pic/rooms/second-reserved-apartment/second-classRoom-paint.webp",
                       "vertical": false,
-                      "description": "Учебная комната Второй запасной половины. Гау Эдуард Петрович 1870г. акварель"
+                      "description": "Учебная комната Второй запасной половины",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1870г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3734,7 +3886,9 @@
                       "path": "library-transition-painting",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-paint.webp",
                       "vertical": true,
-                      "description": "Галерея видов Петербурга. Гау Эдуард Петрович, 1864г. акварель"
+                      "description": "Галерея видов Петербурга",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3760,14 +3914,17 @@
                       "path": "apart-study",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-room-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет цесаревича Николая Александровича. Гау Эдуард Петрович, 1865г. акварель"
+                      "description": "Кабинет цесаревича Николая Александровича",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "oldPhotoUssr",
                       "path": "apart-study-oldPhotoUssr",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-room-photoUssr.webp",
                       "vertical": false,
-                      "description": "Отдел абонементного обслуживания библиотеки музея на месте кабинета. 1988г."
+                      "description": "Отдел абонементного обслуживания библиотеки музея на месте кабинета",
+                      "date": "1988г."
                     },
                     {
                       "id": "modernPhoto",
@@ -3781,7 +3938,9 @@
                       "path": "apart-bedRoom",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-room2-paint.webp",
                       "vertical": false,
-                      "description": "Спальня цесаревича Николая Александровича. Гау Эдуард Петрович, 1865г. акварель"
+                      "description": "Спальня цесаревича Николая Александровича",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "modernPhoto3",
@@ -3795,7 +3954,8 @@
                       "path": "apart-hall-oldPhotoUssr",
                       "img": "assets/pic/rooms/small-hermitage/library-transition-room3-photoUssr.webp",
                       "vertical": false,
-                      "description": "Читальный зал библиотеки музея на месте гостиной. 1988г."
+                      "description": "Читальный зал библиотеки музея на месте гостиной",
+                      "date": "1988г."
                     },
                     {
                       "id": "modernPhoto2",
@@ -3820,28 +3980,34 @@
                       "path": "romanov-gallery-painting",
                       "img": "assets/pic/rooms/small-hermitage/romanov-gallery-paint.webp",
                       "vertical": true,
-                      "description": "Романовская галерея. Гау Эдуард Петрович, 1864г. акварель"
+                      "description": "Романовская галерея",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "painting2",
                       "path": "romanov-gallery-painting2",
                       "img": "assets/pic/rooms/small-hermitage/romanov-gallery-paint2.webp",
                       "vertical": true,
-                      "description": "Романовская галерея. Гау Эдуард Петрович, 1864г. акварель"
+                      "description": "Романовская галерея",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "romanov-gallery-oldPhoto",
                       "img": "assets/pic/rooms/small-hermitage/romanov-gallery-photo.webp",
                       "vertical": true,
-                      "description": "Романовская галерея. Начало XX века"
+                      "description": "Романовская галерея",
+                      "date": "Начало XX века"
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "romanov-gallery-oldPhoto2",
                       "img": "assets/pic/rooms/small-hermitage/romanov-gallery-photo2.webp",
                       "vertical": true,
-                      "description": "Романовская галерея. Начало XX века"
+                      "description": "Романовская галерея",
+                      "date": "Начало XX века"
                     },
                     {
                       "id": "modernPhoto",
@@ -3866,7 +4032,9 @@
                       "path": "nortStudy-painting",
                       "img": "assets/pic/rooms/small-hermitage/nortStudy-paint.webp",
                       "vertical": true,
-                      "description": "Северный кабинет. Гау Эдуард Петрович, 1865г. акварель"
+                      "description": "Северный кабинет",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3891,42 +4059,51 @@
                       "path": "pavilion-hall-painting0",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint0.webp",
                       "vertical": false,
-                      "description": "Большой зал Северного павильона до перестройки. Ю.Фриденрейх, 1840г."
+                      "description": "Большой зал Северного павильона до перестройки",
+                      "author": "Фриденрейх Ю.",
+                      "date": "1840г. рисунок"
                     },
                     {
                       "id": "painting2",
                       "path": "pavilion-hall-painting2",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint2.webp",
                       "vertical": false,
-                      "description": "Павильонный зал. Тутукин П.В., 1856г. акварель"
+                      "description": "Павильонный зал",
+                      "author": "Тутукин П.В.",
+                      "date": "1856г. акварель"
                     },
                     {
                       "id": "painting",
                       "path": "pavilion-hall-painting",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-paint.webp",
                       "vertical": false,
-                      "description": "Павильонный зал. Кольб Александр Христофорович, 1864г. акварель"
+                      "description": "Павильонный зал",
+                      "author": "Кольб Александр Христофорович",
+                      "date": "1864г. акварель"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "pavilion-hall-oldPhoto",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo.webp",
                       "vertical": true,
-                      "description": "Павильонный зал. 1903г."
+                      "description": "Павильонный зал",
+                      "date": "1903г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "pavilion-hall-oldPhoto2",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo2.webp",
                       "vertical": false,
-                      "description": "Вид с балкона Павильонного зала. 1914г."
+                      "description": "Вид с балкона Павильонного зала",
+                      "date": "1914г."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "pavilion-hall-oldPhoto3",
                       "img": "assets/pic/rooms/small-hermitage/pavilion-hall-photo3.webp",
                       "vertical": false,
-                      "description": "Заготовление перевязочного материала во время Первой мировой войны в Павильонном зале. 1914г."
+                      "description": "Заготовление перевязочного материала во время Первой мировой войны в Павильонном зале",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -3951,14 +4128,17 @@
                       "path": "garden-painting",
                       "img": "assets/pic/rooms/small-hermitage/garden-paint.webp",
                       "vertical": true,
-                      "description": "Висячий сад. 1778г. гравюра"
+                      "description": "Висячий сад",
+                      "date": "1778г. гравюра"
                     },
                     {
                       "id": "painting2",
                       "path": "garden-painting2",
                       "img": "assets/pic/rooms/small-hermitage/garden-paint2.webp",
                       "vertical": false,
-                      "description": "Зимний сад Малого Эрмитажа. Гау Эдуард Петрович 1865г. акварель"
+                      "description": "Зимний сад Малого Эрмитажа",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1865г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -3982,7 +4162,9 @@
                       "path": "mosaicStudy-painting",
                       "img": "assets/pic/rooms/small-hermitage/mosaicStudy-paint.webp",
                       "vertical": true,
-                      "description": "Кабинет мозаичных картин. Ухтомский Константин Андреевич, 1860-е."
+                      "description": "Кабинет мозаичных картин",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4007,21 +4189,27 @@
                       "path": "east-gallery-painting",
                       "img": "assets/pic/rooms/small-hermitage/east-gallery-paint.webp",
                       "vertical": true,
-                      "description": "Галерея драгоценностей. Ухтомский Константин Андреевич, 1864г."
+                      "description": "Галерея драгоценностей. Ухтомский Константин Андреевич",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1864г."
                     },
                     {
                       "id": "painting2",
                       "path": "east-gallery-painting2",
                       "img": "assets/pic/rooms/small-hermitage/east-gallery-paint2.webp",
                       "vertical": true,
-                      "description": "Часы 'Павлин' в Восточной галерее. Ухтомский Константин Андреевич, 1860г."
+                      "description": "Часы 'Павлин' в Восточной галерее",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г."
                     },
                     {
                       "id": "painting3",
                       "path": "east-gallery-painting3",
                       "img": "assets/pic/rooms/small-hermitage/east-gallery-paint3.webp",
                       "vertical": true,
-                      "description": "Восточная галерея. Гау Эдуард Петрович, 1861г."
+                      "description": "Восточная галерея",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1861г. акварель"
                     },
                     {
                       "id": "modernPhoto",
@@ -4088,7 +4276,9 @@
                       "path": "east-gallery-painting",
                       "img": "assets/pic/rooms/hermitage-f2/holland-paint.webp",
                       "vertical": false,
-                      "description": "Зал голландской и фламандской школ. Луиджи Премацци, 1860г."
+                      "description": "Зал голландской и фламандской школ",
+                      "author": "Луиджи Премацци",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4112,7 +4302,9 @@
                       "path": "tent-roofed-painting",
                       "img": "assets/pic/rooms/hermitage-f2/tent-roofed-paint.webp",
                       "vertical": false,
-                      "description": "Шатровый зал. Луиджи Премацци, 1858г."
+                      "description": "Шатровый зал",
+                      "author": "Луиджи Премацци",
+                      "date": "1858г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4136,7 +4328,9 @@
                       "path": "german-painting",
                       "img": "assets/pic/rooms/hermitage-f2/german-paint.webp",
                       "vertical": false,
-                      "description": "Зал немецкой школы. Гау Эдуард Петрович, 1857г."
+                      "description": "Зал немецкой школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1857г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4160,7 +4354,9 @@
                       "path": "flemish-painting",
                       "img": "assets/pic/rooms/hermitage-f2/flemish-paint.webp",
                       "vertical": false,
-                      "description": "Зал Фламандской школы. Гау Эдуард Петрович, 1860г."
+                      "description": "Зал Фламандской школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4184,7 +4380,9 @@
                       "path": "german2-painting",
                       "img": "assets/pic/rooms/hermitage-f2/german2-paint.webp",
                       "vertical": true,
-                      "description": "Зал Немецкой школы. Гау Эдуард Петрович, 1860г."
+                      "description": "Зал Немецкой школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4208,14 +4406,18 @@
                       "path": "french-painting",
                       "img": "assets/pic/rooms/hermitage-f2/french-paint.webp",
                       "vertical": false,
-                      "description": "Зал Французской школы. Луиджи Премацци, 1859г."
+                      "description": "Зал Французской школы",
+                      "author": "Луиджи Премацци",
+                      "date": "1859г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "french-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/french-photo.webp",
                       "vertical": true,
-                      "description": "Зал Французской школы (Зал Рембрандта), Классен Василий Ефремович, 1871г."
+                      "description": "Зал Французской школы (Зал Рембрандта)",
+                      "author": " Классен Василий Ефремович",
+                      "date": "1871г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4239,7 +4441,9 @@
                       "path": "flemish2-painting",
                       "img": "assets/pic/rooms/hermitage-f2/flemish2-paint.webp",
                       "vertical": false,
-                      "description": "Галерея Фламандской живописи. Луиджи Премацци, 1860г."
+                      "description": "Галерея Фламандской живописи",
+                      "author": "Луиджи Премацци",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4263,7 +4467,9 @@
                       "path": "flemishStudy-painting",
                       "img": "assets/pic/rooms/hermitage-f2/flemishStudy-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Фламандской школы. Гау Эдуард Петровичи, 1859г."
+                      "description": "Кабинет Фламандской школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1859г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4287,7 +4493,9 @@
                       "path": "italian-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянских школ. Луиджи Премацци, 1859г."
+                      "description": "Кабинет Итальянских школ",
+                      "author": "Луиджи Премацци",
+                      "date": "1859г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4311,7 +4519,9 @@
                       "path": "italian2-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian2-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянских школ. Гау Эдуард Петрович, 1860г."
+                      "description": "Кабинет Итальянских школ",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4335,7 +4545,9 @@
                       "path": "italian3-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian3-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянских школ. Гау Эдуард Петрович, 1860г."
+                      "description": "Кабинет Итальянских школ",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4359,7 +4571,9 @@
                       "path": "italian4-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian4-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Тициана. Гау Эдуард Петрович, 1856г."
+                      "description": "Кабинет Тициана",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1856г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4383,7 +4597,9 @@
                       "path": "italian5-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian5-paint.webp",
                       "vertical": false,
-                      "description": "Кабинет Итальянских школ. Гау Эдуард Петрович, 1859г."
+                      "description": "Кабинет Итальянских школ",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1859г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4407,14 +4623,17 @@
                       "path": "italian6-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian6-paint.webp",
                       "vertical": false,
-                      "description": "Зал Леонардо и Микеланджело. Луиджи Премацци, 1860г."
+                      "description": "Зал Леонардо и Микеланджело",
+                      "author": "Луиджи Премацци",
+                      "date": "1860г."
                     },
                     {
                       "id": "olfPhoto",
                       "path": "italian6-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/italian6-photo.webp",
                       "vertical": true,
-                      "description": "Зал Леонардо и Микеланджело. 1900-е."
+                      "description": "Зал Леонардо и Микеланджело",
+                      "date": "1900-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4438,14 +4657,17 @@
                       "path": "italian7-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian7-paint.webp",
                       "vertical": true,
-                      "description": "Зал с фресками Рафаэля. Гау Эдуард Петрович, 1860г."
+                      "description": "Зал с фресками Рафаэля",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "italian7-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/italian7-photo.webp",
                       "vertical": true,
-                      "description": "Зал с фресками Рафаэля.1900-е."
+                      "description": "Зал с фресками Рафаэля.1900-е.",
+                      "date": "1900-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4469,28 +4691,33 @@
                       "path": "cameos-painting",
                       "img": "assets/pic/rooms/hermitage-f2/cameos-paint.webp",
                       "vertical": false,
-                      "description": "Зал камей. Гау Эдуард Петрович, 1854г."
+                      "description": "Зал камей",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1854г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "cameos-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/cameos-photo.webp",
                       "vertical": true,
-                      "description": "Зал камей. 1892г."
+                      "description": "Зал камей",
+                      "date": "1892г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "cameos-oldPhoto2",
                       "img": "assets/pic/rooms/hermitage-f2/cameos-photo2.webp",
                       "vertical": false,
-                      "description": "Зал предметов из серебра. 1900-е."
+                      "description": "Зал предметов из серебра",
+                      "date": "1900-е."
                     },
                     {
                       "id": "oldPhoto3",
                       "path": "cameos-oldPhoto3",
                       "img": "assets/pic/rooms/hermitage-f2/cameos-photo3.webp",
                       "vertical": false,
-                      "description": "Зал предметов из серебра. 1900-е."
+                      "description": "Зал предметов из серебра",
+                      "date": "1900-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4515,21 +4742,26 @@
                       "path": "raphael-loggias-painting",
                       "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-paint.webp",
                       "vertical": true,
-                      "description": "Лоджии Рафаэля. Ухтомский Константин Андреевич, 1860г."
+                      "description": "Лоджии Рафаэля",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "raphael-loggias-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-photo.webp",
                       "vertical": true,
-                      "description": "Лоджии Рафаэля. 1860-е."
+                      "description": "Лоджии Рафаэля",
+                      "date": "1880-е."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "raphael-loggias-oldPhoto2",
                       "img": "assets/pic/rooms/hermitage-f2/raphael-loggias-photo2.webp",
                       "vertical": true,
-                      "description": "Лоджии Рафаэля. Миколаевсикй Ф. Л, 1911г."
+                      "description": "Лоджии Рафаэля",
+                      "author": "Миколаевсикй Ф. Л",
+                      "date": "1911г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4553,14 +4785,17 @@
                       "path": "spahish-skylight-painting",
                       "img": "assets/pic/rooms/hermitage-f2/spanish-skylight-paint.webp",
                       "vertical": false,
-                      "description": "Испанский просвет. Гау Эдуард Петрович, 1856г."
+                      "description": "Испанский просвет",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1856г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "spahish-skylight-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/spanish-skylight-photo.webp",
                       "vertical": false,
-                      "description": "Испанский просвет. 1870-е."
+                      "description": "Испанский просвет",
+                      "date": "1870-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4584,14 +4819,17 @@
                       "path": "italian-skylight-painting",
                       "img": "assets/pic/rooms/hermitage-f2/italian-skylight-paint.webp",
                       "vertical": false,
-                      "description": "Большой Итальянский просвет. Гау Эдуард Петрович, 1853г."
+                      "description": "Большой Итальянский просвет",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1853г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "italian-skylight-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/italian-skylight-photo.webp",
                       "vertical": false,
-                      "description": "Большой Итальянский просвет. 1870-е."
+                      "description": "Большой Итальянский просвет",
+                      "date": "1870-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4615,7 +4853,9 @@
                       "path": "flemish-skylight-painting",
                       "img": "assets/pic/rooms/hermitage-f2/flemish-skylight-paint.webp",
                       "vertical": false,
-                      "description": "Фламандский просвет. Гау Эдуард Петрович, 1854г."
+                      "description": "Фламандский просвет",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1854г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4639,28 +4879,33 @@
                       "path": "ancient-painting-gallery-painting",
                       "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-paint.webp",
                       "vertical": true,
-                      "description": "Галерея истории древней живописи. Гау Эдуард Петрович, 1859г."
+                      "description": "Галерея истории древней живописи",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1859г."
                     },
                     {
                       "id": "painting2",
                       "path": "ancient-painting-gallery-painting2",
                       "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-paint2.webp",
                       "vertical": true,
-                      "description": "Галерея истории древней живописи. Конец XIX века."
+                      "description": "Галерея истории древней живописи",
+                      "date": "Конец XIX века"
                     },
                     {
                       "id": "oldPhoto",
                       "path": "ancient-painting-gallery-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-photo.webp",
                       "vertical": true,
-                      "description": "Галерея истории древней живописи. 1870-е."
+                      "description": "Галерея истории древней живописи",
+                      "date": "1870-е."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "ancient-painting-gallery-oldPhoto2",
                       "img": "assets/pic/rooms/hermitage-f2/ancient-painting-gallery-photo2.webp",
                       "vertical": true,
-                      "description": "Галерея истории древней живописи. 1900-е."
+                      "description": "Галерея истории древней живописи",
+                      "date": "1900-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4684,28 +4929,34 @@
                       "path": "mainStaircase-painting",
                       "img": "assets/pic/rooms/hermitage-f2/mainStaircase-paint.webp",
                       "vertical": false,
-                      "description": "Парадная лестница Нового Эрмитажа. Гау Эдуард Петрович, 1853г."
+                      "description": "Парадная лестница Нового Эрмитажа",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1853г."
                     },
                     {
                       "id": "painting2",
                       "path": "mainStaircase-painting2",
                       "img": "assets/pic/rooms/hermitage-f2/mainStaircase-paint2.webp",
                       "vertical": false,
-                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа. Гау Эдуард Петрович, 1860г."
+                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1860г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "mainStaircase-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/mainStaircase-photo.webp",
                       "vertical": true,
-                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа. 1870-е."
+                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа",
+                      "date": "1870-е."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "mainStaircase-oldPhoto2",
                       "img": "assets/pic/rooms/hermitage-f2/mainStaircase-photo2.webp",
                       "vertical": false,
-                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа. 1890-е."
+                      "description": "Верхняя площадка парадной лестницы Нового Эрмитажа",
+                      "date": "1890-е."
                     },
                     {
                       "id": "modernPhoto",
@@ -4729,7 +4980,9 @@
                       "path": "roomOfCoins-painting",
                       "img": "assets/pic/rooms/hermitage-f2/roomOfCoins-paint.webp",
                       "vertical": false,
-                      "description": "Зал монет. Ухтомский Константин Андреевич, 1860г."
+                      "description": "Зал монет",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4753,7 +5006,9 @@
                       "path": "twelve-column-hall-painting",
                       "img": "assets/pic/rooms/hermitage-f2/twelve-column-hall-paint.webp",
                       "vertical": false,
-                      "description": "Двеадцатиколонный зал монет и медалей. Луиджи Премацци, 1853г."
+                      "description": "Двеадцатиколонный зал монет и медалей",
+                      "author": "Луиджи Премацци",
+                      "date": "1853г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4777,7 +5032,9 @@
                       "path": "russian-painting",
                       "img": "assets/pic/rooms/hermitage-f2/russian-paint.webp",
                       "vertical": false,
-                      "description": "Зал Русской школы. Гау Эдуард Петрович, 1856г."
+                      "description": "Зал Русской школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1856г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4801,14 +5058,17 @@
                       "path": "russian2-painting",
                       "img": "assets/pic/rooms/hermitage-f2/russian2-paint.webp",
                       "vertical": false,
-                      "description": "Зал Русской школы. Гау Эдуард Петрович, 1855г."
+                      "description": "Зал Русской школы",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1855г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "russian2-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/russian2-photo.webp",
                       "vertical": false,
-                      "description": "Зал Русской школы. 1914г."
+                      "description": "Зал Русской школы",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4832,14 +5092,17 @@
                       "path": "holland2-painting",
                       "img": "assets/pic/rooms/hermitage-f2/holland2-paint.webp",
                       "vertical": false,
-                      "description": "Зал голландской и фламандской школ. Гау Эдуард Петрович, 1857г."
+                      "description": "Зал голландской и фламандской школ",
+                      "author": "Гау Эдуард Петрович",
+                      "date": "1857г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "holland2-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f2/holland2-photo.webp",
                       "vertical": false,
-                      "description": "Зал голландской и фламандской школ. 1914г."
+                      "description": "Зал голландской и фламандской школ",
+                      "date": "1914г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4872,7 +5135,9 @@
                       "path": "twentyColumns-painting",
                       "img": "assets/pic/rooms/hermitage-f1/twentyColumns-paint.webp",
                       "vertical": false,
-                      "description": "Двадцатиколонный зал греко-этрусских ваз. Ухтомский Константин Андреевич, 1850-е."
+                      "description": "Двадцатиколонный зал греко-этрусских ваз",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1850-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -4896,7 +5161,9 @@
                       "path": "egyptStudy-painting",
                       "img": "assets/pic/rooms/hermitage-f1/egyptStudy-paint.webp",
                       "vertical": true,
-                      "description": "Кабинет египетской скульптуры. Ухтомский Константин Андреевич, 1858г."
+                      "description": "Кабинет египетской скульптуры",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1858г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4920,14 +5187,18 @@
                       "path": "kolyvan-painting",
                       "img": "assets/pic/rooms/hermitage-f1/kolyvan-paint.webp",
                       "vertical": false,
-                      "description": "Зал Колыванской вазы. Ухтомский Константин Андреевич, 1858г."
+                      "description": "Зал Колыванской вазы",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1858г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "kolyvan-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/kolyvan-photo.webp",
                       "vertical": false,
-                      "description": "Зал Колыванской вазы. Миколаевский Федор Львович, 1910-е."
+                      "description": "Зал Колыванской вазы",
+                      "author": "Миколаевский Федор Львович",
+                      "date": "1910-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -4951,7 +5222,9 @@
                       "path": "sculptureStudy-painting",
                       "img": "assets/pic/rooms/hermitage-f1/sculptureStudy-paint.webp",
                       "vertical": true,
-                      "description": "Кабинет скульптуры. Ухтомский Константин Андреевич, 1858г."
+                      "description": "Кабинет скульптуры",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1858г."
                     },
                     {
                       "id": "modernPhoto",
@@ -4975,14 +5248,18 @@
                       "path": "jupiter-painting",
                       "img": "assets/pic/rooms/hermitage-f1/jupiter-paint.webp",
                       "vertical": false,
-                      "description": "Зал Юпитера. Луиджи Премацци, 1856г."
+                      "description": "Зал Юпитера",
+                      "author": "Луиджи Премацци",
+                      "date": "1856г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "jupiter-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/jupiter-photo.webp",
                       "vertical": true,
-                      "description": "Зал Юпитера. Классен В. Е, 1870-е."
+                      "description": "Зал Юпитера",
+                      "author": "Классен В. Е.",
+                      "date": "1870-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -5006,7 +5283,9 @@
                       "path": "antic-painting",
                       "img": "assets/pic/rooms/hermitage-f1/antic-paint.webp",
                       "vertical": false,
-                      "description": "Зал древней скульптуры. Луиджи Премацци, 1856г."
+                      "description": "Зал древней скульптуры",
+                      "author": "Луиджи Премацци",
+                      "date": "1856г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5030,7 +5309,9 @@
                       "path": "greek-painting",
                       "img": "assets/pic/rooms/hermitage-f1/greek-paint.webp",
                       "vertical": false,
-                      "description": "Зал греческой скульптуры. Ухтомский Константин Андреевич, 1853г."
+                      "description": "Зал греческой скульптуры",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1853г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5055,7 +5336,9 @@
                       "path": "mainEntrance-painting",
                       "img": "assets/pic/rooms/hermitage-f1/mainEntrance-paint.webp",
                       "vertical": true,
-                      "description": "Вестибюль Парадной лестницы Нового Эрмитажа. Ухтомский Константин Андреевич, 1853г."
+                      "description": "Вестибюль Парадной лестницы Нового Эрмитажа",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1853г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5086,14 +5369,18 @@
                       "path": "roomOfDrawings-painting",
                       "img": "assets/pic/rooms/hermitage-f1/roomOfDrawings-paint.webp",
                       "vertical": false,
-                      "description": "Зал Русской скульптуры. Луиджи Пермацци, 1854г."
+                      "description": "Зал Русской скульптуры",
+                      "author": "Луиджи Премацци",
+                      "date": "1854г."
                     },
                     {
                       "id": "painting",
                       "path": "roomOfDrawings-painting2",
                       "img": "assets/pic/rooms/hermitage-f1/roomOfDrawings-paint2.webp",
                       "vertical": false,
-                      "description": "Зал рисунков. Ухтомский Константин Андреевич, 1859г."
+                      "description": "Зал рисунков",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1859г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5117,14 +5404,18 @@
                       "path": "manuscript-painting",
                       "img": "assets/pic/rooms/hermitage-f1/manuscript-paint.webp",
                       "vertical": false,
-                      "description": "Зал манускриптов. Ухтомский Константин Андреевич, 1855г."
+                      "description": "Зал манускриптов",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1855г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "manuscript-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/manuscript-photo.webp",
                       "vertical": false,
-                      "description": "Зал манускриптов (Скульптура древней Греции). Ухов Иван Кузьмич, 1916г."
+                      "description": "Зал манускриптов (Скульптура древней Греции)",
+                      "author": "Ухов Иван Кузьмич",
+                      "date": "1916г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5148,7 +5439,9 @@
                       "path": "archeology-painting",
                       "img": "assets/pic/rooms/hermitage-f1/archeology-paint.webp",
                       "vertical": true,
-                      "description": "Зал археологии. Ухтомский Константин Андреевич, 1855г."
+                      "description": "Зал археологии",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1855г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5172,21 +5465,27 @@
                       "path": "libraryIV-painting",
                       "img": "assets/pic/rooms/hermitage-f1/libraryIV-paint.webp",
                       "vertical": false,
-                      "description": "Зал IV библиотеки. Ухтомский Константин Андреевич, 1855г."
+                      "description": "Зал IV библиотеки",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1855г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "libraryIV-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/libraryIV-photo.webp",
                       "vertical": false,
-                      "description": "Зал IV библиотеки, выставка Греческих ваз. Ухов Иван Кузмич, 1916г."
+                      "description": "Зал IV библиотеки, выставка Греческих ваз",
+                      "author": "Ухов Иван Кузмич",
+                      "date": "1916г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "libraryIV-oldPhoto2",
                       "img": "assets/pic/rooms/hermitage-f1/libraryIV-photo2.webp",
                       "vertical": false,
-                      "description": "Зал IV библиотеки, выставка Греческих ваз. Миколаевский Федор Львович, 1910-е."
+                      "description": "Зал IV библиотеки, выставка Греческих ваз",
+                      "author": "Миколаевский Федор Львович",
+                      "date": "1910-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -5210,7 +5509,9 @@
                       "path": "italianPaintings-painting",
                       "img": "assets/pic/rooms/hermitage-f1/italianPaintings-paint.webp",
                       "vertical": true,
-                      "description": "Картинная галерея Итальянских школ. Ухтомский Константин Андреевич, 1858г."
+                      "description": "Картинная галерея Итальянских школ",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1858г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5234,14 +5535,17 @@
                       "path": "libraryV-painting",
                       "img": "assets/pic/rooms/hermitage-f1/libraryV-paint.webp",
                       "vertical": false,
-                      "description": "Зал V библиотеки. Ухтомский Константин Андреевич, 1860г."
+                      "description": "Зал V библиотеки",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "libraryV-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/libraryV-photo.webp",
                       "vertical": true,
-                      "description": "Зал V библиотеки. Конец XIX века."
+                      "description": "Зал V библиотеки",
+                      "date": "Конец XIX века"
                     },
                     {
                       "id": "modernPhoto",
@@ -5265,7 +5569,9 @@
                       "path": "voltaire-painting",
                       "img": "assets/pic/rooms/hermitage-f1/voltaire-paint.webp",
                       "vertical": true,
-                      "description": "Библиотека Вольтера. Ухтомский Константин Андреевич, 1859г."
+                      "description": "Библиотека Вольтера",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1859г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5289,21 +5595,27 @@
                       "path": "bosphorus-painting",
                       "img": "assets/pic/rooms/hermitage-f1/bosphorus-paint.webp",
                       "vertical": false,
-                      "description": "Зал древностей Боспора Киммерийского. Ухтомский Константин Андреевич, 1853г."
+                      "description": "Зал древностей Боспора Киммерийского",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1853г."
                     },
                     {
                       "id": "painting2",
                       "path": "bosphorus-painting2",
                       "img": "assets/pic/rooms/hermitage-f1/bosphorus-paint2.webp",
                       "vertical": true,
-                      "description": "Зал древностей Боспора Киммерийского. Ухтомский Константин Андреевич, 1853г."
+                      "description": "Зал древностей Боспора Киммерийского",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1853г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "bosphorus-oldPhoo",
                       "img": "assets/pic/rooms/hermitage-f1/bosphorus-photo.webp",
                       "vertical": true,
-                      "description": "Зал древностей Боспора Киммерийского. 1870-е."
+                      "description": "Зал древностей Боспора Киммерийского",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1870-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -5327,7 +5639,9 @@
                       "path": "bosphorus2-painting",
                       "img": "assets/pic/rooms/hermitage-f1/bosphorus2-paint.webp",
                       "vertical": true,
-                      "description": "Галерея древностей Боспора Киммерийского. Ухтомский Константин Андреевич, 1857г."
+                      "description": "Галерея древностей Боспора Киммерийского",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1857г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5351,7 +5665,9 @@
                       "path": "engravings-painting",
                       "img": "assets/pic/rooms/hermitage-f1/engravings-paint.webp",
                       "vertical": false,
-                      "description": "Зал гравюр. Ухтомский Константин Андреевич, 1856г."
+                      "description": "Зал гравюр",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1856г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5375,14 +5691,18 @@
                       "path": "sculptureStudy2-painting",
                       "img": "assets/pic/rooms/hermitage-f1/sculptureStudy2-paint.webp",
                       "vertical": true,
-                      "description": "Кабинет скульптуры. Ухтомский Константин Андреевич, 1854г."
+                      "description": "Кабинет скульптуры",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1854г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "sculptureStudy2-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/sculptureStudy2-photo.webp",
                       "vertical": true,
-                      "description": "Кабинет скульптуры. Классен В. Е., 1872г."
+                      "description": "Кабинет скульптуры",
+                      "author": "Классен В. Е.",
+                      "date": "1872г."
                     },
                     {
                       "id": "modernPhoto",
