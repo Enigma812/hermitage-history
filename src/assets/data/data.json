@@ -5135,7 +5135,9 @@
                       "path": "twentyColumns-painting",
                       "img": "assets/pic/rooms/hermitage-f1/twentyColumns-paint.webp",
                       "vertical": false,
-                      "description": "Двадцатиколонный зал греко-этрусских ваз. Ухтомский Константин Андреевич, 1850-е."
+                      "description": "Двадцатиколонный зал греко-этрусских ваз",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1850-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -5159,7 +5161,9 @@
                       "path": "egyptStudy-painting",
                       "img": "assets/pic/rooms/hermitage-f1/egyptStudy-paint.webp",
                       "vertical": true,
-                      "description": "Кабинет египетской скульптуры. Ухтомский Константин Андреевич, 1858г."
+                      "description": "Кабинет египетской скульптуры",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1858г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5183,14 +5187,18 @@
                       "path": "kolyvan-painting",
                       "img": "assets/pic/rooms/hermitage-f1/kolyvan-paint.webp",
                       "vertical": false,
-                      "description": "Зал Колыванской вазы. Ухтомский Константин Андреевич, 1858г."
+                      "description": "Зал Колыванской вазы",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1858г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "kolyvan-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/kolyvan-photo.webp",
                       "vertical": false,
-                      "description": "Зал Колыванской вазы. Миколаевский Федор Львович, 1910-е."
+                      "description": "Зал Колыванской вазы",
+                      "author": "Миколаевский Федор Львович",
+                      "date": "1910-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -5214,7 +5222,9 @@
                       "path": "sculptureStudy-painting",
                       "img": "assets/pic/rooms/hermitage-f1/sculptureStudy-paint.webp",
                       "vertical": true,
-                      "description": "Кабинет скульптуры. Ухтомский Константин Андреевич, 1858г."
+                      "description": "Кабинет скульптуры",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1858г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5238,14 +5248,18 @@
                       "path": "jupiter-painting",
                       "img": "assets/pic/rooms/hermitage-f1/jupiter-paint.webp",
                       "vertical": false,
-                      "description": "Зал Юпитера. Луиджи Премацци, 1856г."
+                      "description": "Зал Юпитера",
+                      "author": "Луиджи Премацци",
+                      "date": "1856г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "jupiter-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/jupiter-photo.webp",
                       "vertical": true,
-                      "description": "Зал Юпитера. Классен В. Е, 1870-е."
+                      "description": "Зал Юпитера",
+                      "author": "Классен В. Е.",
+                      "date": "1870-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -5269,7 +5283,9 @@
                       "path": "antic-painting",
                       "img": "assets/pic/rooms/hermitage-f1/antic-paint.webp",
                       "vertical": false,
-                      "description": "Зал древней скульптуры. Луиджи Премацци, 1856г."
+                      "description": "Зал древней скульптуры",
+                      "author": "Луиджи Премацци",
+                      "date": "1856г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5293,7 +5309,9 @@
                       "path": "greek-painting",
                       "img": "assets/pic/rooms/hermitage-f1/greek-paint.webp",
                       "vertical": false,
-                      "description": "Зал греческой скульптуры. Ухтомский Константин Андреевич, 1853г."
+                      "description": "Зал греческой скульптуры",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1853г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5318,7 +5336,9 @@
                       "path": "mainEntrance-painting",
                       "img": "assets/pic/rooms/hermitage-f1/mainEntrance-paint.webp",
                       "vertical": true,
-                      "description": "Вестибюль Парадной лестницы Нового Эрмитажа. Ухтомский Константин Андреевич, 1853г."
+                      "description": "Вестибюль Парадной лестницы Нового Эрмитажа",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1853г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5349,14 +5369,18 @@
                       "path": "roomOfDrawings-painting",
                       "img": "assets/pic/rooms/hermitage-f1/roomOfDrawings-paint.webp",
                       "vertical": false,
-                      "description": "Зал Русской скульптуры. Луиджи Пермацци, 1854г."
+                      "description": "Зал Русской скульптуры",
+                      "author": "Луиджи Премацци",
+                      "date": "1854г."
                     },
                     {
                       "id": "painting",
                       "path": "roomOfDrawings-painting2",
                       "img": "assets/pic/rooms/hermitage-f1/roomOfDrawings-paint2.webp",
                       "vertical": false,
-                      "description": "Зал рисунков. Ухтомский Константин Андреевич, 1859г."
+                      "description": "Зал рисунков",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1859г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5380,14 +5404,18 @@
                       "path": "manuscript-painting",
                       "img": "assets/pic/rooms/hermitage-f1/manuscript-paint.webp",
                       "vertical": false,
-                      "description": "Зал манускриптов. Ухтомский Константин Андреевич, 1855г."
+                      "description": "Зал манускриптов",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1855г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "manuscript-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/manuscript-photo.webp",
                       "vertical": false,
-                      "description": "Зал манускриптов (Скульптура древней Греции). Ухов Иван Кузьмич, 1916г."
+                      "description": "Зал манускриптов (Скульптура древней Греции)",
+                      "author": "Ухов Иван Кузьмич",
+                      "date": "1916г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5411,7 +5439,9 @@
                       "path": "archeology-painting",
                       "img": "assets/pic/rooms/hermitage-f1/archeology-paint.webp",
                       "vertical": true,
-                      "description": "Зал археологии. Ухтомский Константин Андреевич, 1855г."
+                      "description": "Зал археологии",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1855г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5435,21 +5465,27 @@
                       "path": "libraryIV-painting",
                       "img": "assets/pic/rooms/hermitage-f1/libraryIV-paint.webp",
                       "vertical": false,
-                      "description": "Зал IV библиотеки. Ухтомский Константин Андреевич, 1855г."
+                      "description": "Зал IV библиотеки",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1855г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "libraryIV-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/libraryIV-photo.webp",
                       "vertical": false,
-                      "description": "Зал IV библиотеки, выставка Греческих ваз. Ухов Иван Кузмич, 1916г."
+                      "description": "Зал IV библиотеки, выставка Греческих ваз",
+                      "author": "Ухов Иван Кузмич",
+                      "date": "1916г."
                     },
                     {
                       "id": "oldPhoto2",
                       "path": "libraryIV-oldPhoto2",
                       "img": "assets/pic/rooms/hermitage-f1/libraryIV-photo2.webp",
                       "vertical": false,
-                      "description": "Зал IV библиотеки, выставка Греческих ваз. Миколаевский Федор Львович, 1910-е."
+                      "description": "Зал IV библиотеки, выставка Греческих ваз",
+                      "author": "Миколаевский Федор Львович",
+                      "date": "1910-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -5473,7 +5509,9 @@
                       "path": "italianPaintings-painting",
                       "img": "assets/pic/rooms/hermitage-f1/italianPaintings-paint.webp",
                       "vertical": true,
-                      "description": "Картинная галерея Итальянских школ. Ухтомский Константин Андреевич, 1858г."
+                      "description": "Картинная галерея Итальянских школ",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1858г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5497,14 +5535,17 @@
                       "path": "libraryV-painting",
                       "img": "assets/pic/rooms/hermitage-f1/libraryV-paint.webp",
                       "vertical": false,
-                      "description": "Зал V библиотеки. Ухтомский Константин Андреевич, 1860г."
+                      "description": "Зал V библиотеки",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1860г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "libraryV-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/libraryV-photo.webp",
                       "vertical": true,
-                      "description": "Зал V библиотеки. Конец XIX века."
+                      "description": "Зал V библиотеки",
+                      "date": "Конец XIX века"
                     },
                     {
                       "id": "modernPhoto",
@@ -5528,7 +5569,9 @@
                       "path": "voltaire-painting",
                       "img": "assets/pic/rooms/hermitage-f1/voltaire-paint.webp",
                       "vertical": true,
-                      "description": "Библиотека Вольтера. Ухтомский Константин Андреевич, 1859г."
+                      "description": "Библиотека Вольтера",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1859г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5552,21 +5595,27 @@
                       "path": "bosphorus-painting",
                       "img": "assets/pic/rooms/hermitage-f1/bosphorus-paint.webp",
                       "vertical": false,
-                      "description": "Зал древностей Боспора Киммерийского. Ухтомский Константин Андреевич, 1853г."
+                      "description": "Зал древностей Боспора Киммерийского",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1853г."
                     },
                     {
                       "id": "painting2",
                       "path": "bosphorus-painting2",
                       "img": "assets/pic/rooms/hermitage-f1/bosphorus-paint2.webp",
                       "vertical": true,
-                      "description": "Зал древностей Боспора Киммерийского. Ухтомский Константин Андреевич, 1853г."
+                      "description": "Зал древностей Боспора Киммерийского",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1853г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "bosphorus-oldPhoo",
                       "img": "assets/pic/rooms/hermitage-f1/bosphorus-photo.webp",
                       "vertical": true,
-                      "description": "Зал древностей Боспора Киммерийского. 1870-е."
+                      "description": "Зал древностей Боспора Киммерийского",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1870-е"
                     },
                     {
                       "id": "modernPhoto",
@@ -5590,7 +5639,9 @@
                       "path": "bosphorus2-painting",
                       "img": "assets/pic/rooms/hermitage-f1/bosphorus2-paint.webp",
                       "vertical": true,
-                      "description": "Галерея древностей Боспора Киммерийского. Ухтомский Константин Андреевич, 1857г."
+                      "description": "Галерея древностей Боспора Киммерийского",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1857г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5614,7 +5665,9 @@
                       "path": "engravings-painting",
                       "img": "assets/pic/rooms/hermitage-f1/engravings-paint.webp",
                       "vertical": false,
-                      "description": "Зал гравюр. Ухтомский Константин Андреевич, 1856г."
+                      "description": "Зал гравюр",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1856г."
                     },
                     {
                       "id": "modernPhoto",
@@ -5638,14 +5691,18 @@
                       "path": "sculptureStudy2-painting",
                       "img": "assets/pic/rooms/hermitage-f1/sculptureStudy2-paint.webp",
                       "vertical": true,
-                      "description": "Кабинет скульптуры. Ухтомский Константин Андреевич, 1854г."
+                      "description": "Кабинет скульптуры",
+                      "author": "Ухтомский Константин Андреевич",
+                      "date": "1854г."
                     },
                     {
                       "id": "oldPhoto",
                       "path": "sculptureStudy2-oldPhoto",
                       "img": "assets/pic/rooms/hermitage-f1/sculptureStudy2-photo.webp",
                       "vertical": true,
-                      "description": "Кабинет скульптуры. Классен В. Е., 1872г."
+                      "description": "Кабинет скульптуры",
+                      "author": "Классен В. Е.",
+                      "date": "1872г."
                     },
                     {
                       "id": "modernPhoto",
