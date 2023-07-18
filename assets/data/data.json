@@ -5724,15 +5724,132 @@
     {
       "id": "private-garden",
       "title": "Ограда Собственного сада",
-      "description": "Ограда Собственного сада",
+      "description": "В конце 1890-х возле дворца со стороны Адмиралтейства, на месте 'Разводной площадки', был разбит небольшой сад. В 1901 г. вокруг сада была установлена на высоком цоколе из темно-розового песчаника решетка с позолоченными орлами и вензелями, и сад стал Собственным, закрытым для придворных. После революции, в 1918 г. цветники погибли, а ограда была почти полностью разрушена. В 1926 г. остатки решетки, с зияющими дырами в картушах, где раньше были помещены двуглавые орлы и вензеля Николая II, были установлены в 'Саду 9-го января' на проспекте Стачек",
       "path": "private-garden",
       "collections": [
         {
-          "id": "oldPhoto",
-          "path": "fense-oldPhoto",
-          "img": "assets/pic/rooms/main-stairs/jordan-paint.webp",
+          "id": "painting",
+          "path": "fence-painting",
+          "img": "assets/pic/exterior/fence-paint.webp",
           "vertical": false,
-          "description": "Парадная лестница. Ухтомский Константин Андреевич, 1860-е. акварель"
+          "description": "Развод кавалергардов перед Зимним дворцом на 'Разводной площадки'",
+          "author": "Садовников В.С.",
+          "date": "1840-е"
+        },
+        {
+          "id": "sketch",
+          "path": "fence-sketch",
+          "img": "assets/pic/exterior/fence-sketch.webp",
+          "vertical": false,
+          "description": "Звено ограды Собственного сада с гербом и вензелем Николая II в картушах",
+          "author": "Журнал 'Зодчий'",
+          "date": "1900-г."
+        },
+        {
+          "id": "oldPhoto",
+          "path": "fence-oldPhoto",
+          "img": "assets/pic/exterior/fence-photo.webp",
+          "vertical": false,
+          "description": "Ограда Собственного сада Зимнего дворца",
+          "author": "ателье Карла Буллы",
+          "date": "1900-е"
+        },
+        {
+          "id": "oldPhoto2",
+          "path": "fence-oldPhoto2",
+          "img": "assets/pic/exterior/fence-photo2.webp",
+          "vertical": false,
+          "description": "Въезд депутатов Второй Государственной думы в ворота Собственного сада",
+          "author": "ателье Карла Буллы",
+          "date": "1907-г."
+        },
+        {
+          "id": "oldPhoto3",
+          "path": "fence-oldPhoto3",
+          "img": "assets/pic/exterior/fence-photo3.webp",
+          "vertical": false,
+          "description": "Ограда Собственного сада со стороны Дворцовой площади",
+          "date": "1900-е"
+        },
+        {
+          "id": "oldPhoto4",
+          "path": "fence-oldPhoto4",
+          "img": "assets/pic/exterior/fence-photo4.webp",
+          "vertical": false,
+          "description": "Ограда Собственного сада со стороны Дворцовой набережной",
+          "author": "ателье Карла Буллы",
+          "date": "1903-г."
+        },
+        {
+          "id": "ussrPhoto",
+          "path": "fence-ussrPhoto",
+          "img": "assets/pic/exterior/fence-ussrPhoto.webp",
+          "vertical": false,
+          "description": "Решётка Собственного сада Зимнего дворца с зачехлёнными царскими гербами",
+          "date": "1917-г."
+        },
+        {
+          "id": "ussrPhoto2",
+          "path": "fence-ussrPhoto2",
+          "img": "assets/pic/exterior/fence-ussrPhoto2.webp",
+          "vertical": false,
+          "description": "Солдат у ворот Собственного сада Зимнего дворца",
+          "date": "1917-г."
+        },
+        {
+          "id": "ussrPhoto3",
+          "path": "fence-ussrPhoto3",
+          "img": "assets/pic/exterior/fence-ussrPhoto3.webp",
+          "vertical": false,
+          "description": "Субботник по разбору ограды на площади Урицкого",
+          "date": "1920-г."
+        },
+        {
+          "id": "ussrPhoto4",
+          "path": "fence-ussrPhoto4",
+          "img": "assets/pic/exterior/fence-ussrPhoto4.webp",
+          "vertical": false,
+          "description": "Разбор ограды Собственного сада",
+          "date": "1920-г."
+        },
+        {
+          "id": "ussrPhoto5",
+          "path": "fence-ussrPhoto5",
+          "img": "assets/pic/exterior/fence-ussrPhoto5.webp",
+          "vertical": false,
+          "description": "Уцелевшие ворота после разбора ограды",
+          "date": "1927-г."
+        },
+        {
+          "id": "ussrPhoto6",
+          "path": "fence-ussrPhoto6",
+          "img": "assets/pic/exterior/fence-ussrPhoto6.webp",
+          "vertical": false,
+          "description": "Вид из Сада Дворца искусств на площадь Урицкого",
+          "date": "1929-г."
+        },
+        {
+          "id": "ussrPhoto7",
+          "path": "fence-ussrPhoto7",
+          "img": "assets/pic/exterior/fence-ussrPhoto7.webp",
+          "vertical": false,
+          "description": "Окончательный слом остатков ограды и ворот Собственного сада",
+          "author": "Джеймс Эббе",
+          "date": "1932-г."
+        },
+        {
+          "id": "modernPhoto",
+          "path": "fence-modernPhoto",
+          "img": "assets/pic/exterior/fence-now.webp",
+          "vertical": false,
+          "description": "Остатки звеньев ограды сейчас установлены в Саду 9-го января"
+        },
+        {
+          "id": "modernPhoto2",
+          "path": "fence-modernPhoto2",
+          "img": "assets/pic/exterior/fence-now2.webp",
+          "vertical": false,
+          "description": "Восстановленный вензель и герб в картушах"
         }
       ]
     }
