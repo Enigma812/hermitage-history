@@ -1,3 +1,17 @@
+<div class="navigate">
+  <a
+    class="navigate__back-button"
+    [routerLink]="'/'"
+    (click)="topFunction()">
+    <img
+      class="navigate__back-button__arrow"
+      src="assets/icon/arrow-back.svg" />
+    <img
+      class="navigate__back-button__arrow--mobile"
+      src="assets/icon/arrow-back-mobile.svg" />
+    <div class="navigate__back-button__text">{{ 'Common.backToMain' | translate }}</div>
+  </a>
+</div>
 <div *ngIf="exterior$ | async as exterior">
   <div class="field">
     <div class="field__frame">

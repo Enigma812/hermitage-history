@@ -47,6 +47,8 @@
   border-style: solid;
   border-width: 0 10px 10px;
 
+  background-color: #FFFFFF;
+
   &__base {
     &__frame {
       display: none;
@@ -97,7 +99,7 @@
 
 
 
-@media (min-width: 429px) {
+@media (width >= 429px) {
   .navigate {
     height: 60px;
 

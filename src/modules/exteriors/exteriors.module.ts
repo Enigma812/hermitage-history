@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 import { ImageWithLoadingModule } from '../common/image-with-loading/image-with-loading.module';
 
@@ -10,6 +11,7 @@ import { ExteriorsRoutingModule } from './exteriors-routing.module';
   imports: [
     CommonModule,
     ImageWithLoadingModule,
+    TranslateModule,
     ExteriorsRoutingModule
   ],
   declarations: [

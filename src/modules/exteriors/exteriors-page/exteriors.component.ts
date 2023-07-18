@@ -30,4 +30,8 @@ export class ExteriorsPageComponent {
     this.collection$ = this.exterior$.pipe(map((exterior) => exterior.collections ?? []));
   }
 
+  public topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 }
