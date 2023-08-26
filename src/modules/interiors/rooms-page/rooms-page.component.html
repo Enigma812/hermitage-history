@@ -14,10 +14,12 @@
       (click)="topFunction()">
       <img
         class="navigate__back-button__arrow"
-        src="assets/icon/arrow-back.svg" />
+        src="assets/icon/arrow-back.svg"
+        alt="back" />
       <img
         class="navigate__back-button__arrow--mobile"
-        src="assets/icon/arrow-back-mobile.svg" />
+        src="assets/icon/arrow-back-mobile.svg"
+        alt="back" />
       <div class="navigate__back-button__text">{{ 'Common.previousRoom' | translate }}</div>
     </a>
     <div
@@ -30,7 +32,8 @@
         ngbDropdownToggle>
         <img
           class="map__button__icon"
-          src="assets/icon/map.svg" />
+          src="assets/icon/map.svg"
+          alt="map icon" />
         <div class="map__button__text">{{ 'Common.map' | translate }}</div>
       </button>
       <div
@@ -38,7 +41,8 @@
         ngbDropdownMenu>
         <img
           class="map__frame__img"
-          [src]="room.map" />
+          [src]="room.map"
+          alt="map" />
       </div>
     </div>
     <a
@@ -56,10 +60,12 @@
       <div class="navigate__back-button__text">{{ 'Common.nextRoom' | translate }}</div>
       <img
         class="navigate__forward-button__arrow"
-        src="assets/icon/arrow-forward.svg" />
+        src="assets/icon/arrow-forward.svg"
+        alt="forward" />
       <img
         class="navigate__forward-button__arrow--mobile"
-        src="assets/icon/arrow-forward-mobile.svg" />
+        src="assets/icon/arrow-forward-mobile.svg"
+        alt="forward" />
     </a>
   </div>
   <div class="field">

@@ -9,7 +9,8 @@
       (click)="topFunction()">
       <img
         class="field__frame__buttons__image"
-        [src]="building.img" />
+        [src]="building.img"
+        alt="building" />
       <div class="field__frame__buttons__name">{{ building.title }}</div>
     </a>
     <a
@@ -18,7 +19,8 @@
       (click)="topFunctionTimeout(building)">
       <img
         class="field__frame__buttonsMobile__image--mobile"
-        [src]="building.imgMobile" />
+        [src]="building.imgMobile"
+        alt="building" />
       <div class="field__frame__buttonsMobile__name">{{ building.title }}</div>
     </a>
   </div>

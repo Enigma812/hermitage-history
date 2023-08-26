@@ -5,10 +5,12 @@
     (click)="topFunction()">
     <img
       class="navigate__back-button__arrow"
-      src="assets/icon/arrow-back.svg" />
+      src="assets/icon/arrow-back.svg"
+      alt="back" />
     <img
       class="navigate__back-button__arrow--mobile"
-      src="assets/icon/arrow-back-mobile.svg" />
+      src="assets/icon/arrow-back-mobile.svg"
+      alt="back" />
     <div class="navigate__back-button__text">{{ 'Common.back' | translate }}</div>
   </a>
 </div>
@@ -25,7 +27,8 @@
         (click)="topFunction()">
         <img
           class="field__base__frame__button__image"
-          [src]="interior.img" />
+          [src]="interior.img"
+          alt="interior" />
       </a>
       <div class="field__base__frame__name">{{ interior.name }}</div>
     </div>
@@ -37,7 +40,8 @@
         (click)="topFunctionTimeout(interior)">
         <img
           class="field__base__frameMobile__button__image--mobile"
-          [src]="interior.imgMobile" />
+          [src]="interior.imgMobile"
+          alt="interior" />
       </a>
       <div class="field__base__frameMobile__name">{{ interior.name }}</div>
     </div>
