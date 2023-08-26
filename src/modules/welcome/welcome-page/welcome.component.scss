@@ -2,12 +2,12 @@
   &__field {
     width: 100%;
     padding: 6px;
-    border: 10px solid #EEEEEE;
+    border: 10px solid var(-frame);
 
-    background-color: #FFFFFF;
+    background-color: var(--white);
 
     &__content {
-      border: 3px solid #333333;
+      border: 3px solid var(--block-dark-grey);
 
       &__img {
         display: none;
@@ -21,13 +21,13 @@
       &__text {
         padding: 15px;
 
-        color: #9d9d9d;
+        color: var(--light-grey);
         font-weight: 550;
         font-size: 16px;
         font-family: "InterTight base", sans-serif;
         text-align: center;
   
-        background-color: #333333;
+        background-color: var(--block-dark-grey);
 
         p:first-child, {
           text-indent: 20px;
@@ -45,7 +45,7 @@
   .page {
     &__field {
       padding: 25px;
-      border: 45px solid #EEEEEE;;
+      border: 45px solid var(--frame);
 
       &__content {
         display: flex;
@@ -57,7 +57,7 @@
           padding: 5px;
           object-fit: contain;
 
-          background-color: #333333;
+          background-color: var(--block-dark-grey);
         }
 
         &__img--mobile {

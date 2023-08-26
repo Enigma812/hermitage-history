@@ -12,7 +12,7 @@
     width: 92px;
     margin-right: 2px;
 
-    background-color: #3D3D3D;
+    background-color: var(--header-dark-grey);
   }
 
   &__toolbar {
@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
 
-    background-color: #3D3D3D;
+    background-color: var(--header-dark-grey);
 
     &__name {
       width: 266px;
@@ -31,17 +31,17 @@
     }
 
     &__description {
-      color: #03463E;
+      color: var(--main-green);
       font-weight: 800;
       font-size: 18px;
       font-family: "InterTight base", sans-serif;
       font-style: italic;
       text-transform: uppercase;
       text-shadow: 
-        1px 0 #FFFFFF, 
-        0 1px #FFFFFF, 
-        -1px 0 #FFFFFF, 
-        0 -1px #FFFFFF;
+        1px 0 var(--white), 
+        0 1px var(--white), 
+        -1px 0 var(--white), 
+        0 -1px var(--white);
     }
   }
 }
@@ -53,8 +53,8 @@
   height: 8px;
   margin-top: 2px;
 
-  background-color: #3D3D3D;
-  box-shadow: 0 1px 3px black
+  background-color: var(--header-dark-grey);
+  box-shadow: 0 1px 3px var(--black)
 }
 
 .menu {
@@ -66,7 +66,7 @@
 }
 
 .menu:hover {
-  background-color: #878787;
+  background-color: var(--logo-grey-hover);
 }
 
 .menu-buttons {
@@ -78,7 +78,7 @@
   border: 0;
   border-radius: 0 0 22px;
 
-  box-shadow: 5px 5px 15px black;
+  box-shadow: 5px 5px 15px var(--black);
 
   &__button,
   &__button--last {
@@ -89,13 +89,13 @@
     padding-left: 15px;
     border: 0;
 
-    color: #FFFFFF;
+    color: var(--white);
     font-weight: 600;
     font-size: 27px;
     font-family: "InterTight base", sans-serif;
     text-transform: uppercase;
 
-    background-color: #03463E;
+    background-color: var(--main-green);
   }
 
   &__button--last {
@@ -105,7 +105,7 @@
 
   &__button:hover,
   &__button--last:hover {
-    background-color: #3C837A;
+    background-color: var(--main-green-hover);
   }
 }
 

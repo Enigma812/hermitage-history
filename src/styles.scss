@@ -15,8 +15,23 @@
     src: url("assets/fonts/Pacifico-Regular.ttf");
 }
 
+:root {
+    --frame: #EEEEEE;
+    --white: #FFFFFF;
+    --light-grey: #D9D9D9;
+    --logo-grey-hover: #878787;
+    --block-dark-grey: #333333;
+    --text-grey-shadow: #363636;
+    --header-dark-grey: #3D3D3D;
+    --black: #000000;
+    --map-green: #6F9792;
+    --main-green-hover: #3C837A;
+    --main-green: #03463E;
+    --red: #c90000;
+  }
+
 body {
-    background-color: #EEEEEE;
+    background-color: var(--frame);
 }
 
 
