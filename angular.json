@@ -90,10 +90,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "hermitage-history:build:production"
+              "buildTarget": "hermitage-history:build:production"
             },
             "development": {
-              "browserTarget": "hermitage-history:build:development"
+              "buildTarget": "hermitage-history:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -101,7 +101,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "hermitage-history:build"
+            "buildTarget": "hermitage-history:build"
           }
         },
         "test": {
